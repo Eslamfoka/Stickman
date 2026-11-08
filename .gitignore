@@ -1,0 +1,7 @@
+*.mp4
+*.wav
+still_*.png
+__pycache__/
+*.log
+movie/seg/
+movie/chk/

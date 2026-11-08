@@ -1,0 +1,83 @@
+عمارة نعناعة - سر الدور السابع
+دليل أصوات الشخصيات (عشان ترجّع نفس الأصوات على أي حساب ElevenLabs جديد)
+==============================================================================
+
+أهم حاجة الأول
+--------------
+الأصوات اللي عملناها اتصممت بخاصية Voice Design، وهي محفوظة جوه الحساب القديم بس.
+لو صممت الصوت من الوصف تاني على حساب جديد هيطلع شبهه، لكن مش نسخة طبق الأصل.
+
+علشان يطلع نفس الصوت بالظبط على الحساب الجديد:
+1. افتح ElevenLabs وادخل على Voices، وبعدين Add a new voice، واختار Instant Voice Clone.
+2. ارفع ملف العينة بتاع الشخصية من الفولدر ده، مثلاً «عينة صوت شطة.mp3».
+3. سمّي الصوت باسم الشخصية، واكتب الوصف اللي تحت في خانة الوصف.
+4. علّم على إنك صاحب الحق في الصوت. الأصوات دي إحنا اللي عملناها، والعينات من حلقاتنا إحنا.
+5. بعد الحفظ، خد الـ Voice ID الجديد وابعتهولي، وأنا أكمّل بيه.
+
+ملاحظة: الـ Instant Voice Clone محتاج اشتراك مدفوع (Starter أو أعلى) في ElevenLabs.
+لو الحساب الجديد مجاني، استخدم طريقة «التصميم من الوصف»، والصوت هيطلع قريب من الأصلي.
+
+إعدادات التوليد اللي اشتغلنا بيها
+-----------------------------------
+- الموديل: eleven_v4. بيدعم تعليمات الأداء بين أقواس مربعة زي [whisper] و[scared] و[to camera].
+- بنولّد نسخة واحدة بس من كل جملة.
+- الكتابة بالعامية المصرية ومتشكّلة بالكامل (القواعد تحت).
+
+
+الشخصيات
+==========
+
+1) شطة
+   - الـ Voice ID القديم: PbQ7dZRV6nFXCZN9afve
+   - ملف العينة: «عينة صوت شطة.mp3» (حوالي 94 ثانية)
+   - الوصف (للتصميم من الوصف):
+     Young Egyptian comedy actor voicing an animated sitcom hero, early 20s, Cairo street accent. Loud, cheeky and fast, playful and full of swagger, exaggerated comic delivery with big rises and drops, slightly raspy, laughs mid-sentence. Normal pitch, not squeaky, like a funny Egyptian comedian dubbing a cartoon.
+
+2) زلطة
+   - الـ Voice ID القديم: ZfCBnq4IBq228hplEROe
+   - ملف العينة: «عينة صوت زلطة.mp3» (حوالي 91 ثانية)
+   - الوصف:
+     Young Egyptian comedy actor voicing the sarcastic sidekick in an animated sitcom, early 20s, Cairo accent. Deadpan and dry, drags his words with a lazy comic drawl, sarcastic sighs and eye-roll energy, comic timing with pauses before the punchline. Natural pitch, youthful, like a funny Egyptian comedian dubbing a cartoon.
+
+3) توتة
+   - الـ Voice ID القديم: B4xStlwJJFNXunfEQt3b
+   - ملف العينة: «عينة صوت توتة.mp3» (حوالي دقيقتين ونص)
+   - الوصف:
+     Young adult Egyptian woman in her early 20s, Cairo accent, a cartoon voice actress with a high, bright and playful voice. Cheeky, witty and energetic, quick sarcastic comebacks, light giggles, know-it-all attitude, very expressive animated-series delivery.
+
+4) عم بندق (البواب)
+   - الـ Voice ID القديم: nCi0WTJgF6pOCdDt4vCO
+   - ملف العينة: «عينة صوت عم بندق.mp3» (حوالي 28 ثانية)
+   - الوصف:
+     Older Egyptian man, around 60, Cairo accent, voicing a sleepy comic building doorman in an animated sitcom. Deep, husky and slow, mumbling and yawning between words, lazy and drowsy, then suddenly alert and dramatic when sharing gossip. Warm and funny.
+
+5) الحاجة نعناعة (تيتا)
+   - الـ Voice ID القديم: paE5P4ZVl6GdshM7URbd
+   - ملف العينة: «عينة صوت الحاجة نعناعة.mp3» (حوالي 28 ثانية)
+   - الوصف:
+     Elderly Egyptian woman, around 70, Cairo popular-neighborhood accent, voicing a comic grandmother in an animated sitcom. Strong, bossy and loud, scolding with dramatic flair, a bit raspy and old, sharp sarcastic wit, but warm underneath. Like a classic funny Egyptian grandmother character.
+
+6) أستاذ فهمي (الجار الجديد)
+   - الـ Voice ID القديم: afgElYGfUrmtrsvZWaTZ
+   - ملف العينة: «عينة صوت أستاذ فهمي.mp3» (حوالي 39 ثانية)
+   - الوصف:
+     Egyptian man in his forties with a Cairo accent, an overly friendly smooth salesman voice with fake warmth, a slightly nasal tone and a sly, sinister edge under the politeness. Medium pitch and lively pacing, like a charming neighbor hiding a secret. Cartoon character voice.
+
+7) الصوت الغامض اللي بينادي على شطة (الحلقة 4)
+   - ده مش صوت متصمم. ده صوت جاهز من مكتبة ElevenLabs العامة، وتقدر تلاقيه من أي حساب:
+     الاسم: Matthew Schmitz - Whispering Spirit of the Gentle Calm
+     الـ Voice ID: uCAKWh24Y93ESUjKwRGP
+   - في المونتاج اتضاف عليه صدى (echo).
+
+
+قواعد النطق اللي اتعلمناها (مهمة جداً)
+========================================
+- القاف المصرية بتتكتب همزة: فُوء، آلُوا، آلْها، بَآلُه، مَأْفُول، الوَرْأَة، صُنْدُوء، بِالأَلَم، يِبْأُوا، يِبْأَى، التِّئِيل، أَطَع.
+- كلمات القاف فيها اتسابت قاف بناءً على طلبك: الحَلْقَة، اتْسَرَق، هَسْرَق، قُصَيَّر.
+- مَحَدِش من غير شدة. العِمارَة بكسرة تحت العين. شقة بتتكتب شَأْأَة.
+- الحَرامِيّ بشدة على الياء في الآخر. بَطَّلْ بشدة على الطاء.
+- الكَشّافْ بسكون في الآخر، عشان ما تطلعش «الكشافو».
+- «شرطة» في المورس بقت «خَطّ»: خَطّ ونُقْطَة.
+- «خرج» بقت «مِشِي» عشان كانت بتتنطق «خارج».
+- «غرض» اتشالت عشان الضاد كانت مش واضحة.
+- بندق وقطة كانوا بيتنطقوا غلط في eleven_v4. لو احتجتهم، ولّدهم بموديل eleven_multilingual_v2 (بُنْدُء، أُطَّة)، أو استخدم بدالهم «البَوَّاب».
