@@ -36,7 +36,8 @@ The connector account is a different workspace; voices were re-created with Inst
 | أستاذ فهمي | NKmBoy2aHuBrwNejzeBY («فهمي ٢») |
 | طنط سوسن | NoGIW3DYKxvKHQyByngV («سوسن ٢») |
 | عم رشدي | LAMgzfyVhBwHnPhLqzu9 («رشدي ٢») |
-| الباشا، عبده | not created yet (design 3 previews each, user picks) |
+| الباشا | a4BAIRarZjSOrxjZHzaG (designed, darker round preview #1 — NOT m4FMGAmuWc9V0kVoZxOF, the earlier calm one) |
+| عبده، صفيح | not created yet (design 3 previews each, user picks) |
 
 ## Pronunciation rules learned (eleven_v4)
 - Egyptian qaf → hamza: فُوء، آلُوا، آلْها، بَآلُه، مَأْفُول، صُنْدُوء، بِالأَلَم، يِبْأُوا، يِبْأَى، التِّئِيل، أَطَع، أَبْل، اتَّفَأْنا.
