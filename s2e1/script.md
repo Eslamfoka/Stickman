@@ -37,3 +37,23 @@ Download blocker: the workspace proxy refuses elevenlabsusercontent.com / storag
 - Rules: «دِلْوَأْتِي» read «دالوقتي» → avoid (حالاً). «قِفْل» without article read «اقفل/قافل» → always «القِفْل». Whispered endings too quiet → no [whisper] on key lines.
 - Round 3: A03 TeN0itOkMhUAK2NJKcdp, A05 tNhxCZvqtNbkjL76NSzg (plain undiacritized «البدروم» = user's pick).
 - All 18 final lines downloaded to `s2e1/audio/A01..A18.mp3` (domains now allowed). Review file: «جمل الحلقة 1 - للمراجعة.mp3».
+
+## v2 expansion (user: 1:18 of speech is shorter than S1E10's ~117 s / 31 lines — every episode must beat the last)
+Target ≈ 32 lines, ~2:45 total. New lines (B-keys, inserted in order):
+| after | key | who | line | direction |
+|---|---|---|---|---|
+| title | B01 | سوسن | صَباح الخِير يا مُتابْعِين! بَعْد ما مِسِكْنا أُسْتاذ فَهْمِي... عِمارِة نَعْناعَة بَقِت تِرِنْد! | [excited, to phone] live |
+| B01 | B02 | سوسن | وِالنَّهارْدَه... فِيه سِرّ جِديد. لايف! | [whisper to phone → excited] |
+| A05 | B03 | نعناعة | رُشْدِي أَخُويا ساب العِمارَة مِن تَلاتِين سَنَة... ومِن ساعِتْها مَحَدِش دَخَل البدروم. | [sad, soft] |
+| A06 | B04 | شطة | يا عَم... إِنْتَ كُنْت نايِم! | [teasing] |
+| B04 | B05 | البواب | نايِم؟! أَنا واخِد بالِي كُوَيِّس... بَس عِينِي مِغَمَّضَة. | [offended] then A07 |
+| A10 | B06 | زلطة | المَقاس: أَرْبِعِين سَنْتِي. دِي مِش جَزْمَة... دِي حاجَة تانْيَة خالِص. | [deadpan, ruler] |
+| B06 | B07 | شطة | خَلِّيني أَبُصّ مِن خُرْم الباب... | [curious whisper] red flash |
+| B07 | B08 | شطة | آآآآه! | [screaming] |
+| B08 | B09 | توتة | إِيه يا شَطَّة... خايِف؟ | [smug] |
+| B09 | B10 | شطة | أَنا؟! أَبَداً... دَه النُّور بَس اللِّي خَضِّنِي. | [defensive] → then A11 puzzle |
+| A11 | B11 | زلطة | الخُطَّة: السّاعَة اتْناشَر، نِسْتَخَبَّى عَلَى السِّلِّم... ونِسْمَع بَس. مَحَدِش يِنْزِل. | [serious] roof, sunset |
+| B11 | B12 | شطة | نِسْمَع بَس... أَكِيد. ثِقُوا فِيّا. | [looking away, sly] |
+| A15 | B13 | توتة | الباب... بِيِتْحَرَّك لِوَحْدُه! | [alarmed] door shakes |
+| A18 | B14 | شطة | يَعْنِي عَم رُشْدِي... جُوَّه البدروم؟! | [shocked] → endcard |
+Pronunciation test node: YhzpfJxD762hkDIZxN1A (13 numbered items).
