@@ -7,9 +7,9 @@ ElevenLabs flow: `TGJwR68weFzjY29pQgK0` (new account). Pronunciation test node: 
 | 0 | A01 | شطة | سامْعِين؟... فِيه حاجَة ماشْيَة تَحْت الأَرْض! | [whisper, scared] HOOK: night, basement door, red light pulsing under it, metal footsteps, faint old music |
 | — | — | — | title card | |
 | 1 | A02 | توتة | لُغْز امْبارِح: اللِّي خَمِّنُوا إِن فَهْمِي هُوَّ اللِّي وَرا الخَبْط... بَرافُو عَلِيكُو! | [to camera] morning lobby, green «إجابة امبارح» box |
-| 1 | A03 | زلطة | بَس الجَواب بِيْأُول افْتَحُوا البَدْرُوم... يَعْنِي اللُّعْبَة لِسَّه ما خِلْصِتْش. | [deadpan] |
+| 1 | A03 | زلطة | بَس الجَواب مَكْتُوب فِيه: افتحوا البدروم... يَعْنِي اللُّعْبَة لِسَّه ما خِلْصِتْش. | [deadpan] |
 | 1 | A04 | شطة | يَلّا نِنْزِل حالاً! ثِقُوا فِيّا المَرَّة دِي! | [excited] |
-| 2 | A05 | نعناعة | مَحَدِش هَيِنْزِل البَدْرُوم! البَدْرُوم دَه مَأْفُول مِن أَبْل ما تِتْوِلْدُوا. | [stern] |
+| 2 | A05 | نعناعة | مَحَدِش هَيِنْزِل البدروم! البدروم دَه مَأْفُول مِن أَبْل ما تِتْوِلْدُوا. | [stern] |
 | 3 | A06 | البواب | المُفْتاح؟ ضاع مِن زَمان يا وِلاد... | [sleepy, yawning] |
 | 3 | A07 | البواب | أَنا صاحِي أَهُو. | [suddenly alert] |
 | 4 | A08 | توتة | بُصُّوا... القِفْل دَه جِديد ولامِع! يَعْنِي حَد غَيَّرُه. | [whisper, excited] CU lock |
@@ -35,3 +35,5 @@ Download blocker: the workspace proxy refuses elevenlabsusercontent.com / storag
 - A03 «بيأول» read «بيقاول» + البدروم final meem weak; A05 البدروم read «بادروم» → spelling test nodes R5vVV4r6DRIGTAdxJoto (Nana) / YBJtIzWugpzwRHuTWhUw (Zalata), waiting for pick; A03 & A05 to regenerate after.
 - Regenerated: A04 szBm0pwtsr3qXrR1RHAn · A09 ZfUzdxqEPpOV89PCOu1r · A11 q6pbant45pK4nCwo3Phg · A17 M2bb0WyydR1lYgPBQ1UW · A18 U4aH9AdBMM5e836Eu0D9
 - Rules: «دِلْوَأْتِي» read «دالوقتي» → avoid (حالاً). «قِفْل» without article read «اقفل/قافل» → always «القِفْل». Whispered endings too quiet → no [whisper] on key lines.
+- Round 3: A03 TeN0itOkMhUAK2NJKcdp, A05 tNhxCZvqtNbkjL76NSzg (plain undiacritized «البدروم» = user's pick).
+- All 18 final lines downloaded to `s2e1/audio/A01..A18.mp3` (domains now allowed). Review file: «جمل الحلقة 1 - للمراجعة.mp3».
