@@ -57,3 +57,4 @@ Target ≈ 32 lines, ~2:45 total. New lines (B-keys, inserted in order):
 | A15 | B13 | توتة | الباب... بِيِتْحَرَّك لِوَحْدُه! | [alarmed] door shakes |
 | A18 | B14 | شطة | يَعْنِي عَم رُشْدِي... جُوَّه البدروم؟! | [shocked] → endcard |
 Pronunciation test node: YhzpfJxD762hkDIZxN1A (13 numbered items).
+- v2 audio: B01..B14 downloaded. Final order in `s2e1/order.txt` (32 lines, 137.5 s speech incl. 0.6 s gaps). Review MP3 rebuilt.
