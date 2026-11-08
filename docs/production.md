@@ -37,7 +37,8 @@ The connector account is a different workspace; voices were re-created with Inst
 | طنط سوسن | NoGIW3DYKxvKHQyByngV («سوسن ٢») |
 | عم رشدي | LAMgzfyVhBwHnPhLqzu9 («رشدي ٢») |
 | الباشا | a4BAIRarZjSOrxjZHzaG (designed, darker round preview #1 — NOT m4FMGAmuWc9V0kVoZxOF, the earlier calm one) |
-| عبده، صفيح | not created yet (design 3 previews each, user picks) |
+| عبده | dtJ11OXpU7ePgFeAvCJr (designed; saved preview = #1 of its round — confirm with user, screenshot showed Voice 3) |
+| صفيح | proposal: Roshdy's voice (LAMgzfyVhBwHnPhLqzu9) + Audio Effects robot/old_radio filter — Roshdy recorded his own voice into the robot. Account is at the 10 custom-voice limit. |
 
 ## Pronunciation rules learned (eleven_v4)
 - Egyptian qaf → hamza: فُوء، آلُوا، آلْها، بَآلُه، مَأْفُول، صُنْدُوء، بِالأَلَم، يِبْأُوا، يِبْأَى، التِّئِيل، أَطَع، أَبْل، اتَّفَأْنا.
