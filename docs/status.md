@@ -1,4 +1,13 @@
-# Status — last updated 2026-11-08 (end of session on the first Claude account)
+# Status — last updated 2026-11-09 (second Claude account, new ElevenLabs workspace)
+
+## Season 2 progress
+- Plan merged (record + robot «صفيح») → `docs/seasons/season2_sirr_elbadroom.md` (approved by user).
+- All 8 S1 voices re-cloned + الباشا + عبده designed on the new account (IDs in `docs/production.md`). صفيح = Roshdy clone + robot filter. Account is at its 10 custom-voice limit.
+- **Ep1 «باب البدروم» DONE & delivered** (2:34, 32 lines). Script `s2e1/ep1.py` (render: `python3 ep1.py part 0 2` & `part 1 2` in parallel → concat → `python3 ep1.py audio` → mux; YT file re-encoded crf 24 to stay < 400 MB). Lines/plan in `s2e1/script.md`.
+- Next: Ep2 «الصوت اللي تحت الأرض» — must beat Ep1 (more lines/events). Use `s2e1/ep1.py` as template.
+
+---
+# (older) Status — 2026-11-08 (end of session on the first Claude account)
 
 ## Done
 - Season 1, episodes 1–10: rendered and delivered (YouTube horizontal + TikTok vertical). Scripts: `s1eN/epN.py` (ep1: `s1e1/ep.py`).
