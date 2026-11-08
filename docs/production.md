@@ -24,6 +24,16 @@ Flow id (original ElevenLabs account): `4HcN4LdOL5Uje0zAong1`. Model `eleven_v4`
 | عم رشدي | rc7ifJWKsgf7jZ0iZR8X (designed, preview #2) |
 IDs work only on the same ElevenLabs account; otherwise clone from `voices/` samples.
 
+### Current account (cloned from `voices/` samples, 2026-11-09) — USE THESE
+The connector account is a different workspace; voices were re-created with Instant Voice Clone.
+| Character | voice_id (clone) |
+|---|---|
+| شطة | zXvQZBuv4eRkV8iZFo0z («شطة ٢») |
+| زلطة | EmD0DWTBW7PBAZ0QyuW9 («زلطة ٢») |
+| توتة | 7ZCnzbMTLiWO91psJmFa («توتة ٢») |
+| الحاجة نعناعة | oaufJ1LN6G5WBWO1vDqK («الحاجة نعناعة ٢») |
+| البواب، فهمي، سوسن، رشدي | not cloned yet (samples in `voices/`) |
+
 ## Pronunciation rules learned (eleven_v4)
 - Egyptian qaf → hamza: فُوء، آلُوا، آلْها، بَآلُه، مَأْفُول، صُنْدُوء، بِالأَلَم، يِبْأُوا، يِبْأَى، التِّئِيل، أَطَع، أَبْل، اتَّفَأْنا.
 - Real qaf kept (user's choice): الحَلْقَة، اتْسَرَق، هَسْرَق، قُصَيَّر، قَفَلِتْ، قَفَل.
