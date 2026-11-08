@@ -32,7 +32,11 @@ The connector account is a different workspace; voices were re-created with Inst
 | زلطة | EmD0DWTBW7PBAZ0QyuW9 («زلطة ٢») |
 | توتة | 7ZCnzbMTLiWO91psJmFa («توتة ٢») |
 | الحاجة نعناعة | oaufJ1LN6G5WBWO1vDqK («الحاجة نعناعة ٢») |
-| البواب، فهمي، سوسن، رشدي | not cloned yet (samples in `voices/`) |
+| البواب (عم بندق) | hX8NPPh9eZ6FnjN6Yf6E («عم بندق ٢») |
+| أستاذ فهمي | NKmBoy2aHuBrwNejzeBY («فهمي ٢») |
+| طنط سوسن | NoGIW3DYKxvKHQyByngV («سوسن ٢») |
+| عم رشدي | LAMgzfyVhBwHnPhLqzu9 («رشدي ٢») |
+| الباشا، عبده | not created yet (design 3 previews each, user picks) |
 
 ## Pronunciation rules learned (eleven_v4)
 - Egyptian qaf → hamza: فُوء، آلُوا، آلْها، بَآلُه، مَأْفُول، صُنْدُوء، بِالأَلَم، يِبْأُوا، يِبْأَى، التِّئِيل، أَطَع، أَبْل، اتَّفَأْنا.
