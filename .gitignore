@@ -5,3 +5,4 @@ __pycache__/
 *.log
 movie/seg/
 movie/chk/
+times.txt
