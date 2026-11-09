@@ -8,7 +8,9 @@
 - Ep2 puzzle: «السبعة اللي بتستنى الجوابات» → answer in Ep3: صندوق بوستة شقة 7 (glint easter egg already shown at ~29 s). Ep2 cliff: Pasha («أيوا يا عبده... الولاد ابتدوا يدوروا. لازم نسبقهم» / «هاخدها ولو بالعافية») saw Shatta at the window. Tota's phone is recording in the vent all night → Ep3 can open with what it recorded.
 - **Ep3 «الباشا»** (3:12, 32 lines E01–E32, NEW ElevenLabs account) — `s2e3/ep3.py`, script+shot list `s2e3/script.md`. New: phone-playback insert (`phone_card`), old photo insert with flip (`photo_card`), POV through the street-door glass on a generated day street (`s2e3/bg/street_day.png`, `glass_frame`), phone-camera POV (`phone_ui`), Pasha full body with fedora+cigar, Abdo with bump stars, street-door leaf that opens, stairs set for entrances (`stairs_1080.png`), plant&payoff key insert, night theft, dutch angle. Follows `docs/directing.md`.
 - Ep3 puzzle: «مين في الموسم الأول كان بيقول "أيوا يا باشا" في التليفون؟» → answer in Ep4: فهمي. Ep3 cliff: Abdo has the basement key (it was in the doorman's pocket all along) + red light under the basement door.
-- Next: Ep4 «النزول» — use `s2e3/ep3.py` as the template.
+- **Ep4 «النزول»** (2:29, 26 lines F01–F26) — `s2e4/ep4.py` (built from ep3 pieces). New sets generated: `s2e4/bg/studio.png` (secret studio, clock at 12, sheet in the right corner, poster of a 1950s singer = الست بهية for Ep6), `corridor.png` (vault door with wheel), `carin.png` (Pasha's car at night; seat cushion re-pasted over the characters so they sit). New: flashlight beams (dark-set composite), slow-mo keys insert, padlock/key insert, wheel insert, lights flicker-on reveal, flashlight scan inserts, reel-to-reel spin, sheet wobble + red eyes.
+- Ep4 puzzle: «الساعة الواقفة في الاستوديو على كام... وليه؟» → Ep5 answer: 12 = the timer that plays the tape every night. Cliff: صفيح under the sheet (red eyes).
+- Next: Ep5 «صفيح» — design صفيح's voice (robot) + draw `safeeh` in the engine; template `s2e4/ep4.py`.
 
 ---
 # (older) Status — 2026-11-08 (end of session on the first Claude account)
