@@ -35,14 +35,19 @@ SUB = {
  "C22": "(لاسلكي) شطة؟... رد عليا! حول!",
  "C23": "العمارة دي... هاخدها... ولو بالعافية.",
  "C24": "هو... شافني!",
+ "D01": "سبعة... ممكن تكون رقم شقة... أو رقم دور.",
+ "D02": "أو سبع عفاريت ساكنين تحت!",
+ "D03": "يا شطة! مفيش حاجة اسمها عفاريت.",
+ "D04": "(لاسلكي) شطة... إنت سامع المزيكا؟ رجعت تاني! حول.",
+ "D05": "أيوه يا عبده... الولاد ابتدوا يدوروا. لازم نسبقهم.",
 }
 WHO = {"C01": "tape", "C02": "tota", "C03": "tape", "C04": "shatta", "C05": "nana", "C06": "tota", "C07": "bondo2", "C08": "zalata",
        "C09": "bondo2", "C10": "shatta", "C11": "zalata", "C12": "tota", "C13": "shatta", "C14": "shatta", "C15": "zalata", "C16": "tota",
-       "C17": "tota", "C18": "radio", "C19": "shatta", "C20": "radio", "C21": "shatta", "C22": "radio", "C23": "pasha", "C24": "shatta"}
-EXPR = {"C02": "shock", "C04": "scared", "C05": "angry", "C06": [(0, "smug"), (0.6, "happy")], "C07": [(0, "happy"), (0.55, "neutral")],
+       "C17": "tota", "C18": "radio", "C19": "shatta", "C20": "radio", "C21": "shatta", "C22": "radio", "C23": "pasha", "C24": "shatta", "D01": "zalata", "D02": "shatta", "D03": "tota", "D04": "radio", "D05": "pasha"}
+EXPR = {"D01": "flat", "D02": "scared", "D03": "angry", "C02": "shock", "C04": "scared", "C05": "angry", "C06": [(0, "smug"), (0.6, "happy")], "C07": [(0, "happy"), (0.55, "neutral")],
         "C08": "flat", "C09": [(0, "smug"), (0.45, "sad")], "C10": "scared", "C11": "flat", "C12": "neutral", "C13": "neutral",
         "C14": "shock", "C15": "scared", "C16": "smug", "C17": [(0, "neutral"), (0.6, "smug")], "C19": "sad", "C21": "shock", "C24": "shock"}
-ARMS = {"C02": "point", "C04": "scared", "C05": "up", "C06": "point", "C07": "hold", "C08": "point", "C09": "hips", "C10": "scared",
+ARMS = {"D01": "hold", "D02": "scared", "D03": "hips", "C02": "point", "C04": "scared", "C05": "up", "C06": "point", "C07": "hold", "C08": "point", "C09": "hips", "C10": "scared",
         "C11": "hold", "C12": "point", "C13": "down", "C14": "scared", "C15": "scared", "C16": "point", "C17": "point", "C19": "hold",
         "C21": "hold", "C24": "scared"}
 
@@ -112,6 +117,12 @@ KIN = (t, t + 1.9)
 shot("lobby", t, KIN[1], (820, 600, 1.15), (900, 620, 1.2), tod=1); t = KIN[1]
 s = t; t = say(t + 0.1, "C06") + 0.15
 shot("lobby", s, t, CU("tota", DAY["tota"], 1.55), CU("tota", DAY["tota"], 1.75), tod=1)
+s = t; t = say(t + 0.1, "D01") + 0.1
+shot("lobby", s, t, CU("zalata", DAY["zalata"], 1.8), CU("zalata", DAY["zalata"], 2.0), tod=1)
+s = t; t = say(t, "D02") + 0.1
+shot("lobby", s, t, CU("shatta", DAY["shatta"], 1.8), CU("shatta", DAY["shatta"], 2.4), ease="crash", tod=1)
+s = t; t = say(t, "D03") + 0.2
+shot("lobby", s, t, (1080, 640, 1.4), (1080, 650, 1.5), tod=1)
 BIN = (t, t + 3.0); fx(t + 0.1, "creak", 0.8)
 shot("lobby", t, BIN[1], (760, 560, 1.55), (700, 640, 1.25), tod=1); t = BIN[1]
 s = t; t = say(t, "C07") + 0.1
@@ -134,7 +145,7 @@ shot("lobby", s, t, (VSPOT["tota"][0] + 20, 760, 2.2), (VSPOT["tota"][0] + 40, 7
 LISTEN = (t, t + 0.8)
 s = t; t = say(t + 0.7, "C13") + 0.1
 shot("lobby", s, t, (VSPOT["shatta"][0] + 80, 760, 2.2), (VSPOT["shatta"][0] + 100, 780, 2.6), tod=1)
-SILENT = (t, t + 1.5)
+SILENT = (t, t + 2.2)
 shot("lobby", t, SILENT[1], (VSPOT["shatta"][0] + 100, 780, 2.6), (VSPOT["shatta"][0] + 120, 790, 3.0), tod=1); t = SILENT[1]
 CLANG = t; fx(t, "clang", 1.6); fx(t, "boom", 0.6); shakes.append((t, 16))
 for w_ in KIDS: jump(w_, t + 0.05)
@@ -157,6 +168,10 @@ s = t; t = say(t + 0.1, "C18") + 0.2; fx(t - 0.15, "walkie", 0.5)
 shot("bed", s, t, CU("shatta", BED["shatta"], 1.6), CU("shatta", BED["shatta"], 1.8))
 s = t; t = say(t, "C19") + 0.2
 shot("bed", s, t, CU("shatta", BED["shatta"], 1.9), CU("shatta", BED["shatta"], 2.1))
+fx(t - 0.2, "walkie", 0.8); s = t; MUSIC2 = t + 0.3; t = say(t + 0.1, "D04") + 0.2; fx(t - 0.15, "walkie", 0.5)
+shot("bed", s, t, CU("shatta", BED["shatta"], 1.8), CU("shatta", BED["shatta"], 2.0))
+FLOOR = (t, t + 2.4)       # Shatta looks down at the floor, the old music rising faintly from below
+shot("bed", t, FLOOR[1], (1050, 820, 1.6), (1050, 860, 1.9)); t = FLOOR[1]
 fx(t - 0.2, "walkie", 0.8); s = t; t = say(t + 0.1, "C20") + 0.2; fx(t - 0.15, "walkie", 0.5)
 shot("bed", s, t, CU("shatta", BED["shatta"], 1.8), CU("shatta", BED["shatta"], 1.9))
 CAR0 = t; fx(t, "car", 1.0)
@@ -169,8 +184,11 @@ shot("bed", t, TOWIN[1], (900, 560, 1.25), (820, 560, 1.3)); t = TOWIN[1]
 cut(t, 0.35); shot("bed", t, t + 1.5, (360, 330, 2.3), (350, 320, 2.5), atwin=True); t += 1.5
 POV = (t, t + 2.6); shot("win", t, POV[1], (960, 300, 1.12), (770, 620, 1.7)); t = POV[1]
 STREET = t; DOOR_OPEN = t + 0.4; FIG_IN = (t + 0.8, t + 1.9)
-s = t; t = say(t + 2.0, "C22") + 0.2; fx(s + 1.8, "walkie", 0.8)
+s = t; t = say(t + 2.6, "C22") + 0.2; fx(s + 2.4, "walkie", 0.8)
 shot("street", s, t, (1300, 600, 1.25), (1360, 630, 1.5))
+PHONE = (t, t + DUR["D05"] + 0.8)
+s = t; t = say(t + 0.3, "D05") + 0.4
+shot("street", s, t, (1400, 600, 1.7), (1410, 580, 2.0))
 LOOKUP = (t + 0.4, t + 1.8)
 s = t; t = say(t + 0.3, "C23") + 0.4
 shot("street", s, t, (1420, 560, 2.0), (1430, 500, 3.0))
@@ -339,6 +357,7 @@ def actors(set_, tt, sh):
             A.append(b)
     elif set_ == "bed":
         a = A_("shatta", BED["shatta"], look=-1, expr="sad", arms="hold")
+        if FLOOR[0] <= tt < CAR0: a["expr"] = "scared"; a["look"] = 1
         if tt >= CAR0: a["expr"] = "neutral"
         if tt >= SWEEP[0]: a["look"] = 1; a["expr"] = "shock"
         if tt >= T("C21"): a["look"] = -1; a["expr"] = "shock"
@@ -559,6 +578,11 @@ def draw_pasha(d, W2, S, tt):
     glow_ = 0.6 + 0.4 * math.sin(tt * 3.1) ** 2
     for r_, aa in ((22, int(60 * glow_ * k)), (10, int(140 * glow_ * k)), (4, int(255 * k))):
         d.ellipse([ex - 6 * S - r_ * S, ey - r_ * S, ex - 6 * S + r_ * S, ey + r_ * S], fill=(255, 120, 30, aa))
+    if PHONE[0] <= tt < PHONE[1]:
+        px, py = P_(hx + 40, hy + 5)
+        d.line([P_(40, 105), P_(58, 170), (px, py + 10 * S)], fill=col, width=max(2, int(16 * S)), joint="curve")
+        d.rounded_rectangle([px - 6 * S, py - 14 * S, px + 6 * S, py + 14 * S], int(2 * S), fill=(40, 60, 90, a))
+        d.ellipse([px - 26 * S, py - 26 * S, px + 26 * S, py + 26 * S], fill=(120, 160, 255, int(40 * k)))
     # eyes catch the street light once he looks up
     if up > 0.5:
         ea = int(255 * (up - 0.5) * 2)
@@ -703,6 +727,11 @@ def build_audio(path="mix.wav"):
     mix_into(buf, hiss * e, STATIC0, 1.0)
     for t0, nme, g in sfx:
         if nme in S: mix_into(buf, S[nme], t0, g)
+    mus = load_audio("sfx/music_old.mp3"); n = int((CAR0 + 1.0 - MUSIC2) * SR); x = np.resize(mus, n).astype(np.float32)
+    e = np.ones(n, np.float32); fi = int(1.5 * SR); e[:fi] = np.linspace(0, 1, fi); e[-fi:] = np.linspace(1, 0, fi)
+    from numpy.fft import rfft, irfft
+    X = rfft(x); fq = np.fft.rfftfreq(n, 1 / SR); X[fq > 700] *= 0.15; x = irfft(X, n).astype(np.float32)   # through the floor
+    mix_into(buf, x * e, MUSIC2, 0.6)
     # comic pizzicato under the doorman confession
     for i, f in enumerate([392, 440, 392, 330, 392, 523]):
         tt_ = np.arange(int(SR * 0.4)) / SR
