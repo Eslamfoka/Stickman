@@ -36,7 +36,7 @@ IDs work only on the same ElevenLabs account; otherwise clone from `voices/` sam
 | طنط سوسن | aD9FcHut0EoWuBkZ8Lca |
 | عم رشدي | YGNy6U5O3z3BYj90svXp |
 | الباشا | MISSING — re-design on this account (match a4BAIRarZjSOrxjZHzaG's dark tone) |
-| عبده | MISSING — re-design on this account |
+| عبده | 6tlJFr3s8vKbR6uPJDm9 (designed on this account, preview #3) |
 
 ### Previous account (de970f…, cloned 2026-11-09) — Ep1/Ep2 were made with these
 The connector account is a different workspace; voices were re-created with Instant Voice Clone.
