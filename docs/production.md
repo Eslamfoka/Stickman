@@ -57,6 +57,7 @@ The connector account is a different workspace; voices were re-created with Inst
 ## Pronunciation rules learned (eleven_v4)
 - «عِفْرِيت» → write «عفريت» without diacritics. «يِعْرَف» bad → «عارِف». «عَم رُشْدِي» sometimes bad → «عم رشدي» without diacritics. «نَوَّرُوا» → «شَغَّلُوا».
 - «الخَطَوات» → write «الخطوات» without diacritics. «ماسِك» is read «مَسَك» → use «في إيده».
+- «بِاسْم» is read like the name «باسم» → write «بِإِسْم» with hamza.
 - Egyptian qaf → hamza: فُوء، آلُوا، آلْها، بَآلُه، مَأْفُول، صُنْدُوء، بِالأَلَم، يِبْأُوا، يِبْأَى، التِّئِيل، أَطَع، أَبْل، اتَّفَأْنا.
 - Real qaf kept (user's choice): الحَلْقَة، اتْسَرَق، هَسْرَق، قُصَيَّر، قَفَلِتْ، قَفَل.
 - مَحَدِش (no shadda). العِمارَة (kasra). شقة → «شَأْأَة» or avoid. الحَرامِيّ، بَطَّلْ، الكَشّافْ (final sukun).
