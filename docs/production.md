@@ -24,7 +24,21 @@ Flow id (original ElevenLabs account): `4HcN4LdOL5Uje0zAong1`. Model `eleven_v4`
 | عم رشدي | rc7ifJWKsgf7jZ0iZR8X (designed, preview #2) |
 IDs work only on the same ElevenLabs account; otherwise clone from `voices/` samples.
 
-### Current account (cloned from `voices/` samples, 2026-11-09) — USE THESE
+### NEW paid account (connector `eleven_new`, workspace d59b5261…, 2026-11-09) — USE THESE FROM EP3
+| Character | voice_id (clone) |
+|---|---|
+| شطة | hyUQevTDlGImBLtSiiRQ |
+| زلطة | sLO9dekhzCLICzBXoutM |
+| توتة | iHuQfekNxX9K6t7EN2gI |
+| الحاجة نعناعة | LR7m9NwbGSZZYaSrs9xp |
+| البواب (عم بندق) | rQZarzHKNP0R67Tq6eN2 |
+| أستاذ فهمي | TzvuLIaSuAFvagSUQhku |
+| طنط سوسن | aD9FcHut0EoWuBkZ8Lca |
+| عم رشدي | YGNy6U5O3z3BYj90svXp |
+| الباشا | MISSING — re-design on this account (match a4BAIRarZjSOrxjZHzaG's dark tone) |
+| عبده | MISSING — re-design on this account |
+
+### Previous account (de970f…, cloned 2026-11-09) — Ep1/Ep2 were made with these
 The connector account is a different workspace; voices were re-created with Instant Voice Clone.
 | Character | voice_id (clone) |
 |---|---|
