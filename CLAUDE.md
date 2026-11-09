@@ -7,7 +7,7 @@ Read in order: this file → `docs/directing.md` → `docs/brand.md` (world & ch
 ## The idea in one paragraph
 «عمارة نعناعة» is the user's own original cartoon brand: big-white-head stickman characters (style like «فشارة»), Egyptian dialect, for the whole family. Everything happens in one old popular Cairo building — «عمارة نعناعة» — and its residents. The brand is built as **seasons of short daily mystery serials**: each season has one big secret in the building, split into ~10 daily episodes (≈1.5–2.5 min each). Every episode = hook in the first 3 seconds → events → an audience puzzle («اكتبوا حلكم في الكومنتات») → a cliffhanger; the next episode opens with the puzzle answer. Tone: light family horror (darkness, whispers, shadows, knocks — never blood, never real ghosts; everything has a logical explanation at the end) always broken by comedy. Goal: go viral and monetize on YouTube, TikTok and Facebook (horizontal for YouTube, vertical cut for TikTok/Reels/Shorts, plus a full-season compilation "movie").
 
-## The brand is now 5 series (see `docs/series.md`, `docs/calendar.md`)
+## Brand name = «شطة وزلطة» (channels/handles). «عمارة نعناعة» is ONE series inside it. The brand has 5 series (see `docs/series.md`, `docs/calendar.md`)
 عمارة نعناعة (main mystery serial) + يوميات شطة وزلطة + لو...؟ + زلطة بيشرح + ترند الأسبوع — same trio (شطة، زلطة، توتة) everywhere. Goal: build a 1-month buffer before publishing daily.
 
 ## Who does what
