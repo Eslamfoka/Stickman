@@ -6,7 +6,9 @@
 - **Ep1 «باب البدروم» DONE & delivered** (2:34, 32 lines). Script `s2e1/ep1.py` (render: `python3 ep1.py part 0 2` & `part 1 2` in parallel → concat → `python3 ep1.py audio` → mux; YT file re-encoded crf 24 to stay < 400 MB). Lines/plan in `s2e1/script.md`.
 - **Ep2 «الصوت اللي تحت الأرض» DONE & delivered** (2:36, 29 lines). `s2e2/ep2.py` — new: one unified lobby set (morning.png) with day/night time-lapse (`tl=`), walk-ins from the street door with depth scaling (`walk_to`), exits out of frame, camera pans following kids, bedroom set `s2e2/bg_bedroom.png` (real-player/club posters painted over), window POV, street set with the Pasha silhouette (`draw_pasha`), walkie prop, headlight sweep. User feedback for all future eps: realistic continuity (nobody pops in), more thrill, fewer characters is fine.
 - Ep2 puzzle: «السبعة اللي بتستنى الجوابات» → answer in Ep3: صندوق بوستة شقة 7 (glint easter egg already shown at ~29 s). Ep2 cliff: Pasha («أيوا يا عبده... الولاد ابتدوا يدوروا. لازم نسبقهم» / «هاخدها ولو بالعافية») saw Shatta at the window. Tota's phone is recording in the vent all night → Ep3 can open with what it recorded.
-- Next: Ep3 «الباشا» (see season file) — use `s2e2/ep2.py` as the template.
+- **Ep3 «الباشا»** (3:12, 32 lines E01–E32, NEW ElevenLabs account) — `s2e3/ep3.py`, script+shot list `s2e3/script.md`. New: phone-playback insert (`phone_card`), old photo insert with flip (`photo_card`), POV through the street-door glass on a generated day street (`s2e3/bg/street_day.png`, `glass_frame`), phone-camera POV (`phone_ui`), Pasha full body with fedora+cigar, Abdo with bump stars, street-door leaf that opens, stairs set for entrances (`stairs_1080.png`), plant&payoff key insert, night theft, dutch angle. Follows `docs/directing.md`.
+- Ep3 puzzle: «مين في الموسم الأول كان بيقول "أيوا يا باشا" في التليفون؟» → answer in Ep4: فهمي. Ep3 cliff: Abdo has the basement key (it was in the doorman's pocket all along) + red light under the basement door.
+- Next: Ep4 «النزول» — use `s2e3/ep3.py` as the template.
 
 ---
 # (older) Status — 2026-11-08 (end of session on the first Claude account)
