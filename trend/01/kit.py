@@ -274,6 +274,34 @@ def title_card(tt, sh, l1, l2, l3=""):
     if l3: text(fr, W / 2, H / 2 + 140, l3, 46, g((220, 220, 220)))
     return fr
 
+def _hblur(fr, k):
+    n = max(1, int(1 + 40 * k))
+    return fr.resize((max(8, W // n), H), Image.BILINEAR).resize((W, H), Image.BILINEAR)
+def transit(tt, fr):
+    """cinematic transitions: shot['tin'] in ('whip', 'whipl', 'flash', 'zoom', 'fade')"""
+    sh = shot_at(tt); i = shots.index(sh); u = tt - sh["start"]
+    nxt = shots[i + 1] if i + 1 < len(shots) else None
+    tin = sh.get("tin")
+    if tin in ("whip", "whipl") and u < 0.22:
+        k = 1 - u / 0.22; d = 1 if tin == "whip" else -1
+        fr = ImageChops.offset(_hblur(fr, k), int(d * 260 * k * k), 0)
+    if nxt is not None and nxt.get("tin") in ("whip", "whipl") and sh["end"] - tt < 0.18:
+        k = 1 - (sh["end"] - tt) / 0.18; d = 1 if nxt.get("tin") == "whip" else -1
+        fr = ImageChops.offset(_hblur(fr, k), int(-d * 260 * k * k), 0)
+    if tin == "flash" and u < 0.3:
+        fr = Image.blend(fr, Image.new("RGB", fr.size, (255, 255, 255)), 0.9 * (1 - u / 0.3))
+    if tin == "zoom" and u < 0.35:
+        k = 1 - ease(u / 0.35); sc = 1 + 0.35 * k
+        big = fr.resize((int(W * sc), int(H * sc)), Image.BILINEAR)
+        ox, oy = (big.size[0] - W) // 2, (big.size[1] - H) // 2
+        z_ = big.crop((ox, oy, ox + W, oy + H))
+        fr = Image.blend(z_, z_.filter(ImageFilter.GaussianBlur(14 * k)), min(1, k * 1.5))
+    if tin == "fade" and u < 0.45:
+        fr = Image.blend(Image.new("RGB", fr.size), fr, ease(u / 0.45))
+    if nxt is not None and nxt.get("tin") == "fade" and sh["end"] - tt < 0.35:
+        fr = Image.blend(Image.new("RGB", fr.size), fr, ease((sh["end"] - tt) / 0.35))
+    return fr
+
 def render(out_h, out_v, stills=None, t0=0.0, t1=None):
     fh = fv = None
     if not stills:
@@ -284,7 +312,7 @@ def render(out_h, out_v, stills=None, t0=0.0, t1=None):
     t1 = TOTAL if t1 is None else t1
     times = stills or [i / FPS for i in range(int(round(t0 * FPS)), int(round(t1 * FPS)))]
     for i, tt in enumerate(times):
-        base = frame(tt)
+        base = transit(tt, frame(tt))
         h = base.copy(); subtitle(h, tt)
         if stills:
             h.save(f"still_h_{tt:.1f}.png"); vertical(base, tt).save(f"still_v_{tt:.1f}.png")
