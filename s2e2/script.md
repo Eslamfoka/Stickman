@@ -17,7 +17,7 @@ Ep2 puzzle: «إيه هي السبعة اللي بتستنى الجوابات؟�
 ## Lines
 | # | key | who | line | direction |
 |---|---|---|---|---|
-| 0 | C01 | رشدي (شريط) | لَوْ سامْعِين صُوتِي... يِبْقَى اللُّعْبَة ابْتَدِت. | [old tape, slow] from the vent |
+| 0 | C01 | رشدي (شريط) | لَوْ سامْعِين صُوتِي... يِبْقَى اللِّعْبَة ابْتَدِت. | [old tape, slow] from the vent |
 | 0 | C02 | توتة | الصُّوت جاي مِن الفَتْحَة دِي! | [whisper, alarmed] |
 | 0 | C03 | رشدي (شريط) | أَوِّل رَقَم: سَبْعَة. دَوَّرُوا عَلَى السَّبْعَة اللِّي بِتِسْتَنَّى الجَوابات. | [old tape] click → silence |
 | 0 | C04 | شطة | دَه... صُوت عَم رُشْدِي تانِي! | [shocked] |
@@ -39,6 +39,9 @@ Ep2 puzzle: «إيه هي السبعة اللي بتستنى الجوابات؟�
 | 3 | C20 | زلطة (لاسلكي) | السّاعَة قَرَّبِت عَلَى اتْناشَر... والمُوبايِل لِسَّه بِيْسَجِّل. حَوِّل. | [whisper, radio] |
 | 3 | C21 | شطة | اسْتَنَّى... فِيه عَرَبِيَّة واقْفَة تَحْت. | [whisper] headlights sweep the wall |
 | 4 | C22 | زلطة (لاسلكي) | شَطَّة؟... رُدّ عَلَيّا! حَوِّل! | [worried, radio] |
-| 4 | C23 | الباشا | العِمارَة دِي... هَتِبْقَى بِتاعْتِي. | [low, menacing] silhouette looks up |
+| 4 | C23 | الباشا | العِمارَة دِي... هاخُدْها... وَلَوْ بِالعافْيَة. | [low, menacing] silhouette looks up |
 | 4 | C24 | شطة | هُوَّ... شافْنِي! | [terrified whisper — but audible] ducks |
 Flow: dDJ487kJKo5Exn3UuhXu · pronunciation test node 5YppDak2rUs9a8k0zlau (21 items, Shatta)
+
+All 24 lines generated (one take) and downloaded to `s2e2/audio/`; tape fx C01/C03, radio fx C18/C20/C22 (`*_fx.mp3`). Review: «جمل الحلقة 2 - للمراجعة.mp3».
+Pronunciation notes: «اللُّعْبَة» read «اللوعبة» → write «اللِّعْبَة». «هَتِبْقَى بِتاعْتِي» unclear → rephrased.

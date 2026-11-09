@@ -47,7 +47,7 @@ The connector account is a different workspace; voices were re-created with Inst
 - Avoid / replace: شرطة→«خَطّ»، خرج→«مِشِي»، غرض (removed)، قدامها→«عَلِيها»، اقعدوا→«اسْمَعُونِي كِوَيِّس»، الورقة (sounds artificial; show it instead)، ملك→«بِتاعِة»، الضلمة→«العَتْمَة»، أشجع (read as verb)→rephrase، بتحمينا→«بِيْحافِظ عَلِينا»، «ودَه بأَه»→«ودَه يا جَماعَة»، برة→«بَرّا».
 - الشِّبْشِب: kasra on first shin, sukun on ba. سوسن = «سَوْسَن». بندق/قطة break in v4 → say «البَوَّاب»; قطة → «أُطَّة» with eleven_multilingual_v2 if needed.
 - Trim breaths/noise before screams with ffmpeg.
-- S2 (cloned voices): «تقيلة/تِئِيلَة» fails → use «بِتْخَوِّف» or rephrase; «جايْلُكُم» fails → «جايِّلْكُو». «دِلْوَأْتِي» → «دالوقتي» (avoid; use حالاً). Bare «قِفْل» → «اقفل/قافل» (always «القِفْل»). «بِيْأُول» → «بيقاول» (rephrase). Whispered key lines come out inaudible. «البدروم» → write it WITHOUT diacritics (diacritized read «بادروم»/weak meem).
+- S2 (cloned voices): «تقيلة/تِئِيلَة» fails → use «بِتْخَوِّف» or rephrase; «جايْلُكُم» fails → «جايِّلْكُو». «دِلْوَأْتِي» → «دالوقتي» (avoid; use حالاً). Bare «قِفْل» → «اقفل/قافل» (always «القِفْل»). «بِيْأُول» → «بيقاول» (rephrase). Whispered key lines come out inaudible. «البدروم» → write it WITHOUT diacritics (diacritized read «بادروم»/weak meem). «اللُّعْبَة» → «اللوعبة»: write «اللِّعْبَة».
 
 ## Engine anatomy (`s1e1/engine.py`)
 W=1920 H=1080 FPS=24 SR=44100 SS=1.5. `draw_char(p, who, x, y, s, expr, mouth, look, blink, arms, t, held, lean, walk, eat)`.
