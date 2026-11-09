@@ -35,7 +35,7 @@ IDs work only on the same ElevenLabs account; otherwise clone from `voices/` sam
 | أستاذ فهمي | TzvuLIaSuAFvagSUQhku |
 | طنط سوسن | aD9FcHut0EoWuBkZ8Lca |
 | عم رشدي | YGNy6U5O3z3BYj90svXp |
-| الباشا | MISSING — re-design on this account (match a4BAIRarZjSOrxjZHzaG's dark tone) |
+| الباشا | DshUoc3RyCINORBPyoO6 (cloned from Ep2 lines) |
 | عبده | 6tlJFr3s8vKbR6uPJDm9 (designed on this account, preview #3) |
 
 ### Previous account (de970f…, cloned 2026-11-09) — Ep1/Ep2 were made with these
@@ -55,6 +55,7 @@ The connector account is a different workspace; voices were re-created with Inst
 | صفيح | proposal: Roshdy's voice (LAMgzfyVhBwHnPhLqzu9) + Audio Effects robot/old_radio filter — Roshdy recorded his own voice into the robot. Account is at the 10 custom-voice limit. |
 
 ## Pronunciation rules learned (eleven_v4)
+- «الخَطَوات» → write «الخطوات» without diacritics. «ماسِك» is read «مَسَك» → use «في إيده».
 - Egyptian qaf → hamza: فُوء، آلُوا، آلْها، بَآلُه، مَأْفُول، صُنْدُوء، بِالأَلَم، يِبْأُوا، يِبْأَى، التِّئِيل، أَطَع، أَبْل، اتَّفَأْنا.
 - Real qaf kept (user's choice): الحَلْقَة، اتْسَرَق، هَسْرَق، قُصَيَّر، قَفَلِتْ، قَفَل.
 - مَحَدِش (no shadda). العِمارَة (kasra). شقة → «شَأْأَة» or avoid. الحَرامِيّ، بَطَّلْ، الكَشّافْ (final sukun).
