@@ -57,35 +57,35 @@ t = 0.0
 HOOK = (0, 2.2)
 shot("pitch", 0, 2.2, (GOAL[0] - 120, GOAL[1] - 20, 3.0), (GOAL[0] - 80, GOAL[1] - 10, 3.3), hook=True)
 fx(0.0, "crowd", 0.35); t = 2.2
-shot("title", t, t + 2.0, None); fx(t, "whoosh", 0.5); TITLE = t; t += 2.0
+shot("title", t, t + 2.0, None, tin="fade"); fx(t, "whoosh", 0.5); TITLE = t; t += 2.0
 WIDE = (t, t + 3.0); fx(t, "crowd", 0.7); fx(t + 1.0, "switch", 0.3)
-shot("pitch", t, WIDE[1], (960, 560, 1.0), (980, 600, 1.15), score=(0, 0)); t = WIDE[1]
+shot("pitch", t, WIDE[1], (960, 560, 1.0), (980, 600, 1.15), score=(0, 0), tin="fade"); t = WIDE[1]
 RUN = (t, t + 3.4)
-shot("pitch", t, RUN[1], (900, 700, 1.5), (1450, 640, 1.8), score=(0, 0)); t = RUN[1]
+shot("pitch", t, RUN[1], (900, 700, 1.5), (1450, 640, 1.8), score=(0, 0), tin="whip"); t = RUN[1]
 KICK = t; fx(KICK, "kick", 1.2)
 SHOT_ = (t, t + 1.8); fx(t + 0.8, "crowd", 1.0)
-shot("pitch", t, SHOT_[1], (1600, 640, 2.2), (GOAL[0] - 40, GOAL[1], 2.8), slow=True, score=(1, 0))
+shot("pitch", t, SHOT_[1], (1600, 640, 2.2), (GOAL[0] - 40, GOAL[1], 2.8), slow=True, score=(1, 0), tin="zoom")
 say(t + 0.6, "P100"); t = SHOT_[1]
 CEL = (t, t + 1.6)
-shot("pitch", t, CEL[1], (1520, 620, 2.2), (1500, 600, 2.4), score=(1, 0)); t = CEL[1]
+shot("pitch", t, CEL[1], (1520, 620, 2.2), (1500, 600, 2.4), score=(1, 0), tin="flash"); t = CEL[1]
 CAFE1 = (t, t + 2.6); fx(t, "crowd", 0.8)
-shot("cafe", t, CAFE1[1], (960, 600, 1.05), (960, 560, 1.15), tvgoal=True); t = CAFE1[1]
+shot("cafe", t, CAFE1[1], (960, 600, 1.05), (960, 560, 1.15), tvgoal=True, tin="whip"); t = CAFE1[1]
 s = t; t = say(t + 0.2, "P101") + 0.3
-shot("live", s, t, (1450, 300, 2.0), (1450, 300, 2.12)); LIVE1 = s
+shot("live", s, t, (1450, 300, 2.0), (1450, 300, 2.12), tin="flash"); LIVE1 = s
 MONT = (t, t + 4.4); fx(t + 2.2, "kick", 1.0); fx(t + 2.9, "crowd", 0.9)
 say(t + 0.3, "P102")
-shot("pitch", t, MONT[1], (900, 640, 1.2), (1300, 620, 1.5), score=(1, 0), yellow=True, score2=True); t = MONT[1]
+shot("pitch", t, MONT[1], (900, 640, 1.2), (1300, 620, 1.5), score=(1, 0), yellow=True, score2=True, tin="whipl"); t = MONT[1]
 FINAL = t; fx(t, "final", 1.1)
 LIFT = (t + 1.0, t + 3.4)
-shot("pitch", t, LIFT[1], (700, 700, 1.25), (520, 700, 1.4), fin=True); t = LIFT[1]
+shot("pitch", t, LIFT[1], (700, 700, 1.25), (520, 700, 1.4), fin=True, tin="flash"); t = LIFT[1]
 CONF0 = t
 s = t; t = say(t + 0.2, "P103") + 0.5
-shot("pitch", s, t, (420, 640, 1.8), (420, 620, 2.0), fin=True, conf=True)
+shot("pitch", s, t, (420, 640, 1.8), (420, 620, 2.0), fin=True, conf=True, tin="whip")
 s = t; t = say(t, "P104") + 0.4
 shot("pitch", s, t, (520, 700, 1.9), (520, 700, 2.1), fin=True, conf=True)
 BAN = (t, t + 3.0); fx(t, "crowd", 0.8)
-shot("pitch", t, BAN[1], (1500, 360, 2.0), (1600, 330, 2.3), fin=True, banner=True, flashes=True); t = BAN[1]
-shot("tbc", t, t + 2.6, None); t += 2.6
+shot("pitch", t, BAN[1], (1500, 360, 2.0), (1600, 330, 2.3), fin=True, banner=True, flashes=True, tin="whipl"); t = BAN[1]
+shot("tbc", t, t + 2.6, None, tin="fade"); t += 2.6
 TOTAL = t
 
 # ---------- actors ----------

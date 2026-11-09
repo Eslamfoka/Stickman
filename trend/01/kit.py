@@ -159,6 +159,10 @@ def draw_people(layer, set_, tt, cam, sh, people):
         if kit: CH[who].update(old)
         S = s * CH[who]["scale"]
         hip = Y - 62 * S; shy = hip - 72 * S
+        if a.get("cross"):   # arms folded over the chest (draw with arms="hips")
+            for sd in (-1, 1):
+                p.line([(X + sd * 48 * S, shy + 40 * S), (X - sd * 16 * S, shy + 36 * S + sd * 4 * S)], INK, 4.2 * S)
+                p.ell(X - sd * 16 * S, shy + 36 * S + sd * 4 * S, 5 * S, 5 * S, INK, None)
         if a.get("num"):
             text(layer, X * SS, (shy + 34 * S) * SS, str(a["num"]), max(8, int(22 * S * SS)), (255, 255, 255), (0, 0, 0), max(1, int(1.5 * S * SS)))
         if who == "pasha":
