@@ -42,3 +42,7 @@
 ## Assets index
 - Backgrounds: `s1e1/bg` (living, bedroom, lobby, stairs), `s1e2/bg/door7.png`, `s1e5/bg/fahmy_raw.png`, `s1e6/bg/roof_raw.png`, `s1e8/bg/apt7_raw.png`, `s1e9/bg` (window, flash, well), `s1e10/bg` (basement, morning).
 - SFX per episode in `s1eN/sfx`. Synth SFX (knock, boom, sting, tock, powercut, drone) in engine.py.
+
+## Trend «أزمة منتخب العمارة» — DONE (2026-11-10)
+6 parts (trend/01/part1..6.py, shared kit.py with cinematic transitions) + movie (trend/01/movie.sh, 4:15). All delivered (H + V).
+Next: Ep5 «صفيح» of عمارة نعناعة (design robot voice + draw `safeeh`), then other series toward the 1-month buffer.
