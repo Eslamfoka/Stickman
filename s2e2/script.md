@@ -22,7 +22,7 @@ Ep2 puzzle: «إيه هي السبعة اللي بتستنى الجوابات؟�
 | 0 | C03 | رشدي (شريط) | أَوِّل رَقَم: سَبْعَة. دَوَّرُوا عَلَى السَّبْعَة اللِّي بِتِسْتَنَّى الجَوابات. | [old tape] click → silence |
 | 0 | C04 | شطة | دَه... صُوت عَم رُشْدِي تانِي! | [shocked] |
 | 0 | C05 | نعناعة | كُلّ واحِد يِطْلَع عَلَى شَقِّتُه... حالاً! | [stern, shaken] |
-| 1 | C06 | توتة | لُغْز امْبارِح: مِين غَيَّر القِفْل؟... الإِجابَة هَتِصْدِمْكُو. | [to camera] morning |
+| 1 | C06 | توتة | لُغْز امْبارِح: مِين غَيَّر القِفْل؟... الإِجابَة هَتِصْدِمْكُو! | [to camera] morning |
 | 1 | C07 | البواب | صَباح الفُل يا وِلاد!... إِيه، مالْكُو بِتْبُصُّولِي كِدَه؟ | [cheerful → confused] walks in with bread |
 | 1 | C08 | زلطة | يا عَم... إِنْتَ اللِّي غَيَّرْت القِفْل بِتاع البدروم؟ | [deadpan, suspicious] |
 | 1 | C09 | البواب | أَيْوَه أَنا! القَدِيم كان مِصَدِّي... بَس المُفْتاح الجِديد... ضاع بَرْضُه. | [proud → embarrassed] |
@@ -31,7 +31,7 @@ Ep2 puzzle: «إيه هي السبعة اللي بتستنى الجوابات؟�
 | 2 | C12 | توتة | الفَتْحَة دِي... بِتْوَدِّي عَلَى البدروم عَلَى طُول. | [whisper] kneeling at the vent |
 | 2 | C13 | شطة | مَفِيش صُوت... ولا حاجَة. | [whisper] ear on the vent → CLANK |
 | 2 | C14 | شطة | يا ماما! | [screaming] |
-| 2 | C15 | زلطة | حَدّ تَحْت... حَتَّى بِالنَّهار. | [shaken] |
+| 2 | C15 | زلطة | فِيه حَدّ تَحْت... حَتَّى بِالنَّهار! | [shaken] |
 | 2 | C16 | توتة | أَنا هَسِيب المُوبايِل هِنا... يِسَجِّل طُول اللِّيل. | [determined] puts phone in the grate |
 | 2 | C17 | توتة | لُغْز النَّهارْدَه: إِيه هِيَّ السَّبْعَة اللِّي بِتِسْتَنَّى الجَوابات؟ اكْتِبُوا فِي الكُومِنْتات! | [to camera] |
 | 3 | C18 | زلطة (لاسلكي) | شَطَّة... سامِعْنِي؟ حَوِّل. | [whisper, radio] |
@@ -45,3 +45,4 @@ Flow: dDJ487kJKo5Exn3UuhXu · pronunciation test node 5YppDak2rUs9a8k0zlau (21 i
 
 All 24 lines generated (one take) and downloaded to `s2e2/audio/`; tape fx C01/C03, radio fx C18/C20/C22 (`*_fx.mp3`). Review: «جمل الحلقة 2 - للمراجعة.mp3».
 Pronunciation notes: «اللُّعْبَة» read «اللوعبة» → write «اللِّعْبَة». «هَتِبْقَى بِتاعْتِي» unclear → rephrased.
+Round 2 (user: 2,6,13,15,18,20-24 not clear): all re-generated with «clear voice» tags (no whisper/quietly); radio fx softened (no bitcrush). Rule: never use whisper/quietly/hushed tags with these clones — they come out unintelligible.
