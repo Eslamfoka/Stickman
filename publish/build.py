@@ -234,14 +234,16 @@ def next_line(it):
 def yt_title(it, shorts=False):
     s = SERIES[it["series"]]["name"].split(":")[0].split(" - ")[0]
     part = badge_text(it) if it["kind"] == "episode" else it["name"]
-    t = f"{it['yt_title']} | {s} - {part} | شطة وزلطة"
+    t = f"{it['yt_title']} | {s} - {part} | شطة وزلطة" if it["kind"] == "episode" else f"{it['yt_title']} | شطة وزلطة"
     if shorts: t = f"{it['yt_title']} | {s} {badge_text(it)} #Shorts"
     return t[:100]
 
 def yt_description(it):
     S = SERIES[it["series"]]
     parts = [it["hook"], SERIES_DESC[it["series"]]]
-    if it["question"].startswith("🧩"): parts.append(it["question"].replace("👇", "اكتبوا حلكم في الكومنتات 👇"))
+    if it["question"].startswith("🧩"):
+        q = it["question"]
+        parts.append(q.replace("اكتبوا حلكم 👇", "اكتبوا حلكم في الكومنتات 👇") if "اكتبوا" in q else q.replace("👇", "اكتبوا حلكم في الكومنتات 👇"))
     nl = next_line(it)
     if nl: parts.append(nl)
     if S["disclaimer"]: parts.append(S["disclaimer"])
