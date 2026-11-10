@@ -121,10 +121,10 @@ def frame(tt, Wd, Hd):
         logo(img, cx, Hd * (0.13 if V else 0.15), 120 if V else 110)
         k2 = ease_out((u - 0.6) / 0.4)
         if k2 > 0:
-            lz(img, cx, Hd * (0.26 if V else 0.3), "عمارة نعناعة • يوميات • ترند الأسبوع", int((64 if V else 58) * k2) + 1, (255, 255, 255), ow=8, iw=1)
+            lz(img, cx, Hd * (0.26 if V else 0.3), "مين فيهم شبهك؟ 👇".replace(" 👇", ""), int((110 if V else 96) * k2) + 1, GOLD, ow=12, iw=3)
         k3 = ease_out((u - 0.5 - DU["I07"]) / 0.4)
         if k3 > 0:
-            lz(img, cx, Hd * (0.92 if V else 0.9), "@shattawzalata", int(72 * k3) + 1, GOLD, ow=8, iw=2)
+            lz(img, cx, Hd * (0.34 if V else 0.42), "shattawzalata@", int(64 * k3) + 1, (255, 255, 255), ow=8, iw=1)
         confetti(img, tt, s["t0"] + 0.3)
     return img.convert("RGB")
 
