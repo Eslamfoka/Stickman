@@ -134,11 +134,11 @@ def skyline(w, h, seed=3):
 # ================= YouTube banner =================
 B = skyline(2560, 1440)
 sh = Image.new("RGBA", B.size, (0, 0, 0, 0)); ImageDraw.Draw(sh).rectangle([0, 480, 2560, 960], fill=(20, 8, 30, 70)); B.alpha_composite(sh)
-place(B, figure("zalata", 2.5, "happy", 0.3, 1, "up"), 620, 960)
-place(B, figure("tota", 2.4, "happy", 0.25, -1, "up"), 1210, 965)
-place(B, figure("shatta", 2.75, "happy", 0.5, 0, "up"), 915, 985)
-logo(B, 1760, 680, 190)
-lz(B, 1760, 870, "كرتون مصري للعيلة كلها  •  حلقة جديدة كل يوم", 62, (255, 255, 255), ow=8, iw=1)
+place(B, figure("zalata", 1.3, "happy", 0.3, 1, "up"), 745, 958)
+place(B, figure("tota", 1.25, "happy", 0.25, -1, "up"), 1075, 958)
+place(B, figure("shatta", 1.4, "happy", 0.5, 0, "up"), 905, 968)
+logo(B, 1600, 680, 165)
+lz(B, 1600, 850, "كرتون مصري للعيلة كلها  •  حلقة جديدة كل يوم", 50, (255, 255, 255), ow=8, iw=1)
 B.convert("RGB").save(f"{OUT}/youtube_banner.png")
 
 # ================= Facebook cover =================
