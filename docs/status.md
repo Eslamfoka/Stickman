@@ -46,3 +46,19 @@
 ## Trend «أزمة منتخب العمارة» — DONE (2026-11-10)
 6 parts (trend/01/part1..6.py, shared kit.py with cinematic transitions) + movie (trend/01/movie.sh, 4:15). All delivered (H + V).
 Next: Ep5 «صفيح» of عمارة نعناعة (design robot voice + draw `safeeh`), then other series toward the 1-month buffer.
+
+## NEXT (2026-11-11) — Brand intro video «تعالوا نعرّفكم على عيلة شطة وزلطة» (~45s, H + V)
+User approved the idea. Pin it first on every platform (YouTube channel trailer).
+- 0-3s logo burst; Shatta runs in: «استنى استنى! انت لسه ما تعرفناش؟!»
+- 3-4s per character, motivated entrance + big name card + one-liner:
+  شطة «أنا شطة… ثقوا فيّا!» (something falls behind him) / زلطة «احتمال إنك تحبنا: مية في المية» /
+  توتة «أنا أذكى واحدة هنا… بس محدش بيسمع كلامي» / نعناعة «اللي هيعمل دوشة… الشبشب جاهز» /
+  quick: سوسن «عاجل!»، عم بندق، فهمي، الباشا، عبده
+- End: everyone in one shot + series list «عمارة نعناعة • يوميات • ترند الأسبوع» + «تابعونا… حلقة جديدة كل يوم».
+- Reuse movie/intro/intro.py as a base; brand v2 style (Lalezar logo, brand/pro.py helpers).
+- Pronunciation test first (rule 1).
+
+## Publishing status (2026-11-11)
+- YouTube: trend ep1-2 published; ep3-4 scheduled Nov 11 22:00/22:30 KW (user). ep5-6, trend movie, nanaa s1 e1-2: files + text sent, user scheduling.
+- FB+IG (Meta Business Suite): trend ep3-6 scheduled. TikTok: ep1 posted manually.
+- Shorts series «يوميات»: user rejected first jokes (not funny). Waiting for user to send videos that make him laugh before writing new ones. Don't reuse Y101–Y303.
