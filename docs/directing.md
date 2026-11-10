@@ -27,3 +27,9 @@ The user wants it to feel like a real TV series being shot: chained events, came
 ## 5. Thrill + comedy balance
 - Each episode: hook (first 3 s) → at least 2 tension peaks (one false scare, one real) → a twist/reveal → puzzle → cliffhanger.
 - At least 3–4 comedy beats per episode (character running gags: Shatta's fake bravery, Zalata's percentages, Bondo's sleeping, Abdo's fear of the dark), placed right after tension to release it.
+
+
+## First frame rule (all videos, from 2026-11-11 — user request)
+Viewers on TikTok/Reels/Shorts decide in the first second. Every video (H and V, every series) must:
+- Start directly on action/hook (a face, a sound, movement) — NO black title card at 0s. The episode title card goes after the hook (≥ 3s) or is dropped in the vertical cut (the vertical band already shows the title).
+- OR open on a 0.5s "cover frame" = the episode's designed cover (publish/thumbs/<id>_cover.jpg style: big character + huge headline) that pops into the first shot — so the first frame doubles as the TikTok/Reels cover.
