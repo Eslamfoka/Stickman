@@ -1,3 +1,4 @@
+import sys; sys.path.insert(0, next(str(p / "s1e1") for p in __import__("pathlib").Path(__file__).resolve().parents if (p / "s1e1" / "paths.py").is_file())); from paths import ROOT, DELIVERY
 import sys, math, subprocess, wave
 import numpy as np
 from PIL import Image, ImageDraw, ImageEnhance, ImageChops, ImageFilter

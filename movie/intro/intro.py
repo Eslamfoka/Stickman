@@ -1,10 +1,10 @@
 import sys, os, math, subprocess, wave
-sys.path.insert(0, "/home/claude/s1e1")
+sys.path.insert(0, next(str(p / "s1e1") for p in __import__("pathlib").Path(__file__).resolve().parents if (p / "s1e1" / "paths.py").is_file())); from paths import ROOT, DELIVERY
 import numpy as np
 from PIL import Image, ImageDraw, ImageEnhance, ImageChops, ImageFilter
 from engine import *
 
-os.chdir("/home/claude/movie/intro")
+os.chdir(ROOT + "/movie/intro")
 SSW, SSH = int(W * SS), int(H * SS)
 rng = np.random.default_rng(7)
 
@@ -30,7 +30,7 @@ TEASE = (t, t + 3.2); t += 3.2
 GROUP = (t, t + 3.6); t += 3.6
 TOTAL = t
 
-_lob = Image.open("/home/claude/s1e1/bg/lobby.png").convert("RGB").resize((W, H), Image.LANCZOS).filter(ImageFilter.GaussianBlur(14))
+_lob = Image.open(ROOT + "/s1e1/bg/lobby.png").convert("RGB").resize((W, H), Image.LANCZOS).filter(ImageFilter.GaussianBlur(14))
 yy, xx = np.mgrid[0:H, 0:W]
 vg = 1 - 0.6 * (((xx - W / 2) / (W / 2)) ** 2 + ((yy - H / 2) / (H / 2)) ** 2) ** 1.2
 VIG = Image.fromarray((np.clip(vg, 0.2, 1) * 255).astype(np.uint8)).convert("RGB")
@@ -153,14 +153,14 @@ def build_audio(path="mix.wav"):
     for i in range(int((GROUP[1] - GROUP[0]) / (beat / 2))):
         t0 = GROUP[0] + i * beat / 2; f = [523.25, 659.25, 783.99, 1046.5][i % 4]; tt_ = np.arange(int(SR * 0.4)) / SR
         mix_into(buf, np.sin(2 * np.pi * f * tt_) * np.exp(-tt_ * 6) * 0.08, t0, 1.0)
-    wh = load_audio("/home/claude/s1e9/sfx/whoosh.mp3")
+    wh = load_audio(ROOT + "/s1e9/sfx/whoosh.mp3")
     for sg in segs:
         mix_into(buf, wh, max(0, sg["start"] - 0.05), 0.7)
         mix_into(buf, AUD[sg["c"][0]], sg["line"], 1.0)
     ts = np.arange(int(SR * 2.5)) / SR
     sting = (np.sin(2 * np.pi * 1200 * ts) * 0.06 + np.sin(2 * np.pi * 55 * ts) * 0.45) * np.exp(-ts * 1.4)
     mix_into(buf, sting, TEASE[0] + 0.1, 1.0)
-    mix_into(buf, load_audio("/home/claude/s1e10/sfx/cheer.mp3"), GROUP[0] + 0.2, 0.9)
+    mix_into(buf, load_audio(ROOT + "/s1e10/sfx/cheer.mp3"), GROUP[0] + 0.2, 0.9)
     buf = buf[:int(TOTAL * SR)]; buf = np.clip(buf / np.abs(buf).max() * 0.95, -1, 1)
     with wave.open(path, "wb") as w:
         w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR); w.writeframes((buf * 32767).astype(np.int16).tobytes())

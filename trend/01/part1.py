@@ -1,4 +1,5 @@
-exec(open("/home/claude/repo/Stickman/trend/01/kit.py").read())
+import sys; sys.path.insert(0, next(str(p / "s1e1") for p in __import__("pathlib").Path(__file__).resolve().parents if (p / "s1e1" / "paths.py").is_file())); from paths import ROOT, DELIVERY
+exec(open(ROOT + "/trend/01/kit.py", encoding="utf-8").read())
 EPT = "الحلقة 1: كاس الشارع"
 SUB = {"P100": "جوووون!... منتخب العمارة بيسجّل!",
        "P101": "عاجل يا جماعة!... منتخب العمارة كسب عمارة الجيران تلاتة صفر!",

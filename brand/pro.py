@@ -1,8 +1,9 @@
 # Pro brand pack v2: logo, avatar, YouTube banner, FB cover, 6 trend thumbnails
+import sys; sys.path.insert(0, next(str(p / "s1e1") for p in __import__("pathlib").Path(__file__).resolve().parents if (p / "s1e1" / "paths.py").is_file())); from paths import ROOT, DELIVERY
 import sys, os, math
-exec(open("/home/claude/repo/Stickman/trend/01/kit.py").read())      # engine + kit helpers (chdir -> trend/01)
+exec(open(ROOT + "/trend/01/kit.py", encoding="utf-8").read())      # engine + kit helpers (chdir -> trend/01)
 from PIL import ImageFont
-BR = "/home/claude/repo/Stickman/brand"; OUT = "/home/claude/delivery/brand_v2"; os.makedirs(OUT, exist_ok=True)
+BR = ROOT + "/brand"; OUT = DELIVERY + "/brand_v2"; os.makedirs(OUT, exist_ok=True)
 LZ = f"{BR}/fonts/Lalezar-Regular.ttf"
 CHILI = (225, 40, 35); LEAF = (60, 175, 70); GOLD = (255, 214, 90); DARK = (45, 12, 8)
 

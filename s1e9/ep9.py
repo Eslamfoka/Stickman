@@ -1,13 +1,13 @@
 import sys, os, math, subprocess, wave
-sys.path.insert(0, "/home/claude/s1e1")
+sys.path.insert(0, next(str(p / "s1e1") for p in __import__("pathlib").Path(__file__).resolve().parents if (p / "s1e1" / "paths.py").is_file())); from paths import ROOT, DELIVERY
 import numpy as np
 from PIL import Image, ImageDraw, ImageEnhance, ImageChops, ImageFilter, ImageFont
 from engine import *
 
-os.chdir("/home/claude/s1e9")
+os.chdir(ROOT + "/s1e9")
 SSW, SSH = int(W * SS), int(H * SS)
 rng = np.random.default_rng(91)
-E1 = "/home/claude/s1e1/"
+E1 = ROOT + "/s1e1/"
 EPT = "الحلقة 9: اللي ورا الباب"
 
 SUB = {
@@ -196,8 +196,8 @@ def kk(tt, a, b): return min(1, max(0, (tt - a) / max(1e-3, b - a)))
 def night(img, lvl=1.0, tint=(255, 255, 255)):
     return ImageChops.multiply(ImageEnhance.Brightness(img).enhance(lvl), Image.new("RGB", img.size, tint))
 _flash = Image.open("bg/flash.png").convert("RGB")
-SRCBG = {"apt": Image.open("/home/claude/s1e8/bg/apt7_raw.png").convert("RGB"),
-         "door7": Image.open("/home/claude/s1e2/bg/door7.png").convert("RGB"),
+SRCBG = {"apt": Image.open(ROOT + "/s1e8/bg/apt7_raw.png").convert("RGB"),
+         "door7": Image.open(ROOT + "/s1e2/bg/door7.png").convert("RGB"),
          "window": Image.open("bg/window.png").convert("RGB"),
          "well": Image.open("bg/well.png").convert("RGB"),
          "flash": _flash,

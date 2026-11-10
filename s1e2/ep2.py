@@ -1,12 +1,12 @@
 import sys, os, math, subprocess, wave
-sys.path.insert(0, "/home/claude/s1e1")
+sys.path.insert(0, next(str(p / "s1e1") for p in __import__("pathlib").Path(__file__).resolve().parents if (p / "s1e1" / "paths.py").is_file())); from paths import ROOT, DELIVERY
 import numpy as np
 from PIL import Image, ImageDraw, ImageEnhance, ImageChops, ImageFilter, ImageFont
 from engine import *
 
 SSW, SSH = int(W * SS), int(H * SS)
 rng = np.random.default_rng(11)
-E1 = "/home/claude/s1e1/"
+E1 = ROOT + "/s1e1/"
 
 SUB = {
  "E01": "في الحلقة اللي فاتت... الورقة دي اتحطت تحت باب شطة. واللي قالوا ست خبطات... إجابتكو صح! تلاتة وتلاتة.",
@@ -256,7 +256,7 @@ def subtitle(img, tt):
     else:
         text(img, W / 2, H - 70, s, 46, sw=5)
 
-PAPER_IMG = Image.open("/home/claude/s1e2/paper_closeup.png").convert("RGB") if os.path.exists("/home/claude/s1e2/paper_closeup.png") else None
+PAPER_IMG = Image.open(ROOT + "/s1e2/paper_closeup.png").convert("RGB") if os.path.exists(ROOT + "/s1e2/paper_closeup.png") else None
 
 def wrap(s, n=26):
     out = [""]

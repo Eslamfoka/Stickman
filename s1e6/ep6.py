@@ -1,10 +1,10 @@
 import sys, os, math, subprocess, wave
-sys.path.insert(0, "/home/claude/s1e1")
+sys.path.insert(0, next(str(p / "s1e1") for p in __import__("pathlib").Path(__file__).resolve().parents if (p / "s1e1" / "paths.py").is_file())); from paths import ROOT, DELIVERY
 import numpy as np
 from PIL import Image, ImageDraw, ImageEnhance, ImageChops, ImageFilter, ImageFont
 from engine import *
 
-os.chdir("/home/claude/s1e6")
+os.chdir(ROOT + "/s1e6")
 SSW, SSH = int(W * SS), int(H * SS)
 rng = np.random.default_rng(61)
 

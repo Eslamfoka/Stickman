@@ -1,10 +1,10 @@
 import sys, os, math, subprocess, wave
-sys.path.insert(0, "/home/claude/s1e1")
+sys.path.insert(0, next(str(p / "s1e1") for p in __import__("pathlib").Path(__file__).resolve().parents if (p / "s1e1" / "paths.py").is_file())); from paths import ROOT, DELIVERY
 import numpy as np
 from PIL import Image, ImageDraw, ImageEnhance, ImageChops, ImageFilter, ImageFont
 from engine import *
 
-os.chdir("/home/claude/s2e2")
+os.chdir(ROOT + "/s2e2")
 SSW, SSH = int(W * SS), int(H * SS)
 rng = np.random.default_rng(202)
 SEASON = "سر البدروم"
@@ -235,11 +235,11 @@ def tod(sh, tt):
 
 def tinted(img, lvl=1.0, tint=(255, 255, 255)):
     return ImageChops.multiply(ImageEnhance.Brightness(img).enhance(lvl), Image.new("RGB", img.size, tint))
-_mor = Image.open("/home/claude/s1e10/bg/morning.png").convert("RGB")
+_mor = Image.open(ROOT + "/s1e10/bg/morning.png").convert("RGB")
 SRC = {"lobby_day": _mor, "lobby_night": tinted(_mor, 0.9, (150, 165, 230)),
        "bed": Image.open("bg_bedroom.png").convert("RGB"),
-       "win": Image.open("/home/claude/s1e9/bg/window.png").convert("RGB"),
-       "street": Image.open("/home/claude/s2/bg/street_car.png").convert("RGB")}
+       "win": Image.open(ROOT + "/s1e9/bg/window.png").convert("RGB"),
+       "street": Image.open(ROOT + "/s2/bg/street_car.png").convert("RGB")}
 yy, xx = np.mgrid[0:H, 0:W]
 vg = 1 - 0.55 * (((xx - W / 2) / (W / 2)) ** 2 + ((yy - H / 2) / (H / 2)) ** 2) ** 1.2
 VIG = Image.fromarray((np.clip(vg, 0.25, 1) * 255).astype(np.uint8)).convert("RGB")

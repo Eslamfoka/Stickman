@@ -1,13 +1,13 @@
 # Brand assets for «شطة وزلطة»: avatar, YouTube banner, Facebook cover, ep-1 thumbnail
 import sys, os, math
-sys.path.insert(0, "/home/claude/s1e1")
+sys.path.insert(0, next(str(p / "s1e1") for p in __import__("pathlib").Path(__file__).resolve().parents if (p / "s1e1" / "paths.py").is_file())); from paths import ROOT, DELIVERY
 from PIL import Image, ImageDraw, ImageFilter, ImageEnhance
 import numpy as np
 from engine import *
 
-os.chdir("/home/claude/repo/Stickman/brand")
+os.chdir(ROOT + "/brand")
 BRAND = "شطة وزلطة"
-NB = "/home/claude/repo/Stickman/trend/01/bg/neighbors.png"
+NB = ROOT + "/trend/01/bg/neighbors.png"
 
 def canvas(w, h, col=(0, 0, 0, 0)):
     return Image.new("RGBA", (int(w * SS), int(h * SS)), col)

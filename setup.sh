@@ -1,8 +1,7 @@
 #!/bin/bash
-# Recreate the original /home/claude layout (all scripts use absolute paths)
+# Scripts no longer need /home/claude symlinks: each one finds the repo root via s1e1/paths.py.
+# This only creates the delivery folders (override location with NANAA_DELIVERY).
 R="$(cd "$(dirname "$0")" && pwd)"
-for d in s1e1 s1e2 s1e3 s1e4 s1e5 s1e6 s1e7 s1e8 s1e9 s1e10 s2 movie promo voices; do
-  [ -e "/home/claude/$d" ] || ln -s "$R/$d" "/home/claude/$d"
-done
-mkdir -p /home/claude/delivery/yt /home/claude/delivery/tt
-echo "ok — now: cd /home/claude/s1eN && python3 epN.py   (ep1: ep.py)"
+D="${NANAA_DELIVERY:-$R/delivery}"
+mkdir -p "$D/yt" "$D/tt" "$D/trend"
+echo "ok — now: cd s1eN && python3 epN.py  (Windows: python; ep1: ep.py)"

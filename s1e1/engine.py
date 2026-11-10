@@ -1,10 +1,11 @@
-import json, math, subprocess, random, wave
+import json, math, subprocess, random, wave, os
+import paths  # noqa: F401  (repo root + Windows FriBiDi DLL path; must come before PIL)
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageChops
 
 W, H, FPS, SR = 1920, 1080, 24, 44100
 SS = 1.5
-FONT = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
+FONT = paths.ROOT + "/brand/fonts/DejaVuSans-Bold.ttf"  # bundled copy of the Linux DejaVu font (same look everywhere)
 INK = (22, 22, 22, 255)
 
 # ======================= drawing primitives =======================

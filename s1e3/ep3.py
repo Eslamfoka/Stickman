@@ -1,13 +1,13 @@
 import sys, os, math, subprocess, wave
-sys.path.insert(0, "/home/claude/s1e1")
+sys.path.insert(0, next(str(p / "s1e1") for p in __import__("pathlib").Path(__file__).resolve().parents if (p / "s1e1" / "paths.py").is_file())); from paths import ROOT, DELIVERY
 import numpy as np
 from PIL import Image, ImageDraw, ImageEnhance, ImageChops, ImageFilter
 from engine import *
 
-os.chdir("/home/claude/s1e3")
+os.chdir(ROOT + "/s1e3")
 SSW, SSH = int(W * SS), int(H * SS)
 rng = np.random.default_rng(31)
-E1 = "/home/claude/s1e1/"
+E1 = ROOT + "/s1e1/"
 
 SUB = {
  "H00": "مين اللي طالع على السلم ده؟!",
@@ -221,7 +221,7 @@ SRCBG = {"bedroom": ImageChops.multiply(ImageEnhance.Brightness(Image.open(E1 + 
                                         Image.new("RGB", Image.open(E1 + "bg/bedroom_clean.png").size, (255, 236, 205))),
          "stairs": Image.open(E1 + "bg/stairs_1080.png").convert("RGB"),
          "lobby": Image.open(E1 + "bg/lobby_1080.png").convert("RGB"),
-         "door7": Image.open("/home/claude/s1e2/bg/door7.png").convert("RGB")}
+         "door7": Image.open(ROOT + "/s1e2/bg/door7.png").convert("RGB")}
 TINT = {"bedroom": (255, 240, 225), "stairs": (175, 185, 235), "lobby": (165, 180, 240), "door7": (175, 190, 255),
         "flash": (255, 70, 60)}
 AMB = {"stairs": 0.45, "lobby": 0.5, "door7": 0.5}

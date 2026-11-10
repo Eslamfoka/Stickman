@@ -1,7 +1,8 @@
 #!/bin/bash
 # 17s hook montage from the strongest moments of the season
-set -e; mkdir -p /home/claude/movie/hook; cd /home/claude/movie/hook
-clip(){ ffmpeg -v error -y -ss $2 -t $3 -i /home/claude/s1e$1/sirr_eldor_elsabe3_ep$1.mp4 -af "afade=t=in:d=0.03,afade=t=out:st=$(python3 -c "print($3-0.05)"):d=0.05" -c:v libx264 -preset veryfast -crf 18 -pix_fmt yuv420p -r 24 -c:a aac -b:a 192k -ar 44100 -ac 2 $4.mp4; }
+R="$(cd "$(dirname "$0")/.." && pwd)"   # repo root
+set -e; mkdir -p "$R/movie/hook"; cd "$R/movie/hook"
+clip(){ ffmpeg -v error -y -ss $2 -t $3 -i "$R/s1e$1/sirr_eldor_elsabe3_ep$1.mp4" -af "afade=t=in:d=0.03,afade=t=out:st=$(awk "BEGIN{print $3-0.05}"):d=0.05" -c:v libx264 -preset veryfast -crf 18 -pix_fmt yuv420p -r 24 -c:a aac -b:a 192k -ar 44100 -ac 2 $4.mp4; }
 clip 1 4.6 3.9 h1      # 12:00 knocks + power cut scream
 clip 4 43.6 1.6 h2     # shadow on the stairs wall
 clip 8 58.9 1.6 h3     # door slams on them in apt 7

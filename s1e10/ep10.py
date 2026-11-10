@@ -1,13 +1,13 @@
 import sys, os, math, subprocess, wave
-sys.path.insert(0, "/home/claude/s1e1")
+sys.path.insert(0, next(str(p / "s1e1") for p in __import__("pathlib").Path(__file__).resolve().parents if (p / "s1e1" / "paths.py").is_file())); from paths import ROOT, DELIVERY
 import numpy as np
 from PIL import Image, ImageDraw, ImageEnhance, ImageChops, ImageFilter, ImageFont
 from engine import *
 
-os.chdir("/home/claude/s1e10")
+os.chdir(ROOT + "/s1e10")
 SSW, SSH = int(W * SS), int(H * SS)
 rng = np.random.default_rng(101)
-E1 = "/home/claude/s1e1/"
+E1 = ROOT + "/s1e1/"
 EPT = "الحلقة 10: الحقيقة"
 
 SUB = {
@@ -253,13 +253,13 @@ def tinted(img, lvl=1.0, tint=(255, 255, 255)):
 _bed = Image.open(E1 + "bg/bedroom_clean.png").convert("RGB")
 SRCBG = {"bedroom": tinted(_bed, 1.05, (255, 225, 190)),
          "living": tinted(Image.open(E1 + "bg/living.png").convert("RGB"), 1.35, (255, 240, 225)),
-         "roof": Image.open("/home/claude/s1e6/bg/roof_raw.png").convert("RGB"),
+         "roof": Image.open(ROOT + "/s1e6/bg/roof_raw.png").convert("RGB"),
          "basement": Image.open("bg/basement.png").convert("RGB"),
-         "fahmy": tinted(Image.open("/home/claude/s1e5/bg/fahmy_raw.png").convert("RGB"), 1.1, (255, 240, 225)),
-         "window": Image.open("/home/claude/s1e9/bg/window.png").convert("RGB"),
-         "apt": tinted(Image.open("/home/claude/s1e8/bg/apt7_raw.png").convert("RGB"), 1.3, (255, 235, 210)),
+         "fahmy": tinted(Image.open(ROOT + "/s1e5/bg/fahmy_raw.png").convert("RGB"), 1.1, (255, 240, 225)),
+         "window": Image.open(ROOT + "/s1e9/bg/window.png").convert("RGB"),
+         "apt": tinted(Image.open(ROOT + "/s1e8/bg/apt7_raw.png").convert("RGB"), 1.3, (255, 235, 210)),
          "stairs": Image.open(E1 + "bg/stairs.png").convert("RGB"),
-         "door7": tinted(Image.open("/home/claude/s1e2/bg/door7.png").convert("RGB"), 1.25, (255, 235, 210)),
+         "door7": tinted(Image.open(ROOT + "/s1e2/bg/door7.png").convert("RGB"), 1.25, (255, 235, 210)),
          "lobby": tinted(Image.open(E1 + "bg/lobby.png").convert("RGB"), 1.3, (255, 240, 220)),
          "morning": Image.open("bg/morning.png").convert("RGB")}
 TINT = {"bedroom": (255, 235, 210), "living": (255, 238, 215), "roof": (165, 180, 240), "basement": (165, 180, 235),

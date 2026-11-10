@@ -1,6 +1,7 @@
 # Pro thumbnails for the trend mini-series (uses pro.py helpers)
-exec(open("/home/claude/repo/Stickman/brand/pro.py").read())
-TB = "/home/claude/repo/Stickman/trend/01/bg/"
+import sys; sys.path.insert(0, next(str(p / "s1e1") for p in __import__("pathlib").Path(__file__).resolve().parents if (p / "s1e1" / "paths.py").is_file())); from paths import ROOT, DELIVERY
+exec(open(ROOT + "/brand/pro.py", encoding="utf-8").read())
+TB = ROOT + "/trend/01/bg/"
 EPS = {
  1: ("pitch.png", (255, 200, 60), ["جوووون!"], [("shatta", 4.6, "happy", 0.7, -1, "up", None, RED_KIT, 10, 1420)]),
  2: ("conference.png", (230, 40, 40), ["كوكو", "خلصان؟!"], [("shatta", 2.9, "shock", 0.5, -1, "scared", None, RED_KIT, 10, 1730), ("bondo2", 4.4, "smug", 0.0, -1, "hips", None, None, None, 1330)]),

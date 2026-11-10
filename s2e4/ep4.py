@@ -1,10 +1,10 @@
 import sys, os, math, subprocess, wave
-sys.path.insert(0, "/home/claude/s1e1")
+sys.path.insert(0, next(str(p / "s1e1") for p in __import__("pathlib").Path(__file__).resolve().parents if (p / "s1e1" / "paths.py").is_file())); from paths import ROOT, DELIVERY
 import numpy as np
 from PIL import Image, ImageDraw, ImageEnhance, ImageChops, ImageFilter, ImageFont
 from engine import *
 
-os.chdir("/home/claude/s2e4")
+os.chdir(ROOT + "/s2e4")
 SSW, SSH = int(W * SS), int(H * SS)
 rng = np.random.default_rng(404)
 SEASON = "سر البدروم"
@@ -247,8 +247,8 @@ def tod(sh, tt):
 def tinted(img, lvl=1.0, tint=(255, 255, 255)):
     return ImageChops.multiply(ImageEnhance.Brightness(img).enhance(lvl), Image.new("RGB", img.size, tint))
 def _ld(p): return Image.open(p).convert("RGB").resize((1920, 1080), Image.LANCZOS)
-_mor = Image.open("/home/claude/s1e10/bg/morning.png").convert("RGB")
-_st = Image.open("/home/claude/s1e1/bg/stairs_1080.png").convert("RGB")
+_mor = Image.open(ROOT + "/s1e10/bg/morning.png").convert("RGB")
+_st = Image.open(ROOT + "/s1e1/bg/stairs_1080.png").convert("RGB")
 _studio = _ld("bg/studio.png")
 SRC = {"lobby_day": _mor, "lobby_night": tinted(_mor, 0.9, (150, 165, 230)),
        "stairs_day": tinted(ImageEnhance.Brightness(_st).enhance(1.55), 1.0, (255, 225, 175)),

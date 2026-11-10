@@ -29,10 +29,14 @@ Claude does everything: story, fully diacritized scripts, voices (ElevenLabs MCP
 - `voices/` — voice guide + clean samples for cloning.
 - `docs/` — brand canon, production pipeline, status, season bibles.
 
-## Quick setup in a fresh cloud session
+## Quick setup (any location — Linux cloud session or the user's Windows PC)
+Scripts are path-independent: each finds the repo root via `s1e1/paths.py` (exports `ROOT`, `DELIVERY`). No symlinks.
 ```bash
-unzip "عمارة نعناعة - المشروع كامل.zip" -d /home/claude/repo   # or git clone
-bash /home/claude/repo/setup.sh       # symlinks /home/claude/s1e1.. etc. (scripts use absolute paths)
-pip install numpy pillow --break-system-packages
+git clone https://github.com/Eslamfoka/Stickman.git && cd Stickman
+pip install numpy pillow          # + ffmpeg on PATH
+bash setup.sh                     # only creates delivery/{yt,tt,trend} (override with NANAA_DELIVERY)
 ```
-Rendered MP4s are not included (too big) — re-render with `cd /home/claude/s1eN && python3 epN.py` (ep1 = `ep.py`).
+Rendered MP4s are not included (too big) — re-render with `cd s1eN && python epN.py` (ep1 = `ep.py`). Stills: `python epN.py stills 8 45`.
+- New scripts: start with the same header line the others use (`sys.path.insert(... "paths.py" ...); from paths import ROOT, DELIVERY`) **before importing PIL**, use `ROOT + "/..."` for every path, and `encoding="utf-8"` on every text `open()` (Windows defaults to cp1252).
+- Windows: Arabic shaping needs FriBiDi — `tools/win/libfribidi-0.dll` (MSYS2 ucrt64 build), put on PATH by `paths.py`. Engine font = bundled `brand/fonts/DejaVuSans-Bold.ttf`. Use list-form `subprocess` args (no `shell=True` with single quotes). Command name: `python` on Windows, `python3` on Linux — never call either from inside scripts (use `sys.executable`).
+- The user works from both the Windows PC and the phone app (cloud Linux session): every change must keep running on both.

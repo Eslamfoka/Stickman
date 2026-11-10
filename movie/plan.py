@@ -12,16 +12,17 @@ CUTS = {
  10: [(5.5, 13.1), (131.2, 137.6)],
 }
 import json, subprocess
-DUR = {n: float(subprocess.run(["ffprobe","-v","error","-show_entries","format=duration","-of","csv=p=0",f"/home/claude/s1e{n}/sirr_eldor_elsabe3_ep{n}.mp4"],capture_output=True,text=True).stdout) for n in CUTS}
+import sys; sys.path.insert(0, next(str(p / "s1e1") for p in __import__("pathlib").Path(__file__).resolve().parents if (p / "s1e1" / "paths.py").is_file())); from paths import ROOT, DELIVERY
+DUR = {n: float(subprocess.run(["ffprobe","-v","error","-show_entries","format=duration","-of","csv=p=0",f"{ROOT}/s1e{n}/sirr_eldor_elsabe3_ep{n}.mp4"],capture_output=True,text=True).stdout) for n in CUTS}
 segs = []
 for n, cuts in CUTS.items():
     # snap cut points to shot boundaries from json
-    d = json.load(open(f"/home/claude/movie/ep{n}.json"))
+    d = json.load(open(f"{ROOT}/movie/ep{n}.json", encoding="utf-8"))
     t = 0.0
     for a, b in sorted(cuts):
         if a - t > 0.05: segs.append((n, t, a))
         t = b
     if DUR[n] - t > 0.05: segs.append((n, t, DUR[n]))
-json.dump(segs, open("/home/claude/movie/segs.json", "w"))
+json.dump(segs, open(ROOT + "/movie/segs.json", "w", encoding="utf-8"))
 tot = sum(b - a for _, a, b in segs)
 print(len(segs), "segments, total", round(tot, 1), "s =", round(tot/60, 2), "min")

@@ -4,12 +4,13 @@
 #   publish/thumbs/<id>_yt.jpg (1280x720) + <id>_cover.jpg (1080x1920 for TikTok/Reels/Shorts)
 # Run: python3 publish/build.py            (thumbnails + manifest)
 #      python3 publish/build.py --no-thumbs (manifest only)
+import sys; sys.path.insert(0, next(str(p / "s1e1") for p in __import__("pathlib").Path(__file__).resolve().parents if (p / "s1e1" / "paths.py").is_file())); from paths import ROOT, DELIVERY
 import sys, os, json, datetime as dt
 NO_THUMBS = "--no-thumbs" in sys.argv
-PUB = "/home/claude/repo/Stickman/publish"
-REPO = "/home/claude/repo/Stickman"
+PUB = ROOT + "/publish"
+REPO = ROOT
 if not NO_THUMBS:
-    exec(open(f"{REPO}/brand/pro.py").read())       # figure(), place(), lz(), logo(), radial(), rays(), kit colours
+    exec(open(f"{REPO}/brand/pro.py", encoding="utf-8").read())       # figure(), place(), lz(), logo(), radial(), rays(), kit colours
 os.makedirs(f"{PUB}/thumbs", exist_ok=True)
 
 HANDLE = "shattawzalata"
@@ -48,7 +49,7 @@ SERIES_DESC = {
 }
 
 # figure spec: (who, S, expr, mouth, look, arms, held, shirt, num, x)   — x in a 1920-wide frame
-T = "/home/claude/repo/Stickman/trend/01/bg/"; S1 = f"{REPO}/s1e"
+T = ROOT + "/trend/01/bg/"; S1 = f"{REPO}/s1e"
 ITEMS = [
  # ---------------- trend «أزمة منتخب العمارة» ----------------
  dict(id="trend01_e01", series="trend01", kind="episode", ep=1, name="كاس الشارع", date="2026-11-10", time="21:00",
@@ -304,7 +305,7 @@ manifest = {
     "brand": "شطة وزلطة", "handle": HANDLE, "links": LINKS, "timezone_note": "كل المواعيد بتوقيت القاهرة (UTC+2 في نوفمبر). 9 بالليل القاهرة = 10 بالليل الكويت.",
     "media_folder": "publish/media/ (مش على الريبو — حط فيه الفيديوهات بالأسماء المكتوبة في media، والأسامي الأصلية في source_file_names)",
     "generated": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"), "posts": posts}
-json.dump(manifest, open(f"{PUB}/schedule.json", "w"), ensure_ascii=False, indent=2)
+json.dump(manifest, open(f"{PUB}/schedule.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
 
 # human-readable calendar
 L = ["# جدول النشر — «شطة وزلطة»", "", "كل المواعيد **بتوقيت القاهرة** (9 بالليل القاهرة = 10 بالليل الكويت). التفاصيل الكاملة لكل بوست في `schedule.json`.", "",
@@ -326,7 +327,7 @@ for it, p in zip(ITEMS, posts):
               "**كابشن انستجرام/فيسبوك:**", "```", p["platforms"]["instagram_reel"]["caption"], "```",
               "**الكومنت المثبت (تيك توك/انستجرام/فيسبوك):**", "```", p["platforms"]["tiktok"]["pinned_comment"], "```"]
     L.append("")
-open(f"{PUB}/schedule.md", "w").write("\n".join(L))
+open(f"{PUB}/schedule.md", "w", encoding="utf-8").write("\n".join(L))
 print("manifest ok:", len(posts), "posts")
 
 if not NO_THUMBS:

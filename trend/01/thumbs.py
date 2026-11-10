@@ -1,13 +1,14 @@
 # Thumbnails (1280x720) for the 6 trend parts: strongest frame + big title + part badge
+import sys; sys.path.insert(0, next(str(p / "s1e1") for p in __import__("pathlib").Path(__file__).resolve().parents if (p / "s1e1" / "paths.py").is_file())); from paths import ROOT, DELIVERY
 import sys, os
 from PIL import Image, ImageDraw, ImageEnhance
-OUT = "/home/claude/delivery/trend/thumbs"; os.makedirs(OUT, exist_ok=True)
+OUT = DELIVERY + "/trend/thumbs"; os.makedirs(OUT, exist_ok=True)
 PICK = {1: ("SHOT_[0] + 1.2", "جوووون!"), 2: ("BOMB + 1.0", "كوكو خلصان؟!"), 3: ("THROW + 0.2", "شطة طالع!"),
         4: ("MUNCH + 1.0", "لازم يعتذر!"), 5: ("NO + 0.8", "مش راجع!"), 6: ("SLEEP + DUR['P603'] + 1.2", "الإقالة!")}
 COL = {1: (255, 214, 90), 2: (255, 90, 80), 3: (255, 90, 80), 4: (255, 214, 90), 5: (120, 190, 255), 6: (255, 90, 80)}
 for n in range(1, 7):
-    ns = {"__name__": "thumb"}
-    exec(open(f"part{n}.py").read(), ns)
+    ns = {"__name__": "thumb", "__file__": os.path.abspath(f"part{n}.py")}
+    exec(open(f"part{n}.py", encoding="utf-8").read(), ns)
     tt = eval(PICK[n][0], ns)
     fr = ns["frame"](tt)
     fr = ImageEnhance.Contrast(ImageEnhance.Color(fr).enhance(1.25)).enhance(1.1)

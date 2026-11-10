@@ -1,10 +1,10 @@
 import sys, os, math, subprocess, wave
-sys.path.insert(0, "/home/claude/s1e1")
+sys.path.insert(0, next(str(p / "s1e1") for p in __import__("pathlib").Path(__file__).resolve().parents if (p / "s1e1" / "paths.py").is_file())); from paths import ROOT, DELIVERY
 import numpy as np
 from PIL import Image, ImageDraw, ImageEnhance, ImageChops, ImageFilter, ImageFont
 from engine import *
 
-os.chdir("/home/claude/promo")
+os.chdir(ROOT + "/promo")
 SSW, SSH = int(W * SS), int(H * SS)
 rng = np.random.default_rng(202)
 
@@ -69,10 +69,10 @@ def line_at(tt):
     return None, 0
 
 def load(p): return Image.open(p).convert("RGB").resize((W, H), Image.LANCZOS)
-BG = {"basement": load("/home/claude/s1e10/bg/basement.png"), "living": load("/home/claude/s1e1/bg/living.png"),
-      "flash": load("/home/claude/s1e9/bg/flash.png"), "window": load("/home/claude/s1e9/bg/window.png"),
-      "morning": load("/home/claude/s1e10/bg/morning.png"), "bedroom": load("/home/claude/s1e1/bg/bedroom_clean.png"),
-      "roof": load("/home/claude/s1e6/bg/roof_raw.png")}
+BG = {"basement": load(ROOT + "/s1e10/bg/basement.png"), "living": load(ROOT + "/s1e1/bg/living.png"),
+      "flash": load(ROOT + "/s1e9/bg/flash.png"), "window": load(ROOT + "/s1e9/bg/window.png"),
+      "morning": load(ROOT + "/s1e10/bg/morning.png"), "bedroom": load(ROOT + "/s1e1/bg/bedroom_clean.png"),
+      "roof": load(ROOT + "/s1e6/bg/roof_raw.png")}
 def cam(img, cx, cy, z):
     cw, ch = W / z, H / z; x0 = min(max(cx - cw / 2, 0), W - cw); y0 = min(max(cy - ch / 2, 0), H - ch)
     return img.resize((W, H), Image.BICUBIC, box=(x0, y0, x0 + cw, y0 + ch)), (x0, y0, z)

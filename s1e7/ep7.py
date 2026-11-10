@@ -1,13 +1,13 @@
 import sys, os, math, subprocess, wave
-sys.path.insert(0, "/home/claude/s1e1")
+sys.path.insert(0, next(str(p / "s1e1") for p in __import__("pathlib").Path(__file__).resolve().parents if (p / "s1e1" / "paths.py").is_file())); from paths import ROOT, DELIVERY
 import numpy as np
 from PIL import Image, ImageDraw, ImageEnhance, ImageChops, ImageFilter, ImageFont
 from engine import *
 
-os.chdir("/home/claude/s1e7")
+os.chdir(ROOT + "/s1e7")
 SSW, SSH = int(W * SS), int(H * SS)
 rng = np.random.default_rng(71)
-E1 = "/home/claude/s1e1/"
+E1 = ROOT + "/s1e1/"
 
 SUB = {
  "N00": "رشدي؟...",
@@ -157,7 +157,7 @@ def ease(k, kind=None):
 def lerp(a, b, k): return a + (b - a) * k
 
 _lob = Image.open(E1 + "bg/lobby_1080.png").convert("RGB")
-SRCBG = {"roof": Image.open("/home/claude/s1e6/bg/roof_raw.png").convert("RGB"),
+SRCBG = {"roof": Image.open(ROOT + "/s1e6/bg/roof_raw.png").convert("RGB"),
          "lobby": ImageChops.multiply(ImageEnhance.Brightness(_lob).enhance(1.7), Image.new("RGB", _lob.size, (255, 238, 210))),
          "living": Image.open(E1 + "bg/living_1080.png").convert("RGB")}
 TINT = {"roof": (175, 190, 240), "lobby": (255, 245, 230), "living": (255, 205, 150)}
