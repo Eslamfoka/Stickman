@@ -13,3 +13,7 @@ p*v.txt
 
 publish/media/
 delivery/
+brand/intro/*.mp4
+brand/intro/*.png
+brand/intro/*.wav
+brand/intro/*.log
