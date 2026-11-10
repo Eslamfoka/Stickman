@@ -1,0 +1,2288 @@
+{
+  "brand": "شطة وزلطة",
+  "handle": "shattawzalata",
+  "links": {
+    "youtube": "https://www.youtube.com/@shattawzalata",
+    "tiktok": "https://www.tiktok.com/@shattawzalata",
+    "instagram": "https://www.instagram.com/shattawzalata",
+    "facebook": "https://www.facebook.com/shattawzalata"
+  },
+  "timezone_note": "كل المواعيد بتوقيت القاهرة (UTC+2 في نوفمبر). 9 بالليل القاهرة = 10 بالليل الكويت.",
+  "media_folder": "publish/media/ (مش على الريبو — حط فيه الفيديوهات بالأسماء المكتوبة في media، والأسامي الأصلية في source_file_names)",
+  "generated": "2026-11-10T01:58:20+00:00",
+  "posts": [
+    {
+      "id": "trend01_e01",
+      "series": "trend01",
+      "series_name": "أزمة منتخب العمارة",
+      "kind": "episode",
+      "episode": 1,
+      "episode_name": "كاس الشارع",
+      "publish_at_cairo": "2026-11-10T21:00:00+02:00",
+      "publish_at_utc": "2026-11-10T19:00:00Z",
+      "status": "youtube_scheduled_manually",
+      "media": {
+        "horizontal": "media/trend01_e01_h.mp4",
+        "vertical": "media/trend01_e01_v.mp4"
+      },
+      "source_file_names": {
+        "horizontal": "أزمة منتخب العمارة - الحلقة 1 - كاس الشارع (عرض).mp4",
+        "vertical": "أزمة منتخب العمارة - الحلقة 1 - كاس الشارع (طولي).mp4"
+      },
+      "thumbnails": {
+        "youtube": "thumbs/trend01_e01_yt.jpg",
+        "vertical_cover": "thumbs/trend01_e01_cover.jpg"
+      },
+      "platforms": {
+        "youtube": {
+          "video": "media/trend01_e01_h.mp4",
+          "title": "كابتن بندق كسب الكاس! 🏆 | أزمة منتخب العمارة - الحلقة 1 | شطة وزلطة",
+          "description": "منتخب العمارة كسب كاس الشارع والكابتن بندق بقى بطل الحارة… بس الفرحة هتكمل؟ 🤔\n\nتابعوا «أزمة منتخب العمارة» — مسلسل كرتون كوميدي قصير من «شطة وزلطة» 🌶️🥗\n\nالحلقة الجاية بكرة الساعة 9 بالليل بتوقيت مصر ⏰\n\n⚠️ قصة ساخرة بشخصيات خيالية من عالم «شطة وزلطة» — أي تشابه مع الواقع مقصود للضحك بس 😄\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#شطة_وزلطة #أزمة_منتخب_العمارة #كرتون_مصري #كورة #ترند #مصر #كوميدي #انيميشن",
+          "tags": [
+            "شطة وزلطة",
+            "أزمة منتخب العمارة",
+            "كرتون مصري",
+            "كرتون كوميدي",
+            "كورة",
+            "ترند",
+            "انيميشن مصري",
+            "مسلسل كرتون",
+            "ستيك مان"
+          ],
+          "thumbnail": "thumbs/trend01_e01_yt.jpg",
+          "playlist": "أزمة منتخب العمارة ⚽",
+          "category_id": "24",
+          "default_language": "ar",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-10T19:00:00Z",
+          "pinned_comment": "تفتكروا الكابتن بندق هيفضل بطل الحارة؟ 🤔\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata"
+        },
+        "youtube_shorts": {
+          "video": "media/trend01_e01_v.mp4",
+          "title": "كابتن بندق كسب الكاس! 🏆 | أزمة منتخب العمارة الحلقة 1 #Shorts",
+          "description": "منتخب العمارة كسب كاس الشارع والكابتن بندق بقى بطل الحارة… بس الفرحة هتكمل؟ 🤔\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#شطة_وزلطة #أزمة_منتخب_العمارة #كرتون_مصري #كورة #ترند #Shorts",
+          "tags": [
+            "شطة وزلطة",
+            "أزمة منتخب العمارة",
+            "كرتون مصري",
+            "كرتون كوميدي",
+            "كورة",
+            "ترند",
+            "انيميشن مصري",
+            "مسلسل كرتون",
+            "ستيك مان"
+          ],
+          "playlist": "أزمة منتخب العمارة ⚽",
+          "category_id": "24",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-10T20:00:00Z",
+          "pinned_comment": "تفتكروا الكابتن بندق هيفضل بطل الحارة؟ 🤔\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
+          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+        },
+        "tiktok": {
+          "video": "media/trend01_e01_v.mp4",
+          "caption": "منتخب العمارة كسب كاس الشارع والكابتن بندق بقى بطل الحارة… بس الفرحة هتكمل؟ 🤔 الحلقة 1 من «أزمة منتخب العمارة» 🎬\nتفتكروا الكابتن بندق هيفضل بطل الحارة؟ 🤔\n#شطة_وزلطة #كرتون_مصري #كورة #ترند #مصر #fyp",
+          "cover_image": "thumbs/trend01_e01_cover.jpg",
+          "cover_timestamp_ms": 1000,
+          "privacy": "PUBLIC_TO_EVERYONE",
+          "allow_comments": true,
+          "allow_duet": true,
+          "allow_stitch": true,
+          "publish_at_utc": "2026-11-10T19:00:00Z",
+          "pinned_comment": "تفتكروا الكابتن بندق هيفضل بطل الحارة؟ 🤔\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗",
+          "note": "لو الأداة مش بتقبل صورة غلاف، استخدم cover_timestamp_ms أو اختار الغلاف يدوي من التطبيق"
+        },
+        "instagram_reel": {
+          "video": "media/trend01_e01_v.mp4",
+          "caption": "منتخب العمارة كسب كاس الشارع والكابتن بندق بقى بطل الحارة… بس الفرحة هتكمل؟ 🤔 الحلقة 1 من «أزمة منتخب العمارة» 🎬\nتفتكروا الكابتن بندق هيفضل بطل الحارة؟ 🤔\n#شطة_وزلطة #كرتون_مصري #كورة #ترند #ريلز",
+          "cover_image": "thumbs/trend01_e01_cover.jpg",
+          "share_to_facebook": true,
+          "publish_at_utc": "2026-11-10T19:00:00Z",
+          "pinned_comment": "تفتكروا الكابتن بندق هيفضل بطل الحارة؟ 🤔\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        },
+        "facebook_reel": {
+          "via": "instagram_reel.share_to_facebook",
+          "caption": "منتخب العمارة كسب كاس الشارع والكابتن بندق بقى بطل الحارة… بس الفرحة هتكمل؟ 🤔 الحلقة 1 من «أزمة منتخب العمارة» 🎬\nتفتكروا الكابتن بندق هيفضل بطل الحارة؟ 🤔\n#شطة_وزلطة #كرتون_مصري #كورة",
+          "note": "مش محتاج رفع منفصل لو انستجرام بيعمل share لفيسبوك",
+          "pinned_comment": "تفتكروا الكابتن بندق هيفضل بطل الحارة؟ 🤔\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        }
+      }
+    },
+    {
+      "id": "trend01_e02",
+      "series": "trend01",
+      "series_name": "أزمة منتخب العمارة",
+      "kind": "episode",
+      "episode": 2,
+      "episode_name": "المؤتمر الصحفي",
+      "publish_at_cairo": "2026-11-10T21:30:00+02:00",
+      "publish_at_utc": "2026-11-10T19:30:00Z",
+      "status": "youtube_scheduled_manually",
+      "media": {
+        "horizontal": "media/trend01_e02_h.mp4",
+        "vertical": "media/trend01_e02_v.mp4"
+      },
+      "source_file_names": {
+        "horizontal": "أزمة منتخب العمارة - الحلقة 2 - المؤتمر الصحفي (عرض).mp4",
+        "vertical": "أزمة منتخب العمارة - الحلقة 2 - المؤتمر الصحفي (طولي).mp4"
+      },
+      "thumbnails": {
+        "youtube": "thumbs/trend01_e02_yt.jpg",
+        "vertical_cover": "thumbs/trend01_e02_cover.jpg"
+      },
+      "platforms": {
+        "youtube": {
+          "video": "media/trend01_e02_h.mp4",
+          "title": "الكابتن قال إيه في المؤتمر؟! 😱 | أزمة منتخب العمارة - الحلقة 2 | شطة وزلطة",
+          "description": "مؤتمر صحفي بعد الكاس… وسؤال واحد من توتة قلب الدنيا! 🎤\n\nتابعوا «أزمة منتخب العمارة» — مسلسل كرتون كوميدي قصير من «شطة وزلطة» 🌶️🥗\n\nالحلقة الجاية بكرة الساعة 9 بالليل بتوقيت مصر ⏰\n\n⚠️ قصة ساخرة بشخصيات خيالية من عالم «شطة وزلطة» — أي تشابه مع الواقع مقصود للضحك بس 😄\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#شطة_وزلطة #أزمة_منتخب_العمارة #كرتون_مصري #كورة #ترند #مصر #كوميدي #انيميشن",
+          "tags": [
+            "شطة وزلطة",
+            "أزمة منتخب العمارة",
+            "كرتون مصري",
+            "كرتون كوميدي",
+            "كورة",
+            "ترند",
+            "انيميشن مصري",
+            "مسلسل كرتون",
+            "ستيك مان"
+          ],
+          "thumbnail": "thumbs/trend01_e02_yt.jpg",
+          "playlist": "أزمة منتخب العمارة ⚽",
+          "category_id": "24",
+          "default_language": "ar",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-10T19:30:00Z",
+          "pinned_comment": "مين عنده حق: الكابتن ولا توتة؟ 🎤\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata"
+        },
+        "youtube_shorts": {
+          "video": "media/trend01_e02_v.mp4",
+          "title": "الكابتن قال إيه في المؤتمر؟! 😱 | أزمة منتخب العمارة الحلقة 2 #Shorts",
+          "description": "مؤتمر صحفي بعد الكاس… وسؤال واحد من توتة قلب الدنيا! 🎤\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#شطة_وزلطة #أزمة_منتخب_العمارة #كرتون_مصري #كورة #ترند #Shorts",
+          "tags": [
+            "شطة وزلطة",
+            "أزمة منتخب العمارة",
+            "كرتون مصري",
+            "كرتون كوميدي",
+            "كورة",
+            "ترند",
+            "انيميشن مصري",
+            "مسلسل كرتون",
+            "ستيك مان"
+          ],
+          "playlist": "أزمة منتخب العمارة ⚽",
+          "category_id": "24",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-10T20:30:00Z",
+          "pinned_comment": "مين عنده حق: الكابتن ولا توتة؟ 🎤\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
+          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+        },
+        "tiktok": {
+          "video": "media/trend01_e02_v.mp4",
+          "caption": "مؤتمر صحفي بعد الكاس… وسؤال واحد من توتة قلب الدنيا! 🎤 الحلقة 2 من «أزمة منتخب العمارة» 🎬\nمين عنده حق: الكابتن ولا توتة؟ 🎤\n#شطة_وزلطة #كرتون_مصري #كورة #ترند #مصر #fyp",
+          "cover_image": "thumbs/trend01_e02_cover.jpg",
+          "cover_timestamp_ms": 1000,
+          "privacy": "PUBLIC_TO_EVERYONE",
+          "allow_comments": true,
+          "allow_duet": true,
+          "allow_stitch": true,
+          "publish_at_utc": "2026-11-10T19:30:00Z",
+          "pinned_comment": "مين عنده حق: الكابتن ولا توتة؟ 🎤\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗",
+          "note": "لو الأداة مش بتقبل صورة غلاف، استخدم cover_timestamp_ms أو اختار الغلاف يدوي من التطبيق"
+        },
+        "instagram_reel": {
+          "video": "media/trend01_e02_v.mp4",
+          "caption": "مؤتمر صحفي بعد الكاس… وسؤال واحد من توتة قلب الدنيا! 🎤 الحلقة 2 من «أزمة منتخب العمارة» 🎬\nمين عنده حق: الكابتن ولا توتة؟ 🎤\n#شطة_وزلطة #كرتون_مصري #كورة #ترند #ريلز",
+          "cover_image": "thumbs/trend01_e02_cover.jpg",
+          "share_to_facebook": true,
+          "publish_at_utc": "2026-11-10T19:30:00Z",
+          "pinned_comment": "مين عنده حق: الكابتن ولا توتة؟ 🎤\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        },
+        "facebook_reel": {
+          "via": "instagram_reel.share_to_facebook",
+          "caption": "مؤتمر صحفي بعد الكاس… وسؤال واحد من توتة قلب الدنيا! 🎤 الحلقة 2 من «أزمة منتخب العمارة» 🎬\nمين عنده حق: الكابتن ولا توتة؟ 🎤\n#شطة_وزلطة #كرتون_مصري #كورة",
+          "note": "مش محتاج رفع منفصل لو انستجرام بيعمل share لفيسبوك",
+          "pinned_comment": "مين عنده حق: الكابتن ولا توتة؟ 🎤\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        }
+      }
+    },
+    {
+      "id": "trend01_e03",
+      "series": "trend01",
+      "series_name": "أزمة منتخب العمارة",
+      "kind": "episode",
+      "episode": 3,
+      "episode_name": "الدقيقة 60",
+      "publish_at_cairo": "2026-11-11T21:00:00+02:00",
+      "publish_at_utc": "2026-11-11T19:00:00Z",
+      "status": "pending",
+      "media": {
+        "horizontal": "media/trend01_e03_h.mp4",
+        "vertical": "media/trend01_e03_v.mp4"
+      },
+      "source_file_names": {
+        "horizontal": "أزمة منتخب العمارة - الحلقة 3 - الدقيقة 60 (عرض).mp4",
+        "vertical": "أزمة منتخب العمارة - الحلقة 3 - الدقيقة 60 (طولي).mp4"
+      },
+      "thumbnails": {
+        "youtube": "thumbs/trend01_e03_yt.jpg",
+        "vertical_cover": "thumbs/trend01_e03_cover.jpg"
+      },
+      "platforms": {
+        "youtube": {
+          "video": "media/trend01_e03_h.mp4",
+          "title": "شطة طالع في الدقيقة 60؟! 😡 | أزمة منتخب العمارة - الحلقة 3 | شطة وزلطة",
+          "description": "ماتش صعب صفر صفر… والكابتن قرر يطلّع نجم الفريق! ⚽\n\nتابعوا «أزمة منتخب العمارة» — مسلسل كرتون كوميدي قصير من «شطة وزلطة» 🌶️🥗\n\nالحلقة الجاية بكرة الساعة 9 بالليل بتوقيت مصر ⏰\n\n⚠️ قصة ساخرة بشخصيات خيالية من عالم «شطة وزلطة» — أي تشابه مع الواقع مقصود للضحك بس 😄\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#شطة_وزلطة #أزمة_منتخب_العمارة #كرتون_مصري #كورة #ترند #مصر #كوميدي #انيميشن",
+          "tags": [
+            "شطة وزلطة",
+            "أزمة منتخب العمارة",
+            "كرتون مصري",
+            "كرتون كوميدي",
+            "كورة",
+            "ترند",
+            "انيميشن مصري",
+            "مسلسل كرتون",
+            "ستيك مان"
+          ],
+          "thumbnail": "thumbs/trend01_e03_yt.jpg",
+          "playlist": "أزمة منتخب العمارة ⚽",
+          "category_id": "24",
+          "default_language": "ar",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-11T19:00:00Z",
+          "pinned_comment": "شطة غلط ولا الكابتن هو اللي غلط؟ ⚽\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata"
+        },
+        "youtube_shorts": {
+          "video": "media/trend01_e03_v.mp4",
+          "title": "شطة طالع في الدقيقة 60؟! 😡 | أزمة منتخب العمارة الحلقة 3 #Shorts",
+          "description": "ماتش صعب صفر صفر… والكابتن قرر يطلّع نجم الفريق! ⚽\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#شطة_وزلطة #أزمة_منتخب_العمارة #كرتون_مصري #كورة #ترند #Shorts",
+          "tags": [
+            "شطة وزلطة",
+            "أزمة منتخب العمارة",
+            "كرتون مصري",
+            "كرتون كوميدي",
+            "كورة",
+            "ترند",
+            "انيميشن مصري",
+            "مسلسل كرتون",
+            "ستيك مان"
+          ],
+          "playlist": "أزمة منتخب العمارة ⚽",
+          "category_id": "24",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-11T20:00:00Z",
+          "pinned_comment": "شطة غلط ولا الكابتن هو اللي غلط؟ ⚽\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
+          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+        },
+        "tiktok": {
+          "video": "media/trend01_e03_v.mp4",
+          "caption": "ماتش صعب صفر صفر… والكابتن قرر يطلّع نجم الفريق! ⚽ الحلقة 3 من «أزمة منتخب العمارة» 🎬\nشطة غلط ولا الكابتن هو اللي غلط؟ ⚽\n#شطة_وزلطة #كرتون_مصري #كورة #ترند #مصر #fyp",
+          "cover_image": "thumbs/trend01_e03_cover.jpg",
+          "cover_timestamp_ms": 1000,
+          "privacy": "PUBLIC_TO_EVERYONE",
+          "allow_comments": true,
+          "allow_duet": true,
+          "allow_stitch": true,
+          "publish_at_utc": "2026-11-11T19:00:00Z",
+          "pinned_comment": "شطة غلط ولا الكابتن هو اللي غلط؟ ⚽\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗",
+          "note": "لو الأداة مش بتقبل صورة غلاف، استخدم cover_timestamp_ms أو اختار الغلاف يدوي من التطبيق"
+        },
+        "instagram_reel": {
+          "video": "media/trend01_e03_v.mp4",
+          "caption": "ماتش صعب صفر صفر… والكابتن قرر يطلّع نجم الفريق! ⚽ الحلقة 3 من «أزمة منتخب العمارة» 🎬\nشطة غلط ولا الكابتن هو اللي غلط؟ ⚽\n#شطة_وزلطة #كرتون_مصري #كورة #ترند #ريلز",
+          "cover_image": "thumbs/trend01_e03_cover.jpg",
+          "share_to_facebook": true,
+          "publish_at_utc": "2026-11-11T19:00:00Z",
+          "pinned_comment": "شطة غلط ولا الكابتن هو اللي غلط؟ ⚽\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        },
+        "facebook_reel": {
+          "via": "instagram_reel.share_to_facebook",
+          "caption": "ماتش صعب صفر صفر… والكابتن قرر يطلّع نجم الفريق! ⚽ الحلقة 3 من «أزمة منتخب العمارة» 🎬\nشطة غلط ولا الكابتن هو اللي غلط؟ ⚽\n#شطة_وزلطة #كرتون_مصري #كورة",
+          "note": "مش محتاج رفع منفصل لو انستجرام بيعمل share لفيسبوك",
+          "pinned_comment": "شطة غلط ولا الكابتن هو اللي غلط؟ ⚽\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        }
+      }
+    },
+    {
+      "id": "trend01_e04",
+      "series": "trend01",
+      "series_name": "أزمة منتخب العمارة",
+      "kind": "episode",
+      "episode": 4,
+      "episode_name": "قهوة الشارع",
+      "publish_at_cairo": "2026-11-11T21:30:00+02:00",
+      "publish_at_utc": "2026-11-11T19:30:00Z",
+      "status": "pending",
+      "media": {
+        "horizontal": "media/trend01_e04_h.mp4",
+        "vertical": "media/trend01_e04_v.mp4"
+      },
+      "source_file_names": {
+        "horizontal": "أزمة منتخب العمارة - الحلقة 4 - قهوة الشارع (عرض).mp4",
+        "vertical": "أزمة منتخب العمارة - الحلقة 4 - قهوة الشارع (طولي).mp4"
+      },
+      "thumbnails": {
+        "youtube": "thumbs/trend01_e04_yt.jpg",
+        "vertical_cover": "thumbs/trend01_e04_cover.jpg"
+      },
+      "platforms": {
+        "youtube": {
+          "video": "media/trend01_e04_h.mp4",
+          "title": "الباشا وعبده في قهوة الشارع ☕😂 | أزمة منتخب العمارة - الحلقة 4 | شطة وزلطة",
+          "description": "برنامج «قهوة الشارع» بيناقش الأزمة… والباشا رأيه واضح، وعبده رأيه في البسكوت! ☕\n\nتابعوا «أزمة منتخب العمارة» — مسلسل كرتون كوميدي قصير من «شطة وزلطة» 🌶️🥗\n\nالحلقة الجاية بكرة الساعة 9 بالليل بتوقيت مصر ⏰\n\n⚠️ قصة ساخرة بشخصيات خيالية من عالم «شطة وزلطة» — أي تشابه مع الواقع مقصود للضحك بس 😄\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#شطة_وزلطة #أزمة_منتخب_العمارة #كرتون_مصري #كورة #ترند #مصر #كوميدي #انيميشن",
+          "tags": [
+            "شطة وزلطة",
+            "أزمة منتخب العمارة",
+            "كرتون مصري",
+            "كرتون كوميدي",
+            "كورة",
+            "ترند",
+            "انيميشن مصري",
+            "مسلسل كرتون",
+            "ستيك مان"
+          ],
+          "thumbnail": "thumbs/trend01_e04_yt.jpg",
+          "playlist": "أزمة منتخب العمارة ⚽",
+          "category_id": "24",
+          "default_language": "ar",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-11T19:30:00Z",
+          "pinned_comment": "الكابتن لازم يعتذر ولا لأ؟ اكتبوا رأيكم 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata"
+        },
+        "youtube_shorts": {
+          "video": "media/trend01_e04_v.mp4",
+          "title": "الباشا وعبده في قهوة الشارع ☕😂 | أزمة منتخب العمارة الحلقة 4 #Shorts",
+          "description": "برنامج «قهوة الشارع» بيناقش الأزمة… والباشا رأيه واضح، وعبده رأيه في البسكوت! ☕\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#شطة_وزلطة #أزمة_منتخب_العمارة #كرتون_مصري #كورة #ترند #Shorts",
+          "tags": [
+            "شطة وزلطة",
+            "أزمة منتخب العمارة",
+            "كرتون مصري",
+            "كرتون كوميدي",
+            "كورة",
+            "ترند",
+            "انيميشن مصري",
+            "مسلسل كرتون",
+            "ستيك مان"
+          ],
+          "playlist": "أزمة منتخب العمارة ⚽",
+          "category_id": "24",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-11T20:30:00Z",
+          "pinned_comment": "الكابتن لازم يعتذر ولا لأ؟ اكتبوا رأيكم 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
+          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+        },
+        "tiktok": {
+          "video": "media/trend01_e04_v.mp4",
+          "caption": "برنامج «قهوة الشارع» بيناقش الأزمة… والباشا رأيه واضح، وعبده رأيه في البسكوت! ☕ الحلقة 4 من «أزمة منتخب العمارة» 🎬\nالكابتن لازم يعتذر ولا لأ؟ اكتبوا رأيكم 👇\n#شطة_وزلطة #كرتون_مصري #كورة #ترند #مصر #fyp",
+          "cover_image": "thumbs/trend01_e04_cover.jpg",
+          "cover_timestamp_ms": 1000,
+          "privacy": "PUBLIC_TO_EVERYONE",
+          "allow_comments": true,
+          "allow_duet": true,
+          "allow_stitch": true,
+          "publish_at_utc": "2026-11-11T19:30:00Z",
+          "pinned_comment": "الكابتن لازم يعتذر ولا لأ؟ اكتبوا رأيكم 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗",
+          "note": "لو الأداة مش بتقبل صورة غلاف، استخدم cover_timestamp_ms أو اختار الغلاف يدوي من التطبيق"
+        },
+        "instagram_reel": {
+          "video": "media/trend01_e04_v.mp4",
+          "caption": "برنامج «قهوة الشارع» بيناقش الأزمة… والباشا رأيه واضح، وعبده رأيه في البسكوت! ☕ الحلقة 4 من «أزمة منتخب العمارة» 🎬\nالكابتن لازم يعتذر ولا لأ؟ اكتبوا رأيكم 👇\n#شطة_وزلطة #كرتون_مصري #كورة #ترند #ريلز",
+          "cover_image": "thumbs/trend01_e04_cover.jpg",
+          "share_to_facebook": true,
+          "publish_at_utc": "2026-11-11T19:30:00Z",
+          "pinned_comment": "الكابتن لازم يعتذر ولا لأ؟ اكتبوا رأيكم 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        },
+        "facebook_reel": {
+          "via": "instagram_reel.share_to_facebook",
+          "caption": "برنامج «قهوة الشارع» بيناقش الأزمة… والباشا رأيه واضح، وعبده رأيه في البسكوت! ☕ الحلقة 4 من «أزمة منتخب العمارة» 🎬\nالكابتن لازم يعتذر ولا لأ؟ اكتبوا رأيكم 👇\n#شطة_وزلطة #كرتون_مصري #كورة",
+          "note": "مش محتاج رفع منفصل لو انستجرام بيعمل share لفيسبوك",
+          "pinned_comment": "الكابتن لازم يعتذر ولا لأ؟ اكتبوا رأيكم 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        }
+      }
+    },
+    {
+      "id": "trend01_e05",
+      "series": "trend01",
+      "series_name": "أزمة منتخب العمارة",
+      "kind": "episode",
+      "episode": 5,
+      "episode_name": "الصلح",
+      "publish_at_cairo": "2026-11-12T21:00:00+02:00",
+      "publish_at_utc": "2026-11-12T19:00:00Z",
+      "status": "pending",
+      "media": {
+        "horizontal": "media/trend01_e05_h.mp4",
+        "vertical": "media/trend01_e05_v.mp4"
+      },
+      "source_file_names": {
+        "horizontal": "أزمة منتخب العمارة - الحلقة 5 - الصلح (عرض).mp4",
+        "vertical": "أزمة منتخب العمارة - الحلقة 5 - الصلح (طولي).mp4"
+      },
+      "thumbnails": {
+        "youtube": "thumbs/trend01_e05_yt.jpg",
+        "vertical_cover": "thumbs/trend01_e05_cover.jpg"
+      },
+      "platforms": {
+        "youtube": {
+          "video": "media/trend01_e05_h.mp4",
+          "title": "شطة نقل لعمارة الجيران! 🏠 | أزمة منتخب العمارة - الحلقة 5 | شطة وزلطة",
+          "description": "النجم شطة لبس الأزرق ونقل لعمارة الجيران… وزلطة رايح بالشاي والبسكوت يصالحه 🍪\n\nتابعوا «أزمة منتخب العمارة» — مسلسل كرتون كوميدي قصير من «شطة وزلطة» 🌶️🥗\n\nالحلقة الجاية بكرة الساعة 9 بالليل بتوقيت مصر ⏰\n\n⚠️ قصة ساخرة بشخصيات خيالية من عالم «شطة وزلطة» — أي تشابه مع الواقع مقصود للضحك بس 😄\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#شطة_وزلطة #أزمة_منتخب_العمارة #كرتون_مصري #كورة #ترند #مصر #كوميدي #انيميشن",
+          "tags": [
+            "شطة وزلطة",
+            "أزمة منتخب العمارة",
+            "كرتون مصري",
+            "كرتون كوميدي",
+            "كورة",
+            "ترند",
+            "انيميشن مصري",
+            "مسلسل كرتون",
+            "ستيك مان"
+          ],
+          "thumbnail": "thumbs/trend01_e05_yt.jpg",
+          "playlist": "أزمة منتخب العمارة ⚽",
+          "category_id": "24",
+          "default_language": "ar",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-12T19:00:00Z",
+          "pinned_comment": "شطة هيرجع العمارة ولا لأ؟ 🏠\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata"
+        },
+        "youtube_shorts": {
+          "video": "media/trend01_e05_v.mp4",
+          "title": "شطة نقل لعمارة الجيران! 🏠 | أزمة منتخب العمارة الحلقة 5 #Shorts",
+          "description": "النجم شطة لبس الأزرق ونقل لعمارة الجيران… وزلطة رايح بالشاي والبسكوت يصالحه 🍪\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#شطة_وزلطة #أزمة_منتخب_العمارة #كرتون_مصري #كورة #ترند #Shorts",
+          "tags": [
+            "شطة وزلطة",
+            "أزمة منتخب العمارة",
+            "كرتون مصري",
+            "كرتون كوميدي",
+            "كورة",
+            "ترند",
+            "انيميشن مصري",
+            "مسلسل كرتون",
+            "ستيك مان"
+          ],
+          "playlist": "أزمة منتخب العمارة ⚽",
+          "category_id": "24",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-12T20:00:00Z",
+          "pinned_comment": "شطة هيرجع العمارة ولا لأ؟ 🏠\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
+          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+        },
+        "tiktok": {
+          "video": "media/trend01_e05_v.mp4",
+          "caption": "النجم شطة لبس الأزرق ونقل لعمارة الجيران… وزلطة رايح بالشاي والبسكوت يصالحه 🍪 الحلقة 5 من «أزمة منتخب العمارة» 🎬\nشطة هيرجع العمارة ولا لأ؟ 🏠\n#شطة_وزلطة #كرتون_مصري #كورة #ترند #مصر #fyp",
+          "cover_image": "thumbs/trend01_e05_cover.jpg",
+          "cover_timestamp_ms": 1000,
+          "privacy": "PUBLIC_TO_EVERYONE",
+          "allow_comments": true,
+          "allow_duet": true,
+          "allow_stitch": true,
+          "publish_at_utc": "2026-11-12T19:00:00Z",
+          "pinned_comment": "شطة هيرجع العمارة ولا لأ؟ 🏠\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗",
+          "note": "لو الأداة مش بتقبل صورة غلاف، استخدم cover_timestamp_ms أو اختار الغلاف يدوي من التطبيق"
+        },
+        "instagram_reel": {
+          "video": "media/trend01_e05_v.mp4",
+          "caption": "النجم شطة لبس الأزرق ونقل لعمارة الجيران… وزلطة رايح بالشاي والبسكوت يصالحه 🍪 الحلقة 5 من «أزمة منتخب العمارة» 🎬\nشطة هيرجع العمارة ولا لأ؟ 🏠\n#شطة_وزلطة #كرتون_مصري #كورة #ترند #ريلز",
+          "cover_image": "thumbs/trend01_e05_cover.jpg",
+          "share_to_facebook": true,
+          "publish_at_utc": "2026-11-12T19:00:00Z",
+          "pinned_comment": "شطة هيرجع العمارة ولا لأ؟ 🏠\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        },
+        "facebook_reel": {
+          "via": "instagram_reel.share_to_facebook",
+          "caption": "النجم شطة لبس الأزرق ونقل لعمارة الجيران… وزلطة رايح بالشاي والبسكوت يصالحه 🍪 الحلقة 5 من «أزمة منتخب العمارة» 🎬\nشطة هيرجع العمارة ولا لأ؟ 🏠\n#شطة_وزلطة #كرتون_مصري #كورة",
+          "note": "مش محتاج رفع منفصل لو انستجرام بيعمل share لفيسبوك",
+          "pinned_comment": "شطة هيرجع العمارة ولا لأ؟ 🏠\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        }
+      }
+    },
+    {
+      "id": "trend01_e06",
+      "series": "trend01",
+      "series_name": "أزمة منتخب العمارة",
+      "kind": "episode",
+      "episode": 6,
+      "episode_name": "الإقالة",
+      "publish_at_cairo": "2026-11-12T21:30:00+02:00",
+      "publish_at_utc": "2026-11-12T19:30:00Z",
+      "status": "pending",
+      "media": {
+        "horizontal": "media/trend01_e06_h.mp4",
+        "vertical": "media/trend01_e06_v.mp4"
+      },
+      "source_file_names": {
+        "horizontal": "أزمة منتخب العمارة - الحلقة 6 - الإقالة (عرض).mp4",
+        "vertical": "أزمة منتخب العمارة - الحلقة 6 - الإقالة (طولي).mp4"
+      },
+      "thumbnails": {
+        "youtube": "thumbs/trend01_e06_yt.jpg",
+        "vertical_cover": "thumbs/trend01_e06_cover.jpg"
+      },
+      "platforms": {
+        "youtube": {
+          "video": "media/trend01_e06_h.mp4",
+          "title": "رسمياً: إقالة الكابتن بندق! 📰 | أزمة منتخب العمارة - الحلقة 6 | شطة وزلطة",
+          "description": "الجرايد كلها بتقول: إقالة الكابتن بندق… وشطة نزّل بوست قلب السوشيال! 📱\n\nتابعوا «أزمة منتخب العمارة» — مسلسل كرتون كوميدي قصير من «شطة وزلطة» 🌶️🥗\n\nالفيلم كامل بكرة على القناة 🎬\n\n⚠️ قصة ساخرة بشخصيات خيالية من عالم «شطة وزلطة» — أي تشابه مع الواقع مقصود للضحك بس 😄\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#شطة_وزلطة #أزمة_منتخب_العمارة #كرتون_مصري #كورة #ترند #مصر #كوميدي #انيميشن",
+          "tags": [
+            "شطة وزلطة",
+            "أزمة منتخب العمارة",
+            "كرتون مصري",
+            "كرتون كوميدي",
+            "كورة",
+            "ترند",
+            "انيميشن مصري",
+            "مسلسل كرتون",
+            "ستيك مان"
+          ],
+          "thumbnail": "thumbs/trend01_e06_yt.jpg",
+          "playlist": "أزمة منتخب العمارة ⚽",
+          "category_id": "24",
+          "default_language": "ar",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-12T19:30:00Z",
+          "pinned_comment": "مين يستاهل يبقى المدرب الجديد؟ 😂\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata"
+        },
+        "youtube_shorts": {
+          "video": "media/trend01_e06_v.mp4",
+          "title": "رسمياً: إقالة الكابتن بندق! 📰 | أزمة منتخب العمارة الحلقة 6 #Shorts",
+          "description": "الجرايد كلها بتقول: إقالة الكابتن بندق… وشطة نزّل بوست قلب السوشيال! 📱\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#شطة_وزلطة #أزمة_منتخب_العمارة #كرتون_مصري #كورة #ترند #Shorts",
+          "tags": [
+            "شطة وزلطة",
+            "أزمة منتخب العمارة",
+            "كرتون مصري",
+            "كرتون كوميدي",
+            "كورة",
+            "ترند",
+            "انيميشن مصري",
+            "مسلسل كرتون",
+            "ستيك مان"
+          ],
+          "playlist": "أزمة منتخب العمارة ⚽",
+          "category_id": "24",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-12T20:30:00Z",
+          "pinned_comment": "مين يستاهل يبقى المدرب الجديد؟ 😂\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
+          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+        },
+        "tiktok": {
+          "video": "media/trend01_e06_v.mp4",
+          "caption": "الجرايد كلها بتقول: إقالة الكابتن بندق… وشطة نزّل بوست قلب السوشيال! 📱 الحلقة 6 من «أزمة منتخب العمارة» 🎬\nمين يستاهل يبقى المدرب الجديد؟ 😂\n#شطة_وزلطة #كرتون_مصري #كورة #ترند #مصر #fyp",
+          "cover_image": "thumbs/trend01_e06_cover.jpg",
+          "cover_timestamp_ms": 1000,
+          "privacy": "PUBLIC_TO_EVERYONE",
+          "allow_comments": true,
+          "allow_duet": true,
+          "allow_stitch": true,
+          "publish_at_utc": "2026-11-12T19:30:00Z",
+          "pinned_comment": "مين يستاهل يبقى المدرب الجديد؟ 😂\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗",
+          "note": "لو الأداة مش بتقبل صورة غلاف، استخدم cover_timestamp_ms أو اختار الغلاف يدوي من التطبيق"
+        },
+        "instagram_reel": {
+          "video": "media/trend01_e06_v.mp4",
+          "caption": "الجرايد كلها بتقول: إقالة الكابتن بندق… وشطة نزّل بوست قلب السوشيال! 📱 الحلقة 6 من «أزمة منتخب العمارة» 🎬\nمين يستاهل يبقى المدرب الجديد؟ 😂\n#شطة_وزلطة #كرتون_مصري #كورة #ترند #ريلز",
+          "cover_image": "thumbs/trend01_e06_cover.jpg",
+          "share_to_facebook": true,
+          "publish_at_utc": "2026-11-12T19:30:00Z",
+          "pinned_comment": "مين يستاهل يبقى المدرب الجديد؟ 😂\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        },
+        "facebook_reel": {
+          "via": "instagram_reel.share_to_facebook",
+          "caption": "الجرايد كلها بتقول: إقالة الكابتن بندق… وشطة نزّل بوست قلب السوشيال! 📱 الحلقة 6 من «أزمة منتخب العمارة» 🎬\nمين يستاهل يبقى المدرب الجديد؟ 😂\n#شطة_وزلطة #كرتون_مصري #كورة",
+          "note": "مش محتاج رفع منفصل لو انستجرام بيعمل share لفيسبوك",
+          "pinned_comment": "مين يستاهل يبقى المدرب الجديد؟ 😂\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        }
+      }
+    },
+    {
+      "id": "trend01_movie",
+      "series": "trend01",
+      "series_name": "أزمة منتخب العمارة",
+      "kind": "movie",
+      "episode": null,
+      "episode_name": "الفيلم كامل",
+      "publish_at_cairo": "2026-11-13T18:00:00+02:00",
+      "publish_at_utc": "2026-11-13T16:00:00Z",
+      "status": "pending",
+      "media": {
+        "horizontal": "media/trend01_movie_h.mp4",
+        "vertical": "media/trend01_movie_v.mp4"
+      },
+      "source_file_names": {
+        "horizontal": "أزمة منتخب العمارة - الفيلم كامل (عرض).mp4",
+        "vertical": "أزمة منتخب العمارة - الفيلم كامل (طولي).mp4"
+      },
+      "thumbnails": {
+        "youtube": "thumbs/trend01_movie_yt.jpg",
+        "vertical_cover": "thumbs/trend01_movie_cover.jpg"
+      },
+      "platforms": {
+        "youtube": {
+          "video": "media/trend01_movie_h.mp4",
+          "title": "أزمة منتخب العمارة - الفيلم كامل ⚽🎬 | أزمة منتخب العمارة - الفيلم كامل | شطة وزلطة",
+          "description": "الحكاية كلها في فيديو واحد: من الكاس… للمؤتمر… للدقيقة 60… للإقالة! 🎬\n\nتابعوا «أزمة منتخب العمارة» — مسلسل كرتون كوميدي قصير من «شطة وزلطة» 🌶️🥗\n\n⚠️ قصة ساخرة بشخصيات خيالية من عالم «شطة وزلطة» — أي تشابه مع الواقع مقصود للضحك بس 😄\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#شطة_وزلطة #أزمة_منتخب_العمارة #كرتون_مصري #كورة #ترند #مصر #كوميدي #انيميشن",
+          "tags": [
+            "شطة وزلطة",
+            "أزمة منتخب العمارة",
+            "كرتون مصري",
+            "كرتون كوميدي",
+            "كورة",
+            "ترند",
+            "انيميشن مصري",
+            "مسلسل كرتون",
+            "ستيك مان"
+          ],
+          "thumbnail": "thumbs/trend01_movie_yt.jpg",
+          "playlist": "أزمة منتخب العمارة ⚽",
+          "category_id": "24",
+          "default_language": "ar",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-13T16:00:00Z",
+          "pinned_comment": "أحلى حلقة فيهم كانت أنهي؟ 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata"
+        },
+        "youtube_shorts": {
+          "video": "media/trend01_movie_v.mp4",
+          "title": "أزمة منتخب العمارة - الفيلم كامل ⚽🎬 | أزمة منتخب العمارة الفيلم #Shorts",
+          "description": "الحكاية كلها في فيديو واحد: من الكاس… للمؤتمر… للدقيقة 60… للإقالة! 🎬\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#شطة_وزلطة #أزمة_منتخب_العمارة #كرتون_مصري #كورة #ترند #Shorts",
+          "tags": [
+            "شطة وزلطة",
+            "أزمة منتخب العمارة",
+            "كرتون مصري",
+            "كرتون كوميدي",
+            "كورة",
+            "ترند",
+            "انيميشن مصري",
+            "مسلسل كرتون",
+            "ستيك مان"
+          ],
+          "playlist": "أزمة منتخب العمارة ⚽",
+          "category_id": "24",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-13T17:00:00Z",
+          "pinned_comment": "أحلى حلقة فيهم كانت أنهي؟ 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
+          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+        },
+        "tiktok": {
+          "video": "media/trend01_movie_v.mp4",
+          "caption": "الحكاية كلها في فيديو واحد: من الكاس… للمؤتمر… للدقيقة 60… للإقالة! 🎬 الفيلم من «أزمة منتخب العمارة» 🎬\nأحلى حلقة فيهم كانت أنهي؟ 👇\n#شطة_وزلطة #كرتون_مصري #كورة #ترند #مصر #fyp",
+          "cover_image": "thumbs/trend01_movie_cover.jpg",
+          "cover_timestamp_ms": 1000,
+          "privacy": "PUBLIC_TO_EVERYONE",
+          "allow_comments": true,
+          "allow_duet": true,
+          "allow_stitch": true,
+          "publish_at_utc": "2026-11-13T16:00:00Z",
+          "pinned_comment": "أحلى حلقة فيهم كانت أنهي؟ 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗",
+          "note": "لو الأداة مش بتقبل صورة غلاف، استخدم cover_timestamp_ms أو اختار الغلاف يدوي من التطبيق"
+        },
+        "instagram_reel": {
+          "video": "media/trend01_movie_v.mp4",
+          "caption": "الحكاية كلها في فيديو واحد: من الكاس… للمؤتمر… للدقيقة 60… للإقالة! 🎬 الفيلم من «أزمة منتخب العمارة» 🎬\nأحلى حلقة فيهم كانت أنهي؟ 👇\n#شطة_وزلطة #كرتون_مصري #كورة #ترند #ريلز",
+          "cover_image": "thumbs/trend01_movie_cover.jpg",
+          "share_to_facebook": true,
+          "publish_at_utc": "2026-11-13T16:00:00Z",
+          "pinned_comment": "أحلى حلقة فيهم كانت أنهي؟ 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        },
+        "facebook_reel": {
+          "via": "instagram_reel.share_to_facebook",
+          "caption": "الحكاية كلها في فيديو واحد: من الكاس… للمؤتمر… للدقيقة 60… للإقالة! 🎬 الفيلم من «أزمة منتخب العمارة» 🎬\nأحلى حلقة فيهم كانت أنهي؟ 👇\n#شطة_وزلطة #كرتون_مصري #كورة",
+          "note": "مش محتاج رفع منفصل لو انستجرام بيعمل share لفيسبوك",
+          "pinned_comment": "أحلى حلقة فيهم كانت أنهي؟ 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        },
+        "facebook_video": {
+          "video": "media/trend01_movie_h.mp4",
+          "title": "أزمة منتخب العمارة - الفيلم كامل ⚽🎬",
+          "description": "الحكاية كلها في فيديو واحد: من الكاس… للمؤتمر… للدقيقة 60… للإقالة! 🎬\n\nتابعوا «أزمة منتخب العمارة» — مسلسل كرتون كوميدي قصير من «شطة وزلطة» 🌶️🥗\n\n⚠️ قصة ساخرة بشخصيات خيالية من عالم «شطة وزلطة» — أي تشابه مع الواقع مقصود للضحك بس 😄\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#شطة_وزلطة #أزمة_منتخب_العمارة #كرتون_مصري #كورة #ترند #مصر #كوميدي #انيميشن",
+          "thumbnail": "thumbs/trend01_movie_yt.jpg",
+          "publish_at_utc": "2026-11-13T16:00:00Z",
+          "pinned_comment": "أحلى حلقة فيهم كانت أنهي؟ 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        }
+      }
+    },
+    {
+      "id": "nanaa_s1_e01",
+      "series": "nanaa_s1",
+      "series_name": "عمارة نعناعة - الموسم 1: سر الدور السابع",
+      "kind": "episode",
+      "episode": 1,
+      "episode_name": "الصوت اللي في السقف",
+      "publish_at_cairo": "2026-11-13T21:00:00+02:00",
+      "publish_at_utc": "2026-11-13T19:00:00Z",
+      "status": "pending",
+      "media": {
+        "horizontal": "media/nanaa_s1_e01_h.mp4",
+        "vertical": "media/nanaa_s1_e01_v.mp4"
+      },
+      "source_file_names": {
+        "horizontal": "عمارة نعناعة - الحلقة 01 - الصوت اللي في السقف.mp4 (من على جهازك)",
+        "vertical": "عمارة نعناعة - الحلقة 01 - الصوت اللي في السقف (تيك توك).mp4 (من على جهازك)"
+      },
+      "thumbnails": {
+        "youtube": "thumbs/nanaa_s1_e01_yt.jpg",
+        "vertical_cover": "thumbs/nanaa_s1_e01_cover.jpg"
+      },
+      "platforms": {
+        "youtube": {
+          "video": "media/nanaa_s1_e01_h.mp4",
+          "title": "صوت غريب في السقف كل ليلة الساعة 12! 😱 | عمارة نعناعة - الحلقة 1 | شطة وزلطة",
+          "description": "شقة الدور السابع مقفولة من 30 سنة… وكل ليلة الساعة 12 بيطلع منها خبط! 😱\n\n«عمارة نعناعة» — مسلسل كرتون مصري غموض وضحك للعيلة كلها. الموسم الأول: سر الدور السابع 🏚️\n\n🧩 لغز الحلقة: سمعتوا كام خبطة؟ اكتبوا حلكم اكتبوا حلكم في الكومنتات 👇\n\nالحلقة الجاية بكرة الساعة 9 بالليل بتوقيت مصر ⏰\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #غموض #لغز #رعب_كوميدي #انيميشن #مصر",
+          "tags": [
+            "شطة وزلطة",
+            "عمارة نعناعة",
+            "سر الدور السابع",
+            "كرتون مصري",
+            "غموض",
+            "رعب كوميدي",
+            "لغز",
+            "مسلسل كرتون",
+            "ستيك مان",
+            "انيميشن مصري"
+          ],
+          "thumbnail": "thumbs/nanaa_s1_e01_yt.jpg",
+          "playlist": "عمارة نعناعة - الموسم 1: سر الدور السابع 🏚️",
+          "category_id": "24",
+          "default_language": "ar",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-13T19:00:00Z",
+          "pinned_comment": "🧩 لغز الحلقة: سمعتوا كام خبطة؟ اكتبوا حلكم 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata"
+        },
+        "youtube_shorts": {
+          "video": "media/nanaa_s1_e01_v.mp4",
+          "title": "صوت غريب في السقف كل ليلة الساعة 12! 😱 | عمارة نعناعة الحلقة 1 #Shorts",
+          "description": "شقة الدور السابع مقفولة من 30 سنة… وكل ليلة الساعة 12 بيطلع منها خبط! 😱\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #غموض #لغز #Shorts",
+          "tags": [
+            "شطة وزلطة",
+            "عمارة نعناعة",
+            "سر الدور السابع",
+            "كرتون مصري",
+            "غموض",
+            "رعب كوميدي",
+            "لغز",
+            "مسلسل كرتون",
+            "ستيك مان",
+            "انيميشن مصري"
+          ],
+          "playlist": "عمارة نعناعة - الموسم 1: سر الدور السابع 🏚️",
+          "category_id": "24",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-13T20:00:00Z",
+          "pinned_comment": "🧩 لغز الحلقة: سمعتوا كام خبطة؟ اكتبوا حلكم 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
+          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+        },
+        "tiktok": {
+          "video": "media/nanaa_s1_e01_v.mp4",
+          "caption": "شقة الدور السابع مقفولة من 30 سنة… وكل ليلة الساعة 12 بيطلع منها خبط! 😱 الحلقة 1 من «عمارة نعناعة» 🎬\n🧩 لغز الحلقة: سمعتوا كام خبطة؟ اكتبوا حلكم 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #لغز #غموض #fyp",
+          "cover_image": "thumbs/nanaa_s1_e01_cover.jpg",
+          "cover_timestamp_ms": 1000,
+          "privacy": "PUBLIC_TO_EVERYONE",
+          "allow_comments": true,
+          "allow_duet": true,
+          "allow_stitch": true,
+          "publish_at_utc": "2026-11-13T19:00:00Z",
+          "pinned_comment": "🧩 لغز الحلقة: سمعتوا كام خبطة؟ اكتبوا حلكم 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗",
+          "note": "لو الأداة مش بتقبل صورة غلاف، استخدم cover_timestamp_ms أو اختار الغلاف يدوي من التطبيق"
+        },
+        "instagram_reel": {
+          "video": "media/nanaa_s1_e01_v.mp4",
+          "caption": "شقة الدور السابع مقفولة من 30 سنة… وكل ليلة الساعة 12 بيطلع منها خبط! 😱 الحلقة 1 من «عمارة نعناعة» 🎬\n🧩 لغز الحلقة: سمعتوا كام خبطة؟ اكتبوا حلكم 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #لغز #ريلز",
+          "cover_image": "thumbs/nanaa_s1_e01_cover.jpg",
+          "share_to_facebook": true,
+          "publish_at_utc": "2026-11-13T19:00:00Z",
+          "pinned_comment": "🧩 لغز الحلقة: سمعتوا كام خبطة؟ اكتبوا حلكم 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        },
+        "facebook_reel": {
+          "via": "instagram_reel.share_to_facebook",
+          "caption": "شقة الدور السابع مقفولة من 30 سنة… وكل ليلة الساعة 12 بيطلع منها خبط! 😱 الحلقة 1 من «عمارة نعناعة» 🎬\n🧩 لغز الحلقة: سمعتوا كام خبطة؟ اكتبوا حلكم 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري",
+          "note": "مش محتاج رفع منفصل لو انستجرام بيعمل share لفيسبوك",
+          "pinned_comment": "🧩 لغز الحلقة: سمعتوا كام خبطة؟ اكتبوا حلكم 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        }
+      }
+    },
+    {
+      "id": "nanaa_s1_e02",
+      "series": "nanaa_s1",
+      "series_name": "عمارة نعناعة - الموسم 1: سر الدور السابع",
+      "kind": "episode",
+      "episode": 2,
+      "episode_name": "المفتاح اللي مالوش باب",
+      "publish_at_cairo": "2026-11-14T21:00:00+02:00",
+      "publish_at_utc": "2026-11-14T19:00:00Z",
+      "status": "pending",
+      "media": {
+        "horizontal": "media/nanaa_s1_e02_h.mp4",
+        "vertical": "media/nanaa_s1_e02_v.mp4"
+      },
+      "source_file_names": {
+        "horizontal": "عمارة نعناعة - الحلقة 02 - المفتاح اللي مالوش باب.mp4 (من على جهازك)",
+        "vertical": "عمارة نعناعة - الحلقة 02 - المفتاح اللي مالوش باب (تيك توك).mp4 (من على جهازك)"
+      },
+      "thumbnails": {
+        "youtube": "thumbs/nanaa_s1_e02_yt.jpg",
+        "vertical_cover": "thumbs/nanaa_s1_e02_cover.jpg"
+      },
+      "platforms": {
+        "youtube": {
+          "video": "media/nanaa_s1_e02_h.mp4",
+          "title": "مفتاح غامض في صندوق البوستة! 🔑 | عمارة نعناعة - الحلقة 2 | شطة وزلطة",
+          "description": "مفتاح غريب مكتوب عليه «7-30» ظهر في صندوق البوستة… وبعدين اختفى! 🔑\n\n«عمارة نعناعة» — مسلسل كرتون مصري غموض وضحك للعيلة كلها. الموسم الأول: سر الدور السابع 🏚️\n\n🧩 لغز الحلقة: «7-30» على المفتاح معناها إيه؟ اكتبوا حلكم في الكومنتات 👇\n\nالحلقة الجاية بكرة الساعة 9 بالليل بتوقيت مصر ⏰\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #غموض #لغز #رعب_كوميدي #انيميشن #مصر",
+          "tags": [
+            "شطة وزلطة",
+            "عمارة نعناعة",
+            "سر الدور السابع",
+            "كرتون مصري",
+            "غموض",
+            "رعب كوميدي",
+            "لغز",
+            "مسلسل كرتون",
+            "ستيك مان",
+            "انيميشن مصري"
+          ],
+          "thumbnail": "thumbs/nanaa_s1_e02_yt.jpg",
+          "playlist": "عمارة نعناعة - الموسم 1: سر الدور السابع 🏚️",
+          "category_id": "24",
+          "default_language": "ar",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-14T19:00:00Z",
+          "pinned_comment": "🧩 لغز الحلقة: «7-30» على المفتاح معناها إيه؟ 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata"
+        },
+        "youtube_shorts": {
+          "video": "media/nanaa_s1_e02_v.mp4",
+          "title": "مفتاح غامض في صندوق البوستة! 🔑 | عمارة نعناعة الحلقة 2 #Shorts",
+          "description": "مفتاح غريب مكتوب عليه «7-30» ظهر في صندوق البوستة… وبعدين اختفى! 🔑\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #غموض #لغز #Shorts",
+          "tags": [
+            "شطة وزلطة",
+            "عمارة نعناعة",
+            "سر الدور السابع",
+            "كرتون مصري",
+            "غموض",
+            "رعب كوميدي",
+            "لغز",
+            "مسلسل كرتون",
+            "ستيك مان",
+            "انيميشن مصري"
+          ],
+          "playlist": "عمارة نعناعة - الموسم 1: سر الدور السابع 🏚️",
+          "category_id": "24",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-14T20:00:00Z",
+          "pinned_comment": "🧩 لغز الحلقة: «7-30» على المفتاح معناها إيه؟ 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
+          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+        },
+        "tiktok": {
+          "video": "media/nanaa_s1_e02_v.mp4",
+          "caption": "مفتاح غريب مكتوب عليه «7-30» ظهر في صندوق البوستة… وبعدين اختفى! 🔑 الحلقة 2 من «عمارة نعناعة» 🎬\n🧩 لغز الحلقة: «7-30» على المفتاح معناها إيه؟ 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #لغز #غموض #fyp",
+          "cover_image": "thumbs/nanaa_s1_e02_cover.jpg",
+          "cover_timestamp_ms": 1000,
+          "privacy": "PUBLIC_TO_EVERYONE",
+          "allow_comments": true,
+          "allow_duet": true,
+          "allow_stitch": true,
+          "publish_at_utc": "2026-11-14T19:00:00Z",
+          "pinned_comment": "🧩 لغز الحلقة: «7-30» على المفتاح معناها إيه؟ 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗",
+          "note": "لو الأداة مش بتقبل صورة غلاف، استخدم cover_timestamp_ms أو اختار الغلاف يدوي من التطبيق"
+        },
+        "instagram_reel": {
+          "video": "media/nanaa_s1_e02_v.mp4",
+          "caption": "مفتاح غريب مكتوب عليه «7-30» ظهر في صندوق البوستة… وبعدين اختفى! 🔑 الحلقة 2 من «عمارة نعناعة» 🎬\n🧩 لغز الحلقة: «7-30» على المفتاح معناها إيه؟ 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #لغز #ريلز",
+          "cover_image": "thumbs/nanaa_s1_e02_cover.jpg",
+          "share_to_facebook": true,
+          "publish_at_utc": "2026-11-14T19:00:00Z",
+          "pinned_comment": "🧩 لغز الحلقة: «7-30» على المفتاح معناها إيه؟ 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        },
+        "facebook_reel": {
+          "via": "instagram_reel.share_to_facebook",
+          "caption": "مفتاح غريب مكتوب عليه «7-30» ظهر في صندوق البوستة… وبعدين اختفى! 🔑 الحلقة 2 من «عمارة نعناعة» 🎬\n🧩 لغز الحلقة: «7-30» على المفتاح معناها إيه؟ 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري",
+          "note": "مش محتاج رفع منفصل لو انستجرام بيعمل share لفيسبوك",
+          "pinned_comment": "🧩 لغز الحلقة: «7-30» على المفتاح معناها إيه؟ 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        }
+      }
+    },
+    {
+      "id": "nanaa_s1_e03",
+      "series": "nanaa_s1",
+      "series_name": "عمارة نعناعة - الموسم 1: سر الدور السابع",
+      "kind": "episode",
+      "episode": 3,
+      "episode_name": "عم بندق مش بينام ليه؟",
+      "publish_at_cairo": "2026-11-15T21:00:00+02:00",
+      "publish_at_utc": "2026-11-15T19:00:00Z",
+      "status": "pending",
+      "media": {
+        "horizontal": "media/nanaa_s1_e03_h.mp4",
+        "vertical": "media/nanaa_s1_e03_v.mp4"
+      },
+      "source_file_names": {
+        "horizontal": "عمارة نعناعة - الحلقة 03 - عم بندق مش بينام ليه؟.mp4 (من على جهازك)",
+        "vertical": "عمارة نعناعة - الحلقة 03 - عم بندق مش بينام ليه؟ (تيك توك).mp4 (من على جهازك)"
+      },
+      "thumbnails": {
+        "youtube": "thumbs/nanaa_s1_e03_yt.jpg",
+        "vertical_cover": "thumbs/nanaa_s1_e03_cover.jpg"
+      },
+      "platforms": {
+        "youtube": {
+          "video": "media/nanaa_s1_e03_h.mp4",
+          "title": "عم بندق البواب مش بينام ليه؟ 🤔 | عمارة نعناعة - الحلقة 3 | شطة وزلطة",
+          "description": "البواب طالع السابع بالمفتاح كل ليلة… والخبط بقى 3 سريع و3 طويل و3 سريع! 🔨\n\n«عمارة نعناعة» — مسلسل كرتون مصري غموض وضحك للعيلة كلها. الموسم الأول: سر الدور السابع 🏚️\n\n🧩 لغز الحلقة: الخبط ده معناه إيه؟ (فكّروا في المورس 😉) اكتبوا حلكم في الكومنتات 👇\n\nالحلقة الجاية بكرة الساعة 9 بالليل بتوقيت مصر ⏰\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #غموض #لغز #رعب_كوميدي #انيميشن #مصر",
+          "tags": [
+            "شطة وزلطة",
+            "عمارة نعناعة",
+            "سر الدور السابع",
+            "كرتون مصري",
+            "غموض",
+            "رعب كوميدي",
+            "لغز",
+            "مسلسل كرتون",
+            "ستيك مان",
+            "انيميشن مصري"
+          ],
+          "thumbnail": "thumbs/nanaa_s1_e03_yt.jpg",
+          "playlist": "عمارة نعناعة - الموسم 1: سر الدور السابع 🏚️",
+          "category_id": "24",
+          "default_language": "ar",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-15T19:00:00Z",
+          "pinned_comment": "🧩 لغز الحلقة: الخبط ده معناه إيه؟ (فكّروا في المورس 😉) 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata"
+        },
+        "youtube_shorts": {
+          "video": "media/nanaa_s1_e03_v.mp4",
+          "title": "عم بندق البواب مش بينام ليه؟ 🤔 | عمارة نعناعة الحلقة 3 #Shorts",
+          "description": "البواب طالع السابع بالمفتاح كل ليلة… والخبط بقى 3 سريع و3 طويل و3 سريع! 🔨\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #غموض #لغز #Shorts",
+          "tags": [
+            "شطة وزلطة",
+            "عمارة نعناعة",
+            "سر الدور السابع",
+            "كرتون مصري",
+            "غموض",
+            "رعب كوميدي",
+            "لغز",
+            "مسلسل كرتون",
+            "ستيك مان",
+            "انيميشن مصري"
+          ],
+          "playlist": "عمارة نعناعة - الموسم 1: سر الدور السابع 🏚️",
+          "category_id": "24",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-15T20:00:00Z",
+          "pinned_comment": "🧩 لغز الحلقة: الخبط ده معناه إيه؟ (فكّروا في المورس 😉) 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
+          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+        },
+        "tiktok": {
+          "video": "media/nanaa_s1_e03_v.mp4",
+          "caption": "البواب طالع السابع بالمفتاح كل ليلة… والخبط بقى 3 سريع و3 طويل و3 سريع! 🔨 الحلقة 3 من «عمارة نعناعة» 🎬\n🧩 لغز الحلقة: الخبط ده معناه إيه؟ (فكّروا في المورس 😉) 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #لغز #غموض #fyp",
+          "cover_image": "thumbs/nanaa_s1_e03_cover.jpg",
+          "cover_timestamp_ms": 1000,
+          "privacy": "PUBLIC_TO_EVERYONE",
+          "allow_comments": true,
+          "allow_duet": true,
+          "allow_stitch": true,
+          "publish_at_utc": "2026-11-15T19:00:00Z",
+          "pinned_comment": "🧩 لغز الحلقة: الخبط ده معناه إيه؟ (فكّروا في المورس 😉) 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗",
+          "note": "لو الأداة مش بتقبل صورة غلاف، استخدم cover_timestamp_ms أو اختار الغلاف يدوي من التطبيق"
+        },
+        "instagram_reel": {
+          "video": "media/nanaa_s1_e03_v.mp4",
+          "caption": "البواب طالع السابع بالمفتاح كل ليلة… والخبط بقى 3 سريع و3 طويل و3 سريع! 🔨 الحلقة 3 من «عمارة نعناعة» 🎬\n🧩 لغز الحلقة: الخبط ده معناه إيه؟ (فكّروا في المورس 😉) 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #لغز #ريلز",
+          "cover_image": "thumbs/nanaa_s1_e03_cover.jpg",
+          "share_to_facebook": true,
+          "publish_at_utc": "2026-11-15T19:00:00Z",
+          "pinned_comment": "🧩 لغز الحلقة: الخبط ده معناه إيه؟ (فكّروا في المورس 😉) 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        },
+        "facebook_reel": {
+          "via": "instagram_reel.share_to_facebook",
+          "caption": "البواب طالع السابع بالمفتاح كل ليلة… والخبط بقى 3 سريع و3 طويل و3 سريع! 🔨 الحلقة 3 من «عمارة نعناعة» 🎬\n🧩 لغز الحلقة: الخبط ده معناه إيه؟ (فكّروا في المورس 😉) 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري",
+          "note": "مش محتاج رفع منفصل لو انستجرام بيعمل share لفيسبوك",
+          "pinned_comment": "🧩 لغز الحلقة: الخبط ده معناه إيه؟ (فكّروا في المورس 😉) 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        }
+      }
+    },
+    {
+      "id": "nanaa_s1_e04",
+      "series": "nanaa_s1",
+      "series_name": "عمارة نعناعة - الموسم 1: سر الدور السابع",
+      "kind": "episode",
+      "episode": 4,
+      "episode_name": "ليلة انقطاع النور",
+      "publish_at_cairo": "2026-11-16T21:00:00+02:00",
+      "publish_at_utc": "2026-11-16T19:00:00Z",
+      "status": "pending",
+      "media": {
+        "horizontal": "media/nanaa_s1_e04_h.mp4",
+        "vertical": "media/nanaa_s1_e04_v.mp4"
+      },
+      "source_file_names": {
+        "horizontal": "عمارة نعناعة - الحلقة 04 - ليلة انقطاع النور.mp4 (من على جهازك)",
+        "vertical": "عمارة نعناعة - الحلقة 04 - ليلة انقطاع النور (تيك توك).mp4 (من على جهازك)"
+      },
+      "thumbnails": {
+        "youtube": "thumbs/nanaa_s1_e04_yt.jpg",
+        "vertical_cover": "thumbs/nanaa_s1_e04_cover.jpg"
+      },
+      "platforms": {
+        "youtube": {
+          "video": "media/nanaa_s1_e04_h.mp4",
+          "title": "النور قطع… ومين اللي بينادي شطة؟! 🕯️ | عمارة نعناعة - الحلقة 4 | شطة وزلطة",
+          "description": "النور قطع في العمارة كلها… وضل طويل على الحيطة بينادي: «يا شطة…» 🕯️\n\n«عمارة نعناعة» — مسلسل كرتون مصري غموض وضحك للعيلة كلها. الموسم الأول: سر الدور السابع 🏚️\n\n🧩 لغز الحلقة: إزاي الضل طويل وصاحبه قصير؟ اكتبوا حلكم في الكومنتات 👇\n\nالحلقة الجاية بكرة الساعة 9 بالليل بتوقيت مصر ⏰\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #غموض #لغز #رعب_كوميدي #انيميشن #مصر",
+          "tags": [
+            "شطة وزلطة",
+            "عمارة نعناعة",
+            "سر الدور السابع",
+            "كرتون مصري",
+            "غموض",
+            "رعب كوميدي",
+            "لغز",
+            "مسلسل كرتون",
+            "ستيك مان",
+            "انيميشن مصري"
+          ],
+          "thumbnail": "thumbs/nanaa_s1_e04_yt.jpg",
+          "playlist": "عمارة نعناعة - الموسم 1: سر الدور السابع 🏚️",
+          "category_id": "24",
+          "default_language": "ar",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-16T19:00:00Z",
+          "pinned_comment": "🧩 لغز الحلقة: إزاي الضل طويل وصاحبه قصير؟ 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata"
+        },
+        "youtube_shorts": {
+          "video": "media/nanaa_s1_e04_v.mp4",
+          "title": "النور قطع… ومين اللي بينادي شطة؟! 🕯️ | عمارة نعناعة الحلقة 4 #Shorts",
+          "description": "النور قطع في العمارة كلها… وضل طويل على الحيطة بينادي: «يا شطة…» 🕯️\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #غموض #لغز #Shorts",
+          "tags": [
+            "شطة وزلطة",
+            "عمارة نعناعة",
+            "سر الدور السابع",
+            "كرتون مصري",
+            "غموض",
+            "رعب كوميدي",
+            "لغز",
+            "مسلسل كرتون",
+            "ستيك مان",
+            "انيميشن مصري"
+          ],
+          "playlist": "عمارة نعناعة - الموسم 1: سر الدور السابع 🏚️",
+          "category_id": "24",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-16T20:00:00Z",
+          "pinned_comment": "🧩 لغز الحلقة: إزاي الضل طويل وصاحبه قصير؟ 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
+          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+        },
+        "tiktok": {
+          "video": "media/nanaa_s1_e04_v.mp4",
+          "caption": "النور قطع في العمارة كلها… وضل طويل على الحيطة بينادي: «يا شطة…» 🕯️ الحلقة 4 من «عمارة نعناعة» 🎬\n🧩 لغز الحلقة: إزاي الضل طويل وصاحبه قصير؟ 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #لغز #غموض #fyp",
+          "cover_image": "thumbs/nanaa_s1_e04_cover.jpg",
+          "cover_timestamp_ms": 1000,
+          "privacy": "PUBLIC_TO_EVERYONE",
+          "allow_comments": true,
+          "allow_duet": true,
+          "allow_stitch": true,
+          "publish_at_utc": "2026-11-16T19:00:00Z",
+          "pinned_comment": "🧩 لغز الحلقة: إزاي الضل طويل وصاحبه قصير؟ 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗",
+          "note": "لو الأداة مش بتقبل صورة غلاف، استخدم cover_timestamp_ms أو اختار الغلاف يدوي من التطبيق"
+        },
+        "instagram_reel": {
+          "video": "media/nanaa_s1_e04_v.mp4",
+          "caption": "النور قطع في العمارة كلها… وضل طويل على الحيطة بينادي: «يا شطة…» 🕯️ الحلقة 4 من «عمارة نعناعة» 🎬\n🧩 لغز الحلقة: إزاي الضل طويل وصاحبه قصير؟ 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #لغز #ريلز",
+          "cover_image": "thumbs/nanaa_s1_e04_cover.jpg",
+          "share_to_facebook": true,
+          "publish_at_utc": "2026-11-16T19:00:00Z",
+          "pinned_comment": "🧩 لغز الحلقة: إزاي الضل طويل وصاحبه قصير؟ 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        },
+        "facebook_reel": {
+          "via": "instagram_reel.share_to_facebook",
+          "caption": "النور قطع في العمارة كلها… وضل طويل على الحيطة بينادي: «يا شطة…» 🕯️ الحلقة 4 من «عمارة نعناعة» 🎬\n🧩 لغز الحلقة: إزاي الضل طويل وصاحبه قصير؟ 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري",
+          "note": "مش محتاج رفع منفصل لو انستجرام بيعمل share لفيسبوك",
+          "pinned_comment": "🧩 لغز الحلقة: إزاي الضل طويل وصاحبه قصير؟ 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        }
+      }
+    },
+    {
+      "id": "nanaa_s1_e05",
+      "series": "nanaa_s1",
+      "series_name": "عمارة نعناعة - الموسم 1: سر الدور السابع",
+      "kind": "episode",
+      "episode": 5,
+      "episode_name": "الجار الجديد",
+      "publish_at_cairo": "2026-11-17T21:00:00+02:00",
+      "publish_at_utc": "2026-11-17T19:00:00Z",
+      "status": "pending",
+      "media": {
+        "horizontal": "media/nanaa_s1_e05_h.mp4",
+        "vertical": "media/nanaa_s1_e05_v.mp4"
+      },
+      "source_file_names": {
+        "horizontal": "عمارة نعناعة - الحلقة 05 - الجار الجديد.mp4 (من على جهازك)",
+        "vertical": "عمارة نعناعة - الحلقة 05 - الجار الجديد (تيك توك).mp4 (من على جهازك)"
+      },
+      "thumbnails": {
+        "youtube": "thumbs/nanaa_s1_e05_yt.jpg",
+        "vertical_cover": "thumbs/nanaa_s1_e05_cover.jpg"
+      },
+      "platforms": {
+        "youtube": {
+          "video": "media/nanaa_s1_e05_h.mp4",
+          "title": "الجار الجديد ظريف زيادة عن اللزوم! 🍬 | عمارة نعناعة - الحلقة 5 | شطة وزلطة",
+          "description": "أستاذ فهمي سكن جديد ومعاه حلويات للكل… بس ليه معاه مفتاح «7-30»؟ 🍬\n\n«عمارة نعناعة» — مسلسل كرتون مصري غموض وضحك للعيلة كلها. الموسم الأول: سر الدور السابع 🏚️\n\n🧩 أستاذ فهمي ده وراه إيه؟ اكتبوا توقعاتكم اكتبوا حلكم في الكومنتات 👇\n\nالحلقة الجاية بكرة الساعة 9 بالليل بتوقيت مصر ⏰\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #غموض #لغز #رعب_كوميدي #انيميشن #مصر",
+          "tags": [
+            "شطة وزلطة",
+            "عمارة نعناعة",
+            "سر الدور السابع",
+            "كرتون مصري",
+            "غموض",
+            "رعب كوميدي",
+            "لغز",
+            "مسلسل كرتون",
+            "ستيك مان",
+            "انيميشن مصري"
+          ],
+          "thumbnail": "thumbs/nanaa_s1_e05_yt.jpg",
+          "playlist": "عمارة نعناعة - الموسم 1: سر الدور السابع 🏚️",
+          "category_id": "24",
+          "default_language": "ar",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-17T19:00:00Z",
+          "pinned_comment": "🧩 أستاذ فهمي ده وراه إيه؟ اكتبوا توقعاتكم 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata"
+        },
+        "youtube_shorts": {
+          "video": "media/nanaa_s1_e05_v.mp4",
+          "title": "الجار الجديد ظريف زيادة عن اللزوم! 🍬 | عمارة نعناعة الحلقة 5 #Shorts",
+          "description": "أستاذ فهمي سكن جديد ومعاه حلويات للكل… بس ليه معاه مفتاح «7-30»؟ 🍬\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #غموض #لغز #Shorts",
+          "tags": [
+            "شطة وزلطة",
+            "عمارة نعناعة",
+            "سر الدور السابع",
+            "كرتون مصري",
+            "غموض",
+            "رعب كوميدي",
+            "لغز",
+            "مسلسل كرتون",
+            "ستيك مان",
+            "انيميشن مصري"
+          ],
+          "playlist": "عمارة نعناعة - الموسم 1: سر الدور السابع 🏚️",
+          "category_id": "24",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-17T20:00:00Z",
+          "pinned_comment": "🧩 أستاذ فهمي ده وراه إيه؟ اكتبوا توقعاتكم 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
+          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+        },
+        "tiktok": {
+          "video": "media/nanaa_s1_e05_v.mp4",
+          "caption": "أستاذ فهمي سكن جديد ومعاه حلويات للكل… بس ليه معاه مفتاح «7-30»؟ 🍬 الحلقة 5 من «عمارة نعناعة» 🎬\n🧩 أستاذ فهمي ده وراه إيه؟ اكتبوا توقعاتكم 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #لغز #غموض #fyp",
+          "cover_image": "thumbs/nanaa_s1_e05_cover.jpg",
+          "cover_timestamp_ms": 1000,
+          "privacy": "PUBLIC_TO_EVERYONE",
+          "allow_comments": true,
+          "allow_duet": true,
+          "allow_stitch": true,
+          "publish_at_utc": "2026-11-17T19:00:00Z",
+          "pinned_comment": "🧩 أستاذ فهمي ده وراه إيه؟ اكتبوا توقعاتكم 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗",
+          "note": "لو الأداة مش بتقبل صورة غلاف، استخدم cover_timestamp_ms أو اختار الغلاف يدوي من التطبيق"
+        },
+        "instagram_reel": {
+          "video": "media/nanaa_s1_e05_v.mp4",
+          "caption": "أستاذ فهمي سكن جديد ومعاه حلويات للكل… بس ليه معاه مفتاح «7-30»؟ 🍬 الحلقة 5 من «عمارة نعناعة» 🎬\n🧩 أستاذ فهمي ده وراه إيه؟ اكتبوا توقعاتكم 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #لغز #ريلز",
+          "cover_image": "thumbs/nanaa_s1_e05_cover.jpg",
+          "share_to_facebook": true,
+          "publish_at_utc": "2026-11-17T19:00:00Z",
+          "pinned_comment": "🧩 أستاذ فهمي ده وراه إيه؟ اكتبوا توقعاتكم 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        },
+        "facebook_reel": {
+          "via": "instagram_reel.share_to_facebook",
+          "caption": "أستاذ فهمي سكن جديد ومعاه حلويات للكل… بس ليه معاه مفتاح «7-30»؟ 🍬 الحلقة 5 من «عمارة نعناعة» 🎬\n🧩 أستاذ فهمي ده وراه إيه؟ اكتبوا توقعاتكم 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري",
+          "note": "مش محتاج رفع منفصل لو انستجرام بيعمل share لفيسبوك",
+          "pinned_comment": "🧩 أستاذ فهمي ده وراه إيه؟ اكتبوا توقعاتكم 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        }
+      }
+    },
+    {
+      "id": "nanaa_s1_e06",
+      "series": "nanaa_s1",
+      "series_name": "عمارة نعناعة - الموسم 1: سر الدور السابع",
+      "kind": "episode",
+      "episode": 6,
+      "episode_name": "رسالة بالخبط",
+      "publish_at_cairo": "2026-11-18T21:00:00+02:00",
+      "publish_at_utc": "2026-11-18T19:00:00Z",
+      "status": "pending",
+      "media": {
+        "horizontal": "media/nanaa_s1_e06_h.mp4",
+        "vertical": "media/nanaa_s1_e06_v.mp4"
+      },
+      "source_file_names": {
+        "horizontal": "عمارة نعناعة - الحلقة 06 - رسالة بالخبط.mp4 (من على جهازك)",
+        "vertical": "عمارة نعناعة - الحلقة 06 - رسالة بالخبط (تيك توك).mp4 (من على جهازك)"
+      },
+      "thumbnails": {
+        "youtube": "thumbs/nanaa_s1_e06_yt.jpg",
+        "vertical_cover": "thumbs/nanaa_s1_e06_cover.jpg"
+      },
+      "platforms": {
+        "youtube": {
+          "video": "media/nanaa_s1_e06_h.mp4",
+          "title": "الخبط ده رسالة سرية! 🔨 | عمارة نعناعة - الحلقة 6 | شطة وزلطة",
+          "description": "فيه نوعين خبط في العمارة… وتوتة اكتشفت إن الخبط بيقول اسم حد! 🔨\n\n«عمارة نعناعة» — مسلسل كرتون مصري غموض وضحك للعيلة كلها. الموسم الأول: سر الدور السابع 🏚️\n\n🧩 لغز الحلقة: الخبط بيقول اسم مين؟ اكتبوا حلكم في الكومنتات 👇\n\nالحلقة الجاية بكرة الساعة 9 بالليل بتوقيت مصر ⏰\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #غموض #لغز #رعب_كوميدي #انيميشن #مصر",
+          "tags": [
+            "شطة وزلطة",
+            "عمارة نعناعة",
+            "سر الدور السابع",
+            "كرتون مصري",
+            "غموض",
+            "رعب كوميدي",
+            "لغز",
+            "مسلسل كرتون",
+            "ستيك مان",
+            "انيميشن مصري"
+          ],
+          "thumbnail": "thumbs/nanaa_s1_e06_yt.jpg",
+          "playlist": "عمارة نعناعة - الموسم 1: سر الدور السابع 🏚️",
+          "category_id": "24",
+          "default_language": "ar",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-18T19:00:00Z",
+          "pinned_comment": "🧩 لغز الحلقة: الخبط بيقول اسم مين؟ 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata"
+        },
+        "youtube_shorts": {
+          "video": "media/nanaa_s1_e06_v.mp4",
+          "title": "الخبط ده رسالة سرية! 🔨 | عمارة نعناعة الحلقة 6 #Shorts",
+          "description": "فيه نوعين خبط في العمارة… وتوتة اكتشفت إن الخبط بيقول اسم حد! 🔨\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #غموض #لغز #Shorts",
+          "tags": [
+            "شطة وزلطة",
+            "عمارة نعناعة",
+            "سر الدور السابع",
+            "كرتون مصري",
+            "غموض",
+            "رعب كوميدي",
+            "لغز",
+            "مسلسل كرتون",
+            "ستيك مان",
+            "انيميشن مصري"
+          ],
+          "playlist": "عمارة نعناعة - الموسم 1: سر الدور السابع 🏚️",
+          "category_id": "24",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-18T20:00:00Z",
+          "pinned_comment": "🧩 لغز الحلقة: الخبط بيقول اسم مين؟ 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
+          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+        },
+        "tiktok": {
+          "video": "media/nanaa_s1_e06_v.mp4",
+          "caption": "فيه نوعين خبط في العمارة… وتوتة اكتشفت إن الخبط بيقول اسم حد! 🔨 الحلقة 6 من «عمارة نعناعة» 🎬\n🧩 لغز الحلقة: الخبط بيقول اسم مين؟ 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #لغز #غموض #fyp",
+          "cover_image": "thumbs/nanaa_s1_e06_cover.jpg",
+          "cover_timestamp_ms": 1000,
+          "privacy": "PUBLIC_TO_EVERYONE",
+          "allow_comments": true,
+          "allow_duet": true,
+          "allow_stitch": true,
+          "publish_at_utc": "2026-11-18T19:00:00Z",
+          "pinned_comment": "🧩 لغز الحلقة: الخبط بيقول اسم مين؟ 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗",
+          "note": "لو الأداة مش بتقبل صورة غلاف، استخدم cover_timestamp_ms أو اختار الغلاف يدوي من التطبيق"
+        },
+        "instagram_reel": {
+          "video": "media/nanaa_s1_e06_v.mp4",
+          "caption": "فيه نوعين خبط في العمارة… وتوتة اكتشفت إن الخبط بيقول اسم حد! 🔨 الحلقة 6 من «عمارة نعناعة» 🎬\n🧩 لغز الحلقة: الخبط بيقول اسم مين؟ 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #لغز #ريلز",
+          "cover_image": "thumbs/nanaa_s1_e06_cover.jpg",
+          "share_to_facebook": true,
+          "publish_at_utc": "2026-11-18T19:00:00Z",
+          "pinned_comment": "🧩 لغز الحلقة: الخبط بيقول اسم مين؟ 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        },
+        "facebook_reel": {
+          "via": "instagram_reel.share_to_facebook",
+          "caption": "فيه نوعين خبط في العمارة… وتوتة اكتشفت إن الخبط بيقول اسم حد! 🔨 الحلقة 6 من «عمارة نعناعة» 🎬\n🧩 لغز الحلقة: الخبط بيقول اسم مين؟ 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري",
+          "note": "مش محتاج رفع منفصل لو انستجرام بيعمل share لفيسبوك",
+          "pinned_comment": "🧩 لغز الحلقة: الخبط بيقول اسم مين؟ 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        }
+      }
+    },
+    {
+      "id": "nanaa_s1_e07",
+      "series": "nanaa_s1",
+      "series_name": "عمارة نعناعة - الموسم 1: سر الدور السابع",
+      "kind": "episode",
+      "episode": 7,
+      "episode_name": "الكشكول اتسرق",
+      "publish_at_cairo": "2026-11-19T21:00:00+02:00",
+      "publish_at_utc": "2026-11-19T19:00:00Z",
+      "status": "pending",
+      "media": {
+        "horizontal": "media/nanaa_s1_e07_h.mp4",
+        "vertical": "media/nanaa_s1_e07_v.mp4"
+      },
+      "source_file_names": {
+        "horizontal": "عمارة نعناعة - الحلقة 07 - الكشكول اتسرق.mp4 (من على جهازك)",
+        "vertical": "عمارة نعناعة - الحلقة 07 - الكشكول اتسرق (تيك توك).mp4 (من على جهازك)"
+      },
+      "thumbnails": {
+        "youtube": "thumbs/nanaa_s1_e07_yt.jpg",
+        "vertical_cover": "thumbs/nanaa_s1_e07_cover.jpg"
+      },
+      "platforms": {
+        "youtube": {
+          "video": "media/nanaa_s1_e07_h.mp4",
+          "title": "كشكول زلطة اتسرق! مين الحرامي؟ 🕵️ | عمارة نعناعة - الحلقة 7 | شطة وزلطة",
+          "description": "كشكول زلطة اللي فيه كل الحلول اتسرق… وطابور المشتبه فيهم طويل! 🕵️\n\n«عمارة نعناعة» — مسلسل كرتون مصري غموض وضحك للعيلة كلها. الموسم الأول: سر الدور السابع 🏚️\n\n🧩 لغز الحلقة: مين اللي سرق الكشكول؟ اكتبوا حلكم في الكومنتات 👇\n\nالحلقة الجاية بكرة الساعة 9 بالليل بتوقيت مصر ⏰\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #غموض #لغز #رعب_كوميدي #انيميشن #مصر",
+          "tags": [
+            "شطة وزلطة",
+            "عمارة نعناعة",
+            "سر الدور السابع",
+            "كرتون مصري",
+            "غموض",
+            "رعب كوميدي",
+            "لغز",
+            "مسلسل كرتون",
+            "ستيك مان",
+            "انيميشن مصري"
+          ],
+          "thumbnail": "thumbs/nanaa_s1_e07_yt.jpg",
+          "playlist": "عمارة نعناعة - الموسم 1: سر الدور السابع 🏚️",
+          "category_id": "24",
+          "default_language": "ar",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-19T19:00:00Z",
+          "pinned_comment": "🧩 لغز الحلقة: مين اللي سرق الكشكول؟ 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata"
+        },
+        "youtube_shorts": {
+          "video": "media/nanaa_s1_e07_v.mp4",
+          "title": "كشكول زلطة اتسرق! مين الحرامي؟ 🕵️ | عمارة نعناعة الحلقة 7 #Shorts",
+          "description": "كشكول زلطة اللي فيه كل الحلول اتسرق… وطابور المشتبه فيهم طويل! 🕵️\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #غموض #لغز #Shorts",
+          "tags": [
+            "شطة وزلطة",
+            "عمارة نعناعة",
+            "سر الدور السابع",
+            "كرتون مصري",
+            "غموض",
+            "رعب كوميدي",
+            "لغز",
+            "مسلسل كرتون",
+            "ستيك مان",
+            "انيميشن مصري"
+          ],
+          "playlist": "عمارة نعناعة - الموسم 1: سر الدور السابع 🏚️",
+          "category_id": "24",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-19T20:00:00Z",
+          "pinned_comment": "🧩 لغز الحلقة: مين اللي سرق الكشكول؟ 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
+          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+        },
+        "tiktok": {
+          "video": "media/nanaa_s1_e07_v.mp4",
+          "caption": "كشكول زلطة اللي فيه كل الحلول اتسرق… وطابور المشتبه فيهم طويل! 🕵️ الحلقة 7 من «عمارة نعناعة» 🎬\n🧩 لغز الحلقة: مين اللي سرق الكشكول؟ 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #لغز #غموض #fyp",
+          "cover_image": "thumbs/nanaa_s1_e07_cover.jpg",
+          "cover_timestamp_ms": 1000,
+          "privacy": "PUBLIC_TO_EVERYONE",
+          "allow_comments": true,
+          "allow_duet": true,
+          "allow_stitch": true,
+          "publish_at_utc": "2026-11-19T19:00:00Z",
+          "pinned_comment": "🧩 لغز الحلقة: مين اللي سرق الكشكول؟ 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗",
+          "note": "لو الأداة مش بتقبل صورة غلاف، استخدم cover_timestamp_ms أو اختار الغلاف يدوي من التطبيق"
+        },
+        "instagram_reel": {
+          "video": "media/nanaa_s1_e07_v.mp4",
+          "caption": "كشكول زلطة اللي فيه كل الحلول اتسرق… وطابور المشتبه فيهم طويل! 🕵️ الحلقة 7 من «عمارة نعناعة» 🎬\n🧩 لغز الحلقة: مين اللي سرق الكشكول؟ 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #لغز #ريلز",
+          "cover_image": "thumbs/nanaa_s1_e07_cover.jpg",
+          "share_to_facebook": true,
+          "publish_at_utc": "2026-11-19T19:00:00Z",
+          "pinned_comment": "🧩 لغز الحلقة: مين اللي سرق الكشكول؟ 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        },
+        "facebook_reel": {
+          "via": "instagram_reel.share_to_facebook",
+          "caption": "كشكول زلطة اللي فيه كل الحلول اتسرق… وطابور المشتبه فيهم طويل! 🕵️ الحلقة 7 من «عمارة نعناعة» 🎬\n🧩 لغز الحلقة: مين اللي سرق الكشكول؟ 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري",
+          "note": "مش محتاج رفع منفصل لو انستجرام بيعمل share لفيسبوك",
+          "pinned_comment": "🧩 لغز الحلقة: مين اللي سرق الكشكول؟ 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        }
+      }
+    },
+    {
+      "id": "nanaa_s1_e08",
+      "series": "nanaa_s1",
+      "series_name": "عمارة نعناعة - الموسم 1: سر الدور السابع",
+      "kind": "episode",
+      "episode": 8,
+      "episode_name": "الدور السابع",
+      "publish_at_cairo": "2026-11-20T21:00:00+02:00",
+      "publish_at_utc": "2026-11-20T19:00:00Z",
+      "status": "pending",
+      "media": {
+        "horizontal": "media/nanaa_s1_e08_h.mp4",
+        "vertical": "media/nanaa_s1_e08_v.mp4"
+      },
+      "source_file_names": {
+        "horizontal": "عمارة نعناعة - الحلقة 08 - الدور السابع.mp4 (من على جهازك)",
+        "vertical": "عمارة نعناعة - الحلقة 08 - الدور السابع (تيك توك).mp4 (من على جهازك)"
+      },
+      "thumbnails": {
+        "youtube": "thumbs/nanaa_s1_e08_yt.jpg",
+        "vertical_cover": "thumbs/nanaa_s1_e08_cover.jpg"
+      },
+      "platforms": {
+        "youtube": {
+          "video": "media/nanaa_s1_e08_h.mp4",
+          "title": "أخيراً دخلنا الدور السابع! 🚪 | عمارة نعناعة - الحلقة 8 | شطة وزلطة",
+          "description": "العيال دخلوا شقة الدور السابع… وفجأة الباب اتقفل عليهم! 🚪\n\n«عمارة نعناعة» — مسلسل كرتون مصري غموض وضحك للعيلة كلها. الموسم الأول: سر الدور السابع 🏚️\n\n🧩 لغز الحلقة: إيه اللي مربوط في البكرة؟ اكتبوا حلكم في الكومنتات 👇\n\nالحلقة الجاية بكرة الساعة 9 بالليل بتوقيت مصر ⏰\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #غموض #لغز #رعب_كوميدي #انيميشن #مصر",
+          "tags": [
+            "شطة وزلطة",
+            "عمارة نعناعة",
+            "سر الدور السابع",
+            "كرتون مصري",
+            "غموض",
+            "رعب كوميدي",
+            "لغز",
+            "مسلسل كرتون",
+            "ستيك مان",
+            "انيميشن مصري"
+          ],
+          "thumbnail": "thumbs/nanaa_s1_e08_yt.jpg",
+          "playlist": "عمارة نعناعة - الموسم 1: سر الدور السابع 🏚️",
+          "category_id": "24",
+          "default_language": "ar",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-20T19:00:00Z",
+          "pinned_comment": "🧩 لغز الحلقة: إيه اللي مربوط في البكرة؟ 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata"
+        },
+        "youtube_shorts": {
+          "video": "media/nanaa_s1_e08_v.mp4",
+          "title": "أخيراً دخلنا الدور السابع! 🚪 | عمارة نعناعة الحلقة 8 #Shorts",
+          "description": "العيال دخلوا شقة الدور السابع… وفجأة الباب اتقفل عليهم! 🚪\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #غموض #لغز #Shorts",
+          "tags": [
+            "شطة وزلطة",
+            "عمارة نعناعة",
+            "سر الدور السابع",
+            "كرتون مصري",
+            "غموض",
+            "رعب كوميدي",
+            "لغز",
+            "مسلسل كرتون",
+            "ستيك مان",
+            "انيميشن مصري"
+          ],
+          "playlist": "عمارة نعناعة - الموسم 1: سر الدور السابع 🏚️",
+          "category_id": "24",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-20T20:00:00Z",
+          "pinned_comment": "🧩 لغز الحلقة: إيه اللي مربوط في البكرة؟ 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
+          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+        },
+        "tiktok": {
+          "video": "media/nanaa_s1_e08_v.mp4",
+          "caption": "العيال دخلوا شقة الدور السابع… وفجأة الباب اتقفل عليهم! 🚪 الحلقة 8 من «عمارة نعناعة» 🎬\n🧩 لغز الحلقة: إيه اللي مربوط في البكرة؟ 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #لغز #غموض #fyp",
+          "cover_image": "thumbs/nanaa_s1_e08_cover.jpg",
+          "cover_timestamp_ms": 1000,
+          "privacy": "PUBLIC_TO_EVERYONE",
+          "allow_comments": true,
+          "allow_duet": true,
+          "allow_stitch": true,
+          "publish_at_utc": "2026-11-20T19:00:00Z",
+          "pinned_comment": "🧩 لغز الحلقة: إيه اللي مربوط في البكرة؟ 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗",
+          "note": "لو الأداة مش بتقبل صورة غلاف، استخدم cover_timestamp_ms أو اختار الغلاف يدوي من التطبيق"
+        },
+        "instagram_reel": {
+          "video": "media/nanaa_s1_e08_v.mp4",
+          "caption": "العيال دخلوا شقة الدور السابع… وفجأة الباب اتقفل عليهم! 🚪 الحلقة 8 من «عمارة نعناعة» 🎬\n🧩 لغز الحلقة: إيه اللي مربوط في البكرة؟ 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #لغز #ريلز",
+          "cover_image": "thumbs/nanaa_s1_e08_cover.jpg",
+          "share_to_facebook": true,
+          "publish_at_utc": "2026-11-20T19:00:00Z",
+          "pinned_comment": "🧩 لغز الحلقة: إيه اللي مربوط في البكرة؟ 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        },
+        "facebook_reel": {
+          "via": "instagram_reel.share_to_facebook",
+          "caption": "العيال دخلوا شقة الدور السابع… وفجأة الباب اتقفل عليهم! 🚪 الحلقة 8 من «عمارة نعناعة» 🎬\n🧩 لغز الحلقة: إيه اللي مربوط في البكرة؟ 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري",
+          "note": "مش محتاج رفع منفصل لو انستجرام بيعمل share لفيسبوك",
+          "pinned_comment": "🧩 لغز الحلقة: إيه اللي مربوط في البكرة؟ 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        }
+      }
+    },
+    {
+      "id": "nanaa_s1_e09",
+      "series": "nanaa_s1",
+      "series_name": "عمارة نعناعة - الموسم 1: سر الدور السابع",
+      "kind": "episode",
+      "episode": 9,
+      "episode_name": "اللي ورا الباب",
+      "publish_at_cairo": "2026-11-21T21:00:00+02:00",
+      "publish_at_utc": "2026-11-21T19:00:00Z",
+      "status": "pending",
+      "media": {
+        "horizontal": "media/nanaa_s1_e09_h.mp4",
+        "vertical": "media/nanaa_s1_e09_v.mp4"
+      },
+      "source_file_names": {
+        "horizontal": "عمارة نعناعة - الحلقة 09 - اللي ورا الباب.mp4 (من على جهازك)",
+        "vertical": "عمارة نعناعة - الحلقة 09 - اللي ورا الباب (تيك توك).mp4 (من على جهازك)"
+      },
+      "thumbnails": {
+        "youtube": "thumbs/nanaa_s1_e09_yt.jpg",
+        "vertical_cover": "thumbs/nanaa_s1_e09_cover.jpg"
+      },
+      "platforms": {
+        "youtube": {
+          "video": "media/nanaa_s1_e09_h.mp4",
+          "title": "البواب حكى السر كله… 😨 | عمارة نعناعة - الحلقة 9 | شطة وزلطة",
+          "description": "عم بندق فتح الباب وحكى سر رشدي… وقال: «الخبط الساعة 12 مش أنا!» 😨\n\n«عمارة نعناعة» — مسلسل كرتون مصري غموض وضحك للعيلة كلها. الموسم الأول: سر الدور السابع 🏚️\n\n🧩 لو البواب مش هو اللي بيخبط الساعة 12… يبقى مين؟ اكتبوا حلكم في الكومنتات 👇\n\nالحلقة الجاية بكرة الساعة 9 بالليل بتوقيت مصر ⏰\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #غموض #لغز #رعب_كوميدي #انيميشن #مصر",
+          "tags": [
+            "شطة وزلطة",
+            "عمارة نعناعة",
+            "سر الدور السابع",
+            "كرتون مصري",
+            "غموض",
+            "رعب كوميدي",
+            "لغز",
+            "مسلسل كرتون",
+            "ستيك مان",
+            "انيميشن مصري"
+          ],
+          "thumbnail": "thumbs/nanaa_s1_e09_yt.jpg",
+          "playlist": "عمارة نعناعة - الموسم 1: سر الدور السابع 🏚️",
+          "category_id": "24",
+          "default_language": "ar",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-21T19:00:00Z",
+          "pinned_comment": "🧩 لو البواب مش هو اللي بيخبط الساعة 12… يبقى مين؟ 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata"
+        },
+        "youtube_shorts": {
+          "video": "media/nanaa_s1_e09_v.mp4",
+          "title": "البواب حكى السر كله… 😨 | عمارة نعناعة الحلقة 9 #Shorts",
+          "description": "عم بندق فتح الباب وحكى سر رشدي… وقال: «الخبط الساعة 12 مش أنا!» 😨\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #غموض #لغز #Shorts",
+          "tags": [
+            "شطة وزلطة",
+            "عمارة نعناعة",
+            "سر الدور السابع",
+            "كرتون مصري",
+            "غموض",
+            "رعب كوميدي",
+            "لغز",
+            "مسلسل كرتون",
+            "ستيك مان",
+            "انيميشن مصري"
+          ],
+          "playlist": "عمارة نعناعة - الموسم 1: سر الدور السابع 🏚️",
+          "category_id": "24",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-21T20:00:00Z",
+          "pinned_comment": "🧩 لو البواب مش هو اللي بيخبط الساعة 12… يبقى مين؟ 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
+          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+        },
+        "tiktok": {
+          "video": "media/nanaa_s1_e09_v.mp4",
+          "caption": "عم بندق فتح الباب وحكى سر رشدي… وقال: «الخبط الساعة 12 مش أنا!» 😨 الحلقة 9 من «عمارة نعناعة» 🎬\n🧩 لو البواب مش هو اللي بيخبط الساعة 12… يبقى مين؟ 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #لغز #غموض #fyp",
+          "cover_image": "thumbs/nanaa_s1_e09_cover.jpg",
+          "cover_timestamp_ms": 1000,
+          "privacy": "PUBLIC_TO_EVERYONE",
+          "allow_comments": true,
+          "allow_duet": true,
+          "allow_stitch": true,
+          "publish_at_utc": "2026-11-21T19:00:00Z",
+          "pinned_comment": "🧩 لو البواب مش هو اللي بيخبط الساعة 12… يبقى مين؟ 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗",
+          "note": "لو الأداة مش بتقبل صورة غلاف، استخدم cover_timestamp_ms أو اختار الغلاف يدوي من التطبيق"
+        },
+        "instagram_reel": {
+          "video": "media/nanaa_s1_e09_v.mp4",
+          "caption": "عم بندق فتح الباب وحكى سر رشدي… وقال: «الخبط الساعة 12 مش أنا!» 😨 الحلقة 9 من «عمارة نعناعة» 🎬\n🧩 لو البواب مش هو اللي بيخبط الساعة 12… يبقى مين؟ 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #لغز #ريلز",
+          "cover_image": "thumbs/nanaa_s1_e09_cover.jpg",
+          "share_to_facebook": true,
+          "publish_at_utc": "2026-11-21T19:00:00Z",
+          "pinned_comment": "🧩 لو البواب مش هو اللي بيخبط الساعة 12… يبقى مين؟ 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        },
+        "facebook_reel": {
+          "via": "instagram_reel.share_to_facebook",
+          "caption": "عم بندق فتح الباب وحكى سر رشدي… وقال: «الخبط الساعة 12 مش أنا!» 😨 الحلقة 9 من «عمارة نعناعة» 🎬\n🧩 لو البواب مش هو اللي بيخبط الساعة 12… يبقى مين؟ 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري",
+          "note": "مش محتاج رفع منفصل لو انستجرام بيعمل share لفيسبوك",
+          "pinned_comment": "🧩 لو البواب مش هو اللي بيخبط الساعة 12… يبقى مين؟ 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        }
+      }
+    },
+    {
+      "id": "nanaa_s1_e10",
+      "series": "nanaa_s1",
+      "series_name": "عمارة نعناعة - الموسم 1: سر الدور السابع",
+      "kind": "episode",
+      "episode": 10,
+      "episode_name": "الحقيقة",
+      "publish_at_cairo": "2026-11-22T21:00:00+02:00",
+      "publish_at_utc": "2026-11-22T19:00:00Z",
+      "status": "pending",
+      "media": {
+        "horizontal": "media/nanaa_s1_e10_h.mp4",
+        "vertical": "media/nanaa_s1_e10_v.mp4"
+      },
+      "source_file_names": {
+        "horizontal": "عمارة نعناعة - الحلقة 10 - الحقيقة.mp4 (من على جهازك)",
+        "vertical": "عمارة نعناعة - الحلقة 10 - الحقيقة (تيك توك).mp4 (من على جهازك)"
+      },
+      "thumbnails": {
+        "youtube": "thumbs/nanaa_s1_e10_yt.jpg",
+        "vertical_cover": "thumbs/nanaa_s1_e10_cover.jpg"
+      },
+      "platforms": {
+        "youtube": {
+          "video": "media/nanaa_s1_e10_h.mp4",
+          "title": "الحقيقة كلها! (الحلقة الأخيرة) 🎬 | عمارة نعناعة - الحلقة 10 | شطة وزلطة",
+          "description": "الحلقة الأخيرة: الخطة، لايف سوسن، والشبشب على فهمي! والسر الحقيقي في البدروم… 🎬\n\n«عمارة نعناعة» — مسلسل كرتون مصري غموض وضحك للعيلة كلها. الموسم الأول: سر الدور السابع 🏚️\n\n🧩 تفتكروا إيه اللي مستني العيال في البدروم؟ اكتبوا حلكم في الكومنتات 👇\n\nالموسم التاني «سر البدروم» قريب جداً… فعّلوا الجرس 🔔\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #غموض #لغز #رعب_كوميدي #انيميشن #مصر",
+          "tags": [
+            "شطة وزلطة",
+            "عمارة نعناعة",
+            "سر الدور السابع",
+            "كرتون مصري",
+            "غموض",
+            "رعب كوميدي",
+            "لغز",
+            "مسلسل كرتون",
+            "ستيك مان",
+            "انيميشن مصري"
+          ],
+          "thumbnail": "thumbs/nanaa_s1_e10_yt.jpg",
+          "playlist": "عمارة نعناعة - الموسم 1: سر الدور السابع 🏚️",
+          "category_id": "24",
+          "default_language": "ar",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-22T19:00:00Z",
+          "pinned_comment": "🧩 تفتكروا إيه اللي مستني العيال في البدروم؟ 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata"
+        },
+        "youtube_shorts": {
+          "video": "media/nanaa_s1_e10_v.mp4",
+          "title": "الحقيقة كلها! (الحلقة الأخيرة) 🎬 | عمارة نعناعة الحلقة 10 #Shorts",
+          "description": "الحلقة الأخيرة: الخطة، لايف سوسن، والشبشب على فهمي! والسر الحقيقي في البدروم… 🎬\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #غموض #لغز #Shorts",
+          "tags": [
+            "شطة وزلطة",
+            "عمارة نعناعة",
+            "سر الدور السابع",
+            "كرتون مصري",
+            "غموض",
+            "رعب كوميدي",
+            "لغز",
+            "مسلسل كرتون",
+            "ستيك مان",
+            "انيميشن مصري"
+          ],
+          "playlist": "عمارة نعناعة - الموسم 1: سر الدور السابع 🏚️",
+          "category_id": "24",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-22T20:00:00Z",
+          "pinned_comment": "🧩 تفتكروا إيه اللي مستني العيال في البدروم؟ 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
+          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+        },
+        "tiktok": {
+          "video": "media/nanaa_s1_e10_v.mp4",
+          "caption": "الحلقة الأخيرة: الخطة، لايف سوسن، والشبشب على فهمي! والسر الحقيقي في البدروم… 🎬 الحلقة 10 من «عمارة نعناعة» 🎬\n🧩 تفتكروا إيه اللي مستني العيال في البدروم؟ 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #لغز #غموض #fyp",
+          "cover_image": "thumbs/nanaa_s1_e10_cover.jpg",
+          "cover_timestamp_ms": 1000,
+          "privacy": "PUBLIC_TO_EVERYONE",
+          "allow_comments": true,
+          "allow_duet": true,
+          "allow_stitch": true,
+          "publish_at_utc": "2026-11-22T19:00:00Z",
+          "pinned_comment": "🧩 تفتكروا إيه اللي مستني العيال في البدروم؟ 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗",
+          "note": "لو الأداة مش بتقبل صورة غلاف، استخدم cover_timestamp_ms أو اختار الغلاف يدوي من التطبيق"
+        },
+        "instagram_reel": {
+          "video": "media/nanaa_s1_e10_v.mp4",
+          "caption": "الحلقة الأخيرة: الخطة، لايف سوسن، والشبشب على فهمي! والسر الحقيقي في البدروم… 🎬 الحلقة 10 من «عمارة نعناعة» 🎬\n🧩 تفتكروا إيه اللي مستني العيال في البدروم؟ 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #لغز #ريلز",
+          "cover_image": "thumbs/nanaa_s1_e10_cover.jpg",
+          "share_to_facebook": true,
+          "publish_at_utc": "2026-11-22T19:00:00Z",
+          "pinned_comment": "🧩 تفتكروا إيه اللي مستني العيال في البدروم؟ 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        },
+        "facebook_reel": {
+          "via": "instagram_reel.share_to_facebook",
+          "caption": "الحلقة الأخيرة: الخطة، لايف سوسن، والشبشب على فهمي! والسر الحقيقي في البدروم… 🎬 الحلقة 10 من «عمارة نعناعة» 🎬\n🧩 تفتكروا إيه اللي مستني العيال في البدروم؟ 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري",
+          "note": "مش محتاج رفع منفصل لو انستجرام بيعمل share لفيسبوك",
+          "pinned_comment": "🧩 تفتكروا إيه اللي مستني العيال في البدروم؟ 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        }
+      }
+    },
+    {
+      "id": "nanaa_s1_movie",
+      "series": "nanaa_s1",
+      "series_name": "عمارة نعناعة - الموسم 1: سر الدور السابع",
+      "kind": "movie",
+      "episode": null,
+      "episode_name": "الموسم الأول كامل",
+      "publish_at_cairo": "2026-11-23T18:00:00+02:00",
+      "publish_at_utc": "2026-11-23T16:00:00Z",
+      "status": "pending",
+      "media": {
+        "horizontal": "media/nanaa_s1_movie_h.mp4"
+      },
+      "source_file_names": {
+        "horizontal": "عمارة نعناعة - الفيلم الكامل (الموسم الأول).mp4 (من على جهازك)",
+        "vertical": null
+      },
+      "thumbnails": {
+        "youtube": "thumbs/nanaa_s1_movie_yt.jpg",
+        "vertical_cover": "thumbs/nanaa_s1_movie_cover.jpg"
+      },
+      "platforms": {
+        "youtube": {
+          "video": "media/nanaa_s1_movie_h.mp4",
+          "title": "عمارة نعناعة: سر الدور السابع - الموسم الأول كامل 🎬 | عمارة نعناعة - الموسم الأول كامل | شطة وزلطة",
+          "description": "الموسم الأول كله في فيلم واحد: سر الدور السابع من أول خبطة لحد الحقيقة! 🎬\n\n«عمارة نعناعة» — مسلسل كرتون مصري غموض وضحك للعيلة كلها. الموسم الأول: سر الدور السابع 🏚️\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #غموض #لغز #رعب_كوميدي #انيميشن #مصر",
+          "tags": [
+            "شطة وزلطة",
+            "عمارة نعناعة",
+            "سر الدور السابع",
+            "كرتون مصري",
+            "غموض",
+            "رعب كوميدي",
+            "لغز",
+            "مسلسل كرتون",
+            "ستيك مان",
+            "انيميشن مصري"
+          ],
+          "thumbnail": "thumbs/nanaa_s1_movie_yt.jpg",
+          "playlist": "عمارة نعناعة - الموسم 1: سر الدور السابع 🏚️",
+          "category_id": "24",
+          "default_language": "ar",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-23T16:00:00Z",
+          "pinned_comment": "مين كان أشطر واحد في حل الألغاز؟ 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata"
+        },
+        "facebook_video": {
+          "video": "media/nanaa_s1_movie_h.mp4",
+          "title": "عمارة نعناعة: سر الدور السابع - الموسم الأول كامل 🎬",
+          "description": "الموسم الأول كله في فيلم واحد: سر الدور السابع من أول خبطة لحد الحقيقة! 🎬\n\n«عمارة نعناعة» — مسلسل كرتون مصري غموض وضحك للعيلة كلها. الموسم الأول: سر الدور السابع 🏚️\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #غموض #لغز #رعب_كوميدي #انيميشن #مصر",
+          "thumbnail": "thumbs/nanaa_s1_movie_yt.jpg",
+          "publish_at_utc": "2026-11-23T16:00:00Z",
+          "pinned_comment": "مين كان أشطر واحد في حل الألغاز؟ 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        }
+      }
+    },
+    {
+      "id": "nanaa_s2_trailer",
+      "series": "nanaa_s2",
+      "series_name": "عمارة نعناعة - الموسم 2: سر البدروم",
+      "kind": "trailer",
+      "episode": null,
+      "episode_name": "إعلان الموسم التاني",
+      "publish_at_cairo": "2026-11-23T21:00:00+02:00",
+      "publish_at_utc": "2026-11-23T19:00:00Z",
+      "status": "pending",
+      "media": {
+        "horizontal": "media/nanaa_s2_trailer_h.mp4",
+        "vertical": "media/nanaa_s2_trailer_v.mp4"
+      },
+      "source_file_names": {
+        "horizontal": "اعلان الموسم التاني - سر البدروم.mp4 (من على جهازك)",
+        "vertical": "اعلان الموسم التاني - سر البدروم (تيك توك).mp4 (من على جهازك)"
+      },
+      "thumbnails": {
+        "youtube": "thumbs/nanaa_s2_trailer_yt.jpg",
+        "vertical_cover": "thumbs/nanaa_s2_trailer_cover.jpg"
+      },
+      "platforms": {
+        "youtube": {
+          "video": "media/nanaa_s2_trailer_h.mp4",
+          "title": "الموسم التاني: سر البدروم 🔦 (الإعلان الرسمي) | عمارة نعناعة - إعلان الموسم التاني | شطة وزلطة",
+          "description": "«افتحوا البدروم… بس ما تفتحوهوش بالليل» 🔦 الموسم التاني من عمارة نعناعة بكرة!\n\n«عمارة نعناعة» — الموسم التاني: سر البدروم 🔦 كرتون مصري غموض وضحك للعيلة كلها\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#عمارة_نعناعة #سر_البدروم #شطة_وزلطة #كرتون_مصري #غموض #لغز #انيميشن #مصر",
+          "tags": [
+            "شطة وزلطة",
+            "عمارة نعناعة",
+            "سر البدروم",
+            "الموسم التاني",
+            "كرتون مصري",
+            "غموض",
+            "رعب كوميدي",
+            "لغز",
+            "مسلسل كرتون",
+            "ستيك مان"
+          ],
+          "thumbnail": "thumbs/nanaa_s2_trailer_yt.jpg",
+          "playlist": "عمارة نعناعة - الموسم 2: سر البدروم 🔦",
+          "category_id": "24",
+          "default_language": "ar",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-23T19:00:00Z",
+          "pinned_comment": "مستعدين للموسم التاني؟ 🔦 اكتبوا توقعاتكم 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata"
+        },
+        "youtube_shorts": {
+          "video": "media/nanaa_s2_trailer_v.mp4",
+          "title": "الموسم التاني: سر البدروم 🔦 (الإعلان الرسمي) | عمارة نعناعة إعلان #Shorts",
+          "description": "«افتحوا البدروم… بس ما تفتحوهوش بالليل» 🔦 الموسم التاني من عمارة نعناعة بكرة!\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#عمارة_نعناعة #سر_البدروم #شطة_وزلطة #كرتون_مصري #غموض #Shorts",
+          "tags": [
+            "شطة وزلطة",
+            "عمارة نعناعة",
+            "سر البدروم",
+            "الموسم التاني",
+            "كرتون مصري",
+            "غموض",
+            "رعب كوميدي",
+            "لغز",
+            "مسلسل كرتون",
+            "ستيك مان"
+          ],
+          "playlist": "عمارة نعناعة - الموسم 2: سر البدروم 🔦",
+          "category_id": "24",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-23T20:00:00Z",
+          "pinned_comment": "مستعدين للموسم التاني؟ 🔦 اكتبوا توقعاتكم 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
+          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+        },
+        "tiktok": {
+          "video": "media/nanaa_s2_trailer_v.mp4",
+          "caption": "«افتحوا البدروم… بس ما تفتحوهوش بالليل» 🔦 الموسم التاني من عمارة نعناعة بكرة! إعلان من «عمارة نعناعة» 🎬\nمستعدين للموسم التاني؟ 🔦 اكتبوا توقعاتكم 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #لغز #غموض #fyp",
+          "cover_image": "thumbs/nanaa_s2_trailer_cover.jpg",
+          "cover_timestamp_ms": 1000,
+          "privacy": "PUBLIC_TO_EVERYONE",
+          "allow_comments": true,
+          "allow_duet": true,
+          "allow_stitch": true,
+          "publish_at_utc": "2026-11-23T19:00:00Z",
+          "pinned_comment": "مستعدين للموسم التاني؟ 🔦 اكتبوا توقعاتكم 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗",
+          "note": "لو الأداة مش بتقبل صورة غلاف، استخدم cover_timestamp_ms أو اختار الغلاف يدوي من التطبيق"
+        },
+        "instagram_reel": {
+          "video": "media/nanaa_s2_trailer_v.mp4",
+          "caption": "«افتحوا البدروم… بس ما تفتحوهوش بالليل» 🔦 الموسم التاني من عمارة نعناعة بكرة! إعلان من «عمارة نعناعة» 🎬\nمستعدين للموسم التاني؟ 🔦 اكتبوا توقعاتكم 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #لغز #ريلز",
+          "cover_image": "thumbs/nanaa_s2_trailer_cover.jpg",
+          "share_to_facebook": true,
+          "publish_at_utc": "2026-11-23T19:00:00Z",
+          "pinned_comment": "مستعدين للموسم التاني؟ 🔦 اكتبوا توقعاتكم 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        },
+        "facebook_reel": {
+          "via": "instagram_reel.share_to_facebook",
+          "caption": "«افتحوا البدروم… بس ما تفتحوهوش بالليل» 🔦 الموسم التاني من عمارة نعناعة بكرة! إعلان من «عمارة نعناعة» 🎬\nمستعدين للموسم التاني؟ 🔦 اكتبوا توقعاتكم 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري",
+          "note": "مش محتاج رفع منفصل لو انستجرام بيعمل share لفيسبوك",
+          "pinned_comment": "مستعدين للموسم التاني؟ 🔦 اكتبوا توقعاتكم 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        }
+      }
+    },
+    {
+      "id": "nanaa_s2_e01",
+      "series": "nanaa_s2",
+      "series_name": "عمارة نعناعة - الموسم 2: سر البدروم",
+      "kind": "episode",
+      "episode": 1,
+      "episode_name": "باب البدروم",
+      "publish_at_cairo": "2026-11-24T21:00:00+02:00",
+      "publish_at_utc": "2026-11-24T19:00:00Z",
+      "status": "pending",
+      "media": {
+        "horizontal": "media/nanaa_s2_e01_h.mp4",
+        "vertical": "media/nanaa_s2_e01_v.mp4"
+      },
+      "source_file_names": {
+        "horizontal": "عمارة نعناعة م2 - الحلقة 01 - باب البدروم.mp4",
+        "vertical": "عمارة نعناعة م2 - الحلقة 01 - باب البدروم (تيك توك).mp4"
+      },
+      "thumbnails": {
+        "youtube": "thumbs/nanaa_s2_e01_yt.jpg",
+        "vertical_cover": "thumbs/nanaa_s2_e01_cover.jpg"
+      },
+      "platforms": {
+        "youtube": {
+          "video": "media/nanaa_s2_e01_h.mp4",
+          "title": "باب البدروم المقفول من سنين! 🔒 | عمارة نعناعة - الحلقة 1 | شطة وزلطة",
+          "description": "نعناعة قالت: «محدش هينزل البدروم!»… بس توتة لاحظت إن القفل جديد ولامع! 🔒\n\n«عمارة نعناعة» — الموسم التاني: سر البدروم 🔦 كرتون مصري غموض وضحك للعيلة كلها\n\n🧩 لغز الحلقة: مين اللي غيّر القفل؟ اكتبوا حلكم في الكومنتات 👇\n\nالحلقة الجاية بكرة الساعة 9 بالليل بتوقيت مصر ⏰\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#عمارة_نعناعة #سر_البدروم #شطة_وزلطة #كرتون_مصري #غموض #لغز #انيميشن #مصر",
+          "tags": [
+            "شطة وزلطة",
+            "عمارة نعناعة",
+            "سر البدروم",
+            "الموسم التاني",
+            "كرتون مصري",
+            "غموض",
+            "رعب كوميدي",
+            "لغز",
+            "مسلسل كرتون",
+            "ستيك مان"
+          ],
+          "thumbnail": "thumbs/nanaa_s2_e01_yt.jpg",
+          "playlist": "عمارة نعناعة - الموسم 2: سر البدروم 🔦",
+          "category_id": "24",
+          "default_language": "ar",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-24T19:00:00Z",
+          "pinned_comment": "🧩 لغز الحلقة: مين اللي غيّر القفل؟ 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata"
+        },
+        "youtube_shorts": {
+          "video": "media/nanaa_s2_e01_v.mp4",
+          "title": "باب البدروم المقفول من سنين! 🔒 | عمارة نعناعة الحلقة 1 #Shorts",
+          "description": "نعناعة قالت: «محدش هينزل البدروم!»… بس توتة لاحظت إن القفل جديد ولامع! 🔒\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#عمارة_نعناعة #سر_البدروم #شطة_وزلطة #كرتون_مصري #غموض #Shorts",
+          "tags": [
+            "شطة وزلطة",
+            "عمارة نعناعة",
+            "سر البدروم",
+            "الموسم التاني",
+            "كرتون مصري",
+            "غموض",
+            "رعب كوميدي",
+            "لغز",
+            "مسلسل كرتون",
+            "ستيك مان"
+          ],
+          "playlist": "عمارة نعناعة - الموسم 2: سر البدروم 🔦",
+          "category_id": "24",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-24T20:00:00Z",
+          "pinned_comment": "🧩 لغز الحلقة: مين اللي غيّر القفل؟ 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
+          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+        },
+        "tiktok": {
+          "video": "media/nanaa_s2_e01_v.mp4",
+          "caption": "نعناعة قالت: «محدش هينزل البدروم!»… بس توتة لاحظت إن القفل جديد ولامع! 🔒 الحلقة 1 من «عمارة نعناعة» 🎬\n🧩 لغز الحلقة: مين اللي غيّر القفل؟ 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #لغز #غموض #fyp",
+          "cover_image": "thumbs/nanaa_s2_e01_cover.jpg",
+          "cover_timestamp_ms": 1000,
+          "privacy": "PUBLIC_TO_EVERYONE",
+          "allow_comments": true,
+          "allow_duet": true,
+          "allow_stitch": true,
+          "publish_at_utc": "2026-11-24T19:00:00Z",
+          "pinned_comment": "🧩 لغز الحلقة: مين اللي غيّر القفل؟ 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗",
+          "note": "لو الأداة مش بتقبل صورة غلاف، استخدم cover_timestamp_ms أو اختار الغلاف يدوي من التطبيق"
+        },
+        "instagram_reel": {
+          "video": "media/nanaa_s2_e01_v.mp4",
+          "caption": "نعناعة قالت: «محدش هينزل البدروم!»… بس توتة لاحظت إن القفل جديد ولامع! 🔒 الحلقة 1 من «عمارة نعناعة» 🎬\n🧩 لغز الحلقة: مين اللي غيّر القفل؟ 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #لغز #ريلز",
+          "cover_image": "thumbs/nanaa_s2_e01_cover.jpg",
+          "share_to_facebook": true,
+          "publish_at_utc": "2026-11-24T19:00:00Z",
+          "pinned_comment": "🧩 لغز الحلقة: مين اللي غيّر القفل؟ 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        },
+        "facebook_reel": {
+          "via": "instagram_reel.share_to_facebook",
+          "caption": "نعناعة قالت: «محدش هينزل البدروم!»… بس توتة لاحظت إن القفل جديد ولامع! 🔒 الحلقة 1 من «عمارة نعناعة» 🎬\n🧩 لغز الحلقة: مين اللي غيّر القفل؟ 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري",
+          "note": "مش محتاج رفع منفصل لو انستجرام بيعمل share لفيسبوك",
+          "pinned_comment": "🧩 لغز الحلقة: مين اللي غيّر القفل؟ 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        }
+      }
+    },
+    {
+      "id": "nanaa_s2_e02",
+      "series": "nanaa_s2",
+      "series_name": "عمارة نعناعة - الموسم 2: سر البدروم",
+      "kind": "episode",
+      "episode": 2,
+      "episode_name": "الصوت اللي تحت الأرض",
+      "publish_at_cairo": "2026-11-25T21:00:00+02:00",
+      "publish_at_utc": "2026-11-25T19:00:00Z",
+      "status": "pending",
+      "media": {
+        "horizontal": "media/nanaa_s2_e02_h.mp4",
+        "vertical": "media/nanaa_s2_e02_v.mp4"
+      },
+      "source_file_names": {
+        "horizontal": "عمارة نعناعة م2 - الحلقة 02 - الصوت اللي تحت الأرض.mp4",
+        "vertical": "عمارة نعناعة م2 - الحلقة 02 - الصوت اللي تحت الأرض (تيك توك).mp4"
+      },
+      "thumbnails": {
+        "youtube": "thumbs/nanaa_s2_e02_yt.jpg",
+        "vertical_cover": "thumbs/nanaa_s2_e02_cover.jpg"
+      },
+      "platforms": {
+        "youtube": {
+          "video": "media/nanaa_s2_e02_h.mp4",
+          "title": "صوت جاي من تحت الأرض! 🎙️ | عمارة نعناعة - الحلقة 2 | شطة وزلطة",
+          "description": "من فتحة في المدخل: صوت رشدي بيقول أرقام… وعربية سودا بتقف قدام العمارة الساعة 12! 🎙️\n\n«عمارة نعناعة» — الموسم التاني: سر البدروم 🔦 كرتون مصري غموض وضحك للعيلة كلها\n\n🧩 لغز الحلقة: الأرقام دي معناها إيه؟ اكتبوا حلكم في الكومنتات 👇\n\nالحلقة الجاية بكرة الساعة 9 بالليل بتوقيت مصر ⏰\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#عمارة_نعناعة #سر_البدروم #شطة_وزلطة #كرتون_مصري #غموض #لغز #انيميشن #مصر",
+          "tags": [
+            "شطة وزلطة",
+            "عمارة نعناعة",
+            "سر البدروم",
+            "الموسم التاني",
+            "كرتون مصري",
+            "غموض",
+            "رعب كوميدي",
+            "لغز",
+            "مسلسل كرتون",
+            "ستيك مان"
+          ],
+          "thumbnail": "thumbs/nanaa_s2_e02_yt.jpg",
+          "playlist": "عمارة نعناعة - الموسم 2: سر البدروم 🔦",
+          "category_id": "24",
+          "default_language": "ar",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-25T19:00:00Z",
+          "pinned_comment": "🧩 لغز الحلقة: الأرقام دي معناها إيه؟ 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata"
+        },
+        "youtube_shorts": {
+          "video": "media/nanaa_s2_e02_v.mp4",
+          "title": "صوت جاي من تحت الأرض! 🎙️ | عمارة نعناعة الحلقة 2 #Shorts",
+          "description": "من فتحة في المدخل: صوت رشدي بيقول أرقام… وعربية سودا بتقف قدام العمارة الساعة 12! 🎙️\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#عمارة_نعناعة #سر_البدروم #شطة_وزلطة #كرتون_مصري #غموض #Shorts",
+          "tags": [
+            "شطة وزلطة",
+            "عمارة نعناعة",
+            "سر البدروم",
+            "الموسم التاني",
+            "كرتون مصري",
+            "غموض",
+            "رعب كوميدي",
+            "لغز",
+            "مسلسل كرتون",
+            "ستيك مان"
+          ],
+          "playlist": "عمارة نعناعة - الموسم 2: سر البدروم 🔦",
+          "category_id": "24",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-25T20:00:00Z",
+          "pinned_comment": "🧩 لغز الحلقة: الأرقام دي معناها إيه؟ 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
+          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+        },
+        "tiktok": {
+          "video": "media/nanaa_s2_e02_v.mp4",
+          "caption": "من فتحة في المدخل: صوت رشدي بيقول أرقام… وعربية سودا بتقف قدام العمارة الساعة 12! 🎙️ الحلقة 2 من «عمارة نعناعة» 🎬\n🧩 لغز الحلقة: الأرقام دي معناها إيه؟ 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #لغز #غموض #fyp",
+          "cover_image": "thumbs/nanaa_s2_e02_cover.jpg",
+          "cover_timestamp_ms": 1000,
+          "privacy": "PUBLIC_TO_EVERYONE",
+          "allow_comments": true,
+          "allow_duet": true,
+          "allow_stitch": true,
+          "publish_at_utc": "2026-11-25T19:00:00Z",
+          "pinned_comment": "🧩 لغز الحلقة: الأرقام دي معناها إيه؟ 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗",
+          "note": "لو الأداة مش بتقبل صورة غلاف، استخدم cover_timestamp_ms أو اختار الغلاف يدوي من التطبيق"
+        },
+        "instagram_reel": {
+          "video": "media/nanaa_s2_e02_v.mp4",
+          "caption": "من فتحة في المدخل: صوت رشدي بيقول أرقام… وعربية سودا بتقف قدام العمارة الساعة 12! 🎙️ الحلقة 2 من «عمارة نعناعة» 🎬\n🧩 لغز الحلقة: الأرقام دي معناها إيه؟ 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #لغز #ريلز",
+          "cover_image": "thumbs/nanaa_s2_e02_cover.jpg",
+          "share_to_facebook": true,
+          "publish_at_utc": "2026-11-25T19:00:00Z",
+          "pinned_comment": "🧩 لغز الحلقة: الأرقام دي معناها إيه؟ 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        },
+        "facebook_reel": {
+          "via": "instagram_reel.share_to_facebook",
+          "caption": "من فتحة في المدخل: صوت رشدي بيقول أرقام… وعربية سودا بتقف قدام العمارة الساعة 12! 🎙️ الحلقة 2 من «عمارة نعناعة» 🎬\n🧩 لغز الحلقة: الأرقام دي معناها إيه؟ 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري",
+          "note": "مش محتاج رفع منفصل لو انستجرام بيعمل share لفيسبوك",
+          "pinned_comment": "🧩 لغز الحلقة: الأرقام دي معناها إيه؟ 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        }
+      }
+    },
+    {
+      "id": "nanaa_s2_e03",
+      "series": "nanaa_s2",
+      "series_name": "عمارة نعناعة - الموسم 2: سر البدروم",
+      "kind": "episode",
+      "episode": 3,
+      "episode_name": "الباشا",
+      "publish_at_cairo": "2026-11-26T21:00:00+02:00",
+      "publish_at_utc": "2026-11-26T19:00:00Z",
+      "status": "pending",
+      "media": {
+        "horizontal": "media/nanaa_s2_e03_h.mp4",
+        "vertical": "media/nanaa_s2_e03_v.mp4"
+      },
+      "source_file_names": {
+        "horizontal": "عمارة نعناعة م2 - الحلقة 03 - الباشا.mp4",
+        "vertical": "عمارة نعناعة م2 - الحلقة 03 - الباشا (تيك توك).mp4"
+      },
+      "thumbnails": {
+        "youtube": "thumbs/nanaa_s2_e03_yt.jpg",
+        "vertical_cover": "thumbs/nanaa_s2_e03_cover.jpg"
+      },
+      "platforms": {
+        "youtube": {
+          "video": "media/nanaa_s2_e03_h.mp4",
+          "title": "مين الباشا؟! 🎩 | عمارة نعناعة - الحلقة 3 | شطة وزلطة",
+          "description": "الباشا زار نعناعة وعايز يأجّر البدروم «مخزن»… وزلطة افتكر الكلمة دي من الموسم الأول! 🎩\n\n«عمارة نعناعة» — الموسم التاني: سر البدروم 🔦 كرتون مصري غموض وضحك للعيلة كلها\n\n🧩 لغز الحلقة: سمعنا كلمة «الباشا» فين قبل كده؟ اكتبوا حلكم في الكومنتات 👇\n\nالحلقة الجاية بكرة الساعة 9 بالليل بتوقيت مصر ⏰\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#عمارة_نعناعة #سر_البدروم #شطة_وزلطة #كرتون_مصري #غموض #لغز #انيميشن #مصر",
+          "tags": [
+            "شطة وزلطة",
+            "عمارة نعناعة",
+            "سر البدروم",
+            "الموسم التاني",
+            "كرتون مصري",
+            "غموض",
+            "رعب كوميدي",
+            "لغز",
+            "مسلسل كرتون",
+            "ستيك مان"
+          ],
+          "thumbnail": "thumbs/nanaa_s2_e03_yt.jpg",
+          "playlist": "عمارة نعناعة - الموسم 2: سر البدروم 🔦",
+          "category_id": "24",
+          "default_language": "ar",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-26T19:00:00Z",
+          "pinned_comment": "🧩 لغز الحلقة: سمعنا كلمة «الباشا» فين قبل كده؟ 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata"
+        },
+        "youtube_shorts": {
+          "video": "media/nanaa_s2_e03_v.mp4",
+          "title": "مين الباشا؟! 🎩 | عمارة نعناعة الحلقة 3 #Shorts",
+          "description": "الباشا زار نعناعة وعايز يأجّر البدروم «مخزن»… وزلطة افتكر الكلمة دي من الموسم الأول! 🎩\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#عمارة_نعناعة #سر_البدروم #شطة_وزلطة #كرتون_مصري #غموض #Shorts",
+          "tags": [
+            "شطة وزلطة",
+            "عمارة نعناعة",
+            "سر البدروم",
+            "الموسم التاني",
+            "كرتون مصري",
+            "غموض",
+            "رعب كوميدي",
+            "لغز",
+            "مسلسل كرتون",
+            "ستيك مان"
+          ],
+          "playlist": "عمارة نعناعة - الموسم 2: سر البدروم 🔦",
+          "category_id": "24",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-26T20:00:00Z",
+          "pinned_comment": "🧩 لغز الحلقة: سمعنا كلمة «الباشا» فين قبل كده؟ 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
+          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+        },
+        "tiktok": {
+          "video": "media/nanaa_s2_e03_v.mp4",
+          "caption": "الباشا زار نعناعة وعايز يأجّر البدروم «مخزن»… وزلطة افتكر الكلمة دي من الموسم الأول! 🎩 الحلقة 3 من «عمارة نعناعة» 🎬\n🧩 لغز الحلقة: سمعنا كلمة «الباشا» فين قبل كده؟ 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #لغز #غموض #fyp",
+          "cover_image": "thumbs/nanaa_s2_e03_cover.jpg",
+          "cover_timestamp_ms": 1000,
+          "privacy": "PUBLIC_TO_EVERYONE",
+          "allow_comments": true,
+          "allow_duet": true,
+          "allow_stitch": true,
+          "publish_at_utc": "2026-11-26T19:00:00Z",
+          "pinned_comment": "🧩 لغز الحلقة: سمعنا كلمة «الباشا» فين قبل كده؟ 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗",
+          "note": "لو الأداة مش بتقبل صورة غلاف، استخدم cover_timestamp_ms أو اختار الغلاف يدوي من التطبيق"
+        },
+        "instagram_reel": {
+          "video": "media/nanaa_s2_e03_v.mp4",
+          "caption": "الباشا زار نعناعة وعايز يأجّر البدروم «مخزن»… وزلطة افتكر الكلمة دي من الموسم الأول! 🎩 الحلقة 3 من «عمارة نعناعة» 🎬\n🧩 لغز الحلقة: سمعنا كلمة «الباشا» فين قبل كده؟ 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #لغز #ريلز",
+          "cover_image": "thumbs/nanaa_s2_e03_cover.jpg",
+          "share_to_facebook": true,
+          "publish_at_utc": "2026-11-26T19:00:00Z",
+          "pinned_comment": "🧩 لغز الحلقة: سمعنا كلمة «الباشا» فين قبل كده؟ 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        },
+        "facebook_reel": {
+          "via": "instagram_reel.share_to_facebook",
+          "caption": "الباشا زار نعناعة وعايز يأجّر البدروم «مخزن»… وزلطة افتكر الكلمة دي من الموسم الأول! 🎩 الحلقة 3 من «عمارة نعناعة» 🎬\n🧩 لغز الحلقة: سمعنا كلمة «الباشا» فين قبل كده؟ 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري",
+          "note": "مش محتاج رفع منفصل لو انستجرام بيعمل share لفيسبوك",
+          "pinned_comment": "🧩 لغز الحلقة: سمعنا كلمة «الباشا» فين قبل كده؟ 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        }
+      }
+    },
+    {
+      "id": "nanaa_s2_e04",
+      "series": "nanaa_s2",
+      "series_name": "عمارة نعناعة - الموسم 2: سر البدروم",
+      "kind": "episode",
+      "episode": 4,
+      "episode_name": "النزول",
+      "publish_at_cairo": "2026-11-27T21:00:00+02:00",
+      "publish_at_utc": "2026-11-27T19:00:00Z",
+      "status": "pending",
+      "media": {
+        "horizontal": "media/nanaa_s2_e04_h.mp4",
+        "vertical": "media/nanaa_s2_e04_v.mp4"
+      },
+      "source_file_names": {
+        "horizontal": "عمارة نعناعة م2 - الحلقة 04 - النزول.mp4",
+        "vertical": "عمارة نعناعة م2 - الحلقة 04 - النزول (تيك توك).mp4"
+      },
+      "thumbnails": {
+        "youtube": "thumbs/nanaa_s2_e04_yt.jpg",
+        "vertical_cover": "thumbs/nanaa_s2_e04_cover.jpg"
+      },
+      "platforms": {
+        "youtube": {
+          "video": "media/nanaa_s2_e04_h.mp4",
+          "title": "نزلنا البدروم… ولاقينا استوديو سري! 🔦 | عمارة نعناعة - الحلقة 4 | شطة وزلطة",
+          "description": "بالنهار زي ما رشدي قال: نزلوا البدروم، ولاقوا باب حديد بعجلة… ووراه استوديو سري! 🔦\n\n«عمارة نعناعة» — الموسم التاني: سر البدروم 🔦 كرتون مصري غموض وضحك للعيلة كلها\n\n🧩 لغز الحلقة: الساعة الواقفة في الاستوديو على كام… وليه؟ اكتبوا حلكم في الكومنتات 👇\n\nالحلقة الجاية بكرة الساعة 9 بالليل بتوقيت مصر ⏰\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#عمارة_نعناعة #سر_البدروم #شطة_وزلطة #كرتون_مصري #غموض #لغز #انيميشن #مصر",
+          "tags": [
+            "شطة وزلطة",
+            "عمارة نعناعة",
+            "سر البدروم",
+            "الموسم التاني",
+            "كرتون مصري",
+            "غموض",
+            "رعب كوميدي",
+            "لغز",
+            "مسلسل كرتون",
+            "ستيك مان"
+          ],
+          "thumbnail": "thumbs/nanaa_s2_e04_yt.jpg",
+          "playlist": "عمارة نعناعة - الموسم 2: سر البدروم 🔦",
+          "category_id": "24",
+          "default_language": "ar",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-27T19:00:00Z",
+          "pinned_comment": "🧩 لغز الحلقة: الساعة الواقفة في الاستوديو على كام… وليه؟ 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata"
+        },
+        "youtube_shorts": {
+          "video": "media/nanaa_s2_e04_v.mp4",
+          "title": "نزلنا البدروم… ولاقينا استوديو سري! 🔦 | عمارة نعناعة الحلقة 4 #Shorts",
+          "description": "بالنهار زي ما رشدي قال: نزلوا البدروم، ولاقوا باب حديد بعجلة… ووراه استوديو سري! 🔦\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#عمارة_نعناعة #سر_البدروم #شطة_وزلطة #كرتون_مصري #غموض #Shorts",
+          "tags": [
+            "شطة وزلطة",
+            "عمارة نعناعة",
+            "سر البدروم",
+            "الموسم التاني",
+            "كرتون مصري",
+            "غموض",
+            "رعب كوميدي",
+            "لغز",
+            "مسلسل كرتون",
+            "ستيك مان"
+          ],
+          "playlist": "عمارة نعناعة - الموسم 2: سر البدروم 🔦",
+          "category_id": "24",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-27T20:00:00Z",
+          "pinned_comment": "🧩 لغز الحلقة: الساعة الواقفة في الاستوديو على كام… وليه؟ 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
+          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+        },
+        "tiktok": {
+          "video": "media/nanaa_s2_e04_v.mp4",
+          "caption": "بالنهار زي ما رشدي قال: نزلوا البدروم، ولاقوا باب حديد بعجلة… ووراه استوديو سري! 🔦 الحلقة 4 من «عمارة نعناعة» 🎬\n🧩 لغز الحلقة: الساعة الواقفة في الاستوديو على كام… وليه؟ 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #لغز #غموض #fyp",
+          "cover_image": "thumbs/nanaa_s2_e04_cover.jpg",
+          "cover_timestamp_ms": 1000,
+          "privacy": "PUBLIC_TO_EVERYONE",
+          "allow_comments": true,
+          "allow_duet": true,
+          "allow_stitch": true,
+          "publish_at_utc": "2026-11-27T19:00:00Z",
+          "pinned_comment": "🧩 لغز الحلقة: الساعة الواقفة في الاستوديو على كام… وليه؟ 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗",
+          "note": "لو الأداة مش بتقبل صورة غلاف، استخدم cover_timestamp_ms أو اختار الغلاف يدوي من التطبيق"
+        },
+        "instagram_reel": {
+          "video": "media/nanaa_s2_e04_v.mp4",
+          "caption": "بالنهار زي ما رشدي قال: نزلوا البدروم، ولاقوا باب حديد بعجلة… ووراه استوديو سري! 🔦 الحلقة 4 من «عمارة نعناعة» 🎬\n🧩 لغز الحلقة: الساعة الواقفة في الاستوديو على كام… وليه؟ 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #لغز #ريلز",
+          "cover_image": "thumbs/nanaa_s2_e04_cover.jpg",
+          "share_to_facebook": true,
+          "publish_at_utc": "2026-11-27T19:00:00Z",
+          "pinned_comment": "🧩 لغز الحلقة: الساعة الواقفة في الاستوديو على كام… وليه؟ 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        },
+        "facebook_reel": {
+          "via": "instagram_reel.share_to_facebook",
+          "caption": "بالنهار زي ما رشدي قال: نزلوا البدروم، ولاقوا باب حديد بعجلة… ووراه استوديو سري! 🔦 الحلقة 4 من «عمارة نعناعة» 🎬\n🧩 لغز الحلقة: الساعة الواقفة في الاستوديو على كام… وليه؟ 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري",
+          "note": "مش محتاج رفع منفصل لو انستجرام بيعمل share لفيسبوك",
+          "pinned_comment": "🧩 لغز الحلقة: الساعة الواقفة في الاستوديو على كام… وليه؟ 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        }
+      }
+    }
+  ]
+}
