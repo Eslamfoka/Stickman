@@ -62,3 +62,4 @@ User approved the idea. Pin it first on every platform (YouTube channel trailer)
 - YouTube: trend ep1-2 published; ep3-4 scheduled Nov 11 22:00/22:30 KW (user). ep5-6, trend movie, nanaa s1 e1-2: files + text sent, user scheduling.
 - FB+IG (Meta Business Suite): trend ep3-6 scheduled. TikTok: ep1 posted manually.
 - Shorts series «يوميات»: user rejected first jokes (not funny). Waiting for user to send videos that make him laugh before writing new ones. Don't reuse Y101–Y303.
+- Brand intro: lines I01–I07 generated → brand/intro/audio/ (review MP3 sent; waiting user OK). Next: write brand/intro/intro.py (H+V) reusing movie/intro/intro.py + brand/pro.py style.
