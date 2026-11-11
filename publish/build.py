@@ -57,6 +57,11 @@ SERIES_DESC = {
 
 # figure spec: (who, S, expr, mouth, look, arms, held, shirt, num, x)   — x in a 1920-wide frame
 T = ROOT + "/trend/01/bg/"; S1 = f"{REPO}/s1e"
+# Publish status (update here, then `python publish/build.py --no-thumbs`). Values: pending | youtube_scheduled_manually | published
+STATUS = {
+    "trend01_e01": "published", "trend01_e02": "published", "trend01_e03": "published", "trend01_e04": "published",
+    "nanaa_s1_e01": "youtube_scheduled_manually", "nanaa_s1_e02": "youtube_scheduled_manually",
+}
 ITEMS = [
  # ---------------- brand intro (pin first on every platform / YouTube channel trailer) ----------------
  dict(id="brand_intro", series="brand", kind="intro", ep=None, name="تعالوا نعرّفكم علينا", date="2026-11-11", time="21:00",
@@ -286,7 +291,7 @@ def build_post(it):
     thumbs = {"youtube": f"thumbs/{it['id']}_yt.jpg", "vertical_cover": f"thumbs/{it['id']}_cover.jpg"}
     p = {"id": it["id"], "series": it["series"], "series_name": S["name"], "kind": it["kind"], "episode": it["ep"], "episode_name": it["name"],
          "publish_at_cairo": t0.isoformat(), "publish_at_utc": t0.astimezone(dt.timezone.utc).isoformat().replace("+00:00", "Z"),
-         "status": it.get("status", "pending"),
+         "status": STATUS.get(it["id"], it.get("status", "pending")),
          "media": m, "source_file_names": {"horizontal": it["src_h"], "vertical": it.get("src_v")},
          "thumbnails": thumbs, "platforms": {}}
     p["platforms"]["youtube"] = {

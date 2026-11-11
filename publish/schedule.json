@@ -9,7 +9,7 @@
   },
   "timezone_note": "كل المواعيد بتوقيت القاهرة (UTC+2 في نوفمبر). 9 بالليل القاهرة = 10 بالليل الكويت.",
   "media_folder": "publish/media/ (مش على الريبو — حط فيه الفيديوهات بالأسماء المكتوبة في media، والأسامي الأصلية في source_file_names)",
-  "generated": "2026-11-11T16:42:10+00:00",
+  "generated": "2026-11-11T23:55:27+00:00",
   "posts": [
     {
       "id": "brand_intro",
@@ -117,7 +117,7 @@
       "episode_name": "كاس الشارع",
       "publish_at_cairo": "2026-11-10T21:00:00+02:00",
       "publish_at_utc": "2026-11-10T19:00:00Z",
-      "status": "youtube_scheduled_manually",
+      "status": "published",
       "media": {
         "horizontal": "media/trend01_e01_h.mp4",
         "vertical": "media/trend01_e01_v.mp4"
@@ -216,7 +216,7 @@
       "episode_name": "المؤتمر الصحفي",
       "publish_at_cairo": "2026-11-10T21:30:00+02:00",
       "publish_at_utc": "2026-11-10T19:30:00Z",
-      "status": "youtube_scheduled_manually",
+      "status": "published",
       "media": {
         "horizontal": "media/trend01_e02_h.mp4",
         "vertical": "media/trend01_e02_v.mp4"
@@ -315,7 +315,7 @@
       "episode_name": "الدقيقة 60",
       "publish_at_cairo": "2026-11-11T21:00:00+02:00",
       "publish_at_utc": "2026-11-11T19:00:00Z",
-      "status": "pending",
+      "status": "published",
       "media": {
         "horizontal": "media/trend01_e03_h.mp4",
         "vertical": "media/trend01_e03_v.mp4"
@@ -414,7 +414,7 @@
       "episode_name": "قهوة الشارع",
       "publish_at_cairo": "2026-11-11T21:30:00+02:00",
       "publish_at_utc": "2026-11-11T19:30:00Z",
-      "status": "pending",
+      "status": "published",
       "media": {
         "horizontal": "media/trend01_e04_h.mp4",
         "vertical": "media/trend01_e04_v.mp4"
@@ -818,7 +818,7 @@
       "episode_name": "الصوت اللي في السقف",
       "publish_at_cairo": "2026-11-13T21:00:00+02:00",
       "publish_at_utc": "2026-11-13T19:00:00Z",
-      "status": "pending",
+      "status": "youtube_scheduled_manually",
       "media": {
         "horizontal": "media/nanaa_s1_e01_h.mp4",
         "vertical": "media/nanaa_s1_e01_v.mp4"
@@ -919,7 +919,7 @@
       "episode_name": "المفتاح اللي مالوش باب",
       "publish_at_cairo": "2026-11-14T21:00:00+02:00",
       "publish_at_utc": "2026-11-14T19:00:00Z",
-      "status": "pending",
+      "status": "youtube_scheduled_manually",
       "media": {
         "horizontal": "media/nanaa_s1_e02_h.mp4",
         "vertical": "media/nanaa_s1_e02_v.mp4"
