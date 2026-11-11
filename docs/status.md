@@ -63,3 +63,12 @@ User approved the idea. Pin it first on every platform (YouTube channel trailer)
 - FB+IG (Meta Business Suite): trend ep3-6 scheduled. TikTok: ep1 posted manually.
 - Shorts series «يوميات»: user rejected first jokes (not funny). Waiting for user to send videos that make him laugh before writing new ones. Don't reuse Y101–Y303.
 - Brand intro: lines I01–I07 generated → brand/intro/audio/ (review MP3 sent; waiting user OK). Next: write brand/intro/intro.py (H+V) reusing movie/intro/intro.py + brand/pro.py style.
+
+## Update 2026-11-11 (evening)
+- Brand intro video DONE: `brand/intro/intro.py` (36 s, H+V, end card «مين فيهم شبهك؟» + @shattawzalata). YouTube thumb made (thumb_intro). User publishing it (YT daily upload limit hit → needs channel Verify or wait 24h).
+- TikTok cuts of trend ep3–6: first 0.5 s = episode cover (publish/thumbs/*_cover.jpg), title card removed (`ep*_vertical_tiktok.mp4`). New standing rule in docs/directing.md: first frame = hook or cover.
+- Early stats (day 1): IG reels ~230–260 views with 0 followers; TikTok 30–36; YouTube long-form ~0–1 → push YouTube Shorts (vertical) for every episode.
+- Meta: publish reels ONCE (Business Suite → FB+IG together); user had a duplicate FB reel to delete.
+- All delivered files re-sent as 6 zips (delivery/pack/).
+- Season 1 ep9–10 being re-rendered for the user (he only had 8); then season-1 movie (needs all 10 rendered → movie/assemble.sh steps above).
+- Season 2: ep1–4 done; next Ep5 «صفيح».
