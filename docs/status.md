@@ -83,6 +83,7 @@ User approved the idea. Pin it first on every platform (YouTube channel trailer)
 - DONE 2026-11-11: `publish/final_encode.py` (preset medium + tune animation, crf 23) → S2 ep3 YT 370 MB → 132 MB, no visible change
   (main size cause = per-frame film GRAIN in finish(); softer/static grain would shrink files further — try on the next episode).
   `publish/tiktok_cut.py <vertical> <cover> <title_start> <title_end> <out>` makes the TikTok cut (0.5 s cover, no title card), same encoder.
+  Shorts > 3:00: `tiktok_cut.py <v> <cover> <out> --cut a-b --cut x-end --speed 1.02` (S2 ep3 Shorts: cut title, 160.4–165.0 dusk, end card → 2:58).
   Title times: `python epN.py times` → "title" line (S2 ep3 38.51–40.51, ep4 20.13–22.13).
 - Brand intro publish pack: `publish/build.py` item `brand_intro` (thumbs/brand_intro_yt.jpg + _cover.jpg, texts in schedule.md). Sent to user 2026-11-11.
   `python publish/build.py --only <id>` = thumbs for one item.
