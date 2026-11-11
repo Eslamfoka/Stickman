@@ -9,8 +9,105 @@
   },
   "timezone_note": "كل المواعيد بتوقيت القاهرة (UTC+2 في نوفمبر). 9 بالليل القاهرة = 10 بالليل الكويت.",
   "media_folder": "publish/media/ (مش على الريبو — حط فيه الفيديوهات بالأسماء المكتوبة في media، والأسامي الأصلية في source_file_names)",
-  "generated": "2026-11-10T22:24:00+00:00",
+  "generated": "2026-11-11T16:42:10+00:00",
   "posts": [
+    {
+      "id": "brand_intro",
+      "series": "brand",
+      "series_name": "شطة وزلطة",
+      "kind": "intro",
+      "episode": null,
+      "episode_name": "تعالوا نعرّفكم علينا",
+      "publish_at_cairo": "2026-11-11T21:00:00+02:00",
+      "publish_at_utc": "2026-11-11T19:00:00Z",
+      "status": "pending",
+      "media": {
+        "horizontal": "media/brand_intro_h.mp4",
+        "vertical": "media/brand_intro_v.mp4"
+      },
+      "source_file_names": {
+        "horizontal": "intro_h.mp4",
+        "vertical": "intro_v.mp4"
+      },
+      "thumbnails": {
+        "youtube": "thumbs/brand_intro_yt.jpg",
+        "vertical_cover": "thumbs/brand_intro_cover.jpg"
+      },
+      "platforms": {
+        "youtube": {
+          "video": "media/brand_intro_h.mp4",
+          "title": "تعالوا نعرّفكم على عيلة شطة وزلطة! 🌶️🥗 | شطة وزلطة",
+          "description": "شطة، زلطة، توتة، نعناعة، سوسن، عم بندق، فهمي، الباشا وعبده… عيلة «شطة وزلطة» كلها في 36 ثانية! 😂\n\n«شطة وزلطة» — كرتون مصري للعيلة كلها: غموض وضحك وترند 🌶️🥗\nمسلسلاتنا: «عمارة نعناعة» (لغز كل يوم) • «يوميات شطة وزلطة» • «ترند الأسبوع» — حلقة جديدة كل يوم ⏰\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#شطة_وزلطة #عمارة_نعناعة #كرتون_مصري #كوميدي #انيميشن #مصر",
+          "tags": [
+            "شطة وزلطة",
+            "كرتون مصري",
+            "كرتون كوميدي",
+            "عمارة نعناعة",
+            "انيميشن مصري",
+            "مسلسل كرتون",
+            "ستيك مان",
+            "كرتون للعيلة"
+          ],
+          "thumbnail": "thumbs/brand_intro_yt.jpg",
+          "playlist": "شطة وزلطة 🌶️🥗",
+          "category_id": "24",
+          "default_language": "ar",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-11T19:00:00Z",
+          "pinned_comment": "مين فيهم شبهك؟ 😂 اكتبوا اسمه في الكومنتات 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata"
+        },
+        "youtube_shorts": {
+          "video": "media/brand_intro_v.mp4",
+          "title": "تعالوا نعرّفكم على عيلة شطة وزلطة! 🌶️🥗 #Shorts",
+          "description": "شطة، زلطة، توتة، نعناعة، سوسن، عم بندق، فهمي، الباشا وعبده… عيلة «شطة وزلطة» كلها في 36 ثانية! 😂\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#شطة_وزلطة #عمارة_نعناعة #كرتون_مصري #كوميدي #انيميشن #Shorts",
+          "tags": [
+            "شطة وزلطة",
+            "كرتون مصري",
+            "كرتون كوميدي",
+            "عمارة نعناعة",
+            "انيميشن مصري",
+            "مسلسل كرتون",
+            "ستيك مان",
+            "كرتون للعيلة"
+          ],
+          "playlist": "شطة وزلطة 🌶️🥗",
+          "category_id": "24",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-11T20:00:00Z",
+          "pinned_comment": "مين فيهم شبهك؟ 😂 اكتبوا اسمه في الكومنتات 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
+          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+        },
+        "tiktok": {
+          "video": "media/brand_intro_v.mp4",
+          "caption": "شطة، زلطة، توتة، نعناعة، سوسن، عم بندق، فهمي، الباشا وعبده… عيلة «شطة وزلطة» كلها في 36 ثانية! 😂 تعرّفوا علينا من «شطة وزلطة» 🎬\nمين فيهم شبهك؟ 😂 اكتبوا اسمه في الكومنتات 👇\n#شطة_وزلطة #كرتون_مصري #عمارة_نعناعة #كوميدي #مصر #fyp",
+          "cover_image": "thumbs/brand_intro_cover.jpg",
+          "cover_timestamp_ms": 1000,
+          "privacy": "PUBLIC_TO_EVERYONE",
+          "allow_comments": true,
+          "allow_duet": true,
+          "allow_stitch": true,
+          "publish_at_utc": "2026-11-11T19:00:00Z",
+          "pinned_comment": "مين فيهم شبهك؟ 😂 اكتبوا اسمه في الكومنتات 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗",
+          "note": "لو الأداة مش بتقبل صورة غلاف، استخدم cover_timestamp_ms أو اختار الغلاف يدوي من التطبيق"
+        },
+        "instagram_reel": {
+          "video": "media/brand_intro_v.mp4",
+          "caption": "شطة، زلطة، توتة، نعناعة، سوسن، عم بندق، فهمي، الباشا وعبده… عيلة «شطة وزلطة» كلها في 36 ثانية! 😂 تعرّفوا علينا من «شطة وزلطة» 🎬\nمين فيهم شبهك؟ 😂 اكتبوا اسمه في الكومنتات 👇\n#شطة_وزلطة #كرتون_مصري #عمارة_نعناعة #ريلز",
+          "cover_image": "thumbs/brand_intro_cover.jpg",
+          "share_to_facebook": true,
+          "publish_at_utc": "2026-11-11T19:00:00Z",
+          "pinned_comment": "مين فيهم شبهك؟ 😂 اكتبوا اسمه في الكومنتات 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        },
+        "facebook_reel": {
+          "via": "instagram_reel.share_to_facebook",
+          "caption": "شطة، زلطة، توتة، نعناعة، سوسن، عم بندق، فهمي، الباشا وعبده… عيلة «شطة وزلطة» كلها في 36 ثانية! 😂 تعرّفوا علينا من «شطة وزلطة» 🎬\nمين فيهم شبهك؟ 😂 اكتبوا اسمه في الكومنتات 👇\n#شطة_وزلطة #كرتون_مصري",
+          "note": "مش محتاج رفع منفصل لو انستجرام بيعمل share لفيسبوك",
+          "pinned_comment": "مين فيهم شبهك؟ 😂 اكتبوا اسمه في الكومنتات 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        }
+      }
+    },
     {
       "id": "trend01_e01",
       "series": "trend01",
@@ -654,7 +751,7 @@
         },
         "youtube_shorts": {
           "video": "media/trend01_movie_v.mp4",
-          "title": "أزمة منتخب العمارة - الفيلم كامل ⚽🎬 | أزمة منتخب العمارة الفيلم #Shorts",
+          "title": "أزمة منتخب العمارة - الفيلم كامل ⚽🎬 #Shorts",
           "description": "الحكاية كلها في فيديو واحد: من الكاس… للمؤتمر… للدقيقة 60… للإقالة! 🎬\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#شطة_وزلطة #أزمة_منتخب_العمارة #كرتون_مصري #كورة #ترند #Shorts",
           "tags": [
             "شطة وزلطة",
@@ -1829,7 +1926,7 @@
         },
         "youtube_shorts": {
           "video": "media/nanaa_s2_trailer_v.mp4",
-          "title": "الموسم التاني: سر البدروم 🔦 (الإعلان الرسمي) | عمارة نعناعة إعلان #Shorts",
+          "title": "الموسم التاني: سر البدروم 🔦 (الإعلان الرسمي) #Shorts",
           "description": "«افتحوا البدروم… بس ما تفتحوهوش بالليل» 🔦 الموسم التاني من عمارة نعناعة بكرة!\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#عمارة_نعناعة #سر_البدروم #شطة_وزلطة #كرتون_مصري #غموض #Shorts",
           "tags": [
             "شطة وزلطة",

@@ -42,7 +42,14 @@ SERIES = {
      ig_hashtags=["#عمارة_نعناعة", "#شطة_وزلطة", "#كرتون_مصري", "#لغز", "#ريلز"],
      fb_hashtags=["#عمارة_نعناعة", "#شطة_وزلطة", "#كرتون_مصري"], disclaimer=None),
 }
+SERIES["brand"] = dict(name="شطة وزلطة", playlist="شطة وزلطة 🌶️🥗", glow=(230, 120, 30),
+     yt_tags=["شطة وزلطة", "كرتون مصري", "كرتون كوميدي", "عمارة نعناعة", "انيميشن مصري", "مسلسل كرتون", "ستيك مان", "كرتون للعيلة"],
+     yt_hashtags=["#شطة_وزلطة", "#عمارة_نعناعة", "#كرتون_مصري", "#كوميدي", "#انيميشن", "#مصر"],
+     tt_hashtags=["#شطة_وزلطة", "#كرتون_مصري", "#عمارة_نعناعة", "#كوميدي", "#مصر", "#fyp"],
+     ig_hashtags=["#شطة_وزلطة", "#كرتون_مصري", "#عمارة_نعناعة", "#ريلز"],
+     fb_hashtags=["#شطة_وزلطة", "#كرتون_مصري"], disclaimer=None)
 SERIES_DESC = {
+ "brand": "«شطة وزلطة» — كرتون مصري للعيلة كلها: غموض وضحك وترند 🌶️🥗\nمسلسلاتنا: «عمارة نعناعة» (لغز كل يوم) • «يوميات شطة وزلطة» • «ترند الأسبوع» — حلقة جديدة كل يوم ⏰",
  "trend01": "تابعوا «أزمة منتخب العمارة» — مسلسل كرتون كوميدي قصير من «شطة وزلطة» 🌶️🥗",
  "nanaa_s1": "«عمارة نعناعة» — مسلسل كرتون مصري غموض وضحك للعيلة كلها. الموسم الأول: سر الدور السابع 🏚️",
  "nanaa_s2": "«عمارة نعناعة» — الموسم التاني: سر البدروم 🔦 كرتون مصري غموض وضحك للعيلة كلها",
@@ -51,6 +58,13 @@ SERIES_DESC = {
 # figure spec: (who, S, expr, mouth, look, arms, held, shirt, num, x)   — x in a 1920-wide frame
 T = ROOT + "/trend/01/bg/"; S1 = f"{REPO}/s1e"
 ITEMS = [
+ # ---------------- brand intro (pin first on every platform / YouTube channel trailer) ----------------
+ dict(id="brand_intro", series="brand", kind="intro", ep=None, name="تعالوا نعرّفكم علينا", date="2026-11-11", time="21:00",
+      src_h="intro_h.mp4", src_v="intro_v.mp4",
+      yt_title="تعالوا نعرّفكم على عيلة شطة وزلطة! 🌶️🥗", hook="شطة، زلطة، توتة، نعناعة، سوسن، عم بندق، فهمي، الباشا وعبده… عيلة «شطة وزلطة» كلها في 36 ثانية! 😂",
+      question="مين فيهم شبهك؟ 😂 اكتبوا اسمه في الكومنتات 👇", headline=["مين", "شبهك؟"], bg=S1 + "1/bg/lobby_1080.png", glow=(230, 120, 30),
+      figs=[("tota", 2.7, "happy", 0.3, -1, "hips", None, None, None, 1790), ("zalata", 3.1, "happy", 0.3, -1, "up", None, None, None, 1060),
+            ("shatta", 4.4, "happy", 0.7, -1, "up", None, None, None, 1420)]),
  # ---------------- trend «أزمة منتخب العمارة» ----------------
  dict(id="trend01_e01", series="trend01", kind="episode", ep=1, name="كاس الشارع", date="2026-11-10", time="21:00",
       src_h="أزمة منتخب العمارة - الحلقة 1 - كاس الشارع (عرض).mp4", src_v="أزمة منتخب العمارة - الحلقة 1 - كاس الشارع (طولي).mp4",
@@ -159,6 +173,7 @@ def kit_col(k):
 def badge_text(it):
     if it["kind"] == "movie": return "الفيلم"
     if it["kind"] == "trailer": return "إعلان"
+    if it["kind"] == "intro": return "تعرّفوا علينا"
     return f"الحلقة {it['ep']}"
 
 def render_bg(it, W_, H_):
@@ -174,7 +189,7 @@ def render_bg(it, W_, H_):
     return bg
 
 def series_tag(it):
-    return {"trend01": "أزمة منتخب العمارة", "nanaa_s1": "عمارة نعناعة • الموسم 1", "nanaa_s2": "عمارة نعناعة • الموسم 2"}[it["series"]]
+    return {"trend01": "أزمة منتخب العمارة", "nanaa_s1": "عمارة نعناعة • الموسم 1", "nanaa_s2": "عمارة نعناعة • الموسم 2", "brand": "كرتون مصري للعيلة كلها"}[it["series"]]
 
 def thumb_yt(it):
     W_, H_ = 1920, 1080
@@ -201,7 +216,7 @@ def thumb_cover(it):
     figs = sorted(it["figs"], key=lambda f: f[1])          # small (secondary) first, main last (front)
     for i, (who, S, ex, mo, lk, arms, held, shirt, num, x) in enumerate(figs):
         main = (i == len(figs) - 1)
-        s2 = S * (1.12 if main else 0.8); cx = 540 if main else 870
+        s2 = S * (1.12 if main else 0.8); cx = 540 if main else (870 if i % 2 == 0 else 210)
         place(bg, figure(who, s2, ex, mo, 0 if main else -1, arms, held, kit_col(shirt), num), cx, H_ + int(s2 * 70) - 60)
     if it.get("zzz"):
         for zx, zy, zs in ((760, 820, 80), (830, 740, 105), (920, 650, 130)): lz(bg, zx, zy, "Z", zs, (255, 255, 255), ow=12, iw=1)
@@ -235,7 +250,7 @@ def yt_title(it, shorts=False):
     s = SERIES[it["series"]]["name"].split(":")[0].split(" - ")[0]
     part = badge_text(it) if it["kind"] == "episode" else it["name"]
     t = f"{it['yt_title']} | {s} - {part} | شطة وزلطة" if it["kind"] == "episode" else f"{it['yt_title']} | شطة وزلطة"
-    if shorts: t = f"{it['yt_title']} | {s} {badge_text(it)} #Shorts"
+    if shorts: t = f"{it['yt_title']} | {s} {badge_text(it)} #Shorts" if it["kind"] == "episode" else f"{it['yt_title']} #Shorts"
     return t[:100]
 
 def yt_description(it):
@@ -333,5 +348,7 @@ open(f"{PUB}/schedule.md", "w", encoding="utf-8").write("\n".join(L))
 print("manifest ok:", len(posts), "posts")
 
 if not NO_THUMBS:
+    only = sys.argv[sys.argv.index("--only") + 1] if "--only" in sys.argv else None
     for it in ITEMS:
+        if only and it["id"] != only: continue
         ("--covers" in sys.argv or thumb_yt(it)); thumb_cover(it); print("thumbs", it["id"], flush=True)

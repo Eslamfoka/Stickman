@@ -72,3 +72,18 @@ User approved the idea. Pin it first on every platform (YouTube channel trailer)
 - All delivered files re-sent as 6 zips (delivery/pack/).
 - Season 1 ep9–10 being re-rendered for the user (he only had 8); then season-1 movie (needs all 10 rendered → movie/assemble.sh steps above).
 - Season 2: ep1–4 done; next Ep5 «صفيح».
+
+## PLAN — smaller files, same quality (user request 2026-11-11)
+- Problem: deliveries are big (YT eps 300–400 MB, near the SendUserFile 400 MB cap; >25 MB can't go over the device bridge).
+- Fix: keep the fast `-preset veryfast` for the raw part renders, then do ONE final encode per delivered file with
+  `libx264 -preset slow -tune animation -crf 22 -pix_fmt yuv420p -movflags +faststart` (+ AAC 160k). Flat cartoon frames compress
+  2–4× better with slow preset + animation tune at the same visual quality. Check size/quality on one episode, then make it a shared
+  helper (`publish/final_encode.py`) and call it from every epN.py mux / tiktok_cut.py.
+- Optional later: x265 (HEVC) copies for archive only (platforms re-encode anyway; keep H.264 for upload compatibility).
+- DONE 2026-11-11: `publish/final_encode.py` (preset medium + tune animation, crf 23) → S2 ep3 YT 370 MB → 132 MB, no visible change
+  (main size cause = per-frame film GRAIN in finish(); softer/static grain would shrink files further — try on the next episode).
+  `publish/tiktok_cut.py <vertical> <cover> <title_start> <title_end> <out>` makes the TikTok cut (0.5 s cover, no title card), same encoder.
+  Title times: `python epN.py times` → "title" line (S2 ep3 38.51–40.51, ep4 20.13–22.13).
+- Brand intro publish pack: `publish/build.py` item `brand_intro` (thumbs/brand_intro_yt.jpg + _cover.jpg, texts in schedule.md). Sent to user 2026-11-11.
+  `python publish/build.py --only <id>` = thumbs for one item.
+- S2 ep3 + ep4 rendered and delivered (YT + TikTok cut) into delivery/s2/.
