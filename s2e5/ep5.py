@@ -921,7 +921,7 @@ def render_phone_variants():
         p_ = subprocess.Popen(["ffmpeg", "-y", "-v", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", "1080x1920", "-r", str(FPS), "-i", "-",
                                "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p", f"phone_{plat}.mp4"], stdin=subprocess.PIPE)
         for i in range(int(round(sh["start"] * FPS)), int(round(sh["end"] * FPS))):
-            tt = i / FPS; p_.stdin.write(vertical(None, tt, plat).tobytes())
+            tt = i / FPS; p_.stdin.write(vertical(frame(tt, plat), tt, plat).tobytes())
         p_.stdin.close(); p_.wait()
     print("phone window", round(round(sh["start"] * FPS) / FPS, 3), round(round(sh["end"] * FPS) / FPS, 3))
 

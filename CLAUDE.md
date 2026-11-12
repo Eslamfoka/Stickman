@@ -19,6 +19,7 @@ Claude does everything: story, fully diacritized scripts, voices (ElevenLabs MCP
 3. Each episode must beat the previous one: faster rhythm, more events, more mystery/thrill, more professional animation, zero mistakes.
 4. Design **brand-owned voices** (ElevenLabs Voice Design) for every recurring character — don't use other people's library voices for main characters (monetization).
 5. Never accept passwords / tokens from the user.
+7. **STANDING RULE (user, 2026-11-12) — never wait to be reminded:** once the user approves the voices of an episode, go straight to animation and apply the full `docs/directing.md` checklist ("Episode checklist") on your own: chained cause→effect events, motivated entrances (called / knocked / heard / on the way), exits with the BACK to camera, real TV camera coverage, real acting + listener reactions, and every episode must clearly beat the previous one in directing, thrill, suspense, picture quality, camera angles, correct pronunciation and comedy. The user should never have to repeat this.
 6. **Directing rules for the whole project** in `docs/directing.md`: motivated transitions (a sound/call/discovery triggers every next scene), motivated entrances (nobody pops in), real TV-series camera coverage (wide/OTS/CU/insert/POV, purposeful moves), zero dialogue mistakes, more thrill AND keep the comedy. Read it before writing any script.
 
 ## Repo layout

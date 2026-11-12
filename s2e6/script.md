@@ -30,17 +30,17 @@ Cliff: knock at night → the doorman opens → backlit silhouette → فهمي:
 | 0b | H02 | الباشا | اصْبُر يا عَبْدُه... كُلّ حاجَة لِيها تَمَن. | [menacing calm, phone] |
 | 1 | H03 | شطة | صَباح الخِير يا صَفِيح!... قُلْتِلَك هاجِي لَك. | [happy] |
 | 1 | H04 | صفيح | صَباح الخِير... يا رُشْدِي. | [warm, robotic] |
-| 1 | H05 | زلطة | خَلاص يا شَطَّة... إِنْتَ بَأَيْت رشدي رَسْمِي. | [deadpan] |
+| 1 | H05 | زلطة | خَلاص يا شَطَّة... إِنْتَ بقيت رشدي رَسْمِي. | [deadpan] |
 | 1b | H06 | توتة | إِجابِة لُغْز امْبارِح: فُوء الكُلّ ومَلْيان مَيَّة... خَزّان المَيَّة اللِّي عَلَى السُّطُوح! | [to camera] |
 | 1b | H07 | شطة | سَبَع أَدْوار... مِن غِير أَسانْسِير... أَنا خِلِصْت. | [panting, comic] |
-| 2 | H08 | زلطة | احْتِمال شَطَّة يِطْلَع الخَزّان: عَشَرَة فِي المِيَّة. | [deadpan] |
+| 2 | H08 | زلطة | احْتِمال شَطَّة يِطْلَع فُوء الخَزّان: عَشَرَة فِي المِيَّة. | [deadpan] |
 | 2 | H09 | شطة | ثِقُوا فِيّا المَرَّة دِي! | [fake brave] |
-| 2 | H10 | شطة | لَأَيْت حاجَة!... عِلْبَة صَفِيح! | [excited] |
+| 2 | H10 | شطة | لقيت حاجَة!... عِلْبَة صَفِيح! | [excited] |
 | 2b | H11 | توتة | مَكْتُوب عَلَى المُفْتاح: تَسْجِيلات عِمارِة نَعْناعَة... والسَّنَة مَمْسُوحَة! | [reading, intrigued] |
 | 3 | H12 | نعناعة | إِنْتُو بِتِعْمِلُوا إِيه فُوء السُّطُوح؟! | [angry, off-screen] |
 | 3 | H13 | نعناعة | المُفْتاح دَه... مُفْتاح رشدي. | [soft, emotional] |
 | 3 | H14 | نعناعة | زَمان... البدروم دَه كان أَحْلَى اسْتُودْيُو فِي مَصْر. | [nostalgic] |
-| 4 | H15 | رشدي (شاب) | يا نَعْناعَة... هاتِي المَفَكّ!... صَفِيح هَيِبْأَى أَحْسَن حارِس فِي الدُّنْيا! | [young, excited] |
+| 4 | H15 | رشدي (شاب) | يا نَعْناعَة... هاتِي المَفَكّ!... صَفِيح هيبقا أَحْسَن حارِس فِي الدُّنْيا! | [young, excited] |
 | 4 | H16 | نعناعة | رشدي بَنَى صَفِيح... عَشان يِحْرَس الأُسْطُوانَة. | [narrating, soft] |
 | 5 | H17 | زلطة | أُسْطُوانِة إِيه يا تِيتا؟ | [curious] |
 | 5 | H18 | نعناعة | أُغْنِيَة العِمارَة... بِصُوت السِّتّ بَهِيَّة. | [proud, emotional] |
@@ -49,3 +49,10 @@ Cliff: knock at night → the doorman opens → backlit silhouette → فهمي:
 | 6 | H21 | البواب | مِين اللِّي بِيْخَبَّط بِاللِّيل؟... أَنا صاحِي أَهُو. | [sleepy, grumpy] |
 | 7 | H22 | فهمي | أَنا مِش جايّ أَأْذِي حَدّ... أَنا جايّ أَحَذَّرْكُم. | [serious, tense] |
 | 7 | H23 | شطة | أُسْتاذ فَهْمِي؟! | [shocked] |
+
+## Better than Ep5 (checklist item 7)
+1. New sets: roof by day with the water tank, night street wall, sepia flashback of the studio in 1958 (film flicker, scratches, warm vignette).
+2. Bigger physical comedy: Shatta's climb + slip + dangling on the tank; the 7-floor stairs montage with floor numbers.
+3. Cliff with a backlit silhouette in the street door (light + fog through the doorway) and a slow push-in, not only a crash zoom.
+4. Nana's entrance is heard first (off-screen voice from the roof door) → she walks in from the door with the laundry basket.
+5. Night hook with a torch beam on the wall and Safeeh's red eyes through the bars, Abdo falls on his back (comic release).

@@ -47,3 +47,16 @@ Viewers on TikTok/Reels/Shorts decide in the first second. Every video (H and V,
 - Entrances always motivated (called / knocked / heard / on the way) — unchanged, re-confirmed.
 - Acting & reactions: every line gets a listener reaction (look, blink, step back, head turn), anticipation before big moves, overlap/settle after stops, weight shifts while standing — no frozen listeners.
 - Camera: real coverage per scene (wide → OTS → CU → insert/POV), purposeful moves only.
+
+
+## Episode checklist — run it on EVERY episode right after the voices are approved (standing rule, user 2026-11-12)
+Go through each item before rendering stills, and again on the contact sheet. The user must never have to ask for these.
+1. **Chain of events:** every scene starts because of something in the previous one (sound, call, discovery, look). No hard cut "out of nowhere"; J-cut sound bridges; time jumps shown (time-lapse, clock, sky).
+2. **Entrances:** nobody pops in. Someone calls them, knocks, they're heard first, or we see them on their way (door, stairs, depth, frame edge).
+3. **Exits:** when someone leaves, the camera stays and we watch them walk away **with their back to camera** (`draw_back`), shrinking into depth / out a door. Screen direction kept into the next shot.
+4. **Camera coverage per scene:** establishing wide → two-shot → OTS → real close-ups (head & shoulders) → inserts → POV. Purposeful moves only (push-in on tension, crash zoom on scares, follow-pan on walks, low angle for villains/robot, high angle for scared kids, dutch for unease).
+5. **Acting & reactions:** every line has listener reactions (look at the speaker, blink, step back, flinch, lean in); anticipation before big moves, settle after; nobody frozen; expressions change inside a line where it fits.
+6. **Thrill + comedy:** hook ≤3 s, ≥2 tension peaks (one false scare, one real), a twist, puzzle, cliffhanger; 3–4 comedy beats placed right after tension.
+7. **Beat the previous episode** — write down (in the episode's script.md) at least 3 concrete things that are new/better than last time: a new set or camera move, a new effect, faster rhythm, a bigger scare, a better gag.
+8. **Pronunciation:** numbered test → user OK per number → one take per line → review MP3 → fix flags. Apply every rule in production.md.
+9. **Delivery pack:** YouTube H + TikTok vertical (cover first frame, no title card) + Reels + Shorts (<3:00) + YT thumbnail + vertical cover + captions & pinned comments per platform; small files via final_encode; update status.md + build.py STATUS; push after each step.
