@@ -26,3 +26,6 @@ G24 lCWewpeBhkEGJDt9TM7y qtbZ8Kr4lvulEbK8Pah9
 G25 PcQG088hLhyYpJHb2YZH LxsoLRwK8SZgGhgu6X4F
 G26 m9pdK0QcMsrHKJvheC3B HbHe2Qp7MVei1h4FkRdG
 G27 Pc7Jggul0YnrjfFtKlPd duiNy2qPiNYgp5DX5qb5
+fixes (user flags 13:12): G10a dVLwu9o26vfMgYvNw1Gq «عينه... بقت خضرا» (no diacritics) | G10b za9fUVyAhxe6goTQuTaS «اتْحَوِّلِت لِلأَخْضَر»
+G21a FAMtkXepHiUk2XnfrOGv «تِيتا نَعْناعَة» | G21b r6wmIMmnXM1ktrmZrpWL «الحاجّة نعناعة» (no diacritics)
+G23a oCwd55Dj05qqDXWp7V6J «هاجِي لَك» | G23b g6TFdoyVlRlXXHZ1U3g1 «هَرْجَع لَك»
