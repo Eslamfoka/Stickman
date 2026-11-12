@@ -1,4 +1,18 @@
-# Status — last updated 2026-11-12 15:55 (SEASON 2 COMPLETE — S2E10 delivered)
+# Status — last updated 2026-11-12 21:45 (S2 MOVIE delivered · new series «ميكروفون توتة» started)
+
+## Latest (2026-11-12 evening)
+- **S2 movie DELIVERED** «عمارة نعناعة م2 - سر البدروم (الفيلم كامل).mp4» (21:28, 280 MB). Pipeline `movie/s2/`:
+  `bash movie/s2/render_all.sh` (horizontal-only render of every S2 ep → s2eN/movie_src.mp4, ~65 min on 2 CPUs) →
+  `python movie/s2/movie.py all` (segs = titles / puzzles / follow CTAs + phone inserts / endcards / «لغز امبارح» to camera cut;
+  hook 23 s; title card; assemble + `final_encode` crf 26 + DENOISE → <400 MB; writes `movie/s2/chapters.txt`).
+  Ep10's season-end card «الموسم التالت قريباً» is kept as the movie ending. No character intro (S1 had one) — optional later.
+  Publish item `nanaa_s2_movie` (2026-12-05 18:00, YT + FB video, chapters in the description), thumbs + captions HTML made.
+- **Season 3 «ليلة التماثيل» PAUSED** (user): publish S2 first; start a second series to run alongside «عمارة نعناعة».
+- **New series «ميكروفون توتة»** (user idea): Tota the reporter asks one question → flipped punchline → trademark laugh at the end
+  (original laugh in the spirit of محمد ثروت, not his voice). Laugh rotation: ep1 شطة → ep2 زلطة → ep3 توتة → repeat.
+  Ep1 «السجاير والعربية» (smoker = عم بندق, NOT the kids): script `mic/01/script.md`; pronunciation test sent
+  (flow 9QwM1UhhHsYogaHwMAYZ, gen jwvG8E1rGMBnmzaIFjJD, 24 items, 23–24 = laugh options) → WAITING for the user's per-number OK.
+
 
 ## Where we stopped (2026-11-12)
 - S2E5 «صفيح» DELIVERED (YT, TikTok, Reels, Shorts, thumbs, captions HTML `publish/captions/nanaa_s2_e05.html`).
