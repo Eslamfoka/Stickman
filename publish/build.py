@@ -61,6 +61,7 @@ T = ROOT + "/trend/01/bg/"; S1 = f"{REPO}/s1e"
 STATUS = {
     "trend01_e01": "published", "trend01_e02": "published", "trend01_e03": "published", "trend01_e04": "published",
     "nanaa_s1_e01": "youtube_scheduled_manually", "nanaa_s1_e02": "youtube_scheduled_manually",
+    "nanaa_s1_e03": "youtube_scheduled_manually", "nanaa_s1_e04": "youtube_scheduled_manually",
 }
 ITEMS = [
  # ---------------- brand intro (pin first on every platform / YouTube channel trailer) ----------------
