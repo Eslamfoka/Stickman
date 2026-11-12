@@ -381,7 +381,7 @@ def draw_back(p, who, x, y, s=1.0, t=0.0, walk=None, arms="down", held=None):
     # head: white skull, then the hair seen from behind
     if who == "tota":
         p.ell(hx - hr - 2 * s, hy - 4 * s, 13 * s, 13 * s, hair, INK, 2 * s); p.ell(hx + hr + 2 * s, hy - 4 * s, 13 * s, 13 * s, hair, INK, 2 * s)
-    if who in ("nana", "youngnana"):
+    if who in ("nana", "youngnana", "sawsan"):
         p.ell(hx, hy + 4 * s, hr + 14 * s, hr + 16 * s, hair, INK, 3 * s); return
     p.ell(hx, hy, hr, hr, WHITE, INK, 3.5 * s)
     p.ell(hx - hr + 1 * s, hy + 6 * s, 5 * s, 9 * s, WHITE, INK, 2 * s); p.ell(hx + hr - 1 * s, hy + 6 * s, 5 * s, 9 * s, WHITE, INK, 2 * s)  # ears
