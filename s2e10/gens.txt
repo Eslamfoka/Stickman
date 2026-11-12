@@ -1,2 +1,3 @@
 test: gen yJs1F6eNfd3fRChwqdRW (Shatta, 32 words)
 retest: gen clulMhYFKZJWXesBg69I (1 يهد bare, 2 يهدّها, 3 يوقّع, 4 أولت ابدأ, 5 بأولّك ابدأ)
+retest3 (Pasha): gen WALkEmJuyZd1mghkyhE8 (1 ما تتكلمش ابدأ, 2 اسمع الكلام وابدأ, 3 مالكش دعوة ابدأ) | #3 approved = «مين عايز يوقّع العمارة؟»
