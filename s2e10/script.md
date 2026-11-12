@@ -1,4 +1,4 @@
-# م2 ح10 — «أغنية العمارة» (SEASON FINALE, draft v1, 2026-11-12) — waiting for the user's OK → numbered pronunciation test
+# م2 ح10 — «أغنية العمارة» (SEASON FINALE, v2, story approved 2026-11-12) — pronunciation test sent; waiting for per-number OK → numbered pronunciation test
 Continuity: Ep9 cliff = the Pasha ordered the loader, demolition at dawn. Ep9 answer: the 7th-floor radio (S1E8) «اشتغل لوحده».
 Locations (fixed): street (dawn = graded day of street_day / loader), stairs montage, apt7 (S1E8 radio), lobby/balcony, street night (cliff).
 Song: `s2/music/أغنية العمارة - نسخة 2أ.mp3` — the long piece plays out loud on the street (neighbours on the balconies).
@@ -15,14 +15,14 @@ Cliff: night; Safeeh's dark screen flickers on by itself: «أنا راجع» + 
 | N06 | توتة | لَئِيتْها!... الأُسْطُوانَة! | [joyful] |
 | N07 | الباشا | ابْدَأ يا عَبْدُه! | [commanding] |
 | N08 | عبده | يا باشا... فِيه عِيال جُوَّه. | [hesitant] |
-| N09 | الباشا | قُلْت ابْدَأ! | [angry] |
+| N09 | الباشا | أُلْت ابْدَأ! | [angry] |
 | N10 | صفيح | وَضْع الحِراسَة!... مَحَدِش هَيِلْمِس العِمارَة! | [robot, loud] |
 | N11 | سوسن | اللّايف شَغّال!... كُلّ النّاس بِتِتْفَرَّج! | [excited] |
 | N12 | شطة | شَغَّلُوها!... خَلِّي الشّارِع كُلُّه يِسْمَع! | [proud] |
 | — | (SONG) | «أغنية العمارة» out loud; neighbours come out on the balconies; the loader stops | |
 | N13 | نعناعة | دِي... الست بهية. | [moved, soft] |
 | N14 | نعناعة | الأَغانِي دِي اتْغَنِّت هِنا... العِمارَة دِي تُراث! | [proud, tearful] |
-| N15 | زلطة | والباشا... مَمْسُوك بِأَدَوات الحَفْر! | [triumphant] |
+| N15 | زلطة | والباشا... مَمْسُوك ومَعاه العِدَّة! | [triumphant] |
 | N16 | الباشا | كُلّ حاجَة لِيها تَمَن... وأَنا دَفَعْتُه. | [defeated] (walks away, back to camera) |
 | N17 | عبده | أَنا آسِف يا سِت نَعْناعَة... | [sorry] |
 | N18 | نعناعة | الشِّبْشِب... هَيِسْتَنّاك المَرَّة الجايَّة. | [comic threat] |
