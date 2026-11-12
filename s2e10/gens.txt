@@ -1,3 +1,8 @@
 test: gen yJs1F6eNfd3fRChwqdRW (Shatta, 32 words)
 retest: gen clulMhYFKZJWXesBg69I (1 يهد bare, 2 يهدّها, 3 يوقّع, 4 أولت ابدأ, 5 بأولّك ابدأ)
 retest3 (Pasha): gen WALkEmJuyZd1mghkyhE8 (1 ما تتكلمش ابدأ, 2 اسمع الكلام وابدأ, 3 مالكش دعوة ابدأ) | #3 approved = «مين عايز يوقّع العمارة؟»
+approved: N02 «يوقّع», N09 «اسمع الكلام وابدأ» (retest3 option 2)
+N01 0kv8DZcPHxGi6xl6Kcd6 | N02 Snsa4gvtRqQvROTNhHIi | N03 d3y4GWJh7tbtl3rHRLjq | N04 Lj4mRh07iaJdkY7xECar | N05 nWC7ctnxDRXH5qZOLexu
+N06 rr0r3itt2yfVXqpTcGij | N07 QCKFPSJwJgqXXHGmxzlR | N08 2HcN6X7gpoQeFhpRDTyv | N09 J7k7CfR6lNlEZPKnoFTY | N10 ym9T6P04OPP9TXJHXov1
+N11 VH41d6aq5p6afuKnvUON | N12 231754IMtSsjmN8tPXQQ | N13 3VDu7RQiOlo9GHFmU7Ys | N14 t2UoDF9AnNOQ5upZiGj3 | N15 MIXkEJxTvaTb8cOM19Zk
+N16 NXcNQMKVecMstCZP8ny1 | N17 RPEw821SajxhkHs0O2CD | N18 JnZT3jxio7okzlPuGzsX | N19 PsZjPHkSjVLEmt5159L4 | N20 Lr5MHGWcnqpOEI5NAF2a | N21 y9j0g8soU4NnnJZ54vBv
