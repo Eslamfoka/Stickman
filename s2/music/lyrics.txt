@@ -4,3 +4,4 @@
 يا نعناعة يا عمارة / فيكي الحب وفيكي الحارة
 مهما الدنيا تتغير / تفضلي إنتي المنارة
 v2 (user fixes: عِمارَه / حَنِينَه / حَبايِب / نَعْناعَه): 2أ = X91gcC4EGaeLaagKM4UY, 2ب = MPfbXSFYzO1jPTSG5D1w
+- Song: user picked take **2أ** (2026-11-12); the word «حبايب» is a bit clipped, accepted as is.
