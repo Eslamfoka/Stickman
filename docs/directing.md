@@ -33,3 +33,11 @@ The user wants it to feel like a real TV series being shot: chained events, came
 Viewers on TikTok/Reels/Shorts decide in the first second. Every video (H and V, every series) must:
 - Start directly on action/hook (a face, a sound, movement) — NO black title card at 0s. The episode title card goes after the hook (≥ 3s) or is dropped in the vertical cut (the vertical band already shows the title).
 - OR open on a 0.5s "cover frame" = the episode's designed cover (publish/thumbs/<id>_cover.jpg style: big character + huge headline) that pops into the first shot — so the first frame doubles as the TikTok/Reels cover.
+
+## Follow CTA (all videos, from 2026-11-12 — user request)
+- Right AFTER the audience puzzle (not at the start; the end card is visual only): 2–3 s, in character, with a gag, rotating characters each episode.
+  e.g. Zalata «احْتِمال تِفَوِّت الحَلْقَة الجايَّة لَوْ ما عَمَلْتِش فُولُو: مِيَّة فِي المِيَّة.» / Tota «اسْمَعُوا كَلام تُوتَة... فُولُو ولايْك وشِير!» / Shatta «ثِقُوا فِيّا... اعْمِلُوا فُولُو!»
+- Spoken line is the same everywhere («فولو ولايك وشير»); the picture changes per version: a drawn phone in the character's hand shows the user's REAL profile screenshot
+  (`brand/follow/{yt,fb,ig,tt}.png`, made by `brand/follow/crop.py` from `raw/` — follower/video counts hidden, video grid cropped), an animated finger taps Follow/Subscribe, glow ring, click sfx, button flips to Following/Subscribed, heart pops.
+  YouTube version → yt.png (+ bell); vertical TikTok cut → tt.png; Reels → ig.png / fb.png.
+- End card: platform screenshot thumbnails + @shattawzalata under «الحلقة X بكرة», no voice.
