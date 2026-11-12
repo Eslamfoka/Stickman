@@ -2,7 +2,7 @@
 Continuity from Ep8: the Pasha took the box from under the crescent tile (morning, basement). Ep8 answer: بلاطة الهلال.
 Change vs the season plan: the kids GET the box back (Fahmy's speaker trick) and it is THEY who find it empty + Roshdy's note;
 the Pasha's cliff = he orders the loader: the building will be demolished in the morning → big stakes for the finale (Ep10).
-S3 tease (user 2026-11-12): the box holds an old photo of Roshdy (foreign stamp, ship behind him) + a strange key + his letter «السر الأكبر لسه ما ابتداش» — keep the key for Season 3.
+S3 tease (user 2026-11-12): the box holds an old photo of young Roshdy in a hidden workshop next to a sheet-covered figure with a pharaoh crown peeking out (→ S3 «ليلة التماثيل», docs/seasons/season3_tamaseel.md) + a big old key tagged «الدور الأخير» (the closed top floor = Roshdy's wax-figure workshop) + his letter «السر الأكبر لسه ما ابتداش» — keep the key for Season 3.
 The record hint now comes from Safeeh («رشدي نقل الأسطوانة للمكان اللي بيغني لوحده»). Ep9 puzzle: in Season 1 something in the building sang by itself (the 7th-floor radio, S1E8) → Ep10 answer.
 Running gag: Safeeh calls everyone «رشدي». CTA: نعناعة (with the slipper).
 Locations (fixed): car (day, carday) → living (day) → street (night, Pasha's car) → lobby (night). No new place.
