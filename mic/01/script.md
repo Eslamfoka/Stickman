@@ -38,3 +38,5 @@ Review MP3 «جمل ميكروفون توتة 01 - للمراجعة.mp3» sent �
 User fixes (review): P10 «بقالك» read with qaf → must be «بآلك»; «سنة» in «تلاتين سنة» read «سِنة» → must be «سَنة».
 Retest A (Tota) gen YW2MuBFmAirLzc3xPKnm: 1 بَآلَك كام سَنَة | 2 بَأالَك كام سَنَه | 3 بآلك كام سنه (bare) | 4 يعني في تلاتين سَنَه | 5 يَعْنِي فِي تَلاتِين سَنا
 Retest B (Bandaq) gen qtEWgXHUWGGUlnEAf2yH: 1 تلاتين سَنَه | 2 تَلاتِين سَنا | 3 تلاتين سنه (bare) | 4 تَلاتِين سَنَة كامْلِين
+Retests approved (user: all OK) → regenerated P10 «بَأالَك كام سَنَه» 5mzpzpNlT9zkiVSAKjx2 | P11 «تلاتين سَنَه» 4rTP0Nx3eSfvSJWoBb3j | P12 (with «سَنَه») 2Q7gPVL4ZK1UqvURGOYF. Review MP3 rebuilt.
+RULE learned: «سنة» → write «سَنَه» (else read سِنة); «بقالك» → «بَأالَك».
