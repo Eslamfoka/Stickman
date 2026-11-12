@@ -8,6 +8,10 @@
 - `s2e5/ep5.py` (2:23): hook sheet falls → chase → clock turned to 3 = eyes red→green → «رشدي؟» scan POV → chest tape riddle → puzzle → Zalata follow CTA (phone insert with the real profile screenshot `brand/follow/*.png`, per platform: H=yt, TikTok=tt, `python ep5.py phones` → phone_ig.mp4 / phone_yt.mp4 for Reels/Shorts) → alarm → goodbye → corridor false scare (claw on Shatta's shoulder) → kids climb the stairs with their backs to camera → Safeeh under the window → Abdo's face → Abdo calls the Pasha → eyes back to RED.
 - Ep5 puzzle: فزورة رشدي «أنا فوق الكل ومليان مية بس عمري ما شربت» → Ep6 answer: خزان المية على السطوح. Cliff: Pasha «يبقى هو المفتاح. هاته.» + Safeeh's eyes red.
 - Publish item `nanaa_s2_e05` (2026-11-28 21:00) in `publish/build.py`, thumbs made.
+- **Ep5 DELIVERED 2026-11-12**: delivery/s2/ «… الحلقة 05 - صفيح» (يوتيوب 64 MB / تيك توك / ريلز انستا وفيس / شورتس يوتيوب 2:21) + thumbs + captions txt.
+  Render recipe: `python3 ep5.py audio` → `part 0 2` & `part 1 2` → concat → mux mix.wav → `python3 ep5.py phones` (phone_ig/phone_yt) → overlay those on v at the phone window → tiktok_cut --cut <title> (see the shell steps in the session; title 7.02–9.02, phone 85.21–88.79).
+- Original song «أغنية العمارة» (الست بهية) via ElevenLabs Music: `s2/music/` (v1 + v2 takes أ/ب after the user's pronunciation notes; waiting for his pick). Use a snippet in Ep6 flashback, full song in Ep10.
+- **Ep6 «الأسطوانة»**: script `s2e6/script.md` (23 lines, all approved), audio `s2e6/audio/HNN.mp3`; new bg `s2e6/bg/roof_day.png`. NEXT: write `s2e6/ep6.py` (template `s2e5/ep5.py`) following the Episode checklist in docs/directing.md.
 
 ---
 # (older) Status — 2026-11-09 (second Claude account, new ElevenLabs workspace)
