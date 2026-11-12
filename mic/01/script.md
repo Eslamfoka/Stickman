@@ -21,3 +21,5 @@ P16 بندق: أمال فين عربيتك؟
 P17 شطة on the pavement: the trademark laugh.
 
 Pronunciation test: flow 9QwM1UhhHsYogaHwMAYZ, gen jwvG8E1rGMBnmzaIFjJD (Shatta hyUQevTDlGImBLtSiiRQ, 24 items, 23–24 = two laugh options).
+
+Greeting retest (Tota iHuQfekNxX9K6t7EN2gI): gen B9doWORIAQUKEuyN3f7d — 1 مسا الخير يا عم بندق (bare) | 2 مَسَا الخِير يا عم البواب | 3 مسا الخيرْ يا عَمّ البَوّاب | 4 إِزَّيَّك يا عم بندق | 5 أَهْلاً يا عَمّ البَوَّاب. (test items 1–2 «مَسا الخِير» rejected)
