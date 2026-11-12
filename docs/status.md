@@ -88,3 +88,6 @@ User approved the idea. Pin it first on every platform (YouTube channel trailer)
 - Brand intro publish pack: `publish/build.py` item `brand_intro` (thumbs/brand_intro_yt.jpg + _cover.jpg, texts in schedule.md). Sent to user 2026-11-11.
   `python publish/build.py --only <id>` = thumbs for one item.
 - S2 ep3 + ep4 rendered and delivered (YT + TikTok cut) into delivery/s2/.
+- 2026-11-12: S1 Shorts/Reels versions for ep1–10 made (cover 0.5 s first, title card cut, all < 3:00) → delivery/s1_shorts/, sent to user.
+  Title times used (S1): e1 9.06–12.06, e2 18.96–21.56, e3 6.4–8.7, e4 10.37–12.07, e5 11.59–13.19, e6 7.3–8.9, e7 8.81–10.41, e8 3.0–4.6, e9 6.56–8.16, e10 5.48–7.18.
+- RULE (user, 2026-11-12): from Season 2 on, every episode is delivered as YT horizontal + TikTok/Reels vertical + YouTube Shorts (<3:00), the vertical ones with the cover as first frame.
