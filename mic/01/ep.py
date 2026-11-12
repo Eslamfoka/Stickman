@@ -40,6 +40,7 @@ def headc(pos, who):
 def CU(who, pos, z=2.5, dx=0, dy=0):
     x, hy, S = headc(pos, who); return (x + dx, hy + 30 * S + dy, z)
 WIDE = (960, 560, 1.0); TWO = (700, 560, 1.55)
+TA0, TA1 = (670, 560, 1.8), (670, 560, 1.9); TB0, TB1 = (725, 565, 2.0), (725, 565, 2.1)   # two-shots: both in frame while they talk (user rule)
 CU_B = CU("bondo2", BW, 2.6, -10); CU_T = CU("tota", TW, 2.3, 30, 10); CU_S = CU("shatta", SWP, 2.0, -40, 30)
 
 # ---------------- timeline ----------------
@@ -52,42 +53,42 @@ EST = (t, 0)                                                                    
 s = t; t = say(t + 0.3, "P02") + 0.2; EST = (s, t)
 shot("st", s, t, WIDE, (880, 575, 1.12), tin="whip")
 s = t; t = say(t + 0.15, "P03") + 0.2; PROUD = s                                             # proud, sits up straight
-shot("st", s, t, CU_B, CU("bondo2", BW, 2.75, -10), tin="whipl")
+shot("st", s, t, TA0, TA1, tin="whipl")
 s = t; t = say(t + 0.1, "P04") + 0.12
-shot("st", s, t, CU_T, CU("tota", TW, 2.45, 30, 10), tin="whip")
+shot("st", s, t, TB0, TB1)
 s = t; t = say(t + 0.1, "P05") + 0.1; PUFF = t                                                # «آه بدخن» + a big puff of smoke
-t += 0.75; shot("st", s, t, CU_B, CU("bondo2", BW, 2.7, -10), tin="whipl")
+t += 0.75; shot("st", s, t, TA0, TA1)
 SH1 = (t, t + 0.85); shot("st", t, SH1[1], CU_S, CU("shatta", SWP, 2.1, -40, 30), tin="whip"); t = SH1[1]   # Shatta munching, watching
 s = t; t = say(t + 0.1, "P06") + 0.1
-shot("st", s, t, TWO, (690, 560, 1.62), tin="whipl")
+shot("st", s, t, TB0, TB1, tin="whipl")
 s = t; t = say(t + 0.1, "P07") + 0.12; F1 = s + 0.25
-shot("st", s, t, CU_B, CU("bondo2", BW, 2.7, -10))
+shot("st", s, t, TA0, TA1)
 s = t; t = say(t + 0.1, "P08") + 0.08
-shot("st", s, t, TWO, (710, 560, 1.62))
+shot("st", s, t, TB0, TB1)
 s = t; t = say(t + 0.1, "P09") + 0.12; F2 = s + 0.3
-shot("st", s, t, CU_B, CU("bondo2", BW, 2.7, -10))
+shot("st", s, t, TA0, TA1)
 s = t; t = say(t + 0.1, "P10") + 0.1; SUSP = s
-shot("st", s, t, CU_T, CU("tota", TW, 2.5, 30, 10), tin="whip")
+shot("st", s, t, TB0, TB1)
 s = t; t = say(t + 0.1, "P11") + 0.15; F3 = s + 0.25
-shot("st", s, t, CU_B, CU("bondo2", BW, 2.8, -10), tin="whipl")
+shot("st", s, t, TA0, TA1)
 CALC = t + 0.15; t = say(CALC, "P12")                                                       # the calculation
 NUMS = [(CALC + 0.56, "100 جنيه", "في اليوم"), (CALC + 2.16, "3,000 جنيه", "في الشهر"), (CALC + 3.76, "36,500 جنيه", "في السنة")]
 X30 = CALC + 6.72; MIL = CALC + 7.84
 CUTB = CALC + 7.62
 shot("st", CALC - 0.15, CUTB, (900, 600, 1.5), (870, 600, 1.72), tin="whip")
-t += 0.35; shot("st", CUTB, t, CU("bondo2", BW, 2.6, -10), CU("bondo2", BW, 3.1, -10), ease="crash", tin="zoom")   # Bandaq: ash falls
+t += 0.35; shot("st", CUTB, t, (730, 560, 1.9), (745, 550, 2.35), ease="crash", tin="zoom")   # Bandaq: ash falls
 DROP = MIL + 0.15
 s = t; t = say(t + 0.1, "P13"); DREAM = s + 0.1 + 1.93; M26 = s + 0.1 + 3.95                 # «لو كنت بطلت»… dream bubble
-shot("st", s, DREAM - 0.05, CU_T, CU("tota", TW, 2.45, 30, 10), tin="whip")
+shot("st", s, DREAM - 0.05, TB0, TB1, tin="whip")
 POP = t + 0.55; t = POP + 0.7
 shot("st", DREAM - 0.05, t, (930, 430, 1.32), (930, 450, 1.42), tin="whipl")
 s = t; t = say(t + 0.15, "P14") + 0.15; SLY = s                                              # the counter-question (slow push-in)
-shot("st", s, t, CU("bondo2", BW, 2.5, -10), CU("bondo2", BW, 3.05, -10))
+shot("st", s, t, (700, 570, 1.8), (720, 555, 2.2))
 s = t; t = say(t + 0.1, "P15") + 0.15; NO = s
-shot("st", s, t, CU_T, CU("tota", TW, 2.4, 30, 10), tin="whip")
+shot("st", s, t, (720, 555, 2.2), (720, 555, 2.25))
 s = t; t = say(t + 0.12, "P16") + 0.5; PUNCH = s
-shot("st", s, t, CU("bondo2", BW, 2.9, -10), CU("bondo2", BW, 3.0, -10), tin="whipl")
-STUN = (t, t + 0.9); shot("st", t, STUN[1], CU("tota", TW, 2.6, 30, 10), CU("tota", TW, 2.7, 30, 10)); t = STUN[1]   # Tota frozen (crickets)
+shot("st", s, t, (720, 555, 2.25), (730, 550, 2.4))
+STUN = (t, t + 0.9); shot("st", t, STUN[1], (730, 550, 2.4), (730, 550, 2.45)); t = STUN[1]   # Tota frozen (crickets)
 LAUGH = t; t = say(t + 0.1, "P17")                                                           # trademark: Shatta's laugh
 FREEZE = t - 0.25
 shot("st", LAUGH, t + 0.05, CU_S, CU("shatta", SWP, 2.25, -40, 30), tin="whip")
