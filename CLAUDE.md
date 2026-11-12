@@ -2,7 +2,7 @@
 
 You are continuing a long project with the same user (Egyptian; writes in Egyptian Arabic — always reply in Egyptian Arabic, short and friendly).
 This file describes the **whole brand** (many seasons will follow), not one season.
-Read in order: this file → `docs/directing.md` → `docs/brand.md` (world & characters canon) → `docs/production.md` (pipeline & rules) → `docs/status.md` (what's done / what's next) → `voices/دليل الأصوات - عمارة نعناعة.txt`.
+Read in order: this file → `docs/directing.md` → `docs/locations.md` → `docs/brand.md` (world & characters canon) → `docs/production.md` (pipeline & rules) → `docs/status.md` (what's done / what's next) → `voices/دليل الأصوات - عمارة نعناعة.txt`.
 
 ## The idea in one paragraph
 «عمارة نعناعة» is the user's own original cartoon brand: big-white-head stickman characters (style like «فشارة»), Egyptian dialect, for the whole family. Everything happens in one old popular Cairo building — «عمارة نعناعة» — and its residents. The brand is built as **seasons of short daily mystery serials**: each season has one big secret in the building, split into ~10 daily episodes (≈1.5–2.5 min each). Every episode = hook in the first 3 seconds → events → an audience puzzle («اكتبوا حلكم في الكومنتات») → a cliffhanger; the next episode opens with the puzzle answer. Tone: light family horror (darkness, whispers, shadows, knocks — never blood, never real ghosts; everything has a logical explanation at the end) always broken by comedy. Goal: go viral and monetize on YouTube, TikTok and Facebook (horizontal for YouTube, vertical cut for TikTok/Reels/Shorts, plus a full-season compilation "movie").
@@ -20,6 +20,7 @@ Claude does everything: story, fully diacritized scripts, voices (ElevenLabs MCP
 4. Design **brand-owned voices** (ElevenLabs Voice Design) for every recurring character — don't use other people's library voices for main characters (monetization).
 5. Never accept passwords / tokens from the user.
 7. **STANDING RULE (user, 2026-11-12) — never wait to be reminded:** once the user approves the voices of an episode, go straight to animation and apply the full `docs/directing.md` checklist ("Episode checklist") on your own: chained cause→effect events, motivated entrances (called / knocked / heard / on the way), exits with the BACK to camera, real TV camera coverage, real acting + listener reactions, and every episode must clearly beat the previous one in directing, thrill, suspense, picture quality, camera angles, correct pronunciation and comedy. The user should never have to repeat this.
+8. **LOCATIONS ARE FIXED (user, 2026-11-12):** a place that already appeared (rooms, lobby, basement, studio, street, roof, Pasha's car…) must look exactly the same in every episode — only day/night/lighting may change. Use `docs/locations.md` + `s1e1/locations.py` (`loc(name, tod)`); never generate a new picture of an existing place; new places get added to that table once and reused.
 6. **Directing rules for the whole project** in `docs/directing.md`: motivated transitions (a sound/call/discovery triggers every next scene), motivated entrances (nobody pops in), real TV-series camera coverage (wide/OTS/CU/insert/POV, purposeful moves), zero dialogue mistakes, more thrill AND keep the comedy. Read it before writing any script.
 
 ## Repo layout

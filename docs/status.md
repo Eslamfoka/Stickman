@@ -1,4 +1,11 @@
-# Status — last updated 2026-11-12 (S2E5 «صفيح»)
+# Status — last updated 2026-11-12 14:15 (S2E5 delivered, S2E6 rendering)
+
+## Where we stopped (2026-11-12)
+- S2E5 «صفيح» DELIVERED (YT, TikTok, Reels, Shorts, thumbs, captions HTML `publish/captions/nanaa_s2_e05.html`).
+- S2E6 «الأسطوانة»: lines approved, `s2e6/ep6.py` written, stills checked, full render running (2 parts). After render: concat → mux → `python3 ep6.py phones` → overlay phones → tiktok_cut (title cut) → final_encode → thumbs (`build.py` item nanaa_s2_e06 to add) → captions HTML → deliver.
+- New standing rules today (CLAUDE.md 7–8 + docs/directing.md checklist): episode checklist applied automatically after voice approval; **locations fixed** (`docs/locations.md`, `s1e1/locations.py`); captions always as HTML with copy buttons; follow CTA after the puzzle (rotate characters: E5 زلطة, E6 شطة, E7 توتة…).
+- Song «أغنية العمارة»: take 2أ chosen (`s2/music/`).
+- Next episodes: E7 «فهمي التايب» → E10, each must beat the previous one.
 
 ## Season 2 — Ep5 «صفيح» (2026-11-12)
 - ElevenLabs connector = the NEW paid account (workspace d59b5261…), flow `F8vbDWj8zsb2EVQ1DhIh` (all S2E5 gens in `s2e5/gens.txt`).

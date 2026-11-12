@@ -58,5 +58,6 @@ Go through each item before rendering stills, and again on the contact sheet. Th
 5. **Acting & reactions:** every line has listener reactions (look at the speaker, blink, step back, flinch, lean in); anticipation before big moves, settle after; nobody frozen; expressions change inside a line where it fits.
 6. **Thrill + comedy:** hook ≤3 s, ≥2 tension peaks (one false scare, one real), a twist, puzzle, cliffhanger; 3–4 comedy beats placed right after tension.
 7. **Beat the previous episode** — write down (in the episode's script.md) at least 3 concrete things that are new/better than last time: a new set or camera move, a new effect, faster rhythm, a bigger scare, a better gag.
-8. **Pronunciation:** numbered test → user OK per number → one take per line → review MP3 → fix flags. Apply every rule in production.md.
+8. **Locations:** every set comes from `docs/locations.md` (`loc(name, tod)`); the same place never changes look — only the light (day/night/lamps).
+8b. **Pronunciation:** numbered test → user OK per number → one take per line → review MP3 → fix flags. Apply every rule in production.md.
 9. **Delivery pack:** YouTube H + TikTok vertical (cover first frame, no title card) + Reels + Shorts (<3:00) + YT thumbnail + vertical cover + captions & pinned comments per platform as an HTML page with copy buttons (`python publish/captions_html.py <id>`, user request 2026-11-12 — not a .txt); small files via final_encode; update status.md + build.py STATUS; push after each step.
