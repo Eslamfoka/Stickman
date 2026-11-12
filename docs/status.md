@@ -92,3 +92,10 @@ User approved the idea. Pin it first on every platform (YouTube channel trailer)
   Title times used (S1): e1 9.06–12.06, e2 18.96–21.56, e3 6.4–8.7, e4 10.37–12.07, e5 11.59–13.19, e6 7.3–8.9, e7 8.81–10.41, e8 3.0–4.6, e9 6.56–8.16, e10 5.48–7.18.
 - RULE (user, 2026-11-12): from Season 2 on, every episode is delivered as YT horizontal + TikTok/Reels vertical + YouTube Shorts (<3:00), the vertical ones with the cover as first frame.
 - 2026-11-12: S1 vertical recap reel (85 s, no final-reveal spoiler, end card «الحكاية كاملة على يوتيوب») → `python movie/recap.py` (clip list inside), cover publish/thumbs/nanaa_s1_recap_cover.jpg. For TikTok on S1 movie day instead of the full movie (user: movie render paused).
+
+## NEXT (agreed with user 2026-11-12, end of session)
+- Publishing state lives in `publish/build.py` → `STATUS` (regenerate with `python publish/build.py --no-thumbs`). As of 2026-11-12: trend everywhere; S1 ep1–10 on TikTok/FB/IG; YouTube through S1 ep6; S1 movie on FB + recap reel on TikTok/IG/FB. Missing: YouTube S1 ep7–10 (+ Shorts ep6–10, thumbnail ep6), YouTube S1 full movie (re-assemble with movie/assemble.sh steps).
+- Tomorrow: FINISH SEASON 2 «سر البدروم» (ep5 «صفيح» → ep10) so it can be scheduled too (S2 ep1–4 are scheduled-ready on the calendar 24–27/11).
+- Then START A NEW SERIES to run alongside «عمارة نعناعة» (decide which of docs/series.md with the user).
+- STANDING DELIVERY RULE for every new video: YouTube horizontal + TikTok/Reels vertical with the COVER as first frame (no title card) + YouTube Shorts (< 3:00, cover first) + thumbnails: `publish/thumbs/<id>_yt.jpg` (1280×720) and `<id>_cover.jpg` (1080×1920) via a new item in `publish/build.py` + captions/pinned comments for YT, Shorts, TikTok, IG, FB.
+  Tools: `publish/final_encode.py` (small files), `publish/tiktok_cut.py` (cover-first cut, `--cut`, `--speed`), `python publish/build.py --only <id>` (thumbs).
