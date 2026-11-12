@@ -8,7 +8,7 @@ Math (checked 2026-11-12: Cleopatra pack 48 EGP → said 50; cheapest new car in
 
 Set: street in front of عمارة نعناعة; البواب (عم بندق) dozing in an old Fiat 128, cigarette in hand; Tota knocks on the window.
 P01 بندق: أنا صاحي أهو!
-P02 توتة: مساء الخير يا عم بندق! معاك «ميكروفون توتة». ممكن سؤال؟
+P02 توتة: إِزَّيَّك يا عم بندق! معاك «ميكروفون توتة». ممكن سؤال؟
 P03 بندق: اتفضلي يا ست الصحفية.
 P04 توتة: إنت بتدخن؟            P05 بندق: آه، بدخن.
 P06 توتة: كام علبة في اليوم؟     P07 بندق: علبتين.
@@ -23,3 +23,4 @@ P17 شطة on the pavement: the trademark laugh.
 Pronunciation test: flow 9QwM1UhhHsYogaHwMAYZ, gen jwvG8E1rGMBnmzaIFjJD (Shatta hyUQevTDlGImBLtSiiRQ, 24 items, 23–24 = two laugh options).
 
 Greeting retest (Tota iHuQfekNxX9K6t7EN2gI): gen B9doWORIAQUKEuyN3f7d — 1 مسا الخير يا عم بندق (bare) | 2 مَسَا الخِير يا عم البواب | 3 مسا الخيرْ يا عَمّ البَوّاب | 4 إِزَّيَّك يا عم بندق | 5 أَهْلاً يا عَمّ البَوَّاب. (test items 1–2 «مَسا الخِير» rejected)
+APPROVED (user): greeting = retest #4 «إِزَّيَّك يا عم بندق!» (Tota).
