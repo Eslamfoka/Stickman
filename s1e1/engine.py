@@ -336,6 +336,156 @@ def draw_char(p, who, x, y, s=1.0, expr="neutral", mouth=0.0, look=0, blink=Fals
         p.ell(cx_ - 2 * s, cy_ - 2 * s, 2 * s, 1.5 * s, (200, 140, 40, 255), None)
         p.ell(cx_ + 5 * s, cy_ + 2 * s, 1.5 * s, 1.5 * s, (200, 140, 40, 255), None)
 
+# ======================= back view (walking away from camera) — S2E5 =======================
+def draw_back(p, who, x, y, s=1.0, t=0.0, walk=None, arms="down", held=None):
+    """Character seen from behind: no face, back of the hair, arms swinging. Same proportions as draw_char."""
+    c = CH[who]; s *= c["scale"]
+    breath = math.sin(t * 2.2 + x) * 1.6 * s
+    hip = y - 62 * s; sh = hip - 72 * s + breath * 0.4; hr = 46 * s
+    hy = sh - 10 * s - hr + breath; hx = x
+    lw = max(3, 5 * s)
+    gal = who in ("nana", "bondo2", "youngnana", "sawsan")
+    shirt = C(c["shirt"]); hair = C(c["hair"])
+    # legs (feet point away: short heel stubs only)
+    if walk is not None:
+        for ph in (walk, walk + math.pi):
+            fx = x + math.sin(ph) * 9 * s; lift = max(0, math.cos(ph)) * 14 * s
+            p.line([(x + (fx - x) * 0.3, hip), (fx, y - lift)], INK, lw)
+            p.line([(fx, y - lift), (fx, y - lift + 4 * s)], INK, lw + 2 * s)
+    elif gal:
+        p.line([(x - 12 * s, y - 30 * s), (x - 14 * s, y)], INK, lw); p.line([(x + 12 * s, y - 30 * s), (x + 14 * s, y)], INK, lw)
+    else:
+        p.line([(x, hip), (x - 14 * s, y)], INK, lw); p.line([(x, hip), (x + 14 * s, y)], INK, lw)
+    # arms swing opposite to legs
+    sw_ = math.sin(walk) * 16 * s if walk is not None else 0
+    lsh, rsh = (x - 22 * s, sh + 8 * s), (x + 22 * s, sh + 8 * s)
+    if arms == "up":
+        la, ra = (x - 70 * s, sh - 50 * s), (x + 70 * s, sh - 50 * s)
+    elif arms == "wave":
+        la, ra = (x - 34 * s, sh + 72 * s), (x + 64 * s, sh - 60 * s + math.sin(t * 9) * 12 * s)
+    else:
+        la, ra = (x - 30 * s - sw_ * 0.3, sh + 72 * s + sw_), (x + 30 * s + sw_ * 0.3, sh + 72 * s - sw_)
+    for a_, h_, sd in ((lsh, la, -1), (rsh, ra, 1)):
+        ex = (a_[0] + h_[0]) / 2 + sd * 8 * s; ey = (a_[1] + h_[1]) / 2 + 6 * s
+        p.line([a_, (ex, ey), h_], INK, lw); p.ell(h_[0], h_[1], 5 * s, 5 * s, INK, None)
+    if held == "phone":
+        p.rect(ra[0] - 7 * s, ra[1] - 22 * s, ra[0] + 7 * s, ra[1] + 2 * s, (30, 30, 36, 255), INK, 2 * s, 2 * s)
+    # body
+    if gal:
+        p.poly([(x - 24 * s, sh), (x + 24 * s, sh), (x + 44 * s, y - 26 * s), (x - 44 * s, y - 26 * s)], shirt, INK, 2.5 * s)
+    elif who == "tota":
+        p.poly([(x - 18 * s, sh), (x + 18 * s, sh), (x + 40 * s, hip + 12 * s), (x - 40 * s, hip + 12 * s)], shirt, INK, 2.5 * s)
+    else:
+        p.poly([(x - 26 * s, sh), (x + 26 * s, sh), (x + 30 * s, hip + 4 * s), (x - 30 * s, hip + 4 * s)], shirt, INK, 2.5 * s)
+        p.line([(x - 16 * s, sh + 4 * s), (x + 16 * s, sh + 4 * s)], (0, 0, 0, 60), 2 * s)   # collar seam
+    # head: white skull, then the hair seen from behind
+    if who == "tota":
+        p.ell(hx - hr - 2 * s, hy - 4 * s, 13 * s, 13 * s, hair, INK, 2 * s); p.ell(hx + hr + 2 * s, hy - 4 * s, 13 * s, 13 * s, hair, INK, 2 * s)
+    if who in ("nana", "youngnana"):
+        p.ell(hx, hy + 4 * s, hr + 14 * s, hr + 16 * s, hair, INK, 3 * s); return
+    p.ell(hx, hy, hr, hr, WHITE, INK, 3.5 * s)
+    p.ell(hx - hr + 1 * s, hy + 6 * s, 5 * s, 9 * s, WHITE, INK, 2 * s); p.ell(hx + hr - 1 * s, hy + 6 * s, 5 * s, 9 * s, WHITE, INK, 2 * s)  # ears
+    if who == "shatta":
+        pts = []
+        for i in range(17):
+            a = math.pi * 0.92 + i * math.pi * 1.16 / 16; r = hr + (14 if i % 2 else 3) * s
+            pts.append((hx + math.cos(a) * r, hy - 2 * s + math.sin(a) * r))
+        pts += [(hx + hr * 0.95, hy + hr * 0.5), (hx + hr * 0.5, hy + hr * 0.8), (hx, hy + hr * 0.86), (hx - hr * 0.5, hy + hr * 0.8), (hx - hr * 0.95, hy + hr * 0.5)]
+        p.poly(pts, hair, INK, 2.5 * s)
+    elif who in ("zalata", "roshdy", "pasha", "fahmy", "tota", "abdo"):
+        # hair covers the whole back of the head down to the nape (only a white strip of neck shows)
+        cover = [(hx - hr - 1 * s, hy)] + [(hx + math.cos(math.pi + math.pi * i / 20) * (hr + 1 * s), hy + math.sin(math.pi + math.pi * i / 20) * (hr + 1 * s)) for i in range(21)]
+        cover += [(hx + hr - 2 * s, hy + hr * 0.55), (hx + hr * 0.5, hy + hr * 0.78), (hx, hy + hr * 0.84), (hx - hr * 0.5, hy + hr * 0.78), (hx - hr + 2 * s, hy + hr * 0.55)]
+        p.poly(cover, hair, INK, 2.5 * s)
+        if who == "zalata":   # glasses temples
+            p.line([(hx - hr + 2 * s, hy + 2 * s), (hx - hr - 6 * s, hy + 4 * s)], INK, 2.5 * s)
+            p.line([(hx + hr - 2 * s, hy + 2 * s), (hx + hr + 6 * s, hy + 4 * s)], INK, 2.5 * s)
+        if who == "tota":
+            p.line([(hx, hy - hr + 2 * s), (hx, hy + 10 * s)], (0, 0, 0, 90), 2 * s)   # parting
+    elif who == "bondo2":
+        p.poly([(hx - hr + 4 * s, hy - 18 * s), (hx - 20 * s, hy - hr - 6 * s), (hx + 20 * s, hy - hr - 6 * s), (hx + hr - 4 * s, hy - 18 * s)], WHITE, INK, 2.5 * s)
+
+# ======================= Safeeh — Roshdy's tin robot (S2E5 on) =======================
+TIN = (168, 174, 180, 255); TIN_D = (120, 126, 134, 255); RUST = (150, 92, 52, 255)
+EYE_COL = {"red": (255, 40, 30), "green": (60, 255, 110), "off": (60, 50, 50)}
+def draw_safeeh(p, x, y, s=1.0, t=0.0, eye="red", eye_on=1.0, mouth=0.0, look=0, walk=None, arms="down",
+                drawer=0.0, lean=0.0, sad=False, reach=None):
+    """Old boxy tin robot. x,y = feet (ground). ~ same height as an adult character (head top ≈ y-300*s)."""
+    lw = max(2, 3 * s)
+    hum = math.sin(t * 3.0) * 1.2 * s
+    # legs: two pipe legs with boxy feet, clunky step (only one foot lifts at a time)
+    for sd, ph in ((-1, 0), (1, math.pi)):
+        lift = max(0, math.sin((walk or 0) + ph)) * 16 * s if walk is not None else 0
+        fwd = math.cos((walk or 0) + ph) * 10 * s if walk is not None else 0
+        lx = x + sd * 26 * s + fwd
+        p.rect(lx - 9 * s, y - 92 * s - lift, lx + 9 * s, y - 14 * s - lift, TIN_D, INK, lw)
+        for k in range(3): p.line([(lx - 9 * s, y - 70 * s + k * 18 * s - lift), (lx + 9 * s, y - 70 * s + k * 18 * s - lift)], INK, 1.5 * s)
+        p.rect(lx - 22 * s, y - 18 * s - lift, lx + 22 * s, y - lift, TIN, INK, lw, 4 * s)
+    by = y - 90 * s + hum
+    # arms (pipes with elbow bolts and two-finger claws)
+    sh_l, sh_r = (x - 62 * s, by - 120 * s), (x + 62 * s, by - 120 * s)
+    sw_ = math.sin(walk) * 14 * s if walk is not None else 0
+    H_ = {"down": ((x - 76 * s, by - 20 * s + sw_), (x + 76 * s, by - 20 * s - sw_)),
+          "up": ((x - 110 * s, by - 210 * s), (x + 110 * s, by - 210 * s)),
+          "block": ((x - 150 * s, by - 110 * s), (x + 150 * s, by - 110 * s)),
+          "point": ((x - 76 * s, by - 20 * s), (x + 150 * s, by - 130 * s)),
+          "chest": ((x - 76 * s, by - 20 * s), (x + 10 * s, by - 70 * s))}
+    la, ra = H_.get(arms, H_["down"])
+    if reach is not None: ra = reach
+    for sh_, hd, sd in ((sh_l, la, -1), (sh_r, ra, 1)):
+        el = ((sh_[0] + hd[0]) / 2 + sd * 14 * s, (sh_[1] + hd[1]) / 2 + 10 * s)
+        p.line([sh_, el], INK, 13 * s); p.line([sh_, el], TIN_D, 9 * s)
+        p.line([el, hd], INK, 13 * s); p.line([el, hd], TIN_D, 9 * s)
+        p.ell(el[0], el[1], 8 * s, 8 * s, TIN, INK, lw)
+        p.line([hd, (hd[0] + sd * 10 * s, hd[1] + 14 * s)], INK, 5 * s); p.line([hd, (hd[0] - sd * 4 * s, hd[1] + 16 * s)], INK, 5 * s)
+        p.ell(hd[0], hd[1], 9 * s, 9 * s, TIN, INK, lw)
+    # torso box
+    tx0, tx1, ty0, ty1 = x - 62 * s, x + 62 * s, by - 150 * s, by
+    p.rect(tx0, ty0, tx1, ty1, TIN, INK, lw * 1.2, 8 * s)
+    p.rect(tx0 + 4 * s, ty0 + 4 * s, tx0 + 18 * s, ty1 - 4 * s, (205, 210, 215, 255), None, 0, 4 * s)   # highlight
+    for rx in (tx0 + 10 * s, tx1 - 10 * s):
+        for ry in (ty0 + 10 * s, ty1 - 10 * s): p.ell(rx, ry, 3 * s, 3 * s, TIN_D, INK, 1 * s)
+    p.ell(tx1 - 28 * s, ty0 + 30 * s, 9 * s, 6 * s, RUST, None); p.ell(tx0 + 30 * s, ty1 - 22 * s, 6 * s, 4 * s, RUST, None)
+    # chest drawer (slides out toward camera = grows + shifts down)
+    dx0, dx1, dy0, dy1 = x - 34 * s, x + 34 * s, ty0 + 52 * s, ty0 + 96 * s
+    p.rect(dx0, dy0, dx1, dy1, (40, 40, 44, 255), INK, lw, 3 * s)
+    if drawer > 0:
+        o = drawer * 26 * s
+        p.rect(dx0 - o * 0.4, dy0 + o * 0.5, dx1 + o * 0.4, dy1 + o, TIN, INK, lw, 3 * s)
+        if drawer > 0.6:   # the little tape inside
+            cx_, cy_ = x, (dy0 + dy1) / 2 + o * 0.7
+            p.rect(cx_ - 22 * s, cy_ - 11 * s, cx_ + 22 * s, cy_ + 11 * s, (40, 34, 30, 255), INK, 1.5 * s, 2 * s)
+            for sx in (-1, 1): p.ell(cx_ + sx * 10 * s, cy_, 6 * s, 6 * s, (230, 225, 210, 255), INK, 1 * s)
+    else:
+        p.ell(x, (dy0 + dy1) / 2, 4 * s, 4 * s, (220, 190, 80, 255), INK, 1 * s)
+    for k in range(4): p.line([(x - 30 * s, ty0 + 18 * s + k * 7 * s), (x + 30 * s, ty0 + 18 * s + k * 7 * s)], INK, 2 * s)   # speaker grill
+    # neck spring
+    hx = x + look * 6 * s + lean * 14 * s; hb = ty0 - 4 * s
+    for k in range(4): p.ell(hx, hb - k * 6 * s, 14 * s, 4 * s, None, INK, 2 * s)
+    # head box with a dark screen face
+    hy0, hy1 = hb - 96 * s, hb - 22 * s
+    tilt = -10 * s if sad else 0
+    p.rect(hx - 56 * s, hy0 + tilt * 0.3, hx + 56 * s, hy1, TIN, INK, lw * 1.2, 10 * s)
+    p.rect(hx - 44 * s, hy0 + 10 * s, hx + 44 * s, hy1 - 10 * s, (18, 20, 24, 255), INK, lw, 6 * s)
+    for sd in (-1, 1): p.rect(hx + sd * 56 * s - 6 * s, hy0 + 26 * s, hx + sd * 56 * s + 6 * s, hy0 + 52 * s, TIN_D, INK, 1.5 * s, 2 * s)  # ear bolts
+    # eyes = round lamps
+    col = EYE_COL.get(eye, EYE_COL["red"]); on = max(0.0, min(1.0, eye_on))
+    for sd in (-1, 1):
+        ex, ey = hx + sd * 22 * s + look * 4 * s, hy0 + 34 * s + (4 * s if sad else 0)
+        for r_, a_ in ((15, 70), (10, 150), (6.5, 255)):
+            p.ell(ex, ey, r_ * s, r_ * s * (0.6 if sad else 1.0), col + (int(a_ * on),), None)
+        if on < 0.2: p.ell(ex, ey, 8 * s, 8 * s, (55, 45, 45, 255), INK, 1.5 * s)
+    # mouth grill lights up with speech
+    mb = min(1.0, mouth * 1.4)
+    for k in range(5):
+        hh = (3 + 9 * mb * (0.6 + 0.4 * math.sin(k * 1.7 + t * 30))) * s
+        mx = hx - 20 * s + k * 10 * s; my = hy1 - 22 * s
+        p.rect(mx - 3 * s, my - hh, mx + 3 * s, my + hh, col + (int(90 + 165 * mb),) if mb > 0.05 else (70, 70, 76, 255), None, 0, 1 * s)
+    # antenna with blinking bulb
+    p.line([(hx + 24 * s, hy0), (hx + 30 * s, hy0 - 36 * s)], INK, 3 * s)
+    bl = 0.5 + 0.5 * math.sin(t * 4)
+    p.ell(hx + 30 * s, hy0 - 40 * s, 6 * s, 6 * s, (255, int(80 + 120 * bl), 60, 255), INK, 1.5 * s)
+
 # ======================= audio analysis =======================
 def load_audio(path):
     raw = subprocess.run(["ffmpeg", "-v", "error", "-i", path, "-f", "f32le", "-ac", "1", "-ar", str(SR), "-"],

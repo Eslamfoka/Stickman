@@ -20,3 +20,6 @@ brand/intro/*.log
 movie/list_final.txt
 movie/recap/
 brand/follow/raw/
+s2e5/still_*.png
+s2e5/*.mp4
+s2e5/mix.wav
