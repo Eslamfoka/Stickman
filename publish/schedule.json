@@ -9,7 +9,7 @@
   },
   "timezone_note": "كل المواعيد بتوقيت القاهرة (UTC+2 في نوفمبر). 9 بالليل القاهرة = 10 بالليل الكويت.",
   "media_folder": "publish/media/ (مش على الريبو — حط فيه الفيديوهات بالأسماء المكتوبة في media، والأسامي الأصلية في source_file_names)",
-  "generated": "2026-11-12T15:39:37+00:00",
+  "generated": "2026-11-12T18:33:30+00:00",
   "posts": [
     {
       "id": "brand_intro",
@@ -1873,6 +1873,63 @@
           "thumbnail": "thumbs/nanaa_s1_movie_yt.jpg",
           "publish_at_utc": "2026-11-23T16:00:00Z",
           "pinned_comment": "مين كان أشطر واحد في حل الألغاز؟ 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        }
+      }
+    },
+    {
+      "id": "nanaa_s2_movie",
+      "series": "nanaa_s2",
+      "series_name": "عمارة نعناعة - الموسم 2: سر البدروم",
+      "kind": "movie",
+      "episode": null,
+      "episode_name": "الموسم التاني كامل",
+      "publish_at_cairo": "2026-12-05T18:00:00+02:00",
+      "publish_at_utc": "2026-12-05T16:00:00Z",
+      "status": "جاهز ✅ (يوتيوب + فيديو فيسبوك) — مستني الجدولة 5/12 بعد آخر حلقة",
+      "media": {
+        "horizontal": "media/nanaa_s2_movie_h.mp4"
+      },
+      "source_file_names": {
+        "horizontal": "عمارة نعناعة م2 - سر البدروم (الفيلم كامل).mp4",
+        "vertical": null
+      },
+      "thumbnails": {
+        "youtube": "thumbs/nanaa_s2_movie_yt.jpg",
+        "vertical_cover": "thumbs/nanaa_s2_movie_cover.jpg"
+      },
+      "platforms": {
+        "youtube": {
+          "video": "media/nanaa_s2_movie_h.mp4",
+          "title": "عمارة نعناعة: سر البدروم - الموسم التاني كامل 🎬 | شطة وزلطة",
+          "description": "الموسم التاني كله في فيلم واحد: من باب البدروم المقفول… لحد أغنية العمارة! 🔦🤖\n\n⏱️ الحلقات:\n00:00 البداية\n00:26 الحلقة 1 — باب البدروم\n02:42 الحلقة 2 — الصوت اللي تحت الأرض\n05:00 الحلقة 3 — الباشا\n07:58 الحلقة 4 — النزول\n10:15 الحلقة 5 — صفيح\n12:20 الحلقة 6 — الأسطوانة\n14:22 الحلقة 7 — فهمي التايب\n16:19 الحلقة 8 — ليلة البدروم\n18:02 الحلقة 9 — الصندوق\n19:42 الحلقة 10 — أغنية العمارة\n\n«عمارة نعناعة» — الموسم التاني: سر البدروم 🔦 كرتون مصري غموض وضحك للعيلة كلها\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#عمارة_نعناعة #سر_البدروم #شطة_وزلطة #كرتون_مصري #غموض #لغز #انيميشن #مصر",
+          "tags": [
+            "شطة وزلطة",
+            "عمارة نعناعة",
+            "سر البدروم",
+            "الموسم التاني",
+            "كرتون مصري",
+            "غموض",
+            "رعب كوميدي",
+            "لغز",
+            "مسلسل كرتون",
+            "ستيك مان"
+          ],
+          "thumbnail": "thumbs/nanaa_s2_movie_yt.jpg",
+          "playlist": "عمارة نعناعة - الموسم 2: سر البدروم 🔦",
+          "category_id": "24",
+          "default_language": "ar",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-12-05T16:00:00Z",
+          "pinned_comment": "مين كان بطل الموسم في رأيكم: شطة ولا صفيح؟ 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata"
+        },
+        "facebook_video": {
+          "video": "media/nanaa_s2_movie_h.mp4",
+          "title": "عمارة نعناعة: سر البدروم - الموسم التاني كامل 🎬",
+          "description": "الموسم التاني كله في فيلم واحد: من باب البدروم المقفول… لحد أغنية العمارة! 🔦🤖\n\n⏱️ الحلقات:\n00:00 البداية\n00:26 الحلقة 1 — باب البدروم\n02:42 الحلقة 2 — الصوت اللي تحت الأرض\n05:00 الحلقة 3 — الباشا\n07:58 الحلقة 4 — النزول\n10:15 الحلقة 5 — صفيح\n12:20 الحلقة 6 — الأسطوانة\n14:22 الحلقة 7 — فهمي التايب\n16:19 الحلقة 8 — ليلة البدروم\n18:02 الحلقة 9 — الصندوق\n19:42 الحلقة 10 — أغنية العمارة\n\n«عمارة نعناعة» — الموسم التاني: سر البدروم 🔦 كرتون مصري غموض وضحك للعيلة كلها\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#عمارة_نعناعة #سر_البدروم #شطة_وزلطة #كرتون_مصري #غموض #لغز #انيميشن #مصر",
+          "thumbnail": "thumbs/nanaa_s2_movie_yt.jpg",
+          "publish_at_utc": "2026-12-05T16:00:00Z",
+          "pinned_comment": "مين كان بطل الموسم في رأيكم: شطة ولا صفيح؟ 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
         }
       }
     },

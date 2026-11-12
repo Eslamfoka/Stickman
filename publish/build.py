@@ -83,6 +83,7 @@ STATUS = {
     "nanaa_s2_e09": "جاهز ✅ (يوتيوب + شورتس + تيك توك + ريلز انستا/فيس) — مستني الجدولة 2/12",
     "nanaa_s2_e08": "جاهز ✅ (يوتيوب + شورتس + تيك توك + ريلز انستا/فيس) — مستني الجدولة 1/12",
     "nanaa_s2_e07": "جاهز ✅ (يوتيوب + شورتس + تيك توك + ريلز انستا/فيس) — مستني الجدولة 30/11",
+    "nanaa_s2_movie": "جاهز ✅ (يوتيوب + فيديو فيسبوك) — مستني الجدولة 5/12 بعد آخر حلقة",
     "nanaa_s1_movie": "فيلم كامل على فيس ✅ (منشور فيديو) • الملخص الطولي: تيك توك ✅ • ريلز انستا/فيس ✅ • يوتيوب (الفيلم الكامل) ⏳",
 }
 ITEMS = [
@@ -171,6 +172,11 @@ ITEMS = [
       yt_title="عمارة نعناعة: سر الدور السابع - الموسم الأول كامل 🎬", hook="الموسم الأول كله في فيلم واحد: سر الدور السابع من أول خبطة لحد الحقيقة! 🎬",
       question="مين كان أشطر واحد في حل الألغاز؟ 👇", headline=["الموسم", "كامل!"], bg=S1 + "1/bg/lobby_1080.png",
       figs=[("zalata", 3.0, "happy", 0.3, -1, "up", None, None, None, 1750), ("shatta", 4.2, "happy", 0.6, -1, "up", None, None, None, 1300)]),
+ dict(id="nanaa_s2_movie", series="nanaa_s2", kind="movie", ep=None, name="الموسم التاني كامل", date="2026-12-05", time="18:00",
+      src_h="عمارة نعناعة م2 - سر البدروم (الفيلم كامل).mp4", src_v=None, chapters=f"{REPO}/movie/s2/chapters.txt",
+      yt_title="عمارة نعناعة: سر البدروم - الموسم التاني كامل 🎬", hook="الموسم التاني كله في فيلم واحد: من باب البدروم المقفول… لحد أغنية العمارة! 🔦🤖",
+      question="مين كان بطل الموسم في رأيكم: شطة ولا صفيح؟ 👇", headline=["الموسم", "كامل!"], bg=f"{REPO}/s2/bg/basement_day.png",
+      figs=[("safeeh", 4.4, "green", 0.0, 0, "up", None, None, None, 1300), ("shatta", 3.0, "happy", 0.6, -1, "up", None, None, None, 1760)]),
  dict(id="nanaa_s2_trailer", series="nanaa_s2", kind="trailer", ep=None, name="إعلان الموسم التاني", date="2026-11-23", time="21:00",
       src_h="اعلان الموسم التاني - سر البدروم.mp4 (من على جهازك)", src_v="اعلان الموسم التاني - سر البدروم (تيك توك).mp4 (من على جهازك)",
       yt_title="الموسم التاني: سر البدروم 🔦 (الإعلان الرسمي)", hook="«افتحوا البدروم… بس ما تفتحوهوش بالليل» 🔦 الموسم التاني من عمارة نعناعة بكرة!",
@@ -302,6 +308,8 @@ def yt_title(it, shorts=False):
 def yt_description(it):
     S = SERIES[it["series"]]
     parts = [it["hook"], SERIES_DESC[it["series"]]]
+    if it.get("chapters"):   # YouTube chapters (movies): text file written by the movie assembler
+        parts.insert(1, "⏱️ الحلقات:\n" + open(it["chapters"], encoding="utf-8").read().strip())
     if it["question"].startswith("🧩"):
         q = it["question"]
         parts.append(q.replace("اكتبوا حلكم 👇", "اكتبوا حلكم في الكومنتات 👇") if "اكتبوا" in q else q.replace("👇", "اكتبوا حلكم في الكومنتات 👇"))

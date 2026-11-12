@@ -6,10 +6,12 @@ Tested on s2e3: 32 MB -> 9.5 MB for 15 s, no visible difference (only the film g
 Usage: python publish/final_encode.py <in.mp4> <out.mp4> [crf=23]
 """
 import subprocess
+DENOISE = "hqdn3d=1.5:1.5:4:4"   # light grain removal: ~55% smaller at crf 26, no visible change on the cartoon (S2 movie test)
 VOPTS = ["-c:v", "libx264", "-preset", "medium", "-tune", "animation", "-pix_fmt", "yuv420p", "-movflags", "+faststart"]
 
-def encode(src, out, crf=23):
-    subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", src, *VOPTS, "-crf", str(crf), "-c:a", "copy", out], check=True)
+def encode(src, out, crf=23, vf=None):
+    # vf: optional filter, e.g. DENOISE for long files (season movies) that must stay < 400 MB
+    subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", src, *(["-vf", vf] if vf else []), *VOPTS, "-crf", str(crf), "-c:a", "copy", out], check=True)
     print("✔", out, round(os.path.getsize(out) / 1e6, 1), "MB")
 
 if __name__ == "__main__":

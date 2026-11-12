@@ -74,14 +74,14 @@ def title():
                     "-vf", "fade=in:st=0:d=0.4,fade=out:st=2.6:d=0.4,format=yuv420p", *ENC, "-t", "3.0", "seg/title.mp4"], check=True)
 
 def assemble():
-    sys.path.insert(0, ROOT + "/publish"); from final_encode import encode
+    sys.path.insert(0, ROOT + "/publish"); from final_encode import encode, DENOISE
     parts = ["hook/hook.mp4", "seg/title.mp4"] + [f"seg/s{i:02d}.mp4" for i in range(len(json.load(open(M + "/segs.json", encoding="utf-8"))))]
     open(M + "/list.txt", "w", encoding="utf-8").write("".join(f"file '{p}'\n" for p in parts))
     raw = M + "/movie_raw.mp4"
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", M + "/list.txt", "-c", "copy", raw], check=True)
     os.makedirs(DELIVERY + "/s2", exist_ok=True)
     out = DELIVERY + "/s2/عمارة نعناعة م2 - سر البدروم (الفيلم كامل).mp4"
-    encode(raw, out, 23); os.remove(raw)
+    encode(raw, out, 26, DENOISE); os.remove(raw)   # 23 without denoise = 617 MB (> 400 MB send cap)
     # YouTube chapters
     t = dur(M + "/hook/hook.mp4") + dur(M + "/seg/title.mp4"); seen = {}; ch = ["00:00 البداية"]
     for i, (n, a, b) in enumerate(json.load(open(M + "/segs.json", encoding="utf-8"))):
