@@ -61,10 +61,12 @@ T = ROOT + "/trend/01/bg/"; S1 = f"{REPO}/s1e"
 # Custom thumbnails need YouTube channel verification (video-selfie review pending since 2026-11-12) → add missing thumbnails after approval.
 STATUS = {
     "trend01_e01": "published", "trend01_e02": "published", "trend01_e03": "published", "trend01_e04": "published",
-    "nanaa_s1_e01": "يوتيوب ✅ + شورتس ✅ • فيس ⏳",
-    "nanaa_s1_e02": "يوتيوب ✅ + شورتس ✅ • فيس ⏳",
-    "nanaa_s1_e03": "يوتيوب ✅ + شورتس ✅ (ثامبنيل الشورتس ناقص) • فيس ⏳",
-    "nanaa_s1_e04": "يوتيوب ✅ (الثامبنيل ناقص) • شورتس ⏳ • فيس ⏳",
+    "nanaa_s1_e01": "يوتيوب ✅ • شورتس ؟ (مش ظاهر في البلاي ليست) • فيس ⏳",
+    "nanaa_s1_e02": "يوتيوب ✅ • شورتس ؟ (مش ظاهر في البلاي ليست) • فيس ⏳",
+    "nanaa_s1_e03": "يوتيوب ✅ • شورتس ✅ • فيس ⏳",
+    "nanaa_s1_e04": "يوتيوب ✅ • شورتس ✅ • فيس ⏳",
+    "nanaa_s1_e05": "يوتيوب ✅ • شورتس ✅ (الثامبنيل فريم مش الكفر) • فيس ⏳",
+    "nanaa_s1_e06": "يوتيوب ✅ (لسه بيتعمله processing • الثامبنيل ناقص) • شورتس ⏳ • فيس ⏳",
 }
 ITEMS = [
  # ---------------- brand intro (pin first on every platform / YouTube channel trailer) ----------------
