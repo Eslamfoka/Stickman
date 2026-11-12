@@ -36,3 +36,5 @@ movie/s2/seg/
 movie/s2/hook/
 movie/s2/list.txt
 movie/s2/title_a.wav
+mic/*/l_*.txt
+mic/*/still_*
