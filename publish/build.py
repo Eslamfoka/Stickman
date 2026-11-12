@@ -57,11 +57,14 @@ SERIES_DESC = {
 
 # figure spec: (who, S, expr, mouth, look, arms, held, shirt, num, x)   — x in a 1920-wide frame
 T = ROOT + "/trend/01/bg/"; S1 = f"{REPO}/s1e"
-# Publish status (update here, then `python publish/build.py --no-thumbs`). Values: pending | youtube_scheduled_manually | published
+# Publish status (update here, then `python publish/build.py --no-thumbs`). Values: pending | published | free text per platform (✅ scheduled, ⏳ not yet).
+# Custom thumbnails need YouTube channel verification (video-selfie review pending since 2026-11-12) → add missing thumbnails after approval.
 STATUS = {
     "trend01_e01": "published", "trend01_e02": "published", "trend01_e03": "published", "trend01_e04": "published",
-    "nanaa_s1_e01": "youtube_scheduled_manually", "nanaa_s1_e02": "youtube_scheduled_manually",
-    "nanaa_s1_e03": "youtube_scheduled_manually", "nanaa_s1_e04": "youtube_scheduled_manually",
+    "nanaa_s1_e01": "يوتيوب ✅ + شورتس ✅ • فيس ⏳",
+    "nanaa_s1_e02": "يوتيوب ✅ + شورتس ✅ • فيس ⏳",
+    "nanaa_s1_e03": "يوتيوب ✅ + شورتس ✅ (ثامبنيل الشورتس ناقص) • فيس ⏳",
+    "nanaa_s1_e04": "يوتيوب ✅ (الثامبنيل ناقص) • شورتس ⏳ • فيس ⏳",
 }
 ITEMS = [
  # ---------------- brand intro (pin first on every platform / YouTube channel trailer) ----------------
