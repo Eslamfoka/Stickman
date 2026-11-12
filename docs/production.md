@@ -59,6 +59,7 @@ The connector account is a different workspace; voices were re-created with Inst
 - «عِفْرِيت» → write «عفريت» without diacritics. «يِعْرَف» bad → «عارِف». «عَم رُشْدِي» sometimes bad → «عم رشدي» without diacritics. «نَوَّرُوا» → «شَغَّلُوا».
 - S2E5: «هَسْتَخَبّا» drops the ta → «هَسْتِخَبّا». «هَرْجَعْلَك» / «هَجِيلَك» fail → «هاجِي لَك» or «هَرْجَع لَك» (separated). «بَأِت» fails in a line (passed alone) → write «بقت» without diacritics. «الحاجَّة نَعْناعَة» fails with Tota's voice → «تِيتا نَعْناعَة».
 - S2E6: «إِنْتَ» with Zalata's voice read «إنتي» → drop it / rephrase. «بَأَيْت» → «بقيت», «لَأَيْت» → «لقيت» (no diacritics). «هَيِبْأَى» → «هيبقا». «يطلع الخزان» ambiguous → «يِطْلَع فُوء الخَزّان». A box that is not the robot → «عِلْبَه» (ha), never «علبة صفيح».
+- S2E7: «اتْسَجِّلِت» sounds like 1st person → «سَجِّلُوا الأُغْنِيَة». «يِهِدَّها» → «ويهدّها». «مِصَدَّأُه / تِصَدَّأُوا» too emphatic (ص) → «مصدقه» bare, or rephrase («شاكِّين فِيّا»، «صادِق وَلّا كَدّاب»).
 - «الخَطَوات» → write «الخطوات» without diacritics. «ماسِك» is read «مَسَك» → use «في إيده».
 - «بِاسْم» is read like the name «باسم» → write «بِإِسْم» with hamza.
 - Egyptian qaf → hamza: فُوء، آلُوا، آلْها، بَآلُه، مَأْفُول، صُنْدُوء، بِالأَلَم، يِبْأُوا، يِبْأَى، التِّئِيل، أَطَع، أَبْل، اتَّفَأْنا.

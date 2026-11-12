@@ -28,3 +28,7 @@ s2e6/still_*.png
 s2e6/*.mp4
 s2e6/mix.wav
 s2e6/*.log
+s2e7/still_*
+s2e7/*.mp4
+s2e7/mix.wav
+s2e7/*.log

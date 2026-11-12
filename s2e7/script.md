@@ -4,7 +4,7 @@ Cast: شطة، زلطة، توتة، الحاجة نعناعة، فهمي، طن
 Locations (docs/locations.md): lobby (night), living (S1 living room), stairs, basement, corridor, studio (dark) — all canonical.
 Continuity from Ep6: Fahmy in the street door at night «أنا جاي أحذركم»; kids on the stairs; the doorman at the door.
 Answer of Ep6 puzzle: 1958 (the calendar in the flashback).
-Ep7 puzzle (vote): «تصدقوا أستاذ فهمي ولا لأ؟» Follow CTA: توتة.
+Ep7 puzzle (vote): «أستاذ فهمي صادق ولا كداب؟» Follow CTA: توتة.
 Cliff: 12:00 power cut → Abdo's voice from below → basement + vault door open → Safeeh's spot empty, drag marks, his antenna bulb blinking on the floor → «صفيح... مش موجود!» + a van driving away.
 
 ## Chain of events
@@ -35,16 +35,16 @@ Cliff: 12:00 power cut → Abdo's voice from below → basement + vault door ope
 |---|---|---|---|---|
 | 0 | J01 | نعناعة | فَهْمِي؟!... بَعْد اللِّي عَمَلْتُه؟! | [angry, loud] |
 | 0 | J02 | فهمي | اسْمَعِينِي بَس... دِقِيأَة واحْدَة! | [pleading] |
-| 1 | J03 | توتة | إِجابِة لُغْز امْبارِح: الأُغْنِيَة اتْسَجِّلِت سَنَة تَمانْيَة وخَمْسِين... كانِت عَلَى النَّتِيجَة! | [to camera] |
+| 1 | J03 | توتة | إِجابِة لُغْز امْبارِح: سَجِّلُوا الأُغْنِيَة سَنَة تَمانْيَة وخَمْسِين... كانِت عَلَى النَّتِيجَة! | [to camera] |
 | 2 | J04 | فهمي | بُصُّوا الفِيدْيُو دَه... اتْصَوَّر امْبارِح بِاللِّيل. | [serious] |
 | 2 | J05 | زلطة | دُول بِيِحْفِرُوا... تَحْت أَساسات العِمارَة! | [shocked, clear voice] |
-| 2 | J06 | فهمي | الباشا عايِز يِثْبِت إِن العِمارَة آيْلَة لِلسُّقُوط... ويِهِدَّها. | [grave] |
+| 2 | J06 | فهمي | الباشا عايِز يِثْبِت إِن العِمارَة آيْلَة لِلسُّقُوط... ويهدّها. | [grave] |
 | 2b | J07 | شطة | سامْعِين؟!... الحِيطَة بِتِتْشِرِخ! | [scared] |
 | 2b | J08 | نعناعة | العِمارَة دِي... عُمْرِي كُلُّه. | [shaken, soft] |
-| 3 | J09 | شطة | أَنا مِصَدَّأُه! | [convinced] |
+| 3 | J09 | شطة | أَنا مصدقه! | [convinced] |
 | 3 | J10 | زلطة | احْتِمال إِنُّه بِيِكْدِب: سَبْعِين فِي المِيَّة. | [deadpan] |
-| 3 | J11 | فهمي | عارِف إِنُّكُم مِش مِصَدَّأِينِّي... وعَنْدُكُم حَأّ. | [hurt] |
-| 3 | J12 | توتة | لُغْز النَّهارْدَه: تِصَدَّأُوا أُسْتاذ فَهْمِي وَلّا لأ؟ اكْتِبُوا: أَصَدَّأُه... أَوْ لأ! | [to camera] |
+| 3 | J11 | فهمي | عارِف إِنُّكُم شاكِّين فِيّا... وعَنْدُكُم حَأّ. | [hurt] |
+| 3 | J12 | توتة | لُغْز النَّهارْدَه: أُسْتاذ فَهْمِي صادِق وَلّا كَدّاب؟ اكْتِبُوا: صادِق... أَوْ كَدّاب! | [to camera] |
 | 3 | J13 | توتة | واسْمَعُوا كَلام تُوتَة... اعْمِلُوا فُولُو، عَشان تِعْرَفُوا مِين كان عَنْدُه حَأّ! | [to camera, cheeky] (follow CTA) |
 | 3b | J14 | سوسن | دَه عايِز لايف! | [excited] |
 | 3b | J15 | نعناعة | الشِّبْشِب جاهِز يا سَوْسَن. | [threatening, comic] |
