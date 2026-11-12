@@ -56,12 +56,12 @@ KIDS = ("shatta", "zalata", "tota")
 CHASE = (-9, -8); SNAP = -1
 
 # ---------------- world ----------------
-PAS = (1180, 905, 1.55); BON0 = (120, 960, 1.85); BON = (420, 975, 1.85); ABD = (1480, 880, 1.45); LOADER = (1720, 640)
+PAS = (1180, 905, 1.55); BON0 = (120, 960, 1.85); BON = (420, 975, 1.85); ABD = (1480, 880, 1.45); LOADER = (1640, 610)
 SAF0 = (-150, 960, 1.5); SAF = (1330, 950, 1.5); SAW = (150, 995, 1.85); NANA_S = (330, 1000, 1.9)
 KS = {"tota": (560, 1010, 1.9), "shatta": (760, 1015, 1.9), "zalata": (950, 1010, 1.9)}
 PEEK = {"tota": (1290, 905, 1.5), "shatta": (1380, 900, 1.5), "zalata": (1470, 905, 1.5)}
 A7 = {"tota": (760, 1000, 1.9), "shatta": (980, 1010, 1.9), "zalata": (1200, 1000, 1.9)}; RADIO = (590, 500)
-WINS = [(480, 150), (770, 80), (1110, 175), (1330, 235), (1520, 120), (1720, 180)]; TOPWIN = (770, 70)
+WINS = [(480, 150), (770, 80), (1110, 175), (1330, 235), (1520, 120), (1720, 180)]; TOPWIN = (770, 80)
 SAF_N = (960, 980, 1.6)
 
 def CU(who, pos, z=2.2, dx=0, dy=0):
@@ -94,7 +94,7 @@ cut(t, 0.25); MONT = (t, t + 4.8)
 for i in range(4): shot("stairs", t + i * 1.2, t + (i + 1) * 1.2, (1150, 560, 1.05 + i * 0.03), (1150, 600, 1.12 + i * 0.03), floor=i)
 t = MONT[1]
 s = t; t = say(t, "N05") + 0.2
-shot("stairs", s, t, (1150, 470, 1.6), (1150, 480, 1.7), floor=4, still=True)
+shot("stairs", s, t, CU("zalata", (1150, 1000, 1.9), 1.4), CU("zalata", (1150, 1000, 1.9), 1.55), floor=4, still=True)
 # ===== 2. APT 7 — the radio =====
 cut(t, 0.3); A7IN = (t, t + 2.4); fx(t + 0.1, "creak", 1.0)
 shot("apt7", t, A7IN[1], (1000, 560, 1.05), (900, 580, 1.15)); t = A7IN[1]
@@ -155,7 +155,7 @@ shot("lobbyn", t, NIGHT[1], (SAF_N[0], 560, 1.4), CU("safeeh", SAF_N, 1.2)); t =
 s = t; t = say(t + 0.2, "N21") + 0.4
 shot("lobbyn", s, t, CU("safeeh", SAF_N, 1.3), CU("safeeh", SAF_N, 1.7))
 TILT = (t, t + 3.6); SHADOW = t + 2.2; fx(SHADOW, "stinger", 1.0)
-shot("facaden", t, TILT[1], (1000, 600, 1.05), (TOPWIN[0], TOPWIN[1] + 60, 3.2)); t = TILT[1]
+shot("facaden", t, TILT[1], (1000, 600, 1.05), (TOPWIN[0], TOPWIN[1] + 120, 2.6)); t = TILT[1]
 fx(t, "boom", 0.9); shakes.append((t - 0.2, 10))
 shot("black", t, t + 0.5, None); t += 0.5
 shot("endcard", t, t + 5.0, None); t += 5.0
@@ -441,7 +441,7 @@ def props(img, set_, tt, cam, sh):
     if set_ == "street":
         # the loader behind the car (rolls forward a little, stops in front of Safeeh)
         u = ease(kk(tt, 0, 2.0)) * 0.3 + (ease(kk(tt, ROLL[0], RED)) * 0.25 if tt >= ROLL[0] else 0)
-        X, Y = W2(LOADER[0] + 200 - 260 * u, LOADER[1]); s_ = 1.6 * S
+        X, Y = W2(LOADER[0] + 60 - 120 * u, LOADER[1]); s_ = 1.0 * S
         d.rectangle([X - 90 * s_, Y - 110 * s_, X + 90 * s_, Y], fill=(205, 160, 30, 255), outline=(40, 30, 10, 255), width=lw(4))
         d.rectangle([X - 60 * s_, Y - 180 * s_, X + 40 * s_, Y - 110 * s_], fill=(60, 80, 100, 255), outline=(40, 30, 10, 255), width=lw(4))
         d.line([(X - 90 * s_, Y - 60 * s_), (X - 170 * s_, Y - 40 * s_)], fill=(80, 80, 85, 255), width=lw(10))
@@ -483,11 +483,11 @@ def props(img, set_, tt, cam, sh):
                 v = ((tt - FAC[0]) * 0.3 + i / 8) % 1; X, Y = W2(300 + i * 200, 700 - v * 600)
                 text(img, X, Y, "♪", int(60 * S), (255, 214, 90, int(255 * (1 - v))), (30, 10, 5), 2)
     if set_ == "lobbyn" and tt >= SCREEN:   # «أنا راجع» on Safeeh's chest screen
-        X, Y = W2(SAF_N[0], SAF_N[1] - 150 * SAF_N[2])
+        X, Y = W2(SAF_N[0], SAF_N[1] - 175 * SAF_N[2])
         fl = 1.0 if tt > SCREEN + 0.4 else [1, 0, 1, 0, 1][min(4, int((tt - SCREEN) / 0.08))]
         if fl:
-            d.rectangle([X - 46 * S * SAF_N[2] / 1.6, Y - 30 * S * SAF_N[2] / 1.6, X + 46 * S * SAF_N[2] / 1.6, Y + 30 * S * SAF_N[2] / 1.6], fill=(10, 30, 15, 255))
-            text(img, X, Y, "أنا راجع", int(20 * S * SAF_N[2] / 1.6), (120, 255, 150), (0, 20, 0), 1)
+            d.rectangle([X - 70 * S, Y - 40 * S, X + 70 * S, Y + 40 * S], fill=(10, 30, 15, 255), outline=(120, 255, 150, 255), width=lw(3))
+            text(img, X, Y, "أنا راجع", int(34 * S), (120, 255, 150), (0, 20, 0), 1)
 
 # ---------- inserts ----------
 def ins_bg(col=(30, 24, 18)):
