@@ -11,7 +11,12 @@
 - **New series «ميكروفون توتة»** (user idea): Tota the reporter asks one question → flipped punchline → trademark laugh at the end
   (original laugh in the spirit of محمد ثروت, not his voice). Laugh rotation: ep1 شطة → ep2 زلطة → ep3 توتة → repeat.
   Ep1 «السجاير والعربية» (smoker = عم بندق, NOT the kids): script `mic/01/script.md`; pronunciation test sent
-  (flow 9QwM1UhhHsYogaHwMAYZ, gen jwvG8E1rGMBnmzaIFjJD, 24 items, 23–24 = laugh options) → WAITING for the user's per-number OK.
+  (flow 9QwM1UhhHsYogaHwMAYZ, gen jwvG8E1rGMBnmzaIFjJD, 24 items, 23–24 = laugh options) → all approved after fixes; lines P01–P17 approved.
+  Animation DONE: `mic/01/ep.py` (58 s; street loc with Bandaq's drawn Fiat 128 painted over the parked car, mic prop, facts chips,
+  calculator cards + «1,095,000 جنيه!», dream bubble «موديل 2026», crickets beat, Shatta laugh with NEW engine expr "laugh").
+  Rendered mic/01/mic01_h.mp4 + mic01_v.mp4 (+ mix.wav). Publish item `mic_e01` (24/11 15:00), thumbs + captions HTML done.
+  NEXT: user stopped the delivery step — run final_encode (YT) + tiktok_cut (cover-first vertical = TikTok/Reels/Shorts) → delivery/mic/, send.
+- Ideas bank: `docs/ideas.md` (التلاجة / أستاذ فهمي المدرس — user ideas 2026-11-12, to adapt).
 
 
 ## Where we stopped (2026-11-12)

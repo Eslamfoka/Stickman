@@ -259,7 +259,11 @@ def draw_char(p, who, x, y, s=1.0, expr="neutral", mouth=0.0, look=0, blink=Fals
     ex = 15 * s; ey = hy + 2 * s; lx = look * 4 * s
     big = expr in ("scared", "shock")
     er = 12 * s if big else 9 * s
-    if expr == "sleepy" or blink:
+    if expr == "laugh":   # «ميكروفون توتة» trademark laugh: squeezed ^ ^ eyes + happy tears
+        for sx in (-1, 1):
+            p.arc(hx + sx * ex, ey + 4 * s, 9 * s, 8 * s, 190, 350, INK, 3.5 * s)
+            p.ell(hx + sx * (ex + 12 * s), ey + 8 * s, 3 * s, 4.5 * s, (150, 200, 255, 255), INK, 1.2 * s)
+    elif expr == "sleepy" or blink:
         for sx in (-1, 1): p.arc(hx + sx * ex, ey, 8 * s, 5 * s, 0, 180, INK, 3 * s)
     else:
         for sx in (-1, 1):
@@ -288,7 +292,8 @@ def draw_char(p, who, x, y, s=1.0, expr="neutral", mouth=0.0, look=0, blink=Fals
     elif expr == "smug":
         p.line([(hx - ex - 10 * s, by), (hx - ex + 9 * s, by)], INK, 3.5 * s)
         p.line([(hx + ex - 9 * s, by - 2 * s), (hx + ex + 10 * s, by - 9 * s)], INK, 3.5 * s)
-    elif expr == "happy":
+    elif expr in ("happy", "laugh"):
+        if expr == "laugh": by -= 4 * s
         p.arc(hx - ex, by + 4 * s, 10 * s, 6 * s, 200, 340, INK, 3.5 * s)
         p.arc(hx + ex, by + 4 * s, 10 * s, 6 * s, 200, 340, INK, 3.5 * s)
     else:
@@ -317,7 +322,11 @@ def draw_char(p, who, x, y, s=1.0, expr="neutral", mouth=0.0, look=0, blink=Fals
                 (hx + 17 * s, hy + 20 * s), (hx + 9 * s, hy + 16 * s), (hx, hy + 16 * s)], INK, INK, 1 * s)
     # mouth
     my = hy + 28 * s
-    if mouth > 0.06:
+    if expr == "laugh":   # big open D mouth (always open, wider with the voice)
+        o = 0.55 + 0.45 * min(1.0, mouth * 1.4)
+        p.d.pieslice([p.S(hx - 18 * s), p.S(my - 12 * s), p.S(hx + 18 * s), p.S(my + (4 + 20 * o) * s)], 0, 180, fill=(130, 24, 24, 255), outline=INK, width=p.S(2.5 * s))
+        p.ell(hx, my + (1 + 13 * o) * s, 8 * s, 4 * s, (225, 95, 95, 255), None)
+    elif mouth > 0.06:
         k = 1.3 if expr in ("shout", "shock") else 1.0
         p.ell(hx + look * 2 * s, my, (7 + 3 * mouth) * s * k, (2.5 + 10 * mouth) * s * k, (130, 24, 24, 255), INK, 2.5 * s)
         if mouth > 0.4:

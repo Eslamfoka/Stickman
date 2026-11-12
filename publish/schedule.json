@@ -9,7 +9,7 @@
   },
   "timezone_note": "كل المواعيد بتوقيت القاهرة (UTC+2 في نوفمبر). 9 بالليل القاهرة = 10 بالليل الكويت.",
   "media_folder": "publish/media/ (مش على الريبو — حط فيه الفيديوهات بالأسماء المكتوبة في media، والأسامي الأصلية في source_file_names)",
-  "generated": "2026-11-12T18:33:30+00:00",
+  "generated": "2026-11-12T20:28:03+00:00",
   "posts": [
     {
       "id": "brand_intro",
@@ -1873,6 +1873,103 @@
           "thumbnail": "thumbs/nanaa_s1_movie_yt.jpg",
           "publish_at_utc": "2026-11-23T16:00:00Z",
           "pinned_comment": "مين كان أشطر واحد في حل الألغاز؟ 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        }
+      }
+    },
+    {
+      "id": "mic_e01",
+      "series": "mic",
+      "series_name": "ميكروفون توتة",
+      "kind": "episode",
+      "episode": 1,
+      "episode_name": "السجاير والعربية",
+      "publish_at_cairo": "2026-11-24T15:00:00+02:00",
+      "publish_at_utc": "2026-11-24T13:00:00Z",
+      "status": "جاهز ✅ (يوتيوب + شورتس + تيك توك + ريلز انستا/فيس) — مستني الجدولة 24/11 الساعة 3 العصر",
+      "media": {
+        "horizontal": "media/mic_e01_h.mp4",
+        "vertical": "media/mic_e01_v.mp4"
+      },
+      "source_file_names": {
+        "horizontal": "ميكروفون توتة - الحلقة 01 - السجاير والعربية.mp4",
+        "vertical": "ميكروفون توتة - الحلقة 01 - السجاير والعربية (تيك توك).mp4"
+      },
+      "thumbnails": {
+        "youtube": "thumbs/mic_e01_yt.jpg",
+        "vertical_cover": "thumbs/mic_e01_cover.jpg"
+      },
+      "platforms": {
+        "youtube": {
+          "video": "media/mic_e01_h.mp4",
+          "title": "عم بندق وحسبة السجاير! 🚬🚗 | ميكروفون توتة - الحلقة 1 | شطة وزلطة",
+          "description": "توتة نزلت بالميكروفون وحسبت لعم بندق السجاير بتاعته… مليون جنيه! بس رده قلب الطاولة 😂\n\n«ميكروفون توتة» 🎤 — توتة بتنزل بالميكروفون تسأل سؤال واحد… والإجابة دايماً بتقلب الطاولة! سكتش كوميدي من «شطة وزلطة» 🌶️🥗\n\nسؤال جديد من «ميكروفون توتة» قريب… فعّلوا الجرس 🔔\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#ميكروفون_توتة #شطة_وزلطة #كرتون_مصري #كوميدي #ضحك #انيميشن #مصر",
+          "tags": [
+            "شطة وزلطة",
+            "ميكروفون توتة",
+            "كرتون مصري",
+            "كرتون كوميدي",
+            "سكتش",
+            "انيميشن مصري",
+            "ستيك مان",
+            "كوميدي مصري"
+          ],
+          "thumbnail": "thumbs/mic_e01_yt.jpg",
+          "playlist": "ميكروفون توتة 🎤",
+          "category_id": "24",
+          "default_language": "ar",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-24T13:00:00Z",
+          "pinned_comment": "💬 لو إنت مكان توتة… كنت هترد على عم بندق تقول إيه؟ 😂 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata"
+        },
+        "youtube_shorts": {
+          "video": "media/mic_e01_v.mp4",
+          "title": "عم بندق وحسبة السجاير! 🚬🚗 | ميكروفون توتة الحلقة 1 #Shorts",
+          "description": "توتة نزلت بالميكروفون وحسبت لعم بندق السجاير بتاعته… مليون جنيه! بس رده قلب الطاولة 😂\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#ميكروفون_توتة #شطة_وزلطة #كرتون_مصري #كوميدي #ضحك #Shorts",
+          "tags": [
+            "شطة وزلطة",
+            "ميكروفون توتة",
+            "كرتون مصري",
+            "كرتون كوميدي",
+            "سكتش",
+            "انيميشن مصري",
+            "ستيك مان",
+            "كوميدي مصري"
+          ],
+          "playlist": "ميكروفون توتة 🎤",
+          "category_id": "24",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-24T14:00:00Z",
+          "pinned_comment": "💬 لو إنت مكان توتة… كنت هترد على عم بندق تقول إيه؟ 😂 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
+          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+        },
+        "tiktok": {
+          "video": "media/mic_e01_v.mp4",
+          "caption": "توتة نزلت بالميكروفون وحسبت لعم بندق السجاير بتاعته… مليون جنيه! بس رده قلب الطاولة 😂 الحلقة 1 من «ميكروفون توتة» 🎬\n💬 لو إنت مكان توتة… كنت هترد على عم بندق تقول إيه؟ 😂 👇\n#ميكروفون_توتة #شطة_وزلطة #كرتون_مصري #كوميدي #ضحك #fyp",
+          "cover_image": "thumbs/mic_e01_cover.jpg",
+          "cover_timestamp_ms": 1000,
+          "privacy": "PUBLIC_TO_EVERYONE",
+          "allow_comments": true,
+          "allow_duet": true,
+          "allow_stitch": true,
+          "publish_at_utc": "2026-11-24T13:00:00Z",
+          "pinned_comment": "💬 لو إنت مكان توتة… كنت هترد على عم بندق تقول إيه؟ 😂 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗",
+          "note": "لو الأداة مش بتقبل صورة غلاف، استخدم cover_timestamp_ms أو اختار الغلاف يدوي من التطبيق"
+        },
+        "instagram_reel": {
+          "video": "media/mic_e01_v.mp4",
+          "caption": "توتة نزلت بالميكروفون وحسبت لعم بندق السجاير بتاعته… مليون جنيه! بس رده قلب الطاولة 😂 الحلقة 1 من «ميكروفون توتة» 🎬\n💬 لو إنت مكان توتة… كنت هترد على عم بندق تقول إيه؟ 😂 👇\n#ميكروفون_توتة #شطة_وزلطة #كرتون_مصري #كوميدي #ريلز",
+          "cover_image": "thumbs/mic_e01_cover.jpg",
+          "share_to_facebook": true,
+          "publish_at_utc": "2026-11-24T13:00:00Z",
+          "pinned_comment": "💬 لو إنت مكان توتة… كنت هترد على عم بندق تقول إيه؟ 😂 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        },
+        "facebook_reel": {
+          "via": "instagram_reel.share_to_facebook",
+          "caption": "توتة نزلت بالميكروفون وحسبت لعم بندق السجاير بتاعته… مليون جنيه! بس رده قلب الطاولة 😂 الحلقة 1 من «ميكروفون توتة» 🎬\n💬 لو إنت مكان توتة… كنت هترد على عم بندق تقول إيه؟ 😂 👇\n#ميكروفون_توتة #شطة_وزلطة #كرتون_مصري",
+          "note": "مش محتاج رفع منفصل لو انستجرام بيعمل share لفيسبوك",
+          "pinned_comment": "💬 لو إنت مكان توتة… كنت هترد على عم بندق تقول إيه؟ 😂 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
         }
       }
     },
