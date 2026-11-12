@@ -18,6 +18,7 @@ LOC = {
     "roof":      {"day": "/s2e6/bg/roof_day.png", "night": "/s1e6/bg/roof_raw.png"},
     "apt7":      {"day": "/s1e8/bg/apt7_raw.png"},
     "basement":  {"day": "/s2/bg/basement_day.png"},
+    "tunnel":    {"day": "/s2e8/bg/tunnel.png"},
     "corridor":  {"day": "/s2e4/bg/corridor.png"},
     "studio":    {"day": "/s2e5/bg/studio_nosheet.png"},
     "street":    {"day": "/s2e3/bg/street_day.png", "night": "/s2/bg/street_car.png"},

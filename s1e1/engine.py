@@ -171,6 +171,9 @@ def draw_char(p, who, x, y, s=1.0, expr="neutral", mouth=0.0, look=0, blink=Fals
     elif held == "phone":
         p.rect(ra[0] - 7 * s, ra[1] - 22 * s, ra[0] + 7 * s, ra[1] + 2 * s, (30, 30, 36, 255), INK, 2 * s, 2 * s)
         p.rect(ra[0] - 5 * s, ra[1] - 19 * s, ra[0] + 5 * s, ra[1] - 1 * s, (190, 225, 255, 255), None)
+    elif held == "antenna":   # Safeeh's antenna (S2E8)
+        p.line([(ra[0], ra[1] + 4 * s), (ra[0] + 6 * s, ra[1] - 34 * s)], (150, 156, 162, 255), 3.5 * s)
+        p.ell(ra[0] + 6 * s, ra[1] - 38 * s, 6 * s, 6 * s, (255, 70, 50, 255), INK, 1.5 * s)
     elif held == "slipper":
         p.ell(ra[0], ra[1] - 4 * s, 9 * s, 18 * s, (60, 140, 200, 255), INK, 2 * s)
         p.line([(ra[0] - 7 * s, ra[1] - 10 * s), (ra[0] + 7 * s, ra[1] - 10 * s)], (240, 240, 240, 255), 3 * s)
@@ -409,7 +412,7 @@ def draw_back(p, who, x, y, s=1.0, t=0.0, walk=None, arms="down", held=None):
 TIN = (168, 174, 180, 255); TIN_D = (120, 126, 134, 255); RUST = (150, 92, 52, 255)
 EYE_COL = {"red": (255, 40, 30), "green": (60, 255, 110), "off": (60, 50, 50)}
 def draw_safeeh(p, x, y, s=1.0, t=0.0, eye="red", eye_on=1.0, mouth=0.0, look=0, walk=None, arms="down",
-                drawer=0.0, lean=0.0, sad=False, reach=None):
+                drawer=0.0, lean=0.0, sad=False, reach=None, antenna=True):
     """Old boxy tin robot. x,y = feet (ground). ~ same height as an adult character (head top ≈ y-300*s)."""
     lw = max(2, 3 * s)
     hum = math.sin(t * 3.0) * 1.2 * s
@@ -481,7 +484,9 @@ def draw_safeeh(p, x, y, s=1.0, t=0.0, eye="red", eye_on=1.0, mouth=0.0, look=0,
         hh = (3 + 9 * mb * (0.6 + 0.4 * math.sin(k * 1.7 + t * 30))) * s
         mx = hx - 20 * s + k * 10 * s; my = hy1 - 22 * s
         p.rect(mx - 3 * s, my - hh, mx + 3 * s, my + hh, col + (int(90 + 165 * mb),) if mb > 0.05 else (70, 70, 76, 255), None, 0, 1 * s)
-    # antenna with blinking bulb
+    # antenna with blinking bulb (S2E7–E8: it falls off → antenna=False shows the empty socket)
+    if not antenna:
+        p.rect(hx + 20 * s, hy0 - 6 * s, hx + 30 * s, hy0 + 2 * s, (40, 40, 44, 255), INK, 1.5 * s); return
     p.line([(hx + 24 * s, hy0), (hx + 30 * s, hy0 - 36 * s)], INK, 3 * s)
     bl = 0.5 + 0.5 * math.sin(t * 4)
     p.ell(hx + 30 * s, hy0 - 40 * s, 6 * s, 6 * s, (255, int(80 + 120 * bl), 60, 255), INK, 1.5 * s)

@@ -21,6 +21,7 @@ day / night / dusk, lamps on/off, torch light. Never generate a new picture of a
 | شقة الدور السابع (رشدي) | `s1e8/bg/apt7_raw.png` | — | S1E8 | |
 | شباك / بير السلم / فلاش باك م1 | `s1e9/bg/window.png`, `well.png`, `flash.png` | — | S1E9 | |
 | البدروم (الأوضة اللي قبل الباب الحديد) | `s2/bg/basement_day.png` | graded | S2E1, S2E5 | S1E10 `s1e10/bg/basement.png` (electric panel, night) = older look → from S2 on basement_day.png |
+| نفق الحفر (ورا حيطة الاستوديو) | `s2e8/bg/tunnel.png` | (always night: lanterns) | S2E8 | dug by the Pasha's men; hole on the left = back to the studio; foundation pillar on the right |
 | ممر البدروم + الباب الحديد | `s2e4/bg/corridor.png` | (always dark) | S2E4, S2E5 | |
 | الاستوديو السري | `s2e5/bg/studio_nosheet.png` | dark grade (lights off) / sepia = 1958 flashback | S2E5, S2E6 | S2E4 used `s2e4/bg/studio.png` (with the sheet over Safeeh). Sheet fell in S2E5 → studio_nosheet.png from S2E5 on |
 | الشارع قدام العمارة | `s2e3/bg/street_day.png` | `s2/bg/street_car.png` (night, Pasha's car) | S2E2, S2E3 | |
