@@ -32,3 +32,7 @@ s2e7/still_*
 s2e7/*.mp4
 s2e7/mix.wav
 s2e7/*.log
+movie/s2/seg/
+movie/s2/hook/
+movie/s2/list.txt
+movie/s2/title_a.wav
