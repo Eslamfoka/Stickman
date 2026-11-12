@@ -9,7 +9,7 @@
   },
   "timezone_note": "كل المواعيد بتوقيت القاهرة (UTC+2 في نوفمبر). 9 بالليل القاهرة = 10 بالليل الكويت.",
   "media_folder": "publish/media/ (مش على الريبو — حط فيه الفيديوهات بالأسماء المكتوبة في media، والأسامي الأصلية في source_file_names)",
-  "generated": "2026-11-12T00:27:21+00:00",
+  "generated": "2026-11-12T02:05:03+00:00",
   "posts": [
     {
       "id": "brand_intro",
@@ -117,7 +117,7 @@
       "episode_name": "كاس الشارع",
       "publish_at_cairo": "2026-11-10T21:00:00+02:00",
       "publish_at_utc": "2026-11-10T19:00:00Z",
-      "status": "published",
+      "status": "كل المنصات ✅ (يوتيوب + تيك توك + فيس + انستا)",
       "media": {
         "horizontal": "media/trend01_e01_h.mp4",
         "vertical": "media/trend01_e01_v.mp4"
@@ -216,7 +216,7 @@
       "episode_name": "المؤتمر الصحفي",
       "publish_at_cairo": "2026-11-10T21:30:00+02:00",
       "publish_at_utc": "2026-11-10T19:30:00Z",
-      "status": "published",
+      "status": "كل المنصات ✅ (يوتيوب + تيك توك + فيس + انستا)",
       "media": {
         "horizontal": "media/trend01_e02_h.mp4",
         "vertical": "media/trend01_e02_v.mp4"
@@ -315,7 +315,7 @@
       "episode_name": "الدقيقة 60",
       "publish_at_cairo": "2026-11-11T21:00:00+02:00",
       "publish_at_utc": "2026-11-11T19:00:00Z",
-      "status": "published",
+      "status": "كل المنصات ✅ (يوتيوب + تيك توك + فيس + انستا)",
       "media": {
         "horizontal": "media/trend01_e03_h.mp4",
         "vertical": "media/trend01_e03_v.mp4"
@@ -414,7 +414,7 @@
       "episode_name": "قهوة الشارع",
       "publish_at_cairo": "2026-11-11T21:30:00+02:00",
       "publish_at_utc": "2026-11-11T19:30:00Z",
-      "status": "published",
+      "status": "كل المنصات ✅ (يوتيوب + تيك توك + فيس + انستا)",
       "media": {
         "horizontal": "media/trend01_e04_h.mp4",
         "vertical": "media/trend01_e04_v.mp4"
@@ -513,7 +513,7 @@
       "episode_name": "الصلح",
       "publish_at_cairo": "2026-11-12T21:00:00+02:00",
       "publish_at_utc": "2026-11-12T19:00:00Z",
-      "status": "pending",
+      "status": "كل المنصات ✅ (يوتيوب + تيك توك + فيس + انستا)",
       "media": {
         "horizontal": "media/trend01_e05_h.mp4",
         "vertical": "media/trend01_e05_v.mp4"
@@ -612,7 +612,7 @@
       "episode_name": "الإقالة",
       "publish_at_cairo": "2026-11-12T21:30:00+02:00",
       "publish_at_utc": "2026-11-12T19:30:00Z",
-      "status": "pending",
+      "status": "كل المنصات ✅ (يوتيوب + تيك توك + فيس + انستا)",
       "media": {
         "horizontal": "media/trend01_e06_h.mp4",
         "vertical": "media/trend01_e06_v.mp4"
@@ -711,7 +711,7 @@
       "episode_name": "الفيلم كامل",
       "publish_at_cairo": "2026-11-13T18:00:00+02:00",
       "publish_at_utc": "2026-11-13T16:00:00Z",
-      "status": "pending",
+      "status": "كل المنصات ✅ (يوتيوب + تيك توك + فيس + انستا)",
       "media": {
         "horizontal": "media/trend01_movie_h.mp4",
         "vertical": "media/trend01_movie_v.mp4"
@@ -818,7 +818,7 @@
       "episode_name": "الصوت اللي في السقف",
       "publish_at_cairo": "2026-11-13T21:00:00+02:00",
       "publish_at_utc": "2026-11-13T19:00:00Z",
-      "status": "يوتيوب ✅ • شورتس ؟ (مش ظاهر في البلاي ليست) • فيس ⏳",
+      "status": "يوتيوب ✅ + شورتس ✅ • تيك توك ✅ • فيس ✅ • انستا ✅",
       "media": {
         "horizontal": "media/nanaa_s1_e01_h.mp4",
         "vertical": "media/nanaa_s1_e01_v.mp4"
@@ -919,7 +919,7 @@
       "episode_name": "المفتاح اللي مالوش باب",
       "publish_at_cairo": "2026-11-14T21:00:00+02:00",
       "publish_at_utc": "2026-11-14T19:00:00Z",
-      "status": "يوتيوب ✅ • شورتس ؟ (مش ظاهر في البلاي ليست) • فيس ⏳",
+      "status": "يوتيوب ✅ + شورتس ✅ • تيك توك ✅ • فيس ✅ • انستا ✅",
       "media": {
         "horizontal": "media/nanaa_s1_e02_h.mp4",
         "vertical": "media/nanaa_s1_e02_v.mp4"
@@ -1020,7 +1020,7 @@
       "episode_name": "عم بندق مش بينام ليه؟",
       "publish_at_cairo": "2026-11-15T21:00:00+02:00",
       "publish_at_utc": "2026-11-15T19:00:00Z",
-      "status": "يوتيوب ✅ • شورتس ✅ • فيس ⏳",
+      "status": "يوتيوب ✅ + شورتس ✅ • تيك توك ✅ • فيس ✅ • انستا ✅",
       "media": {
         "horizontal": "media/nanaa_s1_e03_h.mp4",
         "vertical": "media/nanaa_s1_e03_v.mp4"
@@ -1121,7 +1121,7 @@
       "episode_name": "ليلة انقطاع النور",
       "publish_at_cairo": "2026-11-16T21:00:00+02:00",
       "publish_at_utc": "2026-11-16T19:00:00Z",
-      "status": "يوتيوب ✅ • شورتس ✅ • فيس ⏳",
+      "status": "يوتيوب ✅ + شورتس ✅ • تيك توك ✅ • فيس ✅ • انستا ✅",
       "media": {
         "horizontal": "media/nanaa_s1_e04_h.mp4",
         "vertical": "media/nanaa_s1_e04_v.mp4"
@@ -1222,7 +1222,7 @@
       "episode_name": "الجار الجديد",
       "publish_at_cairo": "2026-11-17T21:00:00+02:00",
       "publish_at_utc": "2026-11-17T19:00:00Z",
-      "status": "يوتيوب ✅ • شورتس ✅ (الثامبنيل فريم مش الكفر) • فيس ⏳",
+      "status": "يوتيوب ✅ + شورتس ✅ (ثامبنيل الشورت فريم) • تيك توك ✅ • فيس ✅ • انستا ✅",
       "media": {
         "horizontal": "media/nanaa_s1_e05_h.mp4",
         "vertical": "media/nanaa_s1_e05_v.mp4"
@@ -1323,7 +1323,7 @@
       "episode_name": "رسالة بالخبط",
       "publish_at_cairo": "2026-11-18T21:00:00+02:00",
       "publish_at_utc": "2026-11-18T19:00:00Z",
-      "status": "يوتيوب ✅ (لسه بيتعمله processing • الثامبنيل ناقص) • شورتس ⏳ • فيس ⏳",
+      "status": "يوتيوب ✅ (ثامبنيل ناقص) • شورتس ⏳ • تيك توك ✅ • فيس ✅ • انستا ✅",
       "media": {
         "horizontal": "media/nanaa_s1_e06_h.mp4",
         "vertical": "media/nanaa_s1_e06_v.mp4"
@@ -1424,7 +1424,7 @@
       "episode_name": "الكشكول اتسرق",
       "publish_at_cairo": "2026-11-19T21:00:00+02:00",
       "publish_at_utc": "2026-11-19T19:00:00Z",
-      "status": "pending",
+      "status": "يوتيوب ⏳ • شورتس ⏳ • تيك توك ✅ • فيس ✅ • انستا ✅",
       "media": {
         "horizontal": "media/nanaa_s1_e07_h.mp4",
         "vertical": "media/nanaa_s1_e07_v.mp4"
@@ -1525,7 +1525,7 @@
       "episode_name": "الدور السابع",
       "publish_at_cairo": "2026-11-20T21:00:00+02:00",
       "publish_at_utc": "2026-11-20T19:00:00Z",
-      "status": "pending",
+      "status": "يوتيوب ⏳ • شورتس ⏳ • تيك توك ✅ • فيس ✅ • انستا ✅",
       "media": {
         "horizontal": "media/nanaa_s1_e08_h.mp4",
         "vertical": "media/nanaa_s1_e08_v.mp4"
@@ -1626,7 +1626,7 @@
       "episode_name": "اللي ورا الباب",
       "publish_at_cairo": "2026-11-21T21:00:00+02:00",
       "publish_at_utc": "2026-11-21T19:00:00Z",
-      "status": "pending",
+      "status": "يوتيوب ⏳ • شورتس ⏳ • تيك توك ✅ • فيس ✅ • انستا ✅",
       "media": {
         "horizontal": "media/nanaa_s1_e09_h.mp4",
         "vertical": "media/nanaa_s1_e09_v.mp4"
@@ -1727,7 +1727,7 @@
       "episode_name": "الحقيقة",
       "publish_at_cairo": "2026-11-22T21:00:00+02:00",
       "publish_at_utc": "2026-11-22T19:00:00Z",
-      "status": "pending",
+      "status": "يوتيوب ⏳ • شورتس ⏳ • تيك توك ✅ • فيس ✅ • انستا ✅",
       "media": {
         "horizontal": "media/nanaa_s1_e10_h.mp4",
         "vertical": "media/nanaa_s1_e10_v.mp4"
@@ -1828,7 +1828,7 @@
       "episode_name": "الموسم الأول كامل",
       "publish_at_cairo": "2026-11-23T18:00:00+02:00",
       "publish_at_utc": "2026-11-23T16:00:00Z",
-      "status": "pending",
+      "status": "الملخص الطولي: تيك توك ✅ • فيس ⏳ • انستا ⏳ • الفيلم الكامل (يوتيوب + فيديو فيس): ⏳ لسه ماتجمعش",
       "media": {
         "horizontal": "media/nanaa_s1_movie_h.mp4"
       },
