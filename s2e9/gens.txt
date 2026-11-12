@@ -1,2 +1,7 @@
 test: gen qNr4aXnr80ed8J3k7Blb (Shatta, 32 words)
 retest #6: gen IPEWtRoHCDKkgBbwbr6b (1 لئيناه وراح منّا, 2 إحنا لئيناه, 3 لئيناه هو)
+M01 xAhiNrR7OF56DJfDfQCe | M02 oCdYlStNltmXKNIN1g9j | M03 DudLHvX8ppNLVd480UAp | M04 HIkWWbfvkPI27enkElGz | M05 a83l31TRPnPOGHsJkPaK (retest #6 option 1)
+M06 ouENISzNjbbbf90OAKRa | M07 7jaEktULOzledxxQlm3S | M08 Nkt3hqSnPHooquQu8wrt | M09 2BeoespNQ4y26kstHJ3i | M10 4ObqUeXHxCRaxZBcdg7X
+M11 Sxcw1faX8Fjj7GhibO0C | M12 5cVVlVJSP61ydP3j9540 | M13 = s2e8 K10 (same approved line) | M14 E9tPohQR1PaYrbY1ZALq | M15 0fT77LSDeh9ybzol1wDL
+M16 i3310oBmvpY66De9aVME | M17 Pi07Iye6OpRtWR2eZedL | M18 N3iQjFD8K6VmIfzVB1eg | M19 NFotdoPVmBMzV1HGdklg | M20 EiKEE70rdFYWljC0Y588
+M21 EoyCkoy6c2Mg5kp8U9O7 | M22 1plfyewqH2ZoEym3QL1I | M23 qnm2fBuIW6X0tD7CAWpM | M24 6UywlifAFWco5LlibJN8 | M25 r5pmGnH5EPAtSious8sj
