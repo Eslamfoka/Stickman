@@ -34,3 +34,7 @@ P05 264V8Rn746anCyNRA5LP | P06 icSJNT3uQ57yvpGMxN4I | P07 IrSx0IipiwbRJvqR1hYf |
 P10 lyuOkQu3faEv6BuhJUxp | P11 vPkXU5afvl8GC26b66zY | P12 fL0Zf6iidv0DkNWj9O6l | P13 w0YprkloqENQayKCyIQ2 | P14 4jZoxhRODeiBOYDxYk2R
 P15 GJlPaI5UAJYRAjeiZFS7 | P16 rMLRUp9j10bJ5qKofZlR | P17 = laugh #23 cut from tests/test1.mp3 54.33–58.58 | audio/laugh_B_shatta.mp3 = laugh #24 (for a later ep)
 Review MP3 «جمل ميكروفون توتة 01 - للمراجعة.mp3» sent → waiting for the user's OK, then animate.
+
+User fixes (review): P10 «بقالك» read with qaf → must be «بآلك»; «سنة» in «تلاتين سنة» read «سِنة» → must be «سَنة».
+Retest A (Tota) gen YW2MuBFmAirLzc3xPKnm: 1 بَآلَك كام سَنَة | 2 بَأالَك كام سَنَه | 3 بآلك كام سنه (bare) | 4 يعني في تلاتين سَنَه | 5 يَعْنِي فِي تَلاتِين سَنا
+Retest B (Bandaq) gen qtEWgXHUWGGUlnEAf2yH: 1 تلاتين سَنَه | 2 تَلاتِين سَنا | 3 تلاتين سنه (bare) | 4 تَلاتِين سَنَة كامْلِين
