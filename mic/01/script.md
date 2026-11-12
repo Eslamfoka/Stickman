@@ -26,3 +26,11 @@ Greeting retest (Tota iHuQfekNxX9K6t7EN2gI): gen B9doWORIAQUKEuyN3f7d — 1 مس
 APPROVED (user): greeting = retest #4 «إِزَّيَّك يا عم بندق!» (Tota).
 Item 20 «إِنْتِي بِتْدَخَّنِي؟» rejected → retest (Bandaq rQZarzHKNP0R67Tq6eN2) gen sji7xNz5UYAqoNNSFFml: 1 bare | 2 وإِنْتِي... بِتْدَخَّنِي | 3 بِتِدَخَّنِي | 4 إنتي بتشربي سجاير (bare) | 5 طب وإِنْتِي... بِتِشْرَبِي سَجايِر
 Laughs: both OK (user) → ep1 uses #23, #24 kept for a later Shatta ep.
+APPROVED (user): item 20 → retest #5 «طب وإِنْتِي... بِتِشْرَبِي سَجايِر؟»; all other test items OK.
+
+## Lines generated (flow 9QwM1UhhHsYogaHwMAYZ, one take each) → mic/01/audio/PNN.mp3
+P01 = reused s2e7/audio/J18.mp3 (Bandaq «أنا صاحي أهو!») | P02 pFap5pM4Miy16TxAgVEL | P03 mqvbKkiuBl8Pg0WoJ4bo | P04 RZ9CzXZzmj2Kcfv71pQ4
+P05 264V8Rn746anCyNRA5LP | P06 icSJNT3uQ57yvpGMxN4I | P07 IrSx0IipiwbRJvqR1hYf | P08 8RXP7sQdX1L3Sg45X8bn | P09 Z4oIG6XRxUWPWZ4jV92e
+P10 lyuOkQu3faEv6BuhJUxp | P11 vPkXU5afvl8GC26b66zY | P12 fL0Zf6iidv0DkNWj9O6l | P13 w0YprkloqENQayKCyIQ2 | P14 4jZoxhRODeiBOYDxYk2R
+P15 GJlPaI5UAJYRAjeiZFS7 | P16 rMLRUp9j10bJ5qKofZlR | P17 = laugh #23 cut from tests/test1.mp3 54.33–58.58 | audio/laugh_B_shatta.mp3 = laugh #24 (for a later ep)
+Review MP3 «جمل ميكروفون توتة 01 - للمراجعة.mp3» sent → waiting for the user's OK, then animate.
