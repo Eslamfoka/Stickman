@@ -1,4 +1,4 @@
-# م2 ح8 — «ليلة البدروم» (draft v1, 2026-11-12) — waiting for the user's OK on the story, then numbered pronunciation test
+# م2 ح8 — «ليلة البدروم» (v2 (gag added, user approved story 2026-11-12), 2026-11-12) — waiting for the user's OK on the story, then numbered pronunciation test
 Continuity from Ep7: studio dark, Safeeh gone, drag marks, his antenna on the floor (Tota picks it up), a van left, Pasha's cigar in the car.
 Answer of Ep7 vote: Fahmy was telling the truth (the digging is real).
 Ep8 puzzle: «أنهي بلاطة؟» (star / flower / crescent / plain — the dawn sun beam from the high window lands on one). CTA: صفيح.
@@ -7,17 +7,19 @@ New place (add once to docs/locations.md): the tunnel/dig behind the studio wall
 
 | key | who | line | direction |
 |---|---|---|---|
-| K01 | زلطة | العَلامات دِي... داخْلَة جُوَّه الحِيطَة! | [whisper, tense] |
-| K02 | شطة | وفِيه صُوت حَفْر... جايّ مِن جُوَّه! | [whisper, scared] |
+| K01 | زلطة | العَلامات دِي... داخْلَة جُوَّه الحِيطَة! | [tense, clear voice] |
+| K02 | شطة | وفِيه صُوت حَفْر... جايّ مِن جُوَّه! | [scared, clear voice] |
 | K03 | توتة | نَتِيجِة التَّصْوِيت: أَغْلَبْكُم قالُوا فَهْمِي صادِق... وعَنْدُكُم حَأّ! الحَفْر حَقِيقِي! | [to camera] |
-| K04 | عبده | يا مَعَلِّم... الرُّوبُوت دَه لَوْ صِحِي هَيَاكُلْنا! | [scared, loud whisper] |
-| K05 | عبده | احْفُرُوا بِسُرْعَة... الباشا عايِز الصَّنْدُوق قَبْل الفَجْر! | [nervous] |
-| K06 | زلطة | صَفِيح مِطَفِّي... ناقْصُه الهَوائِي! | [whisper] |
-| K07 | توتة | الهَوائِي مَعايا!... بَس لازِم حَد يِرَكِّبُه. | [whisper] |
-| K08 | شطة | أَنا؟!... فِي الضَّلْمَة؟!... ماشِي. أَنا هَرُوح. | [scared → brave] |
+| K04 | عبده | يا مَعَلِّم... الرُّوبُوت دَه لَوْ صِحِي هَيَاكُلْنا! | [scared] |
+| K05 | عبده | احْفُرُوا بِسُرْعَة... الباشا عايِز الصَّنْدُوق أَبْل الفَجْر! | [nervous] |
+| K06 | زلطة | صَفِيح مِطَفِّي... ناقْصُه الهَوائِي! | [tense, clear voice] |
+| K07 | توتة | الهَوائِي مَعايا!... بَس لازِم حَد يِرَكِّبُه. | [tense, clear voice] |
+| K08 | شطة | أَنا؟!... فِي العَتْمَة؟!... ماشِي. أَنا هَرُوح. | [scared → brave] |
 | K09 | عبده | مِين هِناك؟!... أَنا مِش خايِف... أَنا بَس بَسْأَل. | [suspicious, scared] |
 | K10 | صفيح | تَمام... يا رُشْدِي. | [robot, slow] |
-| K11 | شطة | لا يا عَمّ صَفِيح... أَنا شَطَّة. وأَنا مِش خايِف! | [whisper, proud] |
+| K11 | شطة | لا يا عَمّ صَفِيح... أَنا شَطَّة. وأَنا مِش خايِف! | [proud, clear voice] |
+| K12a | صفيح | رُشْدِي؟! | [robot, confused — scanning Abdo] (GAG) |
+| K12b | عبده | أَنا عَبْدُه يا عَمّ!... عَبْدُه! | [panicked] (GAG) |
 | K12 | صفيح | دُخَلاء!... وَضْع الحِراسَة! | [robot, loud] |
 | K13 | عبده | يا ماما!... فِين النُّور؟! | [screaming] |
 | K14 | زلطة | احْتِمال عَبْدُه يِرْجَع تانِي: صِفْر فِي المِيَّة. | [deadpan] |
