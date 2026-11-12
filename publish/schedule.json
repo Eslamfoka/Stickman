@@ -9,7 +9,7 @@
   },
   "timezone_note": "كل المواعيد بتوقيت القاهرة (UTC+2 في نوفمبر). 9 بالليل القاهرة = 10 بالليل الكويت.",
   "media_folder": "publish/media/ (مش على الريبو — حط فيه الفيديوهات بالأسماء المكتوبة في media، والأسامي الأصلية في source_file_names)",
-  "generated": "2026-11-12T02:19:57+00:00",
+  "generated": "2026-11-12T10:31:02+00:00",
   "posts": [
     {
       "id": "brand_intro",
@@ -2378,6 +2378,107 @@
           "caption": "بالنهار زي ما رشدي قال: نزلوا البدروم، ولاقوا باب حديد بعجلة… ووراه استوديو سري! 🔦 الحلقة 4 من «عمارة نعناعة» 🎬\n🧩 لغز الحلقة: الساعة الواقفة في الاستوديو على كام… وليه؟ 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري",
           "note": "مش محتاج رفع منفصل لو انستجرام بيعمل share لفيسبوك",
           "pinned_comment": "🧩 لغز الحلقة: الساعة الواقفة في الاستوديو على كام… وليه؟ 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        }
+      }
+    },
+    {
+      "id": "nanaa_s2_e05",
+      "series": "nanaa_s2",
+      "series_name": "عمارة نعناعة - الموسم 2: سر البدروم",
+      "kind": "episode",
+      "episode": 5,
+      "episode_name": "صفيح",
+      "publish_at_cairo": "2026-11-28T21:00:00+02:00",
+      "publish_at_utc": "2026-11-28T19:00:00Z",
+      "status": "pending",
+      "media": {
+        "horizontal": "media/nanaa_s2_e05_h.mp4",
+        "vertical": "media/nanaa_s2_e05_v.mp4"
+      },
+      "source_file_names": {
+        "horizontal": "عمارة نعناعة م2 - الحلقة 05 - صفيح.mp4",
+        "vertical": "عمارة نعناعة م2 - الحلقة 05 - صفيح (تيك توك).mp4"
+      },
+      "thumbnails": {
+        "youtube": "thumbs/nanaa_s2_e05_yt.jpg",
+        "vertical_cover": "thumbs/nanaa_s2_e05_cover.jpg"
+      },
+      "platforms": {
+        "youtube": {
+          "video": "media/nanaa_s2_e05_h.mp4",
+          "title": "الروبوت اللي تحت الملاية! 🤖 | عمارة نعناعة - الحلقة 5 | شطة وزلطة",
+          "description": "الملاية وقعت… وطلع تحتها روبوت صفيح عينه حمرا! وفجأة بص لشطة وقال: «رشدي؟!» 🤖\n\n«عمارة نعناعة» — الموسم التاني: سر البدروم 🔦 كرتون مصري غموض وضحك للعيلة كلها\n\n🧩 فزورة عم رشدي: «أنا فوق الكل ومليان مية… بس عمري ما شربت». أنا مين؟ اكتبوا حلكم في الكومنتات 👇\n\nالحلقة الجاية بكرة الساعة 9 بالليل بتوقيت مصر ⏰\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#عمارة_نعناعة #سر_البدروم #شطة_وزلطة #كرتون_مصري #غموض #لغز #انيميشن #مصر",
+          "tags": [
+            "شطة وزلطة",
+            "عمارة نعناعة",
+            "سر البدروم",
+            "الموسم التاني",
+            "كرتون مصري",
+            "غموض",
+            "رعب كوميدي",
+            "لغز",
+            "مسلسل كرتون",
+            "ستيك مان"
+          ],
+          "thumbnail": "thumbs/nanaa_s2_e05_yt.jpg",
+          "playlist": "عمارة نعناعة - الموسم 2: سر البدروم 🔦",
+          "category_id": "24",
+          "default_language": "ar",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-28T19:00:00Z",
+          "pinned_comment": "🧩 فزورة عم رشدي: «أنا فوق الكل ومليان مية… بس عمري ما شربت». أنا مين؟ 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata"
+        },
+        "youtube_shorts": {
+          "video": "media/nanaa_s2_e05_v.mp4",
+          "title": "الروبوت اللي تحت الملاية! 🤖 | عمارة نعناعة الحلقة 5 #Shorts",
+          "description": "الملاية وقعت… وطلع تحتها روبوت صفيح عينه حمرا! وفجأة بص لشطة وقال: «رشدي؟!» 🤖\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#عمارة_نعناعة #سر_البدروم #شطة_وزلطة #كرتون_مصري #غموض #Shorts",
+          "tags": [
+            "شطة وزلطة",
+            "عمارة نعناعة",
+            "سر البدروم",
+            "الموسم التاني",
+            "كرتون مصري",
+            "غموض",
+            "رعب كوميدي",
+            "لغز",
+            "مسلسل كرتون",
+            "ستيك مان"
+          ],
+          "playlist": "عمارة نعناعة - الموسم 2: سر البدروم 🔦",
+          "category_id": "24",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-28T20:00:00Z",
+          "pinned_comment": "🧩 فزورة عم رشدي: «أنا فوق الكل ومليان مية… بس عمري ما شربت». أنا مين؟ 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
+          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+        },
+        "tiktok": {
+          "video": "media/nanaa_s2_e05_v.mp4",
+          "caption": "الملاية وقعت… وطلع تحتها روبوت صفيح عينه حمرا! وفجأة بص لشطة وقال: «رشدي؟!» 🤖 الحلقة 5 من «عمارة نعناعة» 🎬\n🧩 فزورة عم رشدي: «أنا فوق الكل ومليان مية… بس عمري ما شربت». أنا مين؟ 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #لغز #غموض #fyp",
+          "cover_image": "thumbs/nanaa_s2_e05_cover.jpg",
+          "cover_timestamp_ms": 1000,
+          "privacy": "PUBLIC_TO_EVERYONE",
+          "allow_comments": true,
+          "allow_duet": true,
+          "allow_stitch": true,
+          "publish_at_utc": "2026-11-28T19:00:00Z",
+          "pinned_comment": "🧩 فزورة عم رشدي: «أنا فوق الكل ومليان مية… بس عمري ما شربت». أنا مين؟ 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗",
+          "note": "لو الأداة مش بتقبل صورة غلاف، استخدم cover_timestamp_ms أو اختار الغلاف يدوي من التطبيق"
+        },
+        "instagram_reel": {
+          "video": "media/nanaa_s2_e05_v.mp4",
+          "caption": "الملاية وقعت… وطلع تحتها روبوت صفيح عينه حمرا! وفجأة بص لشطة وقال: «رشدي؟!» 🤖 الحلقة 5 من «عمارة نعناعة» 🎬\n🧩 فزورة عم رشدي: «أنا فوق الكل ومليان مية… بس عمري ما شربت». أنا مين؟ 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #لغز #ريلز",
+          "cover_image": "thumbs/nanaa_s2_e05_cover.jpg",
+          "share_to_facebook": true,
+          "publish_at_utc": "2026-11-28T19:00:00Z",
+          "pinned_comment": "🧩 فزورة عم رشدي: «أنا فوق الكل ومليان مية… بس عمري ما شربت». أنا مين؟ 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        },
+        "facebook_reel": {
+          "via": "instagram_reel.share_to_facebook",
+          "caption": "الملاية وقعت… وطلع تحتها روبوت صفيح عينه حمرا! وفجأة بص لشطة وقال: «رشدي؟!» 🤖 الحلقة 5 من «عمارة نعناعة» 🎬\n🧩 فزورة عم رشدي: «أنا فوق الكل ومليان مية… بس عمري ما شربت». أنا مين؟ 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري",
+          "note": "مش محتاج رفع منفصل لو انستجرام بيعمل share لفيسبوك",
+          "pinned_comment": "🧩 فزورة عم رشدي: «أنا فوق الكل ومليان مية… بس عمري ما شربت». أنا مين؟ 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
         }
       }
     }

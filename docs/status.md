@@ -1,4 +1,16 @@
-# Status — last updated 2026-11-09 (second Claude account, new ElevenLabs workspace)
+# Status — last updated 2026-11-12 (S2E5 «صفيح»)
+
+## Season 2 — Ep5 «صفيح» (2026-11-12)
+- ElevenLabs connector = the NEW paid account (workspace d59b5261…), flow `F8vbDWj8zsb2EVQ1DhIh` (all S2E5 gens in `s2e5/gens.txt`).
+- Script `s2e5/script.md` (27 lines G01–G27, all approved after fixes), audio `s2e5/audio/GNN.mp3` (Safeeh = Roshdy clone YGNy… + robot filter B; G17 tape fx; G27 phone fx).
+- New in `s1e1/engine.py`: `draw_safeeh()` (tin robot, eye red/green, mouth grill, chest drawer + tape, reach) and `draw_back()` (characters walking away, back of head). `brand/pro.py` figure() supports "safeeh".
+- New bgs: `s2e5/bg/studio_nosheet.png` (studio with the sheet on the floor), `wall.png` (outside wall + basement window), `carday.png` (Pasha's car by day).
+- `s2e5/ep5.py` (2:23): hook sheet falls → chase → clock turned to 3 = eyes red→green → «رشدي؟» scan POV → chest tape riddle → puzzle → Zalata follow CTA (phone insert with the real profile screenshot `brand/follow/*.png`, per platform: H=yt, TikTok=tt, `python ep5.py phones` → phone_ig.mp4 / phone_yt.mp4 for Reels/Shorts) → alarm → goodbye → corridor false scare (claw on Shatta's shoulder) → kids climb the stairs with their backs to camera → Safeeh under the window → Abdo's face → Abdo calls the Pasha → eyes back to RED.
+- Ep5 puzzle: فزورة رشدي «أنا فوق الكل ومليان مية بس عمري ما شربت» → Ep6 answer: خزان المية على السطوح. Cliff: Pasha «يبقى هو المفتاح. هاته.» + Safeeh's eyes red.
+- Publish item `nanaa_s2_e05` (2026-11-28 21:00) in `publish/build.py`, thumbs made.
+
+---
+# (older) Status — 2026-11-09 (second Claude account, new ElevenLabs workspace)
 
 ## Season 2 progress
 - Plan merged (record + robot «صفيح») → `docs/seasons/season2_sirr_elbadroom.md` (approved by user).

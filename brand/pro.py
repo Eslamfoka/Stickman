@@ -69,11 +69,15 @@ def figure(who, S, expr="happy", mouth=0.0, look=0, arms="down", held=None, shir
     w_, h_ = int(420 * S / 2.0 + 2 * pad), int(560 * S / 2.0 + 2 * pad)
     lay = Image.new("RGBA", (int(w_ * SS), int(h_ * SS)), (0, 0, 0, 0)); p = P(lay)
     X, Y = w_ / 2, h_ - pad
-    old = dict(CH[who])
-    if shirt: CH[who]["shirt"] = shirt
-    draw_char(p, who, X, Y, S, expr, mouth, look, False, arms, 0.4, held, lean, None)
-    CH[who].update(old)
-    Sc = S * CH[who]["scale"]; hip = Y - 62 * Sc; shy = hip - 72 * Sc
+    if who == "safeeh":   # Roshdy's robot (S2E5): expr = eye colour ("red"/"green")
+        draw_safeeh(p, X, Y, S * 0.72, 0.4, eye=expr if expr in EYE_COL else "red", mouth=mouth, look=look, arms=arms)
+        Sc = S; shy = Y
+    else:
+        old = dict(CH[who])
+        if shirt: CH[who]["shirt"] = shirt
+        draw_char(p, who, X, Y, S, expr, mouth, look, False, arms, 0.4, held, lean, None)
+        CH[who].update(old)
+        Sc = S * CH[who]["scale"]; hip = Y - 62 * Sc; shy = hip - 72 * Sc
     if num: text(lay, X * SS, (shy + 34 * Sc) * SS, str(num), int(22 * Sc * SS), (255, 255, 255), (0, 0, 0), int(1.5 * Sc * SS))
     if zzz:
         for i, (dx, dy, sz) in enumerate(((60, 230, 40), (95, 300, 60), (140, 390, 85))):
