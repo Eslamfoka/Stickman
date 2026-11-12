@@ -37,6 +37,7 @@ IDs work only on the same ElevenLabs account; otherwise clone from `voices/` sam
 | عم رشدي | YGNy6U5O3z3BYj90svXp |
 | الباشا | DshUoc3RyCINORBPyoO6 (cloned from Ep2 lines) |
 | عبده | 6tlJFr3s8vKbR6uPJDm9 (designed on this account, preview #3) |
+| صفيح | = عم رشدي YGNy6U5O3z3BYj90svXp + robot filter **B** (user pick 2026-11-12): afftfilt robotize win 1024 + 25% dry, aecho 7/14 ms, flanger, hp 250 / lp 4500 — see s2e5 `robot_fx()` |
 
 ### Previous account (de970f…, cloned 2026-11-09) — Ep1/Ep2 were made with these
 The connector account is a different workspace; voices were re-created with Instant Voice Clone.
@@ -56,6 +57,7 @@ The connector account is a different workspace; voices were re-created with Inst
 
 ## Pronunciation rules learned (eleven_v4)
 - «عِفْرِيت» → write «عفريت» without diacritics. «يِعْرَف» bad → «عارِف». «عَم رُشْدِي» sometimes bad → «عم رشدي» without diacritics. «نَوَّرُوا» → «شَغَّلُوا».
+- S2E5: «هَسْتَخَبّا» (fatha + alef at the end, not ى). «هَرْجَعْلَك» fails → test alternatives.
 - «الخَطَوات» → write «الخطوات» without diacritics. «ماسِك» is read «مَسَك» → use «في إيده».
 - «بِاسْم» is read like the name «باسم» → write «بِإِسْم» with hamza.
 - Egyptian qaf → hamza: فُوء، آلُوا، آلْها، بَآلُه، مَأْفُول، صُنْدُوء، بِالأَلَم، يِبْأُوا، يِبْأَى، التِّئِيل، أَطَع، أَبْل، اتَّفَأْنا.

@@ -41,3 +41,9 @@ Viewers on TikTok/Reels/Shorts decide in the first second. Every video (H and V,
   (`brand/follow/{yt,fb,ig,tt}.png`, made by `brand/follow/crop.py` from `raw/` — follower/video counts hidden, video grid cropped), an animated finger taps Follow/Subscribe, glow ring, click sfx, button flips to Following/Subscribed, heart pops.
   YouTube version → yt.png (+ bell); vertical TikTok cut → tt.png; Reels → ig.png / fb.png.
 - End card: platform screenshot thumbnails + @shattawzalata under «الحلقة X بكرة», no voice.
+
+## Realism pass (user, 2026-11-12 — S2E5 on)
+- Exits with the BACK to camera: when someone leaves the others, the camera stays and we watch him walk away from behind (back view, shrinking into depth / out the door), not a face-forward slide. Engine needs a back-view pose for characters (no face, hair/back of head, arms swinging).
+- Entrances always motivated (called / knocked / heard / on the way) — unchanged, re-confirmed.
+- Acting & reactions: every line gets a listener reaction (look, blink, step back, head turn), anticipation before big moves, overlap/settle after stops, weight shifts while standing — no frozen listeners.
+- Camera: real coverage per scene (wide → OTS → CU → insert/POV), purposeful moves only.
