@@ -1,10 +1,11 @@
-# Status — last updated 2026-11-12 15:55 (S2E7 delivered, S2E8 script draft)
+# Status — last updated 2026-11-12 15:55 (S2E8 delivered, S2E9 next)
 
 ## Where we stopped (2026-11-12)
 - S2E5 «صفيح» DELIVERED (YT, TikTok, Reels, Shorts, thumbs, captions HTML `publish/captions/nanaa_s2_e05.html`).
 - S2E6 «الأسطوانة» DELIVERED (YT, TikTok, Reels, Shorts 2:19, thumbs, captions HTML `publish/captions/nanaa_s2_e06.html`).
 - S2E7 «فهمي التايب» DELIVERED (2:17; YT 50 MB, TikTok/Reels/Shorts 2:16 cover-first, thumbs, captions HTML `publish/captions/nanaa_s2_e07.html`). `s2e7/ep7.py` = found-footage phone video, thumps + crack + dutch, first audience VOTE, blackout eyes-only, torch beams, corridor POV, empty robot spot (dust-free patch + drag marks + antenna bulb), van + Pasha's cigar ember. Delivery: concat h/v parts + mix.wav → reels/shorts = phone_ig/phone_yt overlaid at the phone window (62.292–66.25) → tiktok_cut (title 6.98–8.98) → final_encode.
-- S2E8 «ليلة البدروم»: script draft v1 `s2e8/script.md` (21 lines K01–K21) sent to the user — waiting for his OK → numbered pronunciation test.
+- S2E8 «ليلة البدروم» DELIVERED (2:10; 23 lines K01–K23 approved; YT + TikTok/Reels/Shorts cover-first + thumbs + captions `publish/captions/nanaa_s2_e08.html`). `s2e8/ep8.py`: new canonical set `s2e8/bg/tunnel.png` (`loc("tunnel")`), Shatta's crawl (mouse + Abdo torch freezes), antenna-plug insert, «رشدي؟! / أنا عبده!» gag, first chase, basement night→dawn time-lapse with the sun beam on the CRESCENT tile (Ep9 answer = الهلال), tiles insert, Pasha's ringed hand + reveal. Engine: `draw_safeeh(..., antenna=False)`, held "antenna". Safeeh voice filter now in repo: `s2/robot_fx.py`. Phone window 110.958–113.417, title 6.96–8.96.
+- NEXT: S2E9 «الصندوق» (Pasha took the box; plan with Fahmy's earpiece trick to scare Abdo; cliff: box is EMPTY «فين الأسطوانة؟!»). Script → numbered pronunciation test → voices → animation.
 - New standing rules today (CLAUDE.md 7–8 + docs/directing.md checklist): episode checklist applied automatically after voice approval; **locations fixed** (`docs/locations.md`, `s1e1/locations.py`); captions always as HTML with copy buttons; follow CTA after the puzzle (rotate characters: E5 زلطة, E6 شطة, E7 توتة…).
 - Song «أغنية العمارة»: take 2أ chosen (`s2/music/`).
 - Next episodes: E7 «فهمي التايب» → E10, each must beat the previous one.
