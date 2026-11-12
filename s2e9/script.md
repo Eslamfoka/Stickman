@@ -1,8 +1,9 @@
-# م2 ح9 — «الصندوق» (draft v1, 2026-11-12) — waiting for the user's OK → numbered pronunciation test
+# م2 ح9 — «الصندوق» (draft v2 (user note: the paper in the box = a hint for Season 3), 2026-11-12) — waiting for the user's OK → numbered pronunciation test
 Continuity from Ep8: the Pasha took the box from under the crescent tile (morning, basement). Ep8 answer: بلاطة الهلال.
 Change vs the season plan: the kids GET the box back (Fahmy's speaker trick) and it is THEY who find it empty + Roshdy's note;
 the Pasha's cliff = he orders the loader: the building will be demolished in the morning → big stakes for the finale (Ep10).
-Ep9 puzzle: «الأسطوانة فين؟» hint: in Season 1 something in the building sang by itself (the 7th-floor radio, S1E8) → Ep10 answer.
+S3 tease (user 2026-11-12): the box holds an old photo of Roshdy (foreign stamp, ship behind him) + a strange key + his letter «السر الأكبر لسه ما ابتداش» — keep the key for Season 3.
+The record hint now comes from Safeeh («رشدي نقل الأسطوانة للمكان اللي بيغني لوحده»). Ep9 puzzle: in Season 1 something in the building sang by itself (the 7th-floor radio, S1E8) → Ep10 answer.
 Running gag: Safeeh calls everyone «رشدي». CTA: نعناعة (with the slipper).
 Locations (fixed): car (day, carday) → living (day) → street (night, Pasha's car) → lobby (night). No new place.
 
@@ -27,9 +28,10 @@ Locations (fixed): car (day, carday) → living (day) → street (night, Pasha's
 | L17 | عبده | الرُّوبُوت!... يا ماما! | [screaming] |
 | L18 | شطة | الصَّنْدُوء مَعايا!... اجْرُوا! | [excited] |
 | L19 | توتة | فاضِي!... مافِيهُوش أُسْطُوانَة! | [shocked] |
-| L20 | زلطة | فِيه جَواب... مِن عم رشدي. | [reading] |
-| L21 | رشدي | الأُسْطُوانَة مِش هِنا... هِيَّ فِي المَكان اللِّي غَنِّت فِيه لِوَحْدَها. | [warm, old, letter voice-over] |
-| L22 | توتة | لُغْز النَّهارْدَه: الأُسْطُوانَة فِين؟ افْتِكْرُوا المُوسِم الأَوَّل... إِيه اللِّي غَنَّى لِوَحْدُه فِي العِمارَة؟ اكْتِبُوا فِي الكُومِنْتات! | [to camera] |
+| L20 | زلطة | فِيه صُورَة لِعم رشدي... ومُفْتاح غَرِيب! | [puzzled] |
+| L21 | رشدي | لَوْ لاقِيتُوا الصَّنْدُوء ده فاضِي... ما تِزْعَلُوش. السِّر الأَكْبَر... لِسَّه ما ابْتَداش. | [warm, old, letter voice-over] (SEASON 3 TEASE) |
+| L21b | صفيح | رُشْدِي نَقَل الأُسْطُوانَة... لِلمَكان اللِّي بِيغَنِّي لِوَحْدُه. | [robot, remembering] |
+| L22 | توتة | لُغْز النَّهارْدَه: إِيه اللِّي بِيغَنِّي لِوَحْدُه فِي العِمارَة؟ افْتِكْرُوا المُوسِم الأَوَّل... واكْتِبُوا فِي الكُومِنْتات! | [to camera] |
 | L23 | نعناعة | اعْمِلُوا فُولُو... وإِلّا الشِّبْشِب جاهِز! | [comic threat] (follow CTA) |
 | L24 | الباشا | يا عَبْدُه... هات اللُّودَر. العِمارَة دِي... هَتِتْهَدّ الصُّبْح. | [cold anger, on the phone] |
 
