@@ -15,7 +15,8 @@
   Animation DONE: `mic/01/ep.py` (58 s; street loc with Bandaq's drawn Fiat 128 painted over the parked car, mic prop, facts chips,
   calculator cards + «1,095,000 جنيه!», dream bubble «موديل 2026», crickets beat, Shatta laugh with NEW engine expr "laugh").
   Rendered mic/01/mic01_h.mp4 + mic01_v.mp4 (+ mix.wav). Publish item `mic_e01` (24/11 15:00), thumbs + captions HTML done.
-  NEXT: user stopped the delivery step — run final_encode (YT) + tiktok_cut (cover-first vertical = TikTok/Reels/Shorts) → delivery/mic/, send.
+  DELIVERED 2026-11-12 23:35: delivery/mic/ YT (58 s, 29 MB) + «(تيك توك وريلز وشورتس)» cover-first vertical (11 MB) + thumbs + captions HTML.
+  Laugh rotation next: ep2 = زلطة.
 - Ideas bank: `docs/ideas.md` (التلاجة / أستاذ فهمي المدرس — user ideas 2026-11-12, to adapt).
 
 
