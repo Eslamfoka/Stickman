@@ -28,8 +28,8 @@ New place (add once to docs/locations.md): the tunnel/dig behind the studio wall
 | K19 | زلطة | الشِّبّاك العالي!... الشَّمْس بِتِدْخُل مِنُّه عَلَى بَلاطَة واحْدَة بَس. | [excited] |
 | K20 | توتة | لُغْز النَّهارْدَه: أَنْهِي بَلاطَة؟ النِّجْمَة، الوَرْدَة، الهِلال، وَلّا السّادَة؟ رَكِّزُوا فِي الشُّعاع... واكْتِبُوا فِي الكُومِنْتات! | [to camera] |
 | K21 | صفيح | اعْمِلُوا فُولُو... دَه أَمْر مِن صَفِيح! | [formal, comic] |
-| K22 | شطة | صَنْدُوق!... لَقِيناه! | [excited] |
-| K23 | الباشا | شُكْرًا يا وِلاد... وَفَّرْتُوا عَلَيّا الحَفْر. | [calm, menacing] |
+| K22 | شطة | صَنْدُوء!... لَئِيناه! | [excited] |
+| K23 | الباشا | شُكْرًا يا وِلاد... وَفَّرْتُوا عَلَيّا التَّعَب. | [calm, menacing] |
 
 ## Better than Ep7
 1. A real chase in the dark (Safeeh vs Abdo + digger) — first action sequence of the season.
