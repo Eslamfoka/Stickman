@@ -12,13 +12,13 @@ Cliff: night; Safeeh's dark screen flickers on by itself: «أنا راجع» + 
 | N03 | توتة | إِجابِة لُغْز امْبارِح: الرّادْيُو اللِّي فِي الدُّور السّابِع!... اشْتَغَل لِوَحْدُه فِي المُوسِم الأَوَّل! | [to camera] |
 | N04 | شطة | يَبْقَى الأُسْطُوانَة جُوَّه الرّادْيُو!... اطْلَعُوا بِسُرْعَة! | [excited] |
 | N05 | زلطة | سَبْع أَدْوار تانِي؟!... احْتِمال أَوْصَل: تَلاتِين فِي المِيَّة. | [panting, deadpan] |
-| N06 | توتة | لَئِيتْها!... الأُسْطُوانَة! | [joyful] |
+| N06 | توتة | لقيتها!... الأسطوانة! | [joyful] |
 | N07 | الباشا | ابْدَأ يا عَبْدُه! | [commanding] |
 | N08 | عبده | يا باشا... فِيه عِيال جُوَّه. | [hesitant] |
 | N09 | الباشا | اسْمَع الكَلام وابْدَأ! | [angry] |
 | N10 | صفيح | وَضْع الحِراسَة!... مَحَدِش هَيِلْمِس العِمارَة! | [robot, loud] |
 | N11 | سوسن | اللّايف شَغّال!... كُلّ النّاس بِتِتْفَرَّج! | [excited] |
-| N12 | شطة | شَغَّلُوها!... خَلِّي الشّارِع كُلُّه يِسْمَع! | [proud] |
+| N12 | شطة | شَغَّلُوا الأُسْطُوانَة!... خَلِّي الشّارِع كُلُّه يِسْمَع! | [proud] |
 | — | (SONG) | «أغنية العمارة» out loud; neighbours come out on the balconies; the loader stops | |
 | N13 | نعناعة | دِي... الست بهية. | [moved, soft] |
 | N14 | نعناعة | الأَغانِي دِي اتْغَنِّت هِنا... العِمارَة دِي تُراث! | [proud, tearful] |
@@ -29,6 +29,9 @@ Cliff: night; Safeeh's dark screen flickers on by itself: «أنا راجع» + 
 | N19 | توتة | لُغْز آخِر المُوسِم: المُفْتاح ده بِيِفْتَح إِيه؟... اكْتِبُوا تَوَقُّعاتْكُم! | [to camera] |
 | N20 | البواب | اعْمِلُوا فُولُو... أَنا صاحِي أَهُو! | [comic] (follow CTA) |
 | N21 | رشدي | وَحَشْتُونِي يا وِلاد... أَنا راجِع. | [old, distant, warm] (cliff) |
+
+## Plant for Season 3 (user 2026-11-12)
+After N19 (Tota shows the «الدور الأخير» key), Nana takes the key from her, looks up at the ceiling for a second, and locks it in her drawer / pins it to her keyring (visual only, no line). S3 opening: the football flies into the closed top floor → the door is locked → the kids remember the key → they "borrow" it from Nana's drawer → open the floor → the statues.
 
 ## Better than Ep9
 1. The season's real music moment: the original song plays out loud over the whole street (neighbours on every balcony).
