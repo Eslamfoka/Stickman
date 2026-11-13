@@ -1,4 +1,4 @@
-# يوميات شطة وزلطة — بابا في المستشفى (DRAFT from the user's idea, 2026-11-13 — waiting for OK)
+# يوميات شطة وزلطة — بابا في المستشفى (script APPROVED 2026-11-13 — user: «ظبط الريأكشن في التمثيل والأنيميشن والصوت، عايز احترافية»)
 User's idea (a classic Egyptian joke): late 4 days, «بابا في المستشفى»… «أصل بابا شغال دكتور». Same classroom location (daily/bg/classroom.png), same crowded class.
 Late student = شطة (زلطة had the last sketch). Ending = the class audience-laugh (without Shatta's laugh — he's running away).
 
@@ -10,3 +10,5 @@ day 4 Fahmy narrows his eyes before asking.
 اليوم التالت: F05 فهمي: وبعدين؟ اتأخرت ليه؟ | S03 شطة: بابا لسه في المستشفى يا أستاذ. | (فهمي يشاور له يقعد وهو بيبصله بشك)
 اليوم الرابع: F06 فهمي: اتأخرت ليه؟ | S04 شطة: أصل بابا لسه في المستشفى. | F07 فهمي: هو أبوك في المستشفى ليه بأه؟!
               S05 شطة (عادي جداً): أصل بابا شغال دكتور. | سكتة… F08 فهمي: شـطــــة!!! → شطة يجري برة، الفصل كله يضحك (ضحكة الجمهور).
+
+Test (flow gtPbObIMXR3upRXYal6V): Fahmy iDFVbxmw8y1IlhotIhBQ (1–8, acted) | Shatta VgvHavkgn3pmmQVi57FF (9–13 acted; 14 = «المستشفا» spelling) | Zalata laugh elS7tLGbaRcYg6S8ASnW (15).
