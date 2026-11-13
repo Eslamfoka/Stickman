@@ -99,6 +99,9 @@ def draw_char(p, who, x, y, s=1.0, expr="neutral", mouth=0.0, look=0, blink=Fals
         "scared": ((x - 30 * s, sh - 30 * s), (x + 30 * s, sh - 30 * s)),
         "hold": ((x - 36 * s, sh + 70 * s), (x + 46 * s, sh + 30 * s)),
         "shush": ((x - 36 * s, sh + 70 * s), (hx + 4 * s, hy + 26 * s)),
+        "raise": ((x - 34 * s, sh + 72 * s), (x + 66 * s, sh - 150 * s)),   # one hand up (asking a question)
+        "clap": ((x - 8 * s, sh + 36 * s), (x + 8 * s, sh + 36 * s)),
+        "clap2": ((x - 34 * s, sh + 30 * s), (x + 34 * s, sh + 30 * s)),
     }
     la, ra = A.get(arms, A["down"])
     chip_hand = None

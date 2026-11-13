@@ -29,6 +29,11 @@
   racing later (8:05→8:45) + day title; knock off-screen left → class turns → Shatta walks in; two-shots Fahmy+Shatta (Zalata listening at edge);
   escalating class reactions (aww SFX → glances → groan + Zalata counting ١٢٣ «٣ أيام؟!» → frozen silence + cricket); F08 shout with shake,
   Shatta runs out back-to-camera; ending = audience group laugh (3 shots). `daily/03/ep.py`; publish item `daily_e03` (27/11 15:00).
+- **يوميات «الواجب» DELIVERED 2026-11-13** (36.9 s): user's idea (classic joke). Hook = Fahmy smashes the stick on the front desk «طاخ!»;
+  class panic (papers flying, Shatta proudly raises his notebook, Zalata calm); Fahmy patrols → Zalata raises his hand (NEW engine poses
+  `raise`, `clap`/`clap2`); trap question in two-shots; Fahmy's speech to the class (nods, Tota claps); «أصلِ انا معملتش الواجب» + glasses glint;
+  freeze + cricket, Fahmy speechless (mouth opens/closes, stick up/down, eye twitch, stammer, steam) → audience laugh 5 s (user: max 5 s, audience on top).
+  Laugh mix rule (all sketches): GROUP mixed at dialogue RMS +2 dB. `daily/04/ep.py`; publish item `daily_e04` (28/11 15:00).
 - Ideas bank: `docs/ideas.md` (التلاجة / أستاذ فهمي المدرس — user ideas 2026-11-12, to adapt).
 
 

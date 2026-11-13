@@ -10,7 +10,8 @@ Every day = 1 «عمارة نعناعة» episode (21:00) + 1 sketch (يوميا
 | 25/11 | يوميات — التلاجة ✅ | S2E2 |
 | 26/11 | يوميات — بص على رجلي ✅ | S2E3 |
 | 27/11 | يوميات — بابا في المستشفى ✅ | S2E4 |
-| 28/11 → 3/12 | **6 sketches still needed** | S2E5–E10 |
+| 28/11 | يوميات — الواجب ✅ | S2E5 |
+| 29/11 → 3/12 | **5 sketches still needed** | S2E6–E10 |
 
 ## Weekly publishing rhythm (older plan, 2026-11-10)
 | Day | Long (YouTube 16:9 + FB) | Short (TikTok / Reels / Shorts 9:16) |
