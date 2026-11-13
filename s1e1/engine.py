@@ -79,6 +79,11 @@ def draw_char(p, who, x, y, s=1.0, expr="neutral", mouth=0.0, look=0, blink=Fals
     elif gal:
         p.line([(x - 12 * s, y - 30 * s), (x - 14 * s, y)], INK, lw)
         p.line([(x + 12 * s, y - 30 * s), (x + 14 * s, y)], INK, lw)
+    elif c.get("legup"):   # one leg lifted (knee up, foot resting forward) — k = 0..1
+        k_ = c["legup"]
+        p.line([(x, hip), (x - 17 * s, y)], INK, lw); p.line([(x - 17 * s, y), (x - 27 * s, y)], INK, lw)
+        kn = (x + (10 + 34 * k_) * s, hip + (31 - 28 * k_) * s); ft = (x + (17 + 52 * k_) * s, y - 70 * k_ * s)
+        p.line([(x, hip), kn, ft], INK, lw); p.line([ft, (ft[0] + 10 * s, ft[1])], INK, lw)
     else:
         p.line([(x, hip), (x - 17 * s, y)], INK, lw); p.line([(x, hip), (x + 17 * s, y)], INK, lw)
         p.line([(x - 17 * s, y), (x - 27 * s, y)], INK, lw); p.line([(x + 17 * s, y), (x + 27 * s, y)], INK, lw)
