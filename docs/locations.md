@@ -25,7 +25,7 @@ day / night / dusk, lamps on/off, torch light. Never generate a new picture of a
 | ممر البدروم + الباب الحديد | `s2e4/bg/corridor.png` | (always dark) | S2E4, S2E5 | |
 | الاستوديو السري | `s2e5/bg/studio_nosheet.png` | dark grade (lights off) / sepia = 1958 flashback | S2E5, S2E6 | S2E4 used `s2e4/bg/studio.png` (with the sheet over Safeeh). Sheet fell in S2E5 → studio_nosheet.png from S2E5 on |
 | الشارع قدام العمارة | `s2e3/bg/street_day.png` | `s2/bg/street_car.png` (night, Pasha's car) | S2E2, S2E3 | |
-| الحيطة من بره + شباك البدروم | `s2e5/bg/wall.png` | graded night (S2E6) | S2E5, S2E6 | |
+| الحيطة من بره + شباك البدروم | `s2e5/bg/wall.png` | graded night (S2E6) | S2E5, S2E6, يوميات «الأرض لسه مبلولة» (لايف سوسن) | |
 | عربية الباشا (من جوه) | `s2e4/bg/carin.png` (night) | `s2e6/bg/carday.png` (day = edit of carin) | S2E4, S2E6 | S2E5 used a different generated car (`s2e5/bg/carday.png`) — retired, use the carin pair from now on |
 | ترند الأسبوع: الملعب، الكافيه، المؤتمر، الجيران، الأوضة، الاستوديو | `trend/01/bg/*.png` | graded | trend 01 | |
 | سلم عمارة الجيران (another building: side view, terrazzo flight bottom-left → landing top-right, plaque «الدور 10» drawn in code at world (560,410)) | `daily/bg/stairs_jeeran.png` | warm morning | يوميات 01 (التلاجة) | NOT عمارة نعناعة's stairwell |

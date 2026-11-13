@@ -50,6 +50,8 @@ CH = {
     "sawsan": dict(shirt=(236, 150, 40), hair=(150, 40, 50), scale=0.92),
     "pasha": dict(shirt=(30, 30, 36), hair=(200, 200, 205), scale=1.05),
     "abdo": dict(shirt=(120, 120, 130), hair=(30, 28, 26), scale=1.1),
+    "aziza": dict(shirt=(196, 40, 96), hair=(232, 150, 40), scale=0.98),     # خالتي عزيزة: fuchsia galabeya, orange printed tarha
+    "officer": dict(shirt=(26, 28, 38), hair=(26, 24, 22), scale=1.06),    # الظابط: black uniform + police cap
 }
 WHITE = (255, 255, 255, 255)
 
@@ -63,7 +65,7 @@ def draw_char(p, who, x, y, s=1.0, expr="neutral", mouth=0.0, look=0, blink=Fals
     hy = sh - 10 * s - hr + breath
     hx = x + lean * 18 * s
     lw = max(3, 5 * s)
-    gal = who in ("nana", "bondo2", "youngnana", "sawsan")
+    gal = who in ("nana", "bondo2", "youngnana", "sawsan", "aziza")
     shirt = C(c["shirt"]); hair = C(c["hair"])
     # legs
     if walk is not None and gal:
@@ -229,6 +231,9 @@ def draw_char(p, who, x, y, s=1.0, expr="neutral", mouth=0.0, look=0, blink=Fals
         p.ell(hx + hr, hy - 8 * s, 12 * s, 12 * s, hair, INK, 2 * s)
     if who in ("nana", "youngnana"):
         p.ell(hx, hy + 4 * s, hr + 14 * s, hr + 16 * s, hair, INK, 3 * s)
+    if who == "aziza":   # tarha: wide behind the head, falls on the shoulders
+        p.poly([(hx - hr - 16 * s, hy - 6 * s), (hx - hr - 22 * s, hy + 50 * s), (hx + hr + 22 * s, hy + 50 * s), (hx + hr + 16 * s, hy - 6 * s)], hair, INK, 3 * s)
+        p.ell(hx, hy - 2 * s, hr + 15 * s, hr + 14 * s, hair, INK, 3 * s)
     if who == "sawsan":
         for a_ in range(11):
             ang = math.pi * (0.95 + a_ * 1.1 / 10)
@@ -268,6 +273,15 @@ def draw_char(p, who, x, y, s=1.0, expr="neutral", mouth=0.0, look=0, blink=Fals
     elif who == "bondo2":
         p.poly([(hx - hr + 4 * s, hy - 18 * s), (hx - 20 * s, hy - hr - 6 * s), (hx + 20 * s, hy - hr - 6 * s),
                 (hx + hr - 4 * s, hy - 18 * s)], WHITE, INK, 2.5 * s)
+    elif who == "aziza":
+        p.d.chord([p.S(hx - hr - 4 * s), p.S(hy - hr - 6 * s), p.S(hx + hr + 4 * s), p.S(hy - 2 * s)], 180, 360, fill=hair, outline=INK, width=p.S(2.5 * s))
+        for i_ in range(7):
+            a_ = math.pi * (1.1 + i_ * 0.8 / 6); p.ell(hx + math.cos(a_) * (hr - 8 * s), hy - 14 * s + math.sin(a_) * (hr - 18 * s), 3.5 * s, 3.5 * s, (255, 236, 120, 255), None)
+    elif who == "officer":   # Egyptian police cap: black crown, gold band, star badge, shiny visor
+        p.poly([(hx - hr + 2 * s, hy - 16 * s), (hx - hr - 10 * s, hy - hr - 10 * s), (hx + hr + 10 * s, hy - hr - 10 * s), (hx + hr - 2 * s, hy - 16 * s)], (24, 26, 36, 255), INK, 2.5 * s)
+        p.rect(hx - hr + 1 * s, hy - 26 * s, hx + hr - 1 * s, hy - 16 * s, (200, 160, 50, 255), INK, 2 * s, 1 * s)
+        p.d.chord([p.S(hx - hr + 2 * s), p.S(hy - 24 * s), p.S(hx + hr - 2 * s), p.S(hy - 12 * s)], 0, 180, fill=(12, 12, 18, 255), outline=INK, width=p.S(2 * s))
+        p.ell(hx, hy - hr + 2 * s, 7 * s, 7 * s, (230, 190, 60, 255), INK, 1.5 * s)
     # eyes
     ex = 15 * s; ey = hy + 2 * s; lx = look * 4 * s
     big = expr in ("scared", "shock")
@@ -325,6 +339,10 @@ def draw_char(p, who, x, y, s=1.0, expr="neutral", mouth=0.0, look=0, blink=Fals
             p.ell(hx + sx * 16 * s - 4 * s, hy - hr + 3 * s, 4 * s, 2.5 * s, (200, 220, 255, 200), None)
             p.ell(hx + sx * (hr + 1 * s), hy + 26 * s, 6 * s, 6 * s, None, (230, 190, 60, 255), 2.5 * s)
         p.line([(hx - 4 * s, hy - hr + 5 * s), (hx + 4 * s, hy - hr + 5 * s)], INK, 2 * s)
+    if who == "aziza":
+        for sx in (-1, 1): p.ell(hx + sx * (hr + 2 * s), hy + 24 * s, 7 * s, 7 * s, None, (230, 190, 60, 255), 3 * s)
+    if who == "officer":
+        p.poly([(hx - 16 * s, hy + 18 * s), (hx, hy + 15 * s), (hx + 16 * s, hy + 18 * s), (hx + 8 * s, hy + 22 * s), (hx, hy + 19 * s), (hx - 8 * s, hy + 22 * s)], INK, INK, 1.5 * s)
     if who == "bondo2":
         p.poly([(hx - 18 * s, hy + 18 * s), (hx, hy + 14 * s), (hx + 18 * s, hy + 18 * s), (hx + 10 * s, hy + 24 * s),
                 (hx, hy + 20 * s), (hx - 10 * s, hy + 24 * s)], (60, 50, 44, 255), INK, 2 * s)
@@ -374,7 +392,7 @@ def draw_back(p, who, x, y, s=1.0, t=0.0, walk=None, arms="down", held=None):
     hip = y - 62 * s; sh = hip - 72 * s + breath * 0.4; hr = 46 * s
     hy = sh - 10 * s - hr + breath; hx = x
     lw = max(3, 5 * s)
-    gal = who in ("nana", "bondo2", "youngnana", "sawsan")
+    gal = who in ("nana", "bondo2", "youngnana", "sawsan", "aziza")
     shirt = C(c["shirt"]); hair = C(c["hair"])
     # legs (feet point away: short heel stubs only)
     if walk is not None:
@@ -411,7 +429,7 @@ def draw_back(p, who, x, y, s=1.0, t=0.0, walk=None, arms="down", held=None):
     # head: white skull, then the hair seen from behind
     if who == "tota":
         p.ell(hx - hr - 2 * s, hy - 4 * s, 13 * s, 13 * s, hair, INK, 2 * s); p.ell(hx + hr + 2 * s, hy - 4 * s, 13 * s, 13 * s, hair, INK, 2 * s)
-    if who in ("nana", "youngnana", "sawsan"):
+    if who in ("nana", "youngnana", "sawsan", "aziza"):
         p.ell(hx, hy + 4 * s, hr + 14 * s, hr + 16 * s, hair, INK, 3 * s); return
     p.ell(hx, hy, hr, hr, WHITE, INK, 3.5 * s)
     p.ell(hx - hr + 1 * s, hy + 6 * s, 5 * s, 9 * s, WHITE, INK, 2 * s); p.ell(hx + hr - 1 * s, hy + 6 * s, 5 * s, 9 * s, WHITE, INK, 2 * s)  # ears
@@ -422,7 +440,7 @@ def draw_back(p, who, x, y, s=1.0, t=0.0, walk=None, arms="down", held=None):
             pts.append((hx + math.cos(a) * r, hy - 2 * s + math.sin(a) * r))
         pts += [(hx + hr * 0.95, hy + hr * 0.5), (hx + hr * 0.5, hy + hr * 0.8), (hx, hy + hr * 0.86), (hx - hr * 0.5, hy + hr * 0.8), (hx - hr * 0.95, hy + hr * 0.5)]
         p.poly(pts, hair, INK, 2.5 * s)
-    elif who in ("zalata", "roshdy", "pasha", "fahmy", "tota", "abdo"):
+    elif who in ("zalata", "roshdy", "pasha", "fahmy", "tota", "abdo", "officer"):
         # hair covers the whole back of the head down to the nape (only a white strip of neck shows)
         cover = [(hx - hr - 1 * s, hy)] + [(hx + math.cos(math.pi + math.pi * i / 20) * (hr + 1 * s), hy + math.sin(math.pi + math.pi * i / 20) * (hr + 1 * s)) for i in range(21)]
         cover += [(hx + hr - 2 * s, hy + hr * 0.55), (hx + hr * 0.5, hy + hr * 0.78), (hx, hy + hr * 0.84), (hx - hr * 0.5, hy + hr * 0.78), (hx - hr + 2 * s, hy + hr * 0.55)]

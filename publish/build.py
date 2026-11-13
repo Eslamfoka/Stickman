@@ -102,6 +102,7 @@ STATUS = {
     "daily_e02": "جاهز ✅ (يوتيوب + شورتس + تيك توك + ريلز انستا/فيس) — مستني الجدولة 26/11 الساعة 3 العصر",
     "daily_e03": "جاهز ✅ (يوتيوب + شورتس + تيك توك + ريلز انستا/فيس) — مستني الجدولة 27/11 الساعة 3 العصر",
     "daily_e04": "جاهز ✅ (يوتيوب + شورتس + تيك توك + ريلز انستا/فيس) — مستني الجدولة 28/11 الساعة 3 العصر",
+    "daily_e05": "جاهز ✅ (يوتيوب + شورتس + تيك توك + ريلز انستا/فيس) — مستني الجدولة 29/11 الساعة 3 العصر",
     "nanaa_s2_movie": "جاهز ✅ (يوتيوب + فيديو فيسبوك) — مستني الجدولة 5/12 بعد آخر حلقة",
     "nanaa_s1_movie": "فيلم كامل على فيس ✅ (منشور فيديو) • الملخص الطولي: تيك توك ✅ • ريلز انستا/فيس ✅ • يوتيوب (الفيلم الكامل) ⏳",
 }
@@ -218,6 +219,11 @@ ITEMS = [
       yt_title="سأل الأستاذ سؤال بريء… وطلع فخ! 😂 «أصل أنا معملتش الواجب»", hook="زلطة سأل أستاذ فهمي: ممكن تعاقب حد على حاجة ما عملهاش؟… والأستاذ وقع في الفخ 😂📒",
       question="💬 لو إنت أستاذ فهمي… كنت هتعاقبه ولا لأ؟ 😂 👇", headline=["الأستاذ", "وقع!"], bg=f"{REPO}/daily/bg/classroom.png",
       figs=[("fahmy", 3.6, "shock", 0.6, 1, "down", None, None, None, 1260), ("zalata", 3.0, "smug", 0.0, -1, "hips", None, None, None, 1720)]),
+ dict(id="daily_e05", series="daily", kind="episode", ep=5, name="الأرض لسه مبلولة", date="2026-11-29", time="15:00",
+      src_h="يوميات شطة وزلطة - الأرض لسه مبلولة.mp4", src_v="يوميات شطة وزلطة - الأرض لسه مبلولة (تيك توك وريلز وشورتس).mp4",
+      yt_title="عدّى على الأرض وهي بتمسح… واختفى! 😱😂 خالتي عزيزة", hook="عم البواب قرر يعدّي على الأرض وخالتي عزيزة بتمسح… وتاني يوم اختفى! 🧹😂",
+      question="💬 مين في بيتكم زي خالتي عزيزة؟ 😂 منشن عليها 👇", headline=["الأرض", "مبلولة!"], bg=f"{REPO}/s1e10/bg/morning.png",
+      figs=[("aziza", 3.6, "shout", 0.6, 1, "up", None, None, None, 1260), ("bondo2", 3.0, "scared", 0.0, -1, "scared", None, None, None, 1720)]),
  dict(id="nanaa_s2_movie", series="nanaa_s2", kind="movie", ep=None, name="الموسم التاني كامل", date="2026-12-05", time="18:00",
       src_h="عمارة نعناعة م2 - سر البدروم (الفيلم كامل).mp4", src_v=None, chapters=f"{REPO}/movie/s2/chapters.txt",
       yt_title="عمارة نعناعة: سر البدروم - الموسم التاني كامل 🎬", hook="الموسم التاني كله في فيلم واحد: من باب البدروم المقفول… لحد أغنية العمارة! 🔦🤖",
@@ -306,8 +312,9 @@ def thumb_yt(it):
     else:
         lz(bg, 470, 400, hl[0], 240, (255, 255, 255), ow=26, iw=9); lz(bg, 470, 690, hl[1], 260, GOLD, ow=28, iw=10)
     d = ImageDraw.Draw(bg)
-    d.rounded_rectangle([60, 50, 400, 170], 30, fill=(205, 35, 45), outline=(255, 255, 255), width=6)
-    lz(bg, 230, 108, badge_text(it), 78, (255, 255, 255), ow=6, iw=1, shadow=False)
+    bt = badge_text(it); n = len(bt); bw = max(340, 44 * n + 80); bs = 78 if n <= 9 else 70   # pill grows with long sketch names
+    d.rounded_rectangle([60, 50, 60 + bw, 170], 30, fill=(205, 35, 45), outline=(255, 255, 255), width=6)
+    lz(bg, 60 + bw / 2, 108, bt, bs, (255, 255, 255), ow=6, iw=1, shadow=False)
     lz(bg, 470, 975, series_tag(it), 64, (255, 255, 255), ow=8, iw=1)
     logo(bg, 1700, 110, 78)
     bg.convert("RGB").resize((1280, 720), Image.LANCZOS).save(f"{PUB}/thumbs/{it['id']}_yt.jpg", quality=92)
@@ -328,8 +335,9 @@ def thumb_cover(it):
     else:
         lz(bg, 540, 470, hl[0], 190, (255, 255, 255), ow=22, iw=8); lz(bg, 540, 680, hl[1], 210, GOLD, ow=24, iw=9)
     d = ImageDraw.Draw(bg)
-    d.rounded_rectangle([360, 225, 720, 315], 30, fill=(205, 35, 45), outline=(255, 255, 255), width=6)
-    lz(bg, 540, 268, badge_text(it), 64, (255, 255, 255), ow=6, iw=1, shadow=False)
+    bt = badge_text(it); bw = max(360, 38 * len(bt) + 70)
+    d.rounded_rectangle([540 - bw / 2, 225, 540 + bw / 2, 315], 30, fill=(205, 35, 45), outline=(255, 255, 255), width=6)
+    lz(bg, 540, 268, bt, 64, (255, 255, 255), ow=6, iw=1, shadow=False)
     pill = Image.new("RGBA", (W_, H_), (0, 0, 0, 0)); ImageDraw.Draw(pill).rounded_rectangle([140, 1560, 940, 1660], 50, fill=(20, 10, 20, 215), outline=(255, 214, 90, 255), width=5); bg.alpha_composite(pill)
     lz(bg, 540, 1608, series_tag(it), 56, (255, 255, 255), ow=6, iw=1, shadow=False)
     logo(bg, 540, 115, 80)

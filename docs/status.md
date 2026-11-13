@@ -34,6 +34,12 @@
   `raise`, `clap`/`clap2`); trap question in two-shots; Fahmy's speech to the class (nods, Tota claps); «أصلِ انا معملتش الواجب» + glasses glint;
   freeze + cricket, Fahmy speechless (mouth opens/closes, stick up/down, eye twitch, stammer, steam) → audience laugh 5 s (user: max 5 s, audience on top).
   Laugh mix rule (all sketches): GROUP mixed at dialogue RMS +2 dB. `daily/04/ep.py`; publish item `daily_e04` (28/11 15:00).
+- **يوميات «الأرض لسه مبلولة» DELIVERED 2026-11-13** (50 s): user's script (classic joke). NEW recurring character **خالتي عزيزة** (Bandaq's wife,
+  engine `aziza`: tarha + fuchsia galabeya + earrings, voice Dv1UgcydoyiSg2fH2eq8) and **الظابط** (engine `officer`: black uniform + police cap,
+  voice C1WaRk8H5lP4Jvv5OfTN). Lobby (mop swipes, wet-floor shine, bucket dunk + splash, cold tint for the scary smile, slipper print «تششش!»,
+  scream with radial speed lines + crash zoom + shake, Bandaq sweating) → black «تاني يوم...» → outside wall (s2e5 wall.png) Sawsan live with mic,
+  LIVE badge + rising viewer count; officer glances nervously «مستنيين الأرض تنشف» → both laugh together + audience (5 s). `daily/05/ep.py`; item `daily_e05` (29/11 15:00).
+  Thumb badge pill now grows with long sketch names (build.py).
 - Ideas bank: `docs/ideas.md` (التلاجة / أستاذ فهمي المدرس — user ideas 2026-11-12, to adapt).
 
 
