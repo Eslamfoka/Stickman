@@ -2,7 +2,7 @@
 Location: lobby `s1e10/bg/morning.png` (bench). Hero: شطة (rotation). User: NO rain-cloud gag, NO extra tag ending.
 Bandaq on the bench, chin on hand, sighs. Shatta comes down the stairs with his schoolbag whistling → stops.
 S1 «مالك يا عم البواب؟ زعلان ليه؟» | B0 sigh «هـــه…» | B1 «أصل أنا اتخانقت أنا وخالتك عزيزة…»
-FLASHBACK bubble (sepia): Aziza arms crossed, turns her face: A1 «مش هكلمك… أسبوعين! هِمّ!»
+FLASHBACK bubble (sepia): Aziza arms crossed, turns her face: A1 «مش هتكلم معاك… أسبوعين! هِمّ!» (user changed wording — «هكلمك» kept failing)
 S2 (happy, claps) «طب ودي حاجة حلوة! أسبوعين راحة من غير خناق!»
 B2 (to camera, tears) «أنا زعلان… عشان النهارده آخر يوم!» → tears fountain
 END: Shatta bursts laughing, falls on the bench + light audience laugh (≤ 5 s).
