@@ -17,6 +17,10 @@
   Rendered mic/01/mic01_h.mp4 + mic01_v.mp4 (+ mix.wav). Publish item `mic_e01` (24/11 15:00), thumbs + captions HTML done.
   DELIVERED 2026-11-12 23:35: delivery/mic/ YT (58 s, 29 MB) + «(تيك توك وريلز وشورتس)» cover-first vertical (11 MB) + thumbs + captions HTML.
   Laugh rotation next: ep2 = زلطة.
+- **«يوميات شطة وزلطة» 01 «التلاجة» DELIVERED 2026-11-13** (38.6 s): user's own script (`daily/01/script.md`), lines Shatta/Zalata/Bandaq,
+  ending = Bandaq's laugh. New canonical location «سلم عمارة الجيران» `daily/bg/stairs_jeeran.png` (side view; plaque «الدور 10» drawn in code).
+  Bandaq: galabeya hem held in his teeth while climbing (NEW engine option `CH["bondo2"]["hem"]=True`), drops it to talk; he stands lower on the stairs.
+  `daily/01/ep.py` → delivery/daily/ YT + cover-first vertical; publish item `daily_e01` (25/11 15:00), thumbs + captions done.
 - Ideas bank: `docs/ideas.md` (التلاجة / أستاذ فهمي المدرس — user ideas 2026-11-12, to adapt).
 
 

@@ -114,7 +114,12 @@ def draw_char(p, who, x, y, s=1.0, expr="neutral", mouth=0.0, look=0, blink=Fals
         p.ell(hand[0], hand[1], 5 * s, 5 * s, INK, None)
     arm(lsh, la, -1); arm(rsh, ra, 1)
     # body
-    if gal:
+    if gal and c.get("hem"):   # galabeya hem lifted and held in the teeth (Egyptian baladi/sa'idi look)
+        p.line([(x - 12 * s, y - 58 * s), (x - 14 * s, y)], INK, lw); p.line([(x + 12 * s, y - 58 * s), (x + 14 * s, y)], INK, lw)
+        p.poly([(x - 24 * s, sh), (x + 24 * s, sh), (x + 38 * s, y - 52 * s), (x - 38 * s, y - 52 * s)], shirt, INK, 2.5 * s)
+        dk = tuple(max(0, v - 35) for v in shirt[:3]) + (255,)
+        p.poly([(x - 30 * s, y - 52 * s), (x + 30 * s, y - 52 * s), (x + 8 * s, sh + 10 * s), (x - 8 * s, sh + 10 * s)], dk, INK, 2 * s)
+    elif gal:
         p.poly([(x - 24 * s, sh), (x + 24 * s, sh), (x + 44 * s, y - 26 * s), (x - 44 * s, y - 26 * s)], shirt, INK, 2.5 * s)
     elif who == "tota":
         p.poly([(x - 18 * s, sh), (x + 18 * s, sh), (x + 40 * s, hip + 12 * s), (x - 40 * s, hip + 12 * s)], shirt, INK, 2.5 * s)
@@ -322,7 +327,12 @@ def draw_char(p, who, x, y, s=1.0, expr="neutral", mouth=0.0, look=0, blink=Fals
                 (hx + 17 * s, hy + 20 * s), (hx + 9 * s, hy + 16 * s), (hx, hy + 16 * s)], INK, INK, 1 * s)
     # mouth
     my = hy + 28 * s
-    if expr == "laugh":   # big open D mouth (always open, wider with the voice)
+    if c.get("hem") and gal:
+        dk = tuple(max(0, v - 35) for v in shirt[:3]) + (255,)
+        p.poly([(hx - 7 * s, my), (hx + 7 * s, my), (x + 8 * s, sh + 10 * s), (x - 8 * s, sh + 10 * s)], dk, INK, 2 * s)
+        p.ell(hx, my, 13 * s, 6 * s, shirt, INK, 2 * s)
+        p.line([(hx - 9 * s, my - 1 * s), (hx + 9 * s, my + 1 * s)], dk, 1.5 * s)
+    elif expr == "laugh":   # big open D mouth (always open, wider with the voice)
         o = 0.55 + 0.45 * min(1.0, mouth * 1.4)
         p.d.pieslice([p.S(hx - 18 * s), p.S(my - 12 * s), p.S(hx + 18 * s), p.S(my + (4 + 20 * o) * s)], 0, 180, fill=(130, 24, 24, 255), outline=INK, width=p.S(2.5 * s))
         p.ell(hx, my + (1 + 13 * o) * s, 8 * s, 4 * s, (225, 95, 95, 255), None)

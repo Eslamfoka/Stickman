@@ -38,3 +38,5 @@ movie/s2/list.txt
 movie/s2/title_a.wav
 mic/*/l_*.txt
 mic/*/still_*
+daily/*/l_*.txt
+daily/*/still_*

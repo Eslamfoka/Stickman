@@ -3,7 +3,7 @@ Short sketches (30–60 s, vertical first + horizontal), same cast & rules (pron
 Both ideas were inspired by Mr. Stick videos the user liked (screenshots in the chat) → keep only the *spirit*, change the setup,
 place, wording and punchline so the episode is ours (avoid "reused content" on YouTube/FB monetization).
 
-## 1. التلاجة — «خبر حلو وخبر وحش»
+## 1. التلاجة — «خبر حلو وخبر وحش»  ✅ DONE as يوميات 01 (user's final script in daily/01/script.md; a classic Egyptian joke)
 - شطة وزلطة طالعين تلاجة على سلم عمارة، عرقانين ودايخين (نجوم حوالين الراس).
 - شطة: «عندي خبر حلو وخبر وحش». زلطة: «قول الحلو الأول». شطة: «إحنا في الدور قبل الأخير… الدور العاشر!» → زلطة يفرح.
 - زلطة: «طب قول الوحش». شطة: «إحنا دخلنا عمارة غلط» 🤣
