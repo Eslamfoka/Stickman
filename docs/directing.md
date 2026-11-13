@@ -49,6 +49,10 @@ Viewers on TikTok/Reels/Shorts decide in the first second. Every video (H and V,
 - Camera: real coverage per scene (wide → OTS → CU → insert/POV), purposeful moves only.
 
 
+## Sketch series naming (user, 2026-11-13)
+«يوميات شطة وزلطة» and «ميكروفون توتة» are standalone sketches, NOT episodes: never write «الحلقة 1/2…» on screen, in titles,
+thumbnails, covers, captions or file names — use the sketch name only (e.g. «التلاجة»). (`publish/build.py` SKETCH tuple handles badges/titles.)
+
 ## Dialogue framing (user, 2026-11-12 — after «ميكروفون توتة» 01)
 - When two characters talk to each other, keep BOTH in one frame (two-shot / medium two-shot) for the dialogue.
   Vary the two-shot (slightly left/right, different size, slow push-in) instead of cutting between singles.

@@ -190,13 +190,13 @@ ITEMS = [
       figs=[("zalata", 3.0, "happy", 0.3, -1, "up", None, None, None, 1750), ("shatta", 4.2, "happy", 0.6, -1, "up", None, None, None, 1300)]),
  # ---------------- «ميكروفون توتة» (Tota the reporter: one question, flipped punchline, trademark laugh) ----------------
  dict(id="mic_e01", series="mic", kind="episode", ep=1, name="السجاير والعربية", date="2026-11-24", time="15:00",
-      src_h="ميكروفون توتة - الحلقة 01 - السجاير والعربية.mp4", src_v="ميكروفون توتة - الحلقة 01 - السجاير والعربية (تيك توك).mp4",
+      src_h="ميكروفون توتة - السجاير والعربية.mp4", src_v="ميكروفون توتة - السجاير والعربية (تيك توك).mp4",
       yt_title="عم بندق وحسبة السجاير! 🚬🚗", hook="توتة نزلت بالميكروفون وحسبت لعم بندق السجاير بتاعته… مليون جنيه! بس رده قلب الطاولة 😂",
       question="💬 لو إنت مكان توتة… كنت هترد على عم بندق تقول إيه؟ 😂 👇", headline=["مليون", "جنيه!"], bg=f"{REPO}/s2e3/bg/street_day.png",
       figs=[("tota", 3.0, "smug", 0.0, 1, "hips", None, None, None, 1760), ("bondo2", 4.2, "shock", 0.6, -1, "down", None, None, None, 1290)]),
  # ---------------- «يوميات شطة وزلطة» (everyday Egyptian comedy sketches) ----------------
  dict(id="daily_e01", series="daily", kind="episode", ep=1, name="التلاجة", date="2026-11-25", time="15:00",
-      src_h="يوميات شطة وزلطة - الحلقة 01 - التلاجة.mp4", src_v="يوميات شطة وزلطة - الحلقة 01 - التلاجة (تيك توك).mp4",
+      src_h="يوميات شطة وزلطة - التلاجة.mp4", src_v="يوميات شطة وزلطة - التلاجة (تيك توك).mp4",
       yt_title="طلعوا التلاجة 10 أدوار… في العمارة الغلط! 😂", hook="شطة وزلطة طالعين بالتلاجة وتعبانين موت… وعم بندق عنده خبرين: واحد حلو وواحد وحش 😂",
       question="💬 لو إنت مكان شطة وزلطة… كنت هتعمل إيه في عم بندق؟ 😂 👇", headline=["عمارة", "غلط!"], bg=f"{REPO}/daily/bg/stairs_jeeran.png",
       figs=[("zalata", 3.0, "angry", 0.0, 1, "down", None, None, None, 1260), ("shatta", 3.0, "angry", 0.0, -1, "down", None, None, None, 1720)]),
@@ -250,7 +250,11 @@ ITEMS = [
 def kit_col(k):
     return {"RED": (205, 35, 45), "BLUE": (40, 95, 205)}.get(k, k)
 
+SKETCH = ("mic", "daily")   # standalone sketches: never say «الحلقة N» (user, 2026-11-13)
+def label(it): return it["name"] if it["series"] in SKETCH else f"{badge_text(it)}: {it['name']}"
+
 def badge_text(it):
+    if it["series"] in SKETCH: return it["name"]
     if it["kind"] == "movie": return "الفيلم"
     if it["kind"] == "trailer": return "إعلان"
     if it["kind"] == "intro": return "تعرّفوا علينا"
@@ -352,7 +356,7 @@ def yt_description(it):
 
 def short_caption(it, tags):
     q = it["question"]
-    return f"{it['hook']} {badge_text(it)} من «{SERIES[it['series']]['name'].split(' - ')[0].split(':')[0]}» 🎬\n{q}\n{' '.join(tags)}"
+    return f"{it['hook']} {'' if it['series'] in SKETCH else badge_text(it) + ' '}من «{SERIES[it['series']]['name'].split(' - ')[0].split(':')[0]}» 🎬\n{q}\n{' '.join(tags)}"
 
 def pinned(it, platform):
     q = it["question"]
@@ -383,7 +387,7 @@ def build_post(it):
             "video": m["vertical"], "title": yt_title(it, shorts=True), "description": f"{it['hook']}\n\n{LINKS_BLOCK}\n\n{' '.join(S['yt_hashtags'][:5])} #Shorts",
             "tags": S["yt_tags"], "playlist": S["playlist"], "category_id": "24", "made_for_kids": False, "privacy": "public",
             "publish_at_utc": ts.astimezone(dt.timezone.utc).isoformat().replace("+00:00", "Z"), "pinned_comment": pinned(it, "youtube"),
-            "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"}
+            "note": "يتنشر بعد الفيديو العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"}
         p["platforms"]["tiktok"] = {
             "video": m["vertical"], "caption": short_caption(it, S["tt_hashtags"]), "cover_image": thumbs["vertical_cover"],
             "cover_timestamp_ms": 1000, "privacy": "PUBLIC_TO_EVERYONE", "allow_comments": True, "allow_duet": True, "allow_stitch": True,
@@ -413,12 +417,12 @@ L = ["# جدول النشر — «شطة وزلطة»", "", "كل المواعي
      "| التاريخ | الساعة | المحتوى | يوتيوب | تيك توك | انستجرام + فيسبوك | الحالة |", "|---|---|---|---|---|---|---|"]
 for it, p in zip(ITEMS, posts):
     has_v = "vertical" in p["media"]
-    L.append(f"| {it['date']} | {it['time']} | {SERIES[it['series']]['name'].split(':')[0]} — {badge_text(it)}: {it['name']} | ✅ عرض" + (" + Short" if has_v else "") +
+    L.append(f"| {it['date']} | {it['time']} | {SERIES[it['series']]['name'].split(':')[0]} — {label(it)} | ✅ عرض" + (" + Short" if has_v else "") +
              f" | {'✅' if has_v else '—'} | {'✅ ريل' if has_v else ('✅ فيديو فيسبوك' if it['kind']=='movie' else '—')} | {p['status']} |")
 L += ["", "## تفاصيل كل بوست", ""]
 for it, p in zip(ITEMS, posts):
     yt = p["platforms"]["youtube"]
-    L += [f"### {it['date']} {it['time']} — {p['series_name']} — {badge_text(it)}: {it['name']}", "",
+    L += [f"### {it['date']} {it['time']} — {p['series_name']} — {label(it)}", "",
           f"- **الملفات:** `{p['media'].get('horizontal')}`" + (f" + `{p['media']['vertical']}`" if 'vertical' in p['media'] else "") +
           f" (الأصل: {it['src_h']})", f"- **الصور:** `{p['thumbnails']['youtube']}` (يوتيوب) — `{p['thumbnails']['vertical_cover']}` (غلاف طولي)", "",
           "**عنوان يوتيوب:**", "```", yt["title"], "```", "**وصف يوتيوب:**", "```", yt["description"], "```",

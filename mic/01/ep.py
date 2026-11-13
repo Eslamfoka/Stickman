@@ -5,7 +5,7 @@ exec(open(ROOT + "/trend/01/kit.py", encoding="utf-8").read())          # engine
 from locations import loc
 from PIL import ImageFont
 os.chdir(ROOT + "/mic/01")
-SERIES = "ميكروفون توتة"; EPT = "الحلقة 1: السجاير والعربية"
+SERIES = "ميكروفون توتة"; EPT = "السجاير والعربية"
 LZ = ROOT + "/brand/fonts/Lalezar-Regular.ttf"
 def load_sfx(names):
     global SFXF
@@ -267,7 +267,7 @@ def endcard(tt, sh):
     if sc > 0:
         lzt(fr, W / 2, 420, "ميكروفون توتة", int(150 * sc), (255, 255, 255))
         d = ImageDraw.Draw(fr, "RGBA"); d.rounded_rectangle([W / 2 - 420, 520, W / 2 + 420, 600], 30, fill=(212, 83, 126, 230))
-        lzt(fr, W / 2, 558, "حلقة جديدة… سؤال جديد!", 54, (255, 255, 255))
+        lzt(fr, W / 2, 558, "سؤال جديد… قريب!", 54, (255, 255, 255))
     if tt >= sh["start"] + 0.6:
         logo(fr, W / 2, 760, 120)
         text(fr, W / 2, 900, "@shattawzalata", 50, (255, 214, 90))

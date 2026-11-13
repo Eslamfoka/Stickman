@@ -4,7 +4,7 @@ import sys; sys.path.insert(0, next(str(p / "s1e1") for p in __import__("pathlib
 exec(open(ROOT + "/trend/01/kit.py", encoding="utf-8").read())          # engine + shared helpers
 from PIL import ImageFont
 os.chdir(ROOT + "/daily/01")
-SERIES = "يوميات شطة وزلطة"; EPT = "الحلقة 1: التلاجة"
+SERIES = "يوميات شطة وزلطة"; EPT = "التلاجة"
 LZ = ROOT + "/brand/fonts/Lalezar-Regular.ttf"
 SFXP = {"steps": "/s2e1/sfx/footsteps.mp3", "slam": "/s2e1/sfx/slam.mp3", "whoosh": "/trend/01/sfx/whoosh.mp3",
         "stinger": "/trend/01/sfx/stinger.mp3", "switch": "/trend/01/sfx/switch.mp3"}
@@ -142,7 +142,7 @@ def endcard(tt, sh):
     if sc > 0:
         lzt(fr, W / 2, 420, "يوميات شطة وزلطة", int(140 * sc), (255, 214, 90))
         d = ImageDraw.Draw(fr, "RGBA"); d.rounded_rectangle([W / 2 - 400, 520, W / 2 + 400, 600], 30, fill=(230, 120, 30, 230))
-        lzt(fr, W / 2, 558, "حلقة جديدة كل يوم!", 54, (255, 255, 255))
+        lzt(fr, W / 2, 558, "موقف جديد كل يوم!", 54, (255, 255, 255))
     if tt >= sh["start"] + 0.6:
         logo(fr, W / 2, 760, 120); text(fr, W / 2, 900, "@shattawzalata", 50, (255, 214, 90))
     return fr.convert("RGB")
