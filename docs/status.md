@@ -24,7 +24,11 @@
 - 2026-11-13: sketch series never say «الحلقة N» (user) — mic01/daily01 re-rendered + renamed (no number). Fridge B01 → «ليكم عندي خبرين» (user).
 - **يوميات «بص على رجلي» DELIVERED 2026-11-13** (36.6 s): أستاذ فهمي teacher, crowded class (Tota, Abdo, 6 generic kids `kid0-5`), reactions on every line,
   ending = stand-up style audience laugh (SFX) + Shatta/Tota/Abdo laughs. New location `daily/bg/classroom.png`; engine pose `CH[who]["legup"]`.
-  `daily/02/ep.py`; publish item `daily_e02` (27/11 15:00).
+  `daily/02/ep.py`; publish item `daily_e02` (26/11 15:00).
+- **يوميات «بابا في المستشفى» DELIVERED 2026-11-13** (~64 s): user's script (classic joke). 4 «days», each opens on a CU of a code-drawn wall clock
+  racing later (8:05→8:45) + day title; knock off-screen left → class turns → Shatta walks in; two-shots Fahmy+Shatta (Zalata listening at edge);
+  escalating class reactions (aww SFX → glances → groan + Zalata counting ١٢٣ «٣ أيام؟!» → frozen silence + cricket); F08 shout with shake,
+  Shatta runs out back-to-camera; ending = audience group laugh (3 shots). `daily/03/ep.py`; publish item `daily_e03` (27/11 15:00).
 - Ideas bank: `docs/ideas.md` (التلاجة / أستاذ فهمي المدرس — user ideas 2026-11-12, to adapt).
 
 
