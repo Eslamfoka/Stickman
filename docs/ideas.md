@@ -10,7 +10,7 @@ place, wording and punchline so the episode is ours (avoid "reused content" on Y
 - Our touches to add: زلطة's percentage gag («احتمال نوصل: …%»), the wrong building = «عمارة الجيران» from ترند الأسبوع,
   عم بندق at the bottom of the stairs («أنا صاحي أهو!»), end on the trademark laugh (rotation).
 
-## 2. أستاذ فهمي المدرس — «بص على رجلي واعرف اسمي»
+## 2. أستاذ فهمي المدرس — «بص على رجلي واعرف اسمي»  ✅ DONE (daily/02)
 - فصل؛ أستاذ فهمي مدرّس، راسم على السبورة رجلين حيوان بس.
 - يسأل زلطة: «تعرف تقولي الحيوان ده إيه من رجليه؟» زلطة: «حمار؟» — «غلط!» — «معزة؟» — «غلط!» (فهمي يتعصب).
 - فهمي: «إنت اسمك إيه؟» زلطة يرفع رجله: «بص على رجلي… واعرف اسمي!» 🤣

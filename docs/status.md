@@ -21,6 +21,10 @@
   ending = Bandaq's laugh. New canonical location «سلم عمارة الجيران» `daily/bg/stairs_jeeran.png` (side view; plaque «الدور 10» drawn in code).
   Bandaq: galabeya hem held in his teeth while climbing (NEW engine option `CH["bondo2"]["hem"]=True`), drops it to talk; he stands lower on the stairs.
   `daily/01/ep.py` → delivery/daily/ YT + cover-first vertical; publish item `daily_e01` (25/11 15:00), thumbs + captions done.
+- 2026-11-13: sketch series never say «الحلقة N» (user) — mic01/daily01 re-rendered + renamed (no number). Fridge B01 → «ليكم عندي خبرين» (user).
+- **يوميات «بص على رجلي» DELIVERED 2026-11-13** (36.6 s): أستاذ فهمي teacher, crowded class (Tota, Abdo, 6 generic kids `kid0-5`), reactions on every line,
+  ending = stand-up style audience laugh (SFX) + Shatta/Tota/Abdo laughs. New location `daily/bg/classroom.png`; engine pose `CH[who]["legup"]`.
+  `daily/02/ep.py`; publish item `daily_e02` (27/11 15:00).
 - Ideas bank: `docs/ideas.md` (التلاجة / أستاذ فهمي المدرس — user ideas 2026-11-12, to adapt).
 
 
