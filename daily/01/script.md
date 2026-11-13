@@ -8,10 +8,11 @@ B01 بندق: أنا ليّا عندكم خبرين يا ولاد: واحد حل
 S01 شطة: إيه الخبر الحلو يا عم بندق؟
 B02 بندق: إحنا في الدور العاشر… وفاضل دور واحد بس!
   → شطة وزلطة ينبسطوا (reaction only, no words).
-S02 شطة: طب إيه الخبر الوحش بقى يا عم بندق؟
+Z01 زلطة: طب إيه الخبر الوحش بأه يا عم بندق؟
 B03 بندق: دي مش العمارة بتاعتنا.
   → شطة وزلطة يبصوا لبعض: تعب + غيظ، من غير كلام… ويرموا التلاجة (مش أوي — تنزل كام سلمة / تتسند).
-- Closing: trademark laugh — عم بندق OR توتة (user to pick from the test).
+- Closing: trademark laugh — عم بندق (user pick).
 Directing: keep the speakers in one frame (two-shot / three-shot) during the dialogue.
 
 Pronunciation test (flow 2GrEEIN3ztJZPqWrtDbS): Bandaq urDffFw3mH18Neng3j8v (1–7: 1–5 lines, 6 = بتاعتنا bare, 7 = his laugh) | Shatta qT2RUupJOBOJNArXXieL (8–10: lines + panting) | Tota M8xJ6oQRk1La6mhVNt8M (11 = her laugh). Waiting for per-number OK + laugh choice (Bandaq 7 vs Tota 11).
+User: ending = Bandaq's laugh (#7). Line 9 «...الوحش بقى» = ZALATA's line (not Shatta); «بقى» was read with ي → retest in Zalata's voice (sLO9dekhzCLICzBXoutM) gen 4nQxrujqSmp0E1q438M1: 1 بَأَه | 2 بَأا | 3 بأه (bare).
