@@ -72,9 +72,9 @@ for i in range(4):
         d["seat"] = (t, t + 1.5); shot("st", t, t + 1.5, WIDE, (1040, 580, 1.06)); t += 1.5
     d["end"] = t; DAYS.append(d)
 LAUGH = t; LU = DUR["GROUP"]
-shot("st", t, t + 2.6, (1240, 610, 1.32), (1240, 610, 1.4), tin="whipl")
-shot("st", t + 2.6, t + 4.6, (1350, 610, 1.8), (1350, 615, 1.9), tin="whip")              # Zalata/Tota/Abdo in tears
-shot("st", t + 4.6, t + LU + 0.2, (820, 610, 2.1), (1100, 600, 1.35), tin="whipl")        # Fahmy fuming → pull back
+shot("st", t, t + 1.9, (1240, 610, 1.32), (1240, 610, 1.4), tin="whipl")
+shot("st", t + 1.9, t + 3.3, (1350, 610, 1.8), (1350, 615, 1.9), tin="whip")              # Zalata/Tota/Abdo in tears
+shot("st", t + 3.3, t + LU + 0.2, (820, 610, 2.1), (1100, 600, 1.35), tin="whipl")        # Fahmy fuming → pull back
 t += LU + 0.2; FREEZE = t - 0.25
 shot("end", t, t + 2.6, None); t += 2.6
 TOTAL = t
@@ -324,7 +324,13 @@ def build_audio(path="mix.wav"):
     for s_ in shots:
         if s_.get("tin") in ("whip", "whipl") and s_["start"] > 0.5: mix_into(buf, SFXF["whoosh"] * 0.25, s_["start"] - 0.1, 1.0)
     for k_, f in enumerate((784, 988, 1175, 1568)): mix_into(buf, tone(f, 0.4, 0.14, 6), TOTAL - 2.4 + k_ * 0.09, 1.0)
-    mix_lines(buf)
+    rms = lambda x: float(np.sqrt(np.mean(x ** 2))) + 1e-9
+    ref = []
+    for st, k in lines:
+        v = AUD[k] / max(1e-6, np.percentile(np.abs(AUD[k]), 99.5)) * 0.8
+        if k == "GROUP": continue
+        ref.append(rms(v)); mix_into(buf, v, st, 1.0)
+    g = AUD["GROUP"]; mix_into(buf, g / rms(g) * float(np.mean(ref)) * 1.25, LAUGH, 1.0)   # crowd laugh ~2 dB above the dialogue
     write_wav(buf[:int(TOTAL * SR)], path)
 
 if __name__ == "__main__":
