@@ -18,3 +18,15 @@ place, wording and punchline so the episode is ours (avoid "reused content" on Y
   شطة in the back row eating chips, «يا رشدي» callback optional.
 
 Where they fit: «يوميات شطة وزلطة» (everyday comedy) — or a new sketch slot next to «ميكروفون توتة». Decide with the user.
+
+## Batch for 27/11 → 3/12 (proposal 2026-11-13, waiting for the user's pick)
+User asked to adapt high-reach stickman content (Mr. Stick & co). Rule: keep only the proven FORMATS (good news/bad news, teacher logic,
+flipped punchline, misunderstanding) + classic Egyptian folk jokes — never copy a specific video's script, staging or art (copyright +
+YouTube "reused content" demonetization).
+3. يوميات — الحلاق: «عايز قصة زي اللي في الصورة» → «طب هات الراس اللي في الصورة».
+4. يوميات — اتأخرت ليه؟: «اليافطة اللي على الطريق مكتوب عليها: مدرسة… هدّي السرعة».
+5. ميكروفون توتة — السؤال لعبده (laugh = زلطة): «إيه أكتر حاجة بتخوفك؟» «الشغل» «ليه؟» «عمري ما جربته».
+6. يوميات — الدكتور: عم بندق «كل ما أشرب الشاي عيني توجعني» → «شيل المعلقة من الكوباية».
+7. يوميات — الغش: «ليه إجابتكم زي بعض؟» «عشان السؤال واحد يا أستاذ».
+8. يوميات — ستي نعناعة والتليفون: «إنت فين؟» «في البيت» «افتح الباب… أنا واقفة وراه من ساعة».
+9. ميكروفون توتة — السؤال لفهمي (laugh = توتة): «بتعمل إيه لما تزهق؟» «بشتغل» «وأما تشتغل؟» «بزهق».
