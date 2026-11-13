@@ -45,7 +45,7 @@
   when he sees him); sepia thought-bubble flashback of Aziza (arms crossed → turns her back «هِمّ!»; line reworded by user to «مش هتكلم معاك»);
   Shatta claps «أسبوعين راحة!»; Bandaq «النهارده آخر يوم!» plain sad (user: crying was over the top → calm re-take, single tear, fountain removed) → Shatta's laugh + light audience (5 s). User: no rain-cloud gag,
   no extra tag. FIX: first cut had «أسبوعين راحة من غير خناق» glued to the laugh (heard after «آخر يوم») — recut at the real gap (6.72 s). `daily/06/ep.py`; item `daily_e06` (30/11 15:00).
-- **PUBLISHING (user, 2026-11-13):** the 7 sketches went out on **Facebook + Instagram only**: «السجاير والعربية» published 13/11, «التلاجة» scheduled 13/11 22:00, «بص على رجلي» → «آخر يوم» scheduled 14→18/11 at 22:00 (with the Nanaa episode). YouTube + TikTok not yet. FB/IG need new sketches from 19/11.
+- **PUBLISHING (user, 2026-11-13):** the 7 sketches went out on **Facebook + Instagram only**: «السجاير والعربية» published 13/11, «التلاجة» scheduled 13/11 22:00, «بص على رجلي» → «آخر يوم» scheduled 14→18/11 at 22:00 (with the Nanaa episode). + YouTube Shorts on the same dates (Shorts only, for views). Horizontal YouTube + TikTok not yet. Need new sketches from 19/11.
 - Ideas bank: `docs/ideas.md` (التلاجة / أستاذ فهمي المدرس — user ideas 2026-11-12, to adapt).
 
 
