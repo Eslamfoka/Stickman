@@ -76,3 +76,10 @@ W=1920 H=1080 FPS=24 SR=44100 SS=1.5. `draw_char(p, who, x, y, s, expr, mouth, l
 - held: key torch paper lantern broom basket photo nbpen phone slipper tray sweet keys chipsbag chips notebook.
 - Episode script pattern: SUB/WHO/EXPR/ARMS dicts → `say()`/`shot()` timeline, camera c0→c1 (ease/crash), `CU()` close-ups, `actors()` per set, `props()`, `light_map()` glows (1/8 res → multiply → brightness), silhouettes, eyes-only blackouts, grain + vignette, lip-sync envelope (+2 frame lead), footsteps synced to walk phase, synth SFX (knock, boom, sting, tock, powercut, drone), vertical layout (blurred bg, 1080×608 at y=560, gold bars, title, subtitles, puzzle box), loudnorm I=-15.
 - S2E8: «الحَفْر» read with damma on ḥa (Tota, Pasha) even bare → avoid the noun (use «التَّعَب», «ما كانْش بِيِكْدِب»); «بِيِحْفِرُوا بِجَدّ» also rejected. «مِطَفِّي» read with heavy shadda → «فاصِل خالِص». «ناقْصُه» bad → «مِن غِير ... بِتاعُه». Shatta «صَنْدُوق/لَقِيناه» came out with g → write «صَنْدُوء!... لَئِيناه!». «يِرَكِّبُه» shadda weak → «يِحُطُّه فِي مَكانُه». «بِتْبُوسْها» (sun) disliked → «شُعاع الشَّمْس بِيِيجِي عَلِيها».
+
+## Line-cutting & audio-fix rules (lesson 2026-11-13, daily/04 «الواجب»)
+- Cut lines with INPUT seek: `ffmpeg -ss A -to B -i take.mp3 -af "afade=t=in:d=0.02,afade=t=out:st=<B-A-0.06>:d=0.06" out.mp3`.
+  Output seek (`-i take.mp3 -ss A -to B`) applies the fade on the ORIGINAL timeline → silent / truncated lines (F02/F04 were silent, Z02/F03 cut).
+- After cutting, measure every line (`volumedetect` mean ≈ -16…-26 dB; -91 dB = silent) BEFORE sending the review MP3.
+- Lip-sync (ENV) is computed from the line audio at render time → any audio change = re-render the PICTURE too, not only remux mix.wav.
+- Group laugh (sketches): ≤ 5 s, audience SFX on top, mixed at dialogue RMS +2 dB (see build_audio in daily/03-04).
