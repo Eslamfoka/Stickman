@@ -3,7 +3,7 @@
 Target before launch: **one full month ready** (30 days × at least 1 post/day, most days 2–3).
 
 ## FB + IG ACTUAL (user, 2026-11-13): 7 sketches went out EARLY on Facebook + Instagram only —
- mic «السجاير والعربية» published 13/11 · «التلاجة» scheduled 13/11 22:00 · «بص على رجلي»…«آخر يوم» scheduled 14→18/11 (one per day).
+ mic «السجاير والعربية» published 13/11 · «التلاجة» scheduled 13/11 22:00 · «بص على رجلي»…«آخر يوم» scheduled 14→18/11 at 22:00 (one per day, same time as the Nanaa episode).
  YouTube + TikTok for these 7 NOT published yet. New sketches needed on FB/IG from 19/11.
 
 ## CURRENT RULE (user, 2026-11-13) — 2 videos every day, starting with S2 (24/11)
