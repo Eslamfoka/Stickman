@@ -37,6 +37,8 @@ IDs work only on the same ElevenLabs account; otherwise clone from `voices/` sam
 | عم رشدي | YGNy6U5O3z3BYj90svXp |
 | الباشا | DshUoc3RyCINORBPyoO6 (cloned from Ep2 lines) |
 | عبده | 6tlJFr3s8vKbR6uPJDm9 (designed on this account, preview #3) |
+| خالتي عزيزة (مرات بندق) | Dv1UgcydoyiSg2fH2eq8 (designed 2026-11-13, preview #1 — user: voice approved) |
+| الظابط | C1WaRk8H5lP4Jvv5OfTN (designed 2026-11-13, preview #1) |
 | صفيح | = عم رشدي YGNy6U5O3z3BYj90svXp + robot filter **B** (user pick 2026-11-12): afftfilt robotize win 1024 + 25% dry, aecho 7/14 ms, flanger, hp 250 / lp 4500 — see s2e5 `robot_fx()` |
 
 ### Previous account (de970f…, cloned 2026-11-09) — Ep1/Ep2 were made with these
