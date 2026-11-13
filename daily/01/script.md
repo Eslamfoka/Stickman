@@ -4,7 +4,7 @@ User: this is a well-known Egyptian joke told in many places (not taken from Mr.
 Set: stairwell of ANOTHER building (new location «سلم عمارة الجيران», generate once → docs/locations.md). Sign on the wall: «الدور 10».
 - Hook: شطة وزلطة شايلين تلاجة وطالعين بيها السلم، تعبانين أوي (عرق، نهجان، نجوم حوالين الراس).
 - عم بندق بييجي ليهم (motivated entrance: footsteps on the stairs → he comes up behind them).
-B01 بندق: أنا ليّا عندكم خبرين يا ولاد: واحد حلو، وواحد وحش.
+B01 بندق: ليكم عندي خبرين يا ولاد… واحد حلو، وواحد وحش.
 S01 شطة: إيه الخبر الحلو يا عم بندق؟
 B02 بندق: إحنا في الدور العاشر… وفاضل دور واحد بس!
   → شطة وزلطة ينبسطوا (reaction only, no words).
@@ -23,3 +23,4 @@ B02 g9SAMymNTSZZWIFJmpGw | Z01 FtXJcSTMLpZbjssLDCHm | B03 3L5sjsyEgVXxAOKf2pXn |
 Review MP3 «جمل التلاجة - للمراجعة.mp3» sent.
 
 User 2026-11-13: B01 → «ليكم عندي خبرين يا ولاد… واحد حلو، وواحد وحش». Test gen sAyYV4cLINRm0M2evUMt: 1 لِيكُم (diacritized) | 2 bare | 3 لِيكُو.
+User: all 3 OK → used #1; B01 regenerated gen C8EjC2hExAXfRQAuM3JG.
