@@ -41,3 +41,7 @@ mic/*/still_*
 daily/*/l_*.txt
 daily/*/still_*
 daily/*/still_*
+trend/01/r*.log
+trend/01/p*_mix.wav
+trend/01/part*_?.mp4
+trend/01/movie_?.mp4
