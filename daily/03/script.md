@@ -12,3 +12,7 @@ day 4 Fahmy narrows his eyes before asking.
               S05 شطة (عادي جداً): أصل بابا شغال دكتور. | سكتة… F08 فهمي: شـطــــة!!! → شطة يجري برة، الفصل كله يضحك (ضحكة الجمهور).
 
 Test (flow gtPbObIMXR3upRXYal6V): Fahmy iDFVbxmw8y1IlhotIhBQ (1–8, acted) | Shatta VgvHavkgn3pmmQVi57FF (9–13 acted; 14 = «المستشفا» spelling) | Zalata laugh elS7tLGbaRcYg6S8ASnW (15).
+APPROVED (user): all test items OK; ending = the audience group laugh.
+## Lines = cut from the approved acted test takes (one take each) → daily/03/audio/
+F01–F08 from tests/t1_fahmy.mp3 (iDFVbxmw8y1IlhotIhBQ) | S01–S05 from tests/t2_shatta.mp3 (VgvHavkgn3pmmQVi57FF) | ZLAUGH from t3 (elS7tLGbaRcYg6S8ASnW)
+GROUP = daily/02/sfx/audience_laugh.mp3 + ZLAUGH + Tota + Abdo laughs (no Shatta — he's running away). Review MP3 sent.
