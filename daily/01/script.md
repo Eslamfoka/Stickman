@@ -13,3 +13,5 @@ B03 بندق: دي مش العمارة بتاعتنا.
   → شطة وزلطة يبصوا لبعض: تعب + غيظ، من غير كلام… ويرموا التلاجة (مش أوي — تنزل كام سلمة / تتسند).
 - Closing: trademark laugh — عم بندق OR توتة (user to pick from the test).
 Directing: keep the speakers in one frame (two-shot / three-shot) during the dialogue.
+
+Pronunciation test (flow 2GrEEIN3ztJZPqWrtDbS): Bandaq urDffFw3mH18Neng3j8v (1–7: 1–5 lines, 6 = بتاعتنا bare, 7 = his laugh) | Shatta qT2RUupJOBOJNArXXieL (8–10: lines + panting) | Tota M8xJ6oQRk1La6mhVNt8M (11 = her laugh). Waiting for per-number OK + laugh choice (Bandaq 7 vs Tota 11).
