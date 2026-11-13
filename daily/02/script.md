@@ -31,3 +31,8 @@ New ending (proposal): class bursts laughing → Fahmy «سكوت!» → beat �
 
 User 2026-11-13: DROP «سكوت!» — the scene ENDS on the laugh. The class laugh = like a stand-up comedy audience.
 → SFX eleven_text_to_sound_v2 gen VbWbyP6g2CquzZo4fSEE → daily/02/sfx/audience_laugh.mp3 (7 s); audio/GROUP.wav = audience + Shatta/Tota/Abdo laughs on top.
+APPROVED (user): pronunciation OK; group laugh = option 2 (audience + Shatta/Tota/Abdo) → audio/GROUP.mp3.
+## Lines (flow hmliDWTcrbabRvwzY3vZ, one take each) → daily/02/audio/
+F01 dGHT6niGucDcIeVym9Dl | F02 n0YadmrvRIAgDTKlJ1X1 | Z01 1WxJdjXCpS3W23gSqtOc | F03 8xo1cehSAno7FKEbfc10 | Z02 pbPqs6ceYUDaqAD0PWsH
+F04 r1uHf3z6ygBRA8z7Bbyx | F05 Xp5hAlexa7LVj8z7v6gn | Z03 74AQH2OXAr9W3eMDxKC2 | sfx/giggle.mp3 8VTsletkOIWOZN8ltFKU (class snicker after «حمار؟»)
+Review MP3 sent. Classroom bg generating (gen zlREQ82JT3a7F7OzHYFR).
