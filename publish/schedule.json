@@ -9,7 +9,7 @@
   },
   "timezone_note": "كل المواعيد بتوقيت القاهرة (UTC+2 في نوفمبر). 9 بالليل القاهرة = 10 بالليل الكويت.",
   "media_folder": "publish/media/ (مش على الريبو — حط فيه الفيديوهات بالأسماء المكتوبة في media، والأسامي الأصلية في source_file_names)",
-  "generated": "2026-11-13T03:15:35+00:00",
+  "generated": "2026-11-13T03:22:27+00:00",
   "posts": [
     {
       "id": "brand_intro",
@@ -77,7 +77,7 @@
           "privacy": "public",
           "publish_at_utc": "2026-11-11T20:00:00Z",
           "pinned_comment": "مين فيهم شبهك؟ 😂 اكتبوا اسمه في الكومنتات 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
-          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+          "note": "يتنشر بعد الفيديو العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
         },
         "tiktok": {
           "video": "media/brand_intro_v.mp4",
@@ -176,7 +176,7 @@
           "privacy": "public",
           "publish_at_utc": "2026-11-10T20:00:00Z",
           "pinned_comment": "تفتكروا الكابتن بندق هيفضل بطل الحارة؟ 🤔\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
-          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+          "note": "يتنشر بعد الفيديو العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
         },
         "tiktok": {
           "video": "media/trend01_e01_v.mp4",
@@ -275,7 +275,7 @@
           "privacy": "public",
           "publish_at_utc": "2026-11-10T20:30:00Z",
           "pinned_comment": "مين عنده حق: الكابتن ولا توتة؟ 🎤\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
-          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+          "note": "يتنشر بعد الفيديو العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
         },
         "tiktok": {
           "video": "media/trend01_e02_v.mp4",
@@ -374,7 +374,7 @@
           "privacy": "public",
           "publish_at_utc": "2026-11-11T20:00:00Z",
           "pinned_comment": "شطة غلط ولا الكابتن هو اللي غلط؟ ⚽\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
-          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+          "note": "يتنشر بعد الفيديو العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
         },
         "tiktok": {
           "video": "media/trend01_e03_v.mp4",
@@ -473,7 +473,7 @@
           "privacy": "public",
           "publish_at_utc": "2026-11-11T20:30:00Z",
           "pinned_comment": "الكابتن لازم يعتذر ولا لأ؟ اكتبوا رأيكم 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
-          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+          "note": "يتنشر بعد الفيديو العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
         },
         "tiktok": {
           "video": "media/trend01_e04_v.mp4",
@@ -572,7 +572,7 @@
           "privacy": "public",
           "publish_at_utc": "2026-11-12T20:00:00Z",
           "pinned_comment": "شطة هيرجع العمارة ولا لأ؟ 🏠\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
-          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+          "note": "يتنشر بعد الفيديو العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
         },
         "tiktok": {
           "video": "media/trend01_e05_v.mp4",
@@ -671,7 +671,7 @@
           "privacy": "public",
           "publish_at_utc": "2026-11-12T20:30:00Z",
           "pinned_comment": "مين يستاهل يبقى المدرب الجديد؟ 😂\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
-          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+          "note": "يتنشر بعد الفيديو العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
         },
         "tiktok": {
           "video": "media/trend01_e06_v.mp4",
@@ -770,7 +770,7 @@
           "privacy": "public",
           "publish_at_utc": "2026-11-13T17:00:00Z",
           "pinned_comment": "أحلى حلقة فيهم كانت أنهي؟ 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
-          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+          "note": "يتنشر بعد الفيديو العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
         },
         "tiktok": {
           "video": "media/trend01_movie_v.mp4",
@@ -879,7 +879,7 @@
           "privacy": "public",
           "publish_at_utc": "2026-11-13T20:00:00Z",
           "pinned_comment": "🧩 لغز الحلقة: سمعتوا كام خبطة؟ اكتبوا حلكم 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
-          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+          "note": "يتنشر بعد الفيديو العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
         },
         "tiktok": {
           "video": "media/nanaa_s1_e01_v.mp4",
@@ -980,7 +980,7 @@
           "privacy": "public",
           "publish_at_utc": "2026-11-14T20:00:00Z",
           "pinned_comment": "🧩 لغز الحلقة: «7-30» على المفتاح معناها إيه؟ 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
-          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+          "note": "يتنشر بعد الفيديو العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
         },
         "tiktok": {
           "video": "media/nanaa_s1_e02_v.mp4",
@@ -1081,7 +1081,7 @@
           "privacy": "public",
           "publish_at_utc": "2026-11-15T20:00:00Z",
           "pinned_comment": "🧩 لغز الحلقة: الخبط ده معناه إيه؟ (فكّروا في المورس 😉) 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
-          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+          "note": "يتنشر بعد الفيديو العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
         },
         "tiktok": {
           "video": "media/nanaa_s1_e03_v.mp4",
@@ -1182,7 +1182,7 @@
           "privacy": "public",
           "publish_at_utc": "2026-11-16T20:00:00Z",
           "pinned_comment": "🧩 لغز الحلقة: إزاي الضل طويل وصاحبه قصير؟ 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
-          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+          "note": "يتنشر بعد الفيديو العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
         },
         "tiktok": {
           "video": "media/nanaa_s1_e04_v.mp4",
@@ -1283,7 +1283,7 @@
           "privacy": "public",
           "publish_at_utc": "2026-11-17T20:00:00Z",
           "pinned_comment": "🧩 أستاذ فهمي ده وراه إيه؟ اكتبوا توقعاتكم 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
-          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+          "note": "يتنشر بعد الفيديو العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
         },
         "tiktok": {
           "video": "media/nanaa_s1_e05_v.mp4",
@@ -1384,7 +1384,7 @@
           "privacy": "public",
           "publish_at_utc": "2026-11-18T20:00:00Z",
           "pinned_comment": "🧩 لغز الحلقة: الخبط بيقول اسم مين؟ 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
-          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+          "note": "يتنشر بعد الفيديو العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
         },
         "tiktok": {
           "video": "media/nanaa_s1_e06_v.mp4",
@@ -1485,7 +1485,7 @@
           "privacy": "public",
           "publish_at_utc": "2026-11-19T20:00:00Z",
           "pinned_comment": "🧩 لغز الحلقة: مين اللي سرق الكشكول؟ 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
-          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+          "note": "يتنشر بعد الفيديو العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
         },
         "tiktok": {
           "video": "media/nanaa_s1_e07_v.mp4",
@@ -1586,7 +1586,7 @@
           "privacy": "public",
           "publish_at_utc": "2026-11-20T20:00:00Z",
           "pinned_comment": "🧩 لغز الحلقة: إيه اللي مربوط في البكرة؟ 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
-          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+          "note": "يتنشر بعد الفيديو العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
         },
         "tiktok": {
           "video": "media/nanaa_s1_e08_v.mp4",
@@ -1687,7 +1687,7 @@
           "privacy": "public",
           "publish_at_utc": "2026-11-21T20:00:00Z",
           "pinned_comment": "🧩 لو البواب مش هو اللي بيخبط الساعة 12… يبقى مين؟ 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
-          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+          "note": "يتنشر بعد الفيديو العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
         },
         "tiktok": {
           "video": "media/nanaa_s1_e09_v.mp4",
@@ -1788,7 +1788,7 @@
           "privacy": "public",
           "publish_at_utc": "2026-11-22T20:00:00Z",
           "pinned_comment": "🧩 تفتكروا إيه اللي مستني العيال في البدروم؟ 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
-          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+          "note": "يتنشر بعد الفيديو العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
         },
         "tiktok": {
           "video": "media/nanaa_s1_e10_v.mp4",
@@ -1891,8 +1891,8 @@
         "vertical": "media/mic_e01_v.mp4"
       },
       "source_file_names": {
-        "horizontal": "ميكروفون توتة - الحلقة 01 - السجاير والعربية.mp4",
-        "vertical": "ميكروفون توتة - الحلقة 01 - السجاير والعربية (تيك توك).mp4"
+        "horizontal": "ميكروفون توتة - السجاير والعربية.mp4",
+        "vertical": "ميكروفون توتة - السجاير والعربية (تيك توك).mp4"
       },
       "thumbnails": {
         "youtube": "thumbs/mic_e01_yt.jpg",
@@ -1901,7 +1901,7 @@
       "platforms": {
         "youtube": {
           "video": "media/mic_e01_h.mp4",
-          "title": "عم بندق وحسبة السجاير! 🚬🚗 | ميكروفون توتة - الحلقة 1 | شطة وزلطة",
+          "title": "عم بندق وحسبة السجاير! 🚬🚗 | ميكروفون توتة - السجاير والعربية | شطة وزلطة",
           "description": "توتة نزلت بالميكروفون وحسبت لعم بندق السجاير بتاعته… مليون جنيه! بس رده قلب الطاولة 😂\n\n«ميكروفون توتة» 🎤 — توتة بتنزل بالميكروفون تسأل سؤال واحد… والإجابة دايماً بتقلب الطاولة! سكتش كوميدي من «شطة وزلطة» 🌶️🥗\n\nسؤال جديد من «ميكروفون توتة» قريب… فعّلوا الجرس 🔔\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#ميكروفون_توتة #شطة_وزلطة #كرتون_مصري #كوميدي #ضحك #انيميشن #مصر",
           "tags": [
             "شطة وزلطة",
@@ -1924,7 +1924,7 @@
         },
         "youtube_shorts": {
           "video": "media/mic_e01_v.mp4",
-          "title": "عم بندق وحسبة السجاير! 🚬🚗 | ميكروفون توتة الحلقة 1 #Shorts",
+          "title": "عم بندق وحسبة السجاير! 🚬🚗 | ميكروفون توتة السجاير والعربية #Shorts",
           "description": "توتة نزلت بالميكروفون وحسبت لعم بندق السجاير بتاعته… مليون جنيه! بس رده قلب الطاولة 😂\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#ميكروفون_توتة #شطة_وزلطة #كرتون_مصري #كوميدي #ضحك #Shorts",
           "tags": [
             "شطة وزلطة",
@@ -1942,11 +1942,11 @@
           "privacy": "public",
           "publish_at_utc": "2026-11-24T14:00:00Z",
           "pinned_comment": "💬 لو إنت مكان توتة… كنت هترد على عم بندق تقول إيه؟ 😂 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
-          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+          "note": "يتنشر بعد الفيديو العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
         },
         "tiktok": {
           "video": "media/mic_e01_v.mp4",
-          "caption": "توتة نزلت بالميكروفون وحسبت لعم بندق السجاير بتاعته… مليون جنيه! بس رده قلب الطاولة 😂 الحلقة 1 من «ميكروفون توتة» 🎬\n💬 لو إنت مكان توتة… كنت هترد على عم بندق تقول إيه؟ 😂 👇\n#ميكروفون_توتة #شطة_وزلطة #كرتون_مصري #كوميدي #ضحك #fyp",
+          "caption": "توتة نزلت بالميكروفون وحسبت لعم بندق السجاير بتاعته… مليون جنيه! بس رده قلب الطاولة 😂 من «ميكروفون توتة» 🎬\n💬 لو إنت مكان توتة… كنت هترد على عم بندق تقول إيه؟ 😂 👇\n#ميكروفون_توتة #شطة_وزلطة #كرتون_مصري #كوميدي #ضحك #fyp",
           "cover_image": "thumbs/mic_e01_cover.jpg",
           "cover_timestamp_ms": 1000,
           "privacy": "PUBLIC_TO_EVERYONE",
@@ -1959,7 +1959,7 @@
         },
         "instagram_reel": {
           "video": "media/mic_e01_v.mp4",
-          "caption": "توتة نزلت بالميكروفون وحسبت لعم بندق السجاير بتاعته… مليون جنيه! بس رده قلب الطاولة 😂 الحلقة 1 من «ميكروفون توتة» 🎬\n💬 لو إنت مكان توتة… كنت هترد على عم بندق تقول إيه؟ 😂 👇\n#ميكروفون_توتة #شطة_وزلطة #كرتون_مصري #كوميدي #ريلز",
+          "caption": "توتة نزلت بالميكروفون وحسبت لعم بندق السجاير بتاعته… مليون جنيه! بس رده قلب الطاولة 😂 من «ميكروفون توتة» 🎬\n💬 لو إنت مكان توتة… كنت هترد على عم بندق تقول إيه؟ 😂 👇\n#ميكروفون_توتة #شطة_وزلطة #كرتون_مصري #كوميدي #ريلز",
           "cover_image": "thumbs/mic_e01_cover.jpg",
           "share_to_facebook": true,
           "publish_at_utc": "2026-11-24T13:00:00Z",
@@ -1967,7 +1967,7 @@
         },
         "facebook_reel": {
           "via": "instagram_reel.share_to_facebook",
-          "caption": "توتة نزلت بالميكروفون وحسبت لعم بندق السجاير بتاعته… مليون جنيه! بس رده قلب الطاولة 😂 الحلقة 1 من «ميكروفون توتة» 🎬\n💬 لو إنت مكان توتة… كنت هترد على عم بندق تقول إيه؟ 😂 👇\n#ميكروفون_توتة #شطة_وزلطة #كرتون_مصري",
+          "caption": "توتة نزلت بالميكروفون وحسبت لعم بندق السجاير بتاعته… مليون جنيه! بس رده قلب الطاولة 😂 من «ميكروفون توتة» 🎬\n💬 لو إنت مكان توتة… كنت هترد على عم بندق تقول إيه؟ 😂 👇\n#ميكروفون_توتة #شطة_وزلطة #كرتون_مصري",
           "note": "مش محتاج رفع منفصل لو انستجرام بيعمل share لفيسبوك",
           "pinned_comment": "💬 لو إنت مكان توتة… كنت هترد على عم بندق تقول إيه؟ 😂 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
         }
@@ -1988,8 +1988,8 @@
         "vertical": "media/daily_e01_v.mp4"
       },
       "source_file_names": {
-        "horizontal": "يوميات شطة وزلطة - الحلقة 01 - التلاجة.mp4",
-        "vertical": "يوميات شطة وزلطة - الحلقة 01 - التلاجة (تيك توك).mp4"
+        "horizontal": "يوميات شطة وزلطة - التلاجة.mp4",
+        "vertical": "يوميات شطة وزلطة - التلاجة (تيك توك).mp4"
       },
       "thumbnails": {
         "youtube": "thumbs/daily_e01_yt.jpg",
@@ -1998,7 +1998,7 @@
       "platforms": {
         "youtube": {
           "video": "media/daily_e01_h.mp4",
-          "title": "طلعوا التلاجة 10 أدوار… في العمارة الغلط! 😂 | يوميات شطة وزلطة - الحلقة 1 | شطة وزلطة",
+          "title": "طلعوا التلاجة 10 أدوار… في العمارة الغلط! 😂 | يوميات شطة وزلطة - التلاجة | شطة وزلطة",
           "description": "شطة وزلطة طالعين بالتلاجة وتعبانين موت… وعم بندق عنده خبرين: واحد حلو وواحد وحش 😂\n\n«يوميات شطة وزلطة» 🌶️🥗 — مواقف يومية مصرية بتحصل لنا كلنا… بس مع شطة وزلطة بتبقى أضحك! سكتش كوميدي قصير\n\nيومية جديدة من «يوميات شطة وزلطة» قريب… فعّلوا الجرس 🔔\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#يوميات_شطة_وزلطة #شطة_وزلطة #كرتون_مصري #كوميدي #ضحك #انيميشن #مصر",
           "tags": [
             "شطة وزلطة",
@@ -2021,7 +2021,7 @@
         },
         "youtube_shorts": {
           "video": "media/daily_e01_v.mp4",
-          "title": "طلعوا التلاجة 10 أدوار… في العمارة الغلط! 😂 | يوميات شطة وزلطة الحلقة 1 #Shorts",
+          "title": "طلعوا التلاجة 10 أدوار… في العمارة الغلط! 😂 | يوميات شطة وزلطة التلاجة #Shorts",
           "description": "شطة وزلطة طالعين بالتلاجة وتعبانين موت… وعم بندق عنده خبرين: واحد حلو وواحد وحش 😂\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#يوميات_شطة_وزلطة #شطة_وزلطة #كرتون_مصري #كوميدي #ضحك #Shorts",
           "tags": [
             "شطة وزلطة",
@@ -2039,11 +2039,11 @@
           "privacy": "public",
           "publish_at_utc": "2026-11-25T14:00:00Z",
           "pinned_comment": "💬 لو إنت مكان شطة وزلطة… كنت هتعمل إيه في عم بندق؟ 😂 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
-          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+          "note": "يتنشر بعد الفيديو العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
         },
         "tiktok": {
           "video": "media/daily_e01_v.mp4",
-          "caption": "شطة وزلطة طالعين بالتلاجة وتعبانين موت… وعم بندق عنده خبرين: واحد حلو وواحد وحش 😂 الحلقة 1 من «يوميات شطة وزلطة» 🎬\n💬 لو إنت مكان شطة وزلطة… كنت هتعمل إيه في عم بندق؟ 😂 👇\n#يوميات_شطة_وزلطة #شطة_وزلطة #كرتون_مصري #كوميدي #ضحك #fyp",
+          "caption": "شطة وزلطة طالعين بالتلاجة وتعبانين موت… وعم بندق عنده خبرين: واحد حلو وواحد وحش 😂 من «يوميات شطة وزلطة» 🎬\n💬 لو إنت مكان شطة وزلطة… كنت هتعمل إيه في عم بندق؟ 😂 👇\n#يوميات_شطة_وزلطة #شطة_وزلطة #كرتون_مصري #كوميدي #ضحك #fyp",
           "cover_image": "thumbs/daily_e01_cover.jpg",
           "cover_timestamp_ms": 1000,
           "privacy": "PUBLIC_TO_EVERYONE",
@@ -2056,7 +2056,7 @@
         },
         "instagram_reel": {
           "video": "media/daily_e01_v.mp4",
-          "caption": "شطة وزلطة طالعين بالتلاجة وتعبانين موت… وعم بندق عنده خبرين: واحد حلو وواحد وحش 😂 الحلقة 1 من «يوميات شطة وزلطة» 🎬\n💬 لو إنت مكان شطة وزلطة… كنت هتعمل إيه في عم بندق؟ 😂 👇\n#يوميات_شطة_وزلطة #شطة_وزلطة #كرتون_مصري #كوميدي #ريلز",
+          "caption": "شطة وزلطة طالعين بالتلاجة وتعبانين موت… وعم بندق عنده خبرين: واحد حلو وواحد وحش 😂 من «يوميات شطة وزلطة» 🎬\n💬 لو إنت مكان شطة وزلطة… كنت هتعمل إيه في عم بندق؟ 😂 👇\n#يوميات_شطة_وزلطة #شطة_وزلطة #كرتون_مصري #كوميدي #ريلز",
           "cover_image": "thumbs/daily_e01_cover.jpg",
           "share_to_facebook": true,
           "publish_at_utc": "2026-11-25T13:00:00Z",
@@ -2064,7 +2064,7 @@
         },
         "facebook_reel": {
           "via": "instagram_reel.share_to_facebook",
-          "caption": "شطة وزلطة طالعين بالتلاجة وتعبانين موت… وعم بندق عنده خبرين: واحد حلو وواحد وحش 😂 الحلقة 1 من «يوميات شطة وزلطة» 🎬\n💬 لو إنت مكان شطة وزلطة… كنت هتعمل إيه في عم بندق؟ 😂 👇\n#يوميات_شطة_وزلطة #شطة_وزلطة #كرتون_مصري",
+          "caption": "شطة وزلطة طالعين بالتلاجة وتعبانين موت… وعم بندق عنده خبرين: واحد حلو وواحد وحش 😂 من «يوميات شطة وزلطة» 🎬\n💬 لو إنت مكان شطة وزلطة… كنت هتعمل إيه في عم بندق؟ 😂 👇\n#يوميات_شطة_وزلطة #شطة_وزلطة #كرتون_مصري",
           "note": "مش محتاج رفع منفصل لو انستجرام بيعمل share لفيسبوك",
           "pinned_comment": "💬 لو إنت مكان شطة وزلطة… كنت هتعمل إيه في عم بندق؟ 😂 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
         }
@@ -2197,7 +2197,7 @@
           "privacy": "public",
           "publish_at_utc": "2026-11-23T20:00:00Z",
           "pinned_comment": "مستعدين للموسم التاني؟ 🔦 اكتبوا توقعاتكم 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
-          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+          "note": "يتنشر بعد الفيديو العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
         },
         "tiktok": {
           "video": "media/nanaa_s2_trailer_v.mp4",
@@ -2298,7 +2298,7 @@
           "privacy": "public",
           "publish_at_utc": "2026-11-24T20:00:00Z",
           "pinned_comment": "🧩 لغز الحلقة: مين اللي غيّر القفل؟ 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
-          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+          "note": "يتنشر بعد الفيديو العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
         },
         "tiktok": {
           "video": "media/nanaa_s2_e01_v.mp4",
@@ -2399,7 +2399,7 @@
           "privacy": "public",
           "publish_at_utc": "2026-11-25T20:00:00Z",
           "pinned_comment": "🧩 لغز الحلقة: الأرقام دي معناها إيه؟ 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
-          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+          "note": "يتنشر بعد الفيديو العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
         },
         "tiktok": {
           "video": "media/nanaa_s2_e02_v.mp4",
@@ -2500,7 +2500,7 @@
           "privacy": "public",
           "publish_at_utc": "2026-11-26T20:00:00Z",
           "pinned_comment": "🧩 لغز الحلقة: سمعنا كلمة «الباشا» فين قبل كده؟ 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
-          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+          "note": "يتنشر بعد الفيديو العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
         },
         "tiktok": {
           "video": "media/nanaa_s2_e03_v.mp4",
@@ -2601,7 +2601,7 @@
           "privacy": "public",
           "publish_at_utc": "2026-11-27T20:00:00Z",
           "pinned_comment": "🧩 لغز الحلقة: الساعة الواقفة في الاستوديو على كام… وليه؟ 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
-          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+          "note": "يتنشر بعد الفيديو العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
         },
         "tiktok": {
           "video": "media/nanaa_s2_e04_v.mp4",
@@ -2702,7 +2702,7 @@
           "privacy": "public",
           "publish_at_utc": "2026-11-28T20:00:00Z",
           "pinned_comment": "🧩 فزورة عم رشدي: «أنا فوق الكل ومليان مية… بس عمري ما شربت». أنا مين؟ 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
-          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+          "note": "يتنشر بعد الفيديو العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
         },
         "tiktok": {
           "video": "media/nanaa_s2_e05_v.mp4",
@@ -2803,7 +2803,7 @@
           "privacy": "public",
           "publish_at_utc": "2026-11-29T20:00:00Z",
           "pinned_comment": "🧩 لغز الحلقة: «أغنية العمارة» اتسجلت سنة كام؟ ركزوا في الفلاش باك 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
-          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+          "note": "يتنشر بعد الفيديو العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
         },
         "tiktok": {
           "video": "media/nanaa_s2_e06_v.mp4",
@@ -2904,7 +2904,7 @@
           "privacy": "public",
           "publish_at_utc": "2026-11-30T20:00:00Z",
           "pinned_comment": "🗳️ صوّتوا: أستاذ فهمي صادق ولا كداب؟ اكتبوا «صادق» أو «كداب» 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
-          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+          "note": "يتنشر بعد الفيديو العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
         },
         "tiktok": {
           "video": "media/nanaa_s2_e07_v.mp4",
@@ -3005,7 +3005,7 @@
           "privacy": "public",
           "publish_at_utc": "2026-12-01T20:00:00Z",
           "pinned_comment": "🧩 لغز الحلقة: أنهي بلاطة؟ النجمة ولا الوردة ولا الهلال ولا السادة؟ ركزوا في شعاع الشمس 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
-          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+          "note": "يتنشر بعد الفيديو العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
         },
         "tiktok": {
           "video": "media/nanaa_s2_e08_v.mp4",
@@ -3106,7 +3106,7 @@
           "privacy": "public",
           "publish_at_utc": "2026-12-02T20:00:00Z",
           "pinned_comment": "🧩 لغز الحلقة: إيه اللي بيغني لوحده في العمارة؟ افتكروا الموسم الأول 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
-          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+          "note": "يتنشر بعد الفيديو العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
         },
         "tiktok": {
           "video": "media/nanaa_s2_e09_v.mp4",
@@ -3207,7 +3207,7 @@
           "privacy": "public",
           "publish_at_utc": "2026-12-03T20:00:00Z",
           "pinned_comment": "🧩 لغز آخر الموسم: المفتاح ده بيفتح إيه؟ اكتبوا توقعاتكم للموسم التالت 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
-          "note": "يتنشر بعد الحلقة العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+          "note": "يتنشر بعد الفيديو العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
         },
         "tiktok": {
           "video": "media/nanaa_s2_e10_v.mp4",

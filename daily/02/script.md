@@ -16,3 +16,11 @@ Z03 زلطة: بص على رجلي… واعرف اسمي.
 - سكتة… عين فهمي ترمش، الطباشيرة تقع من إيده.
 - Closing: trademark laugh — شطة (saved laugh #24 mic/01/audio/laugh_B_shatta.mp3).
 Pronunciation test (flow hmliDWTcrbabRvwzY3vZ): Fahmy TzvuLIaSuAFvagSUQhku gen UNKajtTcczFLYpt8oePf (1–6) | Zalata gen cMqVFIa7QEzV6WqGqmqk (7–10; 10 = line 9 bare). Merged MP3 sent.
+
+## User notes 2026-11-13 (must apply)
+- MOST IMPORTANT: reactions in acting AND in delivery — every line gets listener reactions (class, Shatta, Fahmy).
+- The class is CROWDED with students (rows of generic students) — عبده and توتة are in the class too.
+- Ending = a GROUP laugh (the whole class) instead of Shatta alone: Shatta #24 + Tota + Abdo + class crowd laughter.
+Reaction plan: «حمار؟» → class giggles, Fahmy's eye twitches; «معزة؟» → Abdo snorts, Tota hides a laugh behind her notebook;
+the stick slam → everyone jumps, Shatta's chips fly; «بص على رجلي» → Zalata lifts his leg onto the desk, pushes his glasses up;
+beat of silence (Fahmy's chalk drops) → the whole class explodes laughing, Fahmy turns red with steam.
