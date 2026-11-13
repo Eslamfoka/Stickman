@@ -21,3 +21,5 @@ APPROVED (user 2026-11-13): all test items OK; Zalata retest OK (used #1 «بَ�
 SPANT = Shatta panting (cut from test t2 8.45–12.45) | ZPANT kFFCHksx47BUdrwg1JYE (Zalata panting) | B01 XiiNCEROt6xPFXU4P9XQ | S01 HPoUDfCU4mb5MqoZL9Vd
 B02 g9SAMymNTSZZWIFJmpGw | Z01 FtXJcSTMLpZbjssLDCHm | B03 3L5sjsyEgVXxAOKf2pXn | BLAUGH = Bandaq laugh (cut from test t1 18.95–24.15)
 Review MP3 «جمل التلاجة - للمراجعة.mp3» sent.
+
+User 2026-11-13: B01 → «ليكم عندي خبرين يا ولاد… واحد حلو، وواحد وحش». Test gen sAyYV4cLINRm0M2evUMt: 1 لِيكُم (diacritized) | 2 bare | 3 لِيكُو.
