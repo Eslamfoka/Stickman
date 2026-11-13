@@ -24,3 +24,7 @@ Pronunciation test (flow hmliDWTcrbabRvwzY3vZ): Fahmy TzvuLIaSuAFvagSUQhku gen U
 Reaction plan: «حمار؟» → class giggles, Fahmy's eye twitches; «معزة؟» → Abdo snorts, Tota hides a laugh behind her notebook;
 the stick slam → everyone jumps, Shatta's chips fly; «بص على رجلي» → Zalata lifts his leg onto the desk, pushes his glasses up;
 beat of silence (Fahmy's chalk drops) → the whole class explodes laughing, Fahmy turns red with steam.
+
+Test 2 (sent): 11 Abdo laugh 6tlJFr3s8vKbR6uPJDm9 gen nSgvkWwRGKz8HFeBwaj3 → audio/ALAUGH.mp3 | 12 Fahmy «سُكُوت!» gen yvp0rrjx8fWRRU5KYyDw → audio/FSKOOT.mp3
+| 13 group laugh preview audio/GROUP_preview.wav = SLAUGH (Shatta #24) + TLAUGH (Tota, from daily/01 test #11) + ALAUGH + 4 pitch-shifted «students».
+New ending (proposal): class bursts laughing → Fahmy «سكوت!» → beat → laughter comes back even louder → endcard.
