@@ -2,7 +2,16 @@
 
 Target before launch: **one full month ready** (30 days × at least 1 post/day, most days 2–3).
 
-## Weekly publishing rhythm (once launched)
+## CURRENT RULE (user, 2026-11-13) — 2 videos every day, starting with S2 (24/11)
+Every day = 1 «عمارة نعناعة» episode (21:00) + 1 sketch (يوميات شطة وزلطة / ميكروفون توتة, 15:00). Sketches launch WITH the series, not after it.
+| Date | 15:00 sketch | 21:00 Nanaa |
+|---|---|---|
+| 24/11 | ميكروفون توتة — السجاير والعربية ✅ | S2E1 |
+| 25/11 | يوميات — التلاجة ✅ | S2E2 |
+| 26/11 | يوميات — بص على رجلي ✅ | S2E3 |
+| 27/11 → 3/12 | **7 sketches still needed** | S2E4–E10 |
+
+## Weekly publishing rhythm (older plan, 2026-11-10)
 | Day | Long (YouTube 16:9 + FB) | Short (TikTok / Reels / Shorts 9:16) |
 |---|---|---|
 | Sun–Thu | عمارة نعناعة episode | يوميات شطة وزلطة + vertical cut of the episode |

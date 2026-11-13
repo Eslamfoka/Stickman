@@ -9,7 +9,7 @@
   },
   "timezone_note": "كل المواعيد بتوقيت القاهرة (UTC+2 في نوفمبر). 9 بالليل القاهرة = 10 بالليل الكويت.",
   "media_folder": "publish/media/ (مش على الريبو — حط فيه الفيديوهات بالأسماء المكتوبة في media، والأسامي الأصلية في source_file_names)",
-  "generated": "2026-11-13T03:41:39+00:00",
+  "generated": "2026-11-13T06:14:47+00:00",
   "posts": [
     {
       "id": "brand_intro",
@@ -2077,9 +2077,9 @@
       "kind": "episode",
       "episode": 2,
       "episode_name": "بص على رجلي",
-      "publish_at_cairo": "2026-11-27T15:00:00+02:00",
-      "publish_at_utc": "2026-11-27T13:00:00Z",
-      "status": "جاهز ✅ (يوتيوب + شورتس + تيك توك + ريلز انستا/فيس) — مستني الجدولة 27/11 الساعة 3 العصر",
+      "publish_at_cairo": "2026-11-26T15:00:00+02:00",
+      "publish_at_utc": "2026-11-26T13:00:00Z",
+      "status": "جاهز ✅ (يوتيوب + شورتس + تيك توك + ريلز انستا/فيس) — مستني الجدولة 26/11 الساعة 3 العصر",
       "media": {
         "horizontal": "media/daily_e02_h.mp4",
         "vertical": "media/daily_e02_v.mp4"
@@ -2113,7 +2113,7 @@
           "default_language": "ar",
           "made_for_kids": false,
           "privacy": "public",
-          "publish_at_utc": "2026-11-27T13:00:00Z",
+          "publish_at_utc": "2026-11-26T13:00:00Z",
           "pinned_comment": "💬 إنتوا كنتوا هتقولوا الحيوان ده إيه؟ 😂 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata"
         },
         "youtube_shorts": {
@@ -2134,7 +2134,7 @@
           "category_id": "24",
           "made_for_kids": false,
           "privacy": "public",
-          "publish_at_utc": "2026-11-27T14:00:00Z",
+          "publish_at_utc": "2026-11-26T14:00:00Z",
           "pinned_comment": "💬 إنتوا كنتوا هتقولوا الحيوان ده إيه؟ 😂 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
           "note": "يتنشر بعد الفيديو العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
         },
@@ -2147,7 +2147,7 @@
           "allow_comments": true,
           "allow_duet": true,
           "allow_stitch": true,
-          "publish_at_utc": "2026-11-27T13:00:00Z",
+          "publish_at_utc": "2026-11-26T13:00:00Z",
           "pinned_comment": "💬 إنتوا كنتوا هتقولوا الحيوان ده إيه؟ 😂 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗",
           "note": "لو الأداة مش بتقبل صورة غلاف، استخدم cover_timestamp_ms أو اختار الغلاف يدوي من التطبيق"
         },
@@ -2156,7 +2156,7 @@
           "caption": "أستاذ فهمي رسم رجلين حيوان على السبورة وسأل زلطة: ده إيه؟… والإجابة خلت الفصل كله يموت من الضحك 😂 من «يوميات شطة وزلطة» 🎬\n💬 إنتوا كنتوا هتقولوا الحيوان ده إيه؟ 😂 👇\n#يوميات_شطة_وزلطة #شطة_وزلطة #كرتون_مصري #كوميدي #ريلز",
           "cover_image": "thumbs/daily_e02_cover.jpg",
           "share_to_facebook": true,
-          "publish_at_utc": "2026-11-27T13:00:00Z",
+          "publish_at_utc": "2026-11-26T13:00:00Z",
           "pinned_comment": "💬 إنتوا كنتوا هتقولوا الحيوان ده إيه؟ 😂 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
         },
         "facebook_reel": {
