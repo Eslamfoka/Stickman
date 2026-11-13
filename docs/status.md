@@ -40,6 +40,11 @@
   scream with radial speed lines + crash zoom + shake, Bandaq sweating) → black «تاني يوم...» → outside wall (s2e5 wall.png) Sawsan live with mic,
   LIVE badge + rising viewer count; officer glances nervously «مستنيين الأرض تنشف» → both laugh together + audience (5 s). `daily/05/ep.py`; item `daily_e05` (29/11 15:00).
   Thumb badge pill now grows with long sketch names (build.py).
+- **يوميات «آخر يوم» DELIVERED 2026-11-13** (28 s): user's idea (classic joke). Lobby: Bandaq SITS on a code-drawn dikka (seat plank + legs drawn
+  over him, shins below = sitting trick for galabeya characters), chin in hand, sigh «هـــه...»; Shatta comes down whistling (♪ notes, whistle cut
+  when he sees him); sepia thought-bubble flashback of Aziza (arms crossed → turns her back «هِمّ!»; line reworded by user to «مش هتكلم معاك»);
+  Shatta claps «أسبوعين راحة!»; Bandaq «النهارده آخر يوم!» + tear fountain → Shatta's laugh + light audience (5 s). User: no rain-cloud gag,
+  no extra tag. `daily/06/ep.py`; item `daily_e06` (30/11 15:00).
 - Ideas bank: `docs/ideas.md` (التلاجة / أستاذ فهمي المدرس — user ideas 2026-11-12, to adapt).
 
 

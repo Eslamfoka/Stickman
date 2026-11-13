@@ -9,7 +9,7 @@
   },
   "timezone_note": "كل المواعيد بتوقيت القاهرة (UTC+2 في نوفمبر). 9 بالليل القاهرة = 10 بالليل الكويت.",
   "media_folder": "publish/media/ (مش على الريبو — حط فيه الفيديوهات بالأسماء المكتوبة في media، والأسامي الأصلية في source_file_names)",
-  "generated": "2026-11-13T12:26:11+00:00",
+  "generated": "2026-11-13T12:48:31+00:00",
   "posts": [
     {
       "id": "brand_intro",
@@ -2455,6 +2455,103 @@
           "caption": "عم البواب قرر يعدّي على الأرض وخالتي عزيزة بتمسح… وتاني يوم اختفى! 🧹😂 من «يوميات شطة وزلطة» 🎬\n💬 مين في بيتكم زي خالتي عزيزة؟ 😂 منشن عليها 👇\n#يوميات_شطة_وزلطة #شطة_وزلطة #كرتون_مصري",
           "note": "مش محتاج رفع منفصل لو انستجرام بيعمل share لفيسبوك",
           "pinned_comment": "💬 مين في بيتكم زي خالتي عزيزة؟ 😂 منشن عليها 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        }
+      }
+    },
+    {
+      "id": "daily_e06",
+      "series": "daily",
+      "series_name": "يوميات شطة وزلطة",
+      "kind": "episode",
+      "episode": 6,
+      "episode_name": "آخر يوم",
+      "publish_at_cairo": "2026-11-30T15:00:00+02:00",
+      "publish_at_utc": "2026-11-30T13:00:00Z",
+      "status": "جاهز ✅ (يوتيوب + شورتس + تيك توك + ريلز انستا/فيس) — مستني الجدولة 30/11 الساعة 3 العصر",
+      "media": {
+        "horizontal": "media/daily_e06_h.mp4",
+        "vertical": "media/daily_e06_v.mp4"
+      },
+      "source_file_names": {
+        "horizontal": "يوميات شطة وزلطة - آخر يوم.mp4",
+        "vertical": "يوميات شطة وزلطة - آخر يوم (تيك توك وريلز وشورتس).mp4"
+      },
+      "thumbnails": {
+        "youtube": "thumbs/daily_e06_yt.jpg",
+        "vertical_cover": "thumbs/daily_e06_cover.jpg"
+      },
+      "platforms": {
+        "youtube": {
+          "video": "media/daily_e06_h.mp4",
+          "title": "مراته قالتله مش هتكلم معاك أسبوعين… وزعلان ليه؟! 😂 | يوميات شطة وزلطة - آخر يوم | شطة وزلطة",
+          "description": "عم البواب قاعد زعلان عشان خالتي عزيزة مخاصماه أسبوعين… والسبب الحقيقي هيموتك ضحك 😂💔\n\n«يوميات شطة وزلطة» 🌶️🥗 — مواقف يومية مصرية بتحصل لنا كلنا… بس مع شطة وزلطة بتبقى أضحك! سكتش كوميدي قصير\n\nيومية جديدة من «يوميات شطة وزلطة» قريب… فعّلوا الجرس 🔔\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#يوميات_شطة_وزلطة #شطة_وزلطة #كرتون_مصري #كوميدي #ضحك #انيميشن #مصر",
+          "tags": [
+            "شطة وزلطة",
+            "يوميات شطة وزلطة",
+            "كرتون مصري",
+            "كرتون كوميدي",
+            "نكت مصرية",
+            "انيميشن مصري",
+            "ستيك مان",
+            "كوميدي مصري"
+          ],
+          "thumbnail": "thumbs/daily_e06_yt.jpg",
+          "playlist": "يوميات شطة وزلطة 🌶️🥗",
+          "category_id": "24",
+          "default_language": "ar",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-30T13:00:00Z",
+          "pinned_comment": "💬 لو مكان عم البواب كنت هتزعل ولا هتفرح؟ 😂 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata"
+        },
+        "youtube_shorts": {
+          "video": "media/daily_e06_v.mp4",
+          "title": "مراته قالتله مش هتكلم معاك أسبوعين… وزعلان ليه؟! 😂 | يوميات شطة وزلطة آخر يوم #Shorts",
+          "description": "عم البواب قاعد زعلان عشان خالتي عزيزة مخاصماه أسبوعين… والسبب الحقيقي هيموتك ضحك 😂💔\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#يوميات_شطة_وزلطة #شطة_وزلطة #كرتون_مصري #كوميدي #ضحك #Shorts",
+          "tags": [
+            "شطة وزلطة",
+            "يوميات شطة وزلطة",
+            "كرتون مصري",
+            "كرتون كوميدي",
+            "نكت مصرية",
+            "انيميشن مصري",
+            "ستيك مان",
+            "كوميدي مصري"
+          ],
+          "playlist": "يوميات شطة وزلطة 🌶️🥗",
+          "category_id": "24",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-30T14:00:00Z",
+          "pinned_comment": "💬 لو مكان عم البواب كنت هتزعل ولا هتفرح؟ 😂 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
+          "note": "يتنشر بعد الفيديو العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+        },
+        "tiktok": {
+          "video": "media/daily_e06_v.mp4",
+          "caption": "عم البواب قاعد زعلان عشان خالتي عزيزة مخاصماه أسبوعين… والسبب الحقيقي هيموتك ضحك 😂💔 من «يوميات شطة وزلطة» 🎬\n💬 لو مكان عم البواب كنت هتزعل ولا هتفرح؟ 😂 👇\n#يوميات_شطة_وزلطة #شطة_وزلطة #كرتون_مصري #كوميدي #ضحك #fyp",
+          "cover_image": "thumbs/daily_e06_cover.jpg",
+          "cover_timestamp_ms": 1000,
+          "privacy": "PUBLIC_TO_EVERYONE",
+          "allow_comments": true,
+          "allow_duet": true,
+          "allow_stitch": true,
+          "publish_at_utc": "2026-11-30T13:00:00Z",
+          "pinned_comment": "💬 لو مكان عم البواب كنت هتزعل ولا هتفرح؟ 😂 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗",
+          "note": "لو الأداة مش بتقبل صورة غلاف، استخدم cover_timestamp_ms أو اختار الغلاف يدوي من التطبيق"
+        },
+        "instagram_reel": {
+          "video": "media/daily_e06_v.mp4",
+          "caption": "عم البواب قاعد زعلان عشان خالتي عزيزة مخاصماه أسبوعين… والسبب الحقيقي هيموتك ضحك 😂💔 من «يوميات شطة وزلطة» 🎬\n💬 لو مكان عم البواب كنت هتزعل ولا هتفرح؟ 😂 👇\n#يوميات_شطة_وزلطة #شطة_وزلطة #كرتون_مصري #كوميدي #ريلز",
+          "cover_image": "thumbs/daily_e06_cover.jpg",
+          "share_to_facebook": true,
+          "publish_at_utc": "2026-11-30T13:00:00Z",
+          "pinned_comment": "💬 لو مكان عم البواب كنت هتزعل ولا هتفرح؟ 😂 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        },
+        "facebook_reel": {
+          "via": "instagram_reel.share_to_facebook",
+          "caption": "عم البواب قاعد زعلان عشان خالتي عزيزة مخاصماه أسبوعين… والسبب الحقيقي هيموتك ضحك 😂💔 من «يوميات شطة وزلطة» 🎬\n💬 لو مكان عم البواب كنت هتزعل ولا هتفرح؟ 😂 👇\n#يوميات_شطة_وزلطة #شطة_وزلطة #كرتون_مصري",
+          "note": "مش محتاج رفع منفصل لو انستجرام بيعمل share لفيسبوك",
+          "pinned_comment": "💬 لو مكان عم البواب كنت هتزعل ولا هتفرح؟ 😂 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
         }
       }
     },
