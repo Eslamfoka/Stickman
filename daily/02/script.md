@@ -28,3 +28,6 @@ beat of silence (Fahmy's chalk drops) → the whole class explodes laughing, Fah
 Test 2 (sent): 11 Abdo laugh 6tlJFr3s8vKbR6uPJDm9 gen nSgvkWwRGKz8HFeBwaj3 → audio/ALAUGH.mp3 | 12 Fahmy «سُكُوت!» gen yvp0rrjx8fWRRU5KYyDw → audio/FSKOOT.mp3
 | 13 group laugh preview audio/GROUP_preview.wav = SLAUGH (Shatta #24) + TLAUGH (Tota, from daily/01 test #11) + ALAUGH + 4 pitch-shifted «students».
 New ending (proposal): class bursts laughing → Fahmy «سكوت!» → beat → laughter comes back even louder → endcard.
+
+User 2026-11-13: DROP «سكوت!» — the scene ENDS on the laugh. The class laugh = like a stand-up comedy audience.
+→ SFX eleven_text_to_sound_v2 gen VbWbyP6g2CquzZo4fSEE → daily/02/sfx/audience_laugh.mp3 (7 s); audio/GROUP.wav = audience + Shatta/Tota/Abdo laughs on top.
