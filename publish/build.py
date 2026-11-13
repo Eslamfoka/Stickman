@@ -208,7 +208,7 @@ ITEMS = [
       question="💬 إنتوا كنتوا هتقولوا الحيوان ده إيه؟ 😂 👇", headline=["الفصل", "اتقلب!"], bg=f"{REPO}/daily/bg/classroom.png",
       figs=[("fahmy", 3.6, "shock", 0.6, 1, "down", None, None, None, 1260), ("zalata", 3.0, "smug", 0.0, -1, "hips", None, None, None, 1720)]),
  dict(id="daily_e03", series="daily", kind="episode", ep=3, name="بابا في المستشفى", date="2026-11-27", time="15:00",
-      src_h="يوميات شطة وزلطة - بابا في المستشفى.mp4", src_v="يوميات شطة وزلطة - بابا في المستشفى (تيك توك).mp4",
+      src_h="يوميات شطة وزلطة - بابا في المستشفى.mp4", src_v="يوميات شطة وزلطة - بابا في المستشفى (تيك توك وريلز وشورتس).mp4",
       yt_title="اتأخر 4 أيام وكل مرة «بابا في المستشفى»… لحد ما الأستاذ سأله ليه! 😂", hook="شطة بيتأخر كل يوم والحجة واحدة: بابا في المستشفى… واليوم الرابع أستاذ فهمي سأله السؤال الغلط 😂🏥",
       question="💬 إنتوا كنتوا هتعملوا إيه لو مكان أستاذ فهمي؟ 😂 👇", headline=["بابا في", "المستشفى!"], bg=f"{REPO}/daily/bg/classroom.png",
       figs=[("fahmy", 3.6, "shout", 0.6, 1, "up", None, None, None, 1260), ("shatta", 3.0, "neutral", 0.0, -1, "down", None, None, None, 1720)]),

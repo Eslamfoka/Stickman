@@ -9,7 +9,7 @@
   },
   "timezone_note": "كل المواعيد بتوقيت القاهرة (UTC+2 في نوفمبر). 9 بالليل القاهرة = 10 بالليل الكويت.",
   "media_folder": "publish/media/ (مش على الريبو — حط فيه الفيديوهات بالأسماء المكتوبة في media، والأسامي الأصلية في source_file_names)",
-  "generated": "2026-11-13T06:14:47+00:00",
+  "generated": "2026-11-13T07:30:59+00:00",
   "posts": [
     {
       "id": "brand_intro",
@@ -2164,6 +2164,103 @@
           "caption": "أستاذ فهمي رسم رجلين حيوان على السبورة وسأل زلطة: ده إيه؟… والإجابة خلت الفصل كله يموت من الضحك 😂 من «يوميات شطة وزلطة» 🎬\n💬 إنتوا كنتوا هتقولوا الحيوان ده إيه؟ 😂 👇\n#يوميات_شطة_وزلطة #شطة_وزلطة #كرتون_مصري",
           "note": "مش محتاج رفع منفصل لو انستجرام بيعمل share لفيسبوك",
           "pinned_comment": "💬 إنتوا كنتوا هتقولوا الحيوان ده إيه؟ 😂 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        }
+      }
+    },
+    {
+      "id": "daily_e03",
+      "series": "daily",
+      "series_name": "يوميات شطة وزلطة",
+      "kind": "episode",
+      "episode": 3,
+      "episode_name": "بابا في المستشفى",
+      "publish_at_cairo": "2026-11-27T15:00:00+02:00",
+      "publish_at_utc": "2026-11-27T13:00:00Z",
+      "status": "جاهز ✅ (يوتيوب + شورتس + تيك توك + ريلز انستا/فيس) — مستني الجدولة 27/11 الساعة 3 العصر",
+      "media": {
+        "horizontal": "media/daily_e03_h.mp4",
+        "vertical": "media/daily_e03_v.mp4"
+      },
+      "source_file_names": {
+        "horizontal": "يوميات شطة وزلطة - بابا في المستشفى.mp4",
+        "vertical": "يوميات شطة وزلطة - بابا في المستشفى (تيك توك وريلز وشورتس).mp4"
+      },
+      "thumbnails": {
+        "youtube": "thumbs/daily_e03_yt.jpg",
+        "vertical_cover": "thumbs/daily_e03_cover.jpg"
+      },
+      "platforms": {
+        "youtube": {
+          "video": "media/daily_e03_h.mp4",
+          "title": "اتأخر 4 أيام وكل مرة «بابا في المستشفى»… لحد ما الأستاذ سأله ليه! 😂 | يوميات شطة وزلطة - بابا في الم",
+          "description": "شطة بيتأخر كل يوم والحجة واحدة: بابا في المستشفى… واليوم الرابع أستاذ فهمي سأله السؤال الغلط 😂🏥\n\n«يوميات شطة وزلطة» 🌶️🥗 — مواقف يومية مصرية بتحصل لنا كلنا… بس مع شطة وزلطة بتبقى أضحك! سكتش كوميدي قصير\n\nيومية جديدة من «يوميات شطة وزلطة» قريب… فعّلوا الجرس 🔔\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#يوميات_شطة_وزلطة #شطة_وزلطة #كرتون_مصري #كوميدي #ضحك #انيميشن #مصر",
+          "tags": [
+            "شطة وزلطة",
+            "يوميات شطة وزلطة",
+            "كرتون مصري",
+            "كرتون كوميدي",
+            "نكت مصرية",
+            "انيميشن مصري",
+            "ستيك مان",
+            "كوميدي مصري"
+          ],
+          "thumbnail": "thumbs/daily_e03_yt.jpg",
+          "playlist": "يوميات شطة وزلطة 🌶️🥗",
+          "category_id": "24",
+          "default_language": "ar",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-27T13:00:00Z",
+          "pinned_comment": "💬 إنتوا كنتوا هتعملوا إيه لو مكان أستاذ فهمي؟ 😂 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata"
+        },
+        "youtube_shorts": {
+          "video": "media/daily_e03_v.mp4",
+          "title": "اتأخر 4 أيام وكل مرة «بابا في المستشفى»… لحد ما الأستاذ سأله ليه! 😂 | يوميات شطة وزلطة بابا في المست",
+          "description": "شطة بيتأخر كل يوم والحجة واحدة: بابا في المستشفى… واليوم الرابع أستاذ فهمي سأله السؤال الغلط 😂🏥\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#يوميات_شطة_وزلطة #شطة_وزلطة #كرتون_مصري #كوميدي #ضحك #Shorts",
+          "tags": [
+            "شطة وزلطة",
+            "يوميات شطة وزلطة",
+            "كرتون مصري",
+            "كرتون كوميدي",
+            "نكت مصرية",
+            "انيميشن مصري",
+            "ستيك مان",
+            "كوميدي مصري"
+          ],
+          "playlist": "يوميات شطة وزلطة 🌶️🥗",
+          "category_id": "24",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-27T14:00:00Z",
+          "pinned_comment": "💬 إنتوا كنتوا هتعملوا إيه لو مكان أستاذ فهمي؟ 😂 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
+          "note": "يتنشر بعد الفيديو العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+        },
+        "tiktok": {
+          "video": "media/daily_e03_v.mp4",
+          "caption": "شطة بيتأخر كل يوم والحجة واحدة: بابا في المستشفى… واليوم الرابع أستاذ فهمي سأله السؤال الغلط 😂🏥 من «يوميات شطة وزلطة» 🎬\n💬 إنتوا كنتوا هتعملوا إيه لو مكان أستاذ فهمي؟ 😂 👇\n#يوميات_شطة_وزلطة #شطة_وزلطة #كرتون_مصري #كوميدي #ضحك #fyp",
+          "cover_image": "thumbs/daily_e03_cover.jpg",
+          "cover_timestamp_ms": 1000,
+          "privacy": "PUBLIC_TO_EVERYONE",
+          "allow_comments": true,
+          "allow_duet": true,
+          "allow_stitch": true,
+          "publish_at_utc": "2026-11-27T13:00:00Z",
+          "pinned_comment": "💬 إنتوا كنتوا هتعملوا إيه لو مكان أستاذ فهمي؟ 😂 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗",
+          "note": "لو الأداة مش بتقبل صورة غلاف، استخدم cover_timestamp_ms أو اختار الغلاف يدوي من التطبيق"
+        },
+        "instagram_reel": {
+          "video": "media/daily_e03_v.mp4",
+          "caption": "شطة بيتأخر كل يوم والحجة واحدة: بابا في المستشفى… واليوم الرابع أستاذ فهمي سأله السؤال الغلط 😂🏥 من «يوميات شطة وزلطة» 🎬\n💬 إنتوا كنتوا هتعملوا إيه لو مكان أستاذ فهمي؟ 😂 👇\n#يوميات_شطة_وزلطة #شطة_وزلطة #كرتون_مصري #كوميدي #ريلز",
+          "cover_image": "thumbs/daily_e03_cover.jpg",
+          "share_to_facebook": true,
+          "publish_at_utc": "2026-11-27T13:00:00Z",
+          "pinned_comment": "💬 إنتوا كنتوا هتعملوا إيه لو مكان أستاذ فهمي؟ 😂 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        },
+        "facebook_reel": {
+          "via": "instagram_reel.share_to_facebook",
+          "caption": "شطة بيتأخر كل يوم والحجة واحدة: بابا في المستشفى… واليوم الرابع أستاذ فهمي سأله السؤال الغلط 😂🏥 من «يوميات شطة وزلطة» 🎬\n💬 إنتوا كنتوا هتعملوا إيه لو مكان أستاذ فهمي؟ 😂 👇\n#يوميات_شطة_وزلطة #شطة_وزلطة #كرتون_مصري",
+          "note": "مش محتاج رفع منفصل لو انستجرام بيعمل share لفيسبوك",
+          "pinned_comment": "💬 إنتوا كنتوا هتعملوا إيه لو مكان أستاذ فهمي؟ 😂 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
         }
       }
     },
