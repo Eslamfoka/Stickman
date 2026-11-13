@@ -84,6 +84,7 @@ W=1920 H=1080 FPS=24 SR=44100 SS=1.5. `draw_char(p, who, x, y, s, expr, mouth, l
 ## Line-cutting & audio-fix rules (lesson 2026-11-13, daily/04 «الواجب»)
 - Cut lines with INPUT seek: `ffmpeg -ss A -to B -i take.mp3 -af "afade=t=in:d=0.02,afade=t=out:st=<B-A-0.06>:d=0.06" out.mp3`.
   Output seek (`-i take.mp3 -ss A -to B`) applies the fade on the ORIGINAL timeline → silent / truncated lines (F02/F04 were silent, Z02/F03 cut).
+- When a line and a laugh are in ONE take, find the boundary on a 50 ms energy profile (laugh = pulsed bursts), not silencedetect — a short pause inside the line fooled it (daily/06).
 - After cutting, measure every line (`volumedetect` mean ≈ -16…-26 dB; -91 dB = silent) BEFORE sending the review MP3.
 - Lip-sync (ENV) is computed from the line audio at render time → any audio change = re-render the PICTURE too, not only remux mix.wav.
 - Group laugh (sketches): ≤ 5 s, audience SFX on top, mixed at dialogue RMS +2 dB (see build_audio in daily/03-04).

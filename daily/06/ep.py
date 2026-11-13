@@ -29,8 +29,7 @@ BUB = t; s = t; t = say(t + 0.45, "A1") + 0.35; BUBEND = t                      
 shot("lobby", s, t, (720, 560, 1.55), (720, 560, 1.62))
 s = t; t = say(t + 0.05, "S2") + 0.2; CLAP = s; shot("lobby", s, t, (900, 740, 1.5), (900, 740, 1.6), tin="whip")
 s = t; t = say(t + 0.1, "B2") + 0.2; CRY = s
-shot("lobby", s, s + 1.6, (680, 720, 2.1), (680, 720, 2.3), tin="whipl")
-shot("lobby", s + 1.6, t, (680, 720, 2.6), (680, 710, 2.8))                             # «…آخر يوم!» — the fountain
+shot("lobby", s, t, (700, 720, 2.1), (700, 715, 2.35), tin="whipl")                   # «…آخر يوم!» — plain and sad
 LAUGH = t; LU = DUR["GROUP"]; say(LAUGH, "GROUP")
 shot("lobby", t, t + 2.4, (1080, 700, 2.0), (1080, 710, 1.75), tin="whip")             # Shatta explodes
 shot("lobby", t + 2.4, t + LU + 0.2, (880, 720, 1.45), (880, 720, 1.35))
@@ -149,18 +148,11 @@ def frame(tt):
     if tt >= ENTER[1] - 0.3: blook = 1
     if T("S1") <= tt: barms = "down"; blean = 0.1
     if CLAP <= tt < CRY: bex = "sad"; blook = 1
-    if tt >= CRY: bex = "sad"; blook = 0; barms = "scared" if tt >= CRY + 1.4 else "down"
+    if tt >= CRY: bex = "sad"; blook = 0; barms = "down"
     sag = 6 * math.sin(tt * 1.3) if tt < ENTER[0] else 0
     BXs, BYs, BSs = person(lay, cam, "bondo2", BX, SEAT_Y + 62 * BS + sag, BS, tt, bex, blook, barms, blean)
     bench_front(p, cam); shins(p, cam, BX, BS, 4 * math.sin(tt * 2) if tt >= CRY else 0)
-    if tt >= CRY + 1.4:                                    # the tear fountain
-        hx, hy = BXs, BYs - 190 * BSs
-        for sd in (-1, 1):
-            for k_ in range(9):
-                u = 0.1 + 0.9 * ((tt * 1.8 + k_ / 9) % 1); ex_ = hx + sd * 15 * BSs; ey_ = hy + 2 * BSs
-                px = ex_ + sd * u * 150 * BSs; py = ey_ - 70 * BSs * math.sin(u * math.pi) + u * u * 120 * BSs
-                p.ell(px, py, 6 * BSs, 8 * BSs, (120, 190, 255, int(255 * (1 - u * 0.6))), INK, 1.2 * BSs)
-    elif T("B1") <= tt < CRY:                             # a single tear
+    if T("B1") <= tt < LAUGH:                             # a single tear (user: no over-the-top crying)
         u = ((tt - T("B1")) * 0.6) % 1; hx, hy = BXs, BYs - 190 * BSs
         p.ell(hx - 15 * BSs, hy + 10 * BSs + u * 40 * BSs, 4 * BSs, 6 * BSs, (120, 190, 255, int(255 * (1 - u))), INK, 1 * BSs)
     # Shatta
@@ -171,7 +163,7 @@ def frame(tt):
         if T("S1") <= tt < CLAP: sex = "sad" if tt >= T("B1") else "neutral"
         if BUB <= tt < BUBEND: slook = -1; sex = "shock"
         if CLAP <= tt < CRY: sex = "happy"; sarms = "clap" if int((tt - CLAP) * 7) % 2 else "clap2"; hop = abs(math.sin((tt - CLAP) * 7)) * 8
-        if CRY <= tt < LAUGH: sex = "shock" if tt < CRY + 1.4 else "flat"
+        if CRY <= tt < LAUGH: sex = "flat"
         if laughing:
             sex = "laugh"; sarms = "hips" if int(lu * 5) % 2 else "clap"; lean = -0.35 + math.sin(lu * 9) * 0.15
             hop = abs(math.sin(lu * 8)) * 18; slook = 0
@@ -211,8 +203,6 @@ def build_audio(path="mix.wav"):
     for k_ in range(3): mix_into(buf, tone(880 + k_ * 220, 0.12, 0.18, 18), BUB + k_ * 0.08, 1.0)               # bubble pops
     for k_, f in enumerate((392, 370, 349, 330)): mix_into(buf, tone(f, 0.5, 0.12, 2.5), BUB + 0.1 + k_ * 0.45, 1.0)  # memory chime
     for k_ in range(int((CRY - CLAP) / 0.14)): mix_into(buf, tone(1600, 0.04, 0.22, 60) + tone(900, 0.04, 0.18, 60), CLAP + k_ * 0.14, 1.0)  # claps
-    fz = lowpass(r.normal(0, 1, int(SR * (LAUGH - CRY - 1.4))).astype(np.float32), 2500) * 0.05                 # tear fountain
-    mix_into(buf, fz, CRY + 1.4, 1.0)
     for s_ in shots:
         if s_.get("tin") in ("whip", "whipl") and s_["start"] > 0.5: mix_into(buf, SFXF["whoosh"] * 0.25, s_["start"] - 0.1, 1.0)
     for k_, f in enumerate((784, 988, 1175, 1568)): mix_into(buf, tone(f, 0.4, 0.14, 6), TOTAL - 2.4 + k_ * 0.09, 1.0)
