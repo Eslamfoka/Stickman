@@ -9,7 +9,7 @@
   },
   "timezone_note": "كل المواعيد بتوقيت القاهرة (UTC+2 في نوفمبر). 9 بالليل القاهرة = 10 بالليل الكويت.",
   "media_folder": "publish/media/ (مش على الريبو — حط فيه الفيديوهات بالأسماء المكتوبة في media، والأسامي الأصلية في source_file_names)",
-  "generated": "2026-11-13T12:48:31+00:00",
+  "generated": "2026-11-13T14:24:42+00:00",
   "posts": [
     {
       "id": "brand_intro",
@@ -1883,9 +1883,9 @@
       "kind": "episode",
       "episode": 1,
       "episode_name": "السجاير والعربية",
-      "publish_at_cairo": "2026-11-24T15:00:00+02:00",
-      "publish_at_utc": "2026-11-24T13:00:00Z",
-      "status": "جاهز ✅ (يوتيوب + شورتس + تيك توك + ريلز انستا/فيس) — مستني الجدولة 24/11 الساعة 3 العصر",
+      "publish_at_cairo": "2026-11-13T17:20:00+02:00",
+      "publish_at_utc": "2026-11-13T15:20:00Z",
+      "status": "✅ اتنشر فيس + انستا 13/11 (يوتيوب + تيك توك لسه)",
       "media": {
         "horizontal": "media/mic_e01_h.mp4",
         "vertical": "media/mic_e01_v.mp4"
@@ -1919,7 +1919,7 @@
           "default_language": "ar",
           "made_for_kids": false,
           "privacy": "public",
-          "publish_at_utc": "2026-11-24T13:00:00Z",
+          "publish_at_utc": "2026-11-13T15:20:00Z",
           "pinned_comment": "💬 لو إنت مكان توتة… كنت هترد على عم بندق تقول إيه؟ 😂 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata"
         },
         "youtube_shorts": {
@@ -1940,7 +1940,7 @@
           "category_id": "24",
           "made_for_kids": false,
           "privacy": "public",
-          "publish_at_utc": "2026-11-24T14:00:00Z",
+          "publish_at_utc": "2026-11-13T16:20:00Z",
           "pinned_comment": "💬 لو إنت مكان توتة… كنت هترد على عم بندق تقول إيه؟ 😂 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
           "note": "يتنشر بعد الفيديو العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
         },
@@ -1953,7 +1953,7 @@
           "allow_comments": true,
           "allow_duet": true,
           "allow_stitch": true,
-          "publish_at_utc": "2026-11-24T13:00:00Z",
+          "publish_at_utc": "2026-11-13T15:20:00Z",
           "pinned_comment": "💬 لو إنت مكان توتة… كنت هترد على عم بندق تقول إيه؟ 😂 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗",
           "note": "لو الأداة مش بتقبل صورة غلاف، استخدم cover_timestamp_ms أو اختار الغلاف يدوي من التطبيق"
         },
@@ -1962,7 +1962,7 @@
           "caption": "توتة نزلت بالميكروفون وحسبت لعم بندق السجاير بتاعته… مليون جنيه! بس رده قلب الطاولة 😂 من «ميكروفون توتة» 🎬\n💬 لو إنت مكان توتة… كنت هترد على عم بندق تقول إيه؟ 😂 👇\n#ميكروفون_توتة #شطة_وزلطة #كرتون_مصري #كوميدي #ريلز",
           "cover_image": "thumbs/mic_e01_cover.jpg",
           "share_to_facebook": true,
-          "publish_at_utc": "2026-11-24T13:00:00Z",
+          "publish_at_utc": "2026-11-13T15:20:00Z",
           "pinned_comment": "💬 لو إنت مكان توتة… كنت هترد على عم بندق تقول إيه؟ 😂 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
         },
         "facebook_reel": {
@@ -1980,9 +1980,9 @@
       "kind": "episode",
       "episode": 1,
       "episode_name": "التلاجة",
-      "publish_at_cairo": "2026-11-25T15:00:00+02:00",
-      "publish_at_utc": "2026-11-25T13:00:00Z",
-      "status": "جاهز ✅ (يوتيوب + شورتس + تيك توك + ريلز انستا/فيس) — مستني الجدولة 25/11 الساعة 3 العصر",
+      "publish_at_cairo": "2026-11-13T22:00:00+02:00",
+      "publish_at_utc": "2026-11-13T20:00:00Z",
+      "status": "📅 متجدول فيس + انستا 13/11 الساعة 10 بالليل (يوتيوب + تيك توك لسه)",
       "media": {
         "horizontal": "media/daily_e01_h.mp4",
         "vertical": "media/daily_e01_v.mp4"
@@ -2016,7 +2016,7 @@
           "default_language": "ar",
           "made_for_kids": false,
           "privacy": "public",
-          "publish_at_utc": "2026-11-25T13:00:00Z",
+          "publish_at_utc": "2026-11-13T20:00:00Z",
           "pinned_comment": "💬 لو إنت مكان شطة وزلطة… كنت هتعمل إيه في عم بندق؟ 😂 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata"
         },
         "youtube_shorts": {
@@ -2037,7 +2037,7 @@
           "category_id": "24",
           "made_for_kids": false,
           "privacy": "public",
-          "publish_at_utc": "2026-11-25T14:00:00Z",
+          "publish_at_utc": "2026-11-13T21:00:00Z",
           "pinned_comment": "💬 لو إنت مكان شطة وزلطة… كنت هتعمل إيه في عم بندق؟ 😂 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
           "note": "يتنشر بعد الفيديو العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
         },
@@ -2050,7 +2050,7 @@
           "allow_comments": true,
           "allow_duet": true,
           "allow_stitch": true,
-          "publish_at_utc": "2026-11-25T13:00:00Z",
+          "publish_at_utc": "2026-11-13T20:00:00Z",
           "pinned_comment": "💬 لو إنت مكان شطة وزلطة… كنت هتعمل إيه في عم بندق؟ 😂 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗",
           "note": "لو الأداة مش بتقبل صورة غلاف، استخدم cover_timestamp_ms أو اختار الغلاف يدوي من التطبيق"
         },
@@ -2059,7 +2059,7 @@
           "caption": "شطة وزلطة طالعين بالتلاجة وتعبانين موت… وعم بندق عنده خبرين: واحد حلو وواحد وحش 😂 من «يوميات شطة وزلطة» 🎬\n💬 لو إنت مكان شطة وزلطة… كنت هتعمل إيه في عم بندق؟ 😂 👇\n#يوميات_شطة_وزلطة #شطة_وزلطة #كرتون_مصري #كوميدي #ريلز",
           "cover_image": "thumbs/daily_e01_cover.jpg",
           "share_to_facebook": true,
-          "publish_at_utc": "2026-11-25T13:00:00Z",
+          "publish_at_utc": "2026-11-13T20:00:00Z",
           "pinned_comment": "💬 لو إنت مكان شطة وزلطة… كنت هتعمل إيه في عم بندق؟ 😂 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
         },
         "facebook_reel": {
@@ -2077,9 +2077,9 @@
       "kind": "episode",
       "episode": 2,
       "episode_name": "بص على رجلي",
-      "publish_at_cairo": "2026-11-26T15:00:00+02:00",
-      "publish_at_utc": "2026-11-26T13:00:00Z",
-      "status": "جاهز ✅ (يوتيوب + شورتس + تيك توك + ريلز انستا/فيس) — مستني الجدولة 26/11 الساعة 3 العصر",
+      "publish_at_cairo": "2026-11-14T15:00:00+02:00",
+      "publish_at_utc": "2026-11-14T13:00:00Z",
+      "status": "📅 متجدول فيس + انستا 14/11 (يوتيوب + تيك توك لسه)",
       "media": {
         "horizontal": "media/daily_e02_h.mp4",
         "vertical": "media/daily_e02_v.mp4"
@@ -2113,7 +2113,7 @@
           "default_language": "ar",
           "made_for_kids": false,
           "privacy": "public",
-          "publish_at_utc": "2026-11-26T13:00:00Z",
+          "publish_at_utc": "2026-11-14T13:00:00Z",
           "pinned_comment": "💬 إنتوا كنتوا هتقولوا الحيوان ده إيه؟ 😂 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata"
         },
         "youtube_shorts": {
@@ -2134,7 +2134,7 @@
           "category_id": "24",
           "made_for_kids": false,
           "privacy": "public",
-          "publish_at_utc": "2026-11-26T14:00:00Z",
+          "publish_at_utc": "2026-11-14T14:00:00Z",
           "pinned_comment": "💬 إنتوا كنتوا هتقولوا الحيوان ده إيه؟ 😂 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
           "note": "يتنشر بعد الفيديو العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
         },
@@ -2147,7 +2147,7 @@
           "allow_comments": true,
           "allow_duet": true,
           "allow_stitch": true,
-          "publish_at_utc": "2026-11-26T13:00:00Z",
+          "publish_at_utc": "2026-11-14T13:00:00Z",
           "pinned_comment": "💬 إنتوا كنتوا هتقولوا الحيوان ده إيه؟ 😂 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗",
           "note": "لو الأداة مش بتقبل صورة غلاف، استخدم cover_timestamp_ms أو اختار الغلاف يدوي من التطبيق"
         },
@@ -2156,7 +2156,7 @@
           "caption": "أستاذ فهمي رسم رجلين حيوان على السبورة وسأل زلطة: ده إيه؟… والإجابة خلت الفصل كله يموت من الضحك 😂 من «يوميات شطة وزلطة» 🎬\n💬 إنتوا كنتوا هتقولوا الحيوان ده إيه؟ 😂 👇\n#يوميات_شطة_وزلطة #شطة_وزلطة #كرتون_مصري #كوميدي #ريلز",
           "cover_image": "thumbs/daily_e02_cover.jpg",
           "share_to_facebook": true,
-          "publish_at_utc": "2026-11-26T13:00:00Z",
+          "publish_at_utc": "2026-11-14T13:00:00Z",
           "pinned_comment": "💬 إنتوا كنتوا هتقولوا الحيوان ده إيه؟ 😂 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
         },
         "facebook_reel": {
@@ -2174,9 +2174,9 @@
       "kind": "episode",
       "episode": 3,
       "episode_name": "بابا في المستشفى",
-      "publish_at_cairo": "2026-11-27T15:00:00+02:00",
-      "publish_at_utc": "2026-11-27T13:00:00Z",
-      "status": "جاهز ✅ (يوتيوب + شورتس + تيك توك + ريلز انستا/فيس) — مستني الجدولة 27/11 الساعة 3 العصر",
+      "publish_at_cairo": "2026-11-15T15:00:00+02:00",
+      "publish_at_utc": "2026-11-15T13:00:00Z",
+      "status": "📅 متجدول فيس + انستا 15/11 (يوتيوب + تيك توك لسه)",
       "media": {
         "horizontal": "media/daily_e03_h.mp4",
         "vertical": "media/daily_e03_v.mp4"
@@ -2210,7 +2210,7 @@
           "default_language": "ar",
           "made_for_kids": false,
           "privacy": "public",
-          "publish_at_utc": "2026-11-27T13:00:00Z",
+          "publish_at_utc": "2026-11-15T13:00:00Z",
           "pinned_comment": "💬 إنتوا كنتوا هتعملوا إيه لو مكان أستاذ فهمي؟ 😂 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata"
         },
         "youtube_shorts": {
@@ -2231,7 +2231,7 @@
           "category_id": "24",
           "made_for_kids": false,
           "privacy": "public",
-          "publish_at_utc": "2026-11-27T14:00:00Z",
+          "publish_at_utc": "2026-11-15T14:00:00Z",
           "pinned_comment": "💬 إنتوا كنتوا هتعملوا إيه لو مكان أستاذ فهمي؟ 😂 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
           "note": "يتنشر بعد الفيديو العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
         },
@@ -2244,7 +2244,7 @@
           "allow_comments": true,
           "allow_duet": true,
           "allow_stitch": true,
-          "publish_at_utc": "2026-11-27T13:00:00Z",
+          "publish_at_utc": "2026-11-15T13:00:00Z",
           "pinned_comment": "💬 إنتوا كنتوا هتعملوا إيه لو مكان أستاذ فهمي؟ 😂 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗",
           "note": "لو الأداة مش بتقبل صورة غلاف، استخدم cover_timestamp_ms أو اختار الغلاف يدوي من التطبيق"
         },
@@ -2253,7 +2253,7 @@
           "caption": "شطة بيتأخر كل يوم والحجة واحدة: بابا في المستشفى… واليوم الرابع أستاذ فهمي سأله السؤال الغلط 😂🏥 من «يوميات شطة وزلطة» 🎬\n💬 إنتوا كنتوا هتعملوا إيه لو مكان أستاذ فهمي؟ 😂 👇\n#يوميات_شطة_وزلطة #شطة_وزلطة #كرتون_مصري #كوميدي #ريلز",
           "cover_image": "thumbs/daily_e03_cover.jpg",
           "share_to_facebook": true,
-          "publish_at_utc": "2026-11-27T13:00:00Z",
+          "publish_at_utc": "2026-11-15T13:00:00Z",
           "pinned_comment": "💬 إنتوا كنتوا هتعملوا إيه لو مكان أستاذ فهمي؟ 😂 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
         },
         "facebook_reel": {
@@ -2271,9 +2271,9 @@
       "kind": "episode",
       "episode": 4,
       "episode_name": "الواجب",
-      "publish_at_cairo": "2026-11-28T15:00:00+02:00",
-      "publish_at_utc": "2026-11-28T13:00:00Z",
-      "status": "جاهز ✅ (يوتيوب + شورتس + تيك توك + ريلز انستا/فيس) — مستني الجدولة 28/11 الساعة 3 العصر",
+      "publish_at_cairo": "2026-11-16T15:00:00+02:00",
+      "publish_at_utc": "2026-11-16T13:00:00Z",
+      "status": "📅 متجدول فيس + انستا 16/11 (يوتيوب + تيك توك لسه)",
       "media": {
         "horizontal": "media/daily_e04_h.mp4",
         "vertical": "media/daily_e04_v.mp4"
@@ -2307,7 +2307,7 @@
           "default_language": "ar",
           "made_for_kids": false,
           "privacy": "public",
-          "publish_at_utc": "2026-11-28T13:00:00Z",
+          "publish_at_utc": "2026-11-16T13:00:00Z",
           "pinned_comment": "💬 لو إنت أستاذ فهمي… كنت هتعاقبه ولا لأ؟ 😂 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata"
         },
         "youtube_shorts": {
@@ -2328,7 +2328,7 @@
           "category_id": "24",
           "made_for_kids": false,
           "privacy": "public",
-          "publish_at_utc": "2026-11-28T14:00:00Z",
+          "publish_at_utc": "2026-11-16T14:00:00Z",
           "pinned_comment": "💬 لو إنت أستاذ فهمي… كنت هتعاقبه ولا لأ؟ 😂 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
           "note": "يتنشر بعد الفيديو العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
         },
@@ -2341,7 +2341,7 @@
           "allow_comments": true,
           "allow_duet": true,
           "allow_stitch": true,
-          "publish_at_utc": "2026-11-28T13:00:00Z",
+          "publish_at_utc": "2026-11-16T13:00:00Z",
           "pinned_comment": "💬 لو إنت أستاذ فهمي… كنت هتعاقبه ولا لأ؟ 😂 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗",
           "note": "لو الأداة مش بتقبل صورة غلاف، استخدم cover_timestamp_ms أو اختار الغلاف يدوي من التطبيق"
         },
@@ -2350,7 +2350,7 @@
           "caption": "زلطة سأل أستاذ فهمي: ممكن تعاقب حد على حاجة ما عملهاش؟… والأستاذ وقع في الفخ 😂📒 من «يوميات شطة وزلطة» 🎬\n💬 لو إنت أستاذ فهمي… كنت هتعاقبه ولا لأ؟ 😂 👇\n#يوميات_شطة_وزلطة #شطة_وزلطة #كرتون_مصري #كوميدي #ريلز",
           "cover_image": "thumbs/daily_e04_cover.jpg",
           "share_to_facebook": true,
-          "publish_at_utc": "2026-11-28T13:00:00Z",
+          "publish_at_utc": "2026-11-16T13:00:00Z",
           "pinned_comment": "💬 لو إنت أستاذ فهمي… كنت هتعاقبه ولا لأ؟ 😂 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
         },
         "facebook_reel": {
@@ -2368,9 +2368,9 @@
       "kind": "episode",
       "episode": 5,
       "episode_name": "الأرض لسه مبلولة",
-      "publish_at_cairo": "2026-11-29T15:00:00+02:00",
-      "publish_at_utc": "2026-11-29T13:00:00Z",
-      "status": "جاهز ✅ (يوتيوب + شورتس + تيك توك + ريلز انستا/فيس) — مستني الجدولة 29/11 الساعة 3 العصر",
+      "publish_at_cairo": "2026-11-17T15:00:00+02:00",
+      "publish_at_utc": "2026-11-17T13:00:00Z",
+      "status": "📅 متجدول فيس + انستا 17/11 (يوتيوب + تيك توك لسه)",
       "media": {
         "horizontal": "media/daily_e05_h.mp4",
         "vertical": "media/daily_e05_v.mp4"
@@ -2404,7 +2404,7 @@
           "default_language": "ar",
           "made_for_kids": false,
           "privacy": "public",
-          "publish_at_utc": "2026-11-29T13:00:00Z",
+          "publish_at_utc": "2026-11-17T13:00:00Z",
           "pinned_comment": "💬 مين في بيتكم زي خالتي عزيزة؟ 😂 منشن عليها 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata"
         },
         "youtube_shorts": {
@@ -2425,7 +2425,7 @@
           "category_id": "24",
           "made_for_kids": false,
           "privacy": "public",
-          "publish_at_utc": "2026-11-29T14:00:00Z",
+          "publish_at_utc": "2026-11-17T14:00:00Z",
           "pinned_comment": "💬 مين في بيتكم زي خالتي عزيزة؟ 😂 منشن عليها 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
           "note": "يتنشر بعد الفيديو العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
         },
@@ -2438,7 +2438,7 @@
           "allow_comments": true,
           "allow_duet": true,
           "allow_stitch": true,
-          "publish_at_utc": "2026-11-29T13:00:00Z",
+          "publish_at_utc": "2026-11-17T13:00:00Z",
           "pinned_comment": "💬 مين في بيتكم زي خالتي عزيزة؟ 😂 منشن عليها 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗",
           "note": "لو الأداة مش بتقبل صورة غلاف، استخدم cover_timestamp_ms أو اختار الغلاف يدوي من التطبيق"
         },
@@ -2447,7 +2447,7 @@
           "caption": "عم البواب قرر يعدّي على الأرض وخالتي عزيزة بتمسح… وتاني يوم اختفى! 🧹😂 من «يوميات شطة وزلطة» 🎬\n💬 مين في بيتكم زي خالتي عزيزة؟ 😂 منشن عليها 👇\n#يوميات_شطة_وزلطة #شطة_وزلطة #كرتون_مصري #كوميدي #ريلز",
           "cover_image": "thumbs/daily_e05_cover.jpg",
           "share_to_facebook": true,
-          "publish_at_utc": "2026-11-29T13:00:00Z",
+          "publish_at_utc": "2026-11-17T13:00:00Z",
           "pinned_comment": "💬 مين في بيتكم زي خالتي عزيزة؟ 😂 منشن عليها 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
         },
         "facebook_reel": {
@@ -2465,9 +2465,9 @@
       "kind": "episode",
       "episode": 6,
       "episode_name": "آخر يوم",
-      "publish_at_cairo": "2026-11-30T15:00:00+02:00",
-      "publish_at_utc": "2026-11-30T13:00:00Z",
-      "status": "جاهز ✅ (يوتيوب + شورتس + تيك توك + ريلز انستا/فيس) — مستني الجدولة 30/11 الساعة 3 العصر",
+      "publish_at_cairo": "2026-11-18T15:00:00+02:00",
+      "publish_at_utc": "2026-11-18T13:00:00Z",
+      "status": "📅 متجدول فيس + انستا 18/11 (يوتيوب + تيك توك لسه)",
       "media": {
         "horizontal": "media/daily_e06_h.mp4",
         "vertical": "media/daily_e06_v.mp4"
@@ -2501,7 +2501,7 @@
           "default_language": "ar",
           "made_for_kids": false,
           "privacy": "public",
-          "publish_at_utc": "2026-11-30T13:00:00Z",
+          "publish_at_utc": "2026-11-18T13:00:00Z",
           "pinned_comment": "💬 لو مكان عم البواب كنت هتزعل ولا هتفرح؟ 😂 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata"
         },
         "youtube_shorts": {
@@ -2522,7 +2522,7 @@
           "category_id": "24",
           "made_for_kids": false,
           "privacy": "public",
-          "publish_at_utc": "2026-11-30T14:00:00Z",
+          "publish_at_utc": "2026-11-18T14:00:00Z",
           "pinned_comment": "💬 لو مكان عم البواب كنت هتزعل ولا هتفرح؟ 😂 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
           "note": "يتنشر بعد الفيديو العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
         },
@@ -2535,7 +2535,7 @@
           "allow_comments": true,
           "allow_duet": true,
           "allow_stitch": true,
-          "publish_at_utc": "2026-11-30T13:00:00Z",
+          "publish_at_utc": "2026-11-18T13:00:00Z",
           "pinned_comment": "💬 لو مكان عم البواب كنت هتزعل ولا هتفرح؟ 😂 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗",
           "note": "لو الأداة مش بتقبل صورة غلاف، استخدم cover_timestamp_ms أو اختار الغلاف يدوي من التطبيق"
         },
@@ -2544,7 +2544,7 @@
           "caption": "عم البواب قاعد زعلان عشان خالتي عزيزة مخاصماه أسبوعين… والسبب الحقيقي هيموتك ضحك 😂💔 من «يوميات شطة وزلطة» 🎬\n💬 لو مكان عم البواب كنت هتزعل ولا هتفرح؟ 😂 👇\n#يوميات_شطة_وزلطة #شطة_وزلطة #كرتون_مصري #كوميدي #ريلز",
           "cover_image": "thumbs/daily_e06_cover.jpg",
           "share_to_facebook": true,
-          "publish_at_utc": "2026-11-30T13:00:00Z",
+          "publish_at_utc": "2026-11-18T13:00:00Z",
           "pinned_comment": "💬 لو مكان عم البواب كنت هتزعل ولا هتفرح؟ 😂 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
         },
         "facebook_reel": {
