@@ -204,7 +204,7 @@ ITEMS = [
  dict(id="daily_e02", series="daily", kind="episode", ep=2, name="بص على رجلي", date="2026-11-27", time="15:00",
       src_h="يوميات شطة وزلطة - بص على رجلي.mp4", src_v="يوميات شطة وزلطة - بص على رجلي (تيك توك).mp4",
       yt_title="الأستاذ سأله عن الحيوان من رجليه… فرد عليه رد قلب الفصل! 😂", hook="أستاذ فهمي رسم رجلين حيوان على السبورة وسأل زلطة: ده إيه؟… والإجابة خلت الفصل كله يموت من الضحك 😂",
-      question="💬 إنتوا كنتوا هتقولوا الحيوان ده إيه؟ 😂 👇", headline=["بص على", "رجلي!"], bg=f"{REPO}/daily/bg/classroom.png",
+      question="💬 إنتوا كنتوا هتقولوا الحيوان ده إيه؟ 😂 👇", headline=["الفصل", "اتقلب! 😂"[:-2]], bg=f"{REPO}/daily/bg/classroom.png",
       figs=[("fahmy", 3.6, "shock", 0.6, 1, "down", None, None, None, 1260), ("zalata", 3.0, "smug", 0.0, -1, "hips", None, None, None, 1720)]),
  dict(id="nanaa_s2_movie", series="nanaa_s2", kind="movie", ep=None, name="الموسم التاني كامل", date="2026-12-05", time="18:00",
       src_h="عمارة نعناعة م2 - سر البدروم (الفيلم كامل).mp4", src_v=None, chapters=f"{REPO}/movie/s2/chapters.txt",
