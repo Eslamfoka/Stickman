@@ -58,6 +58,7 @@ The connector account is a different workspace; voices were re-created with Inst
 | صفيح | proposal: Roshdy's voice (LAMgzfyVhBwHnPhLqzu9) + Audio Effects robot/old_radio filter — Roshdy recorded his own voice into the robot. Account is at the 10 custom-voice limit. |
 
 ## Pronunciation rules learned (eleven_v4)
+- «وَسَّخ» (Sawsan) fails in every spelling → use «بَوَّظ». «مَقَبَضْتوش» fails → «ما قَبَضْتوش» (separated). «أصل أنا» read «أصلاً» → «أَصْلِ انا».
 - «عِفْرِيت» → write «عفريت» without diacritics. «يِعْرَف» bad → «عارِف». «عَم رُشْدِي» sometimes bad → «عم رشدي» without diacritics. «نَوَّرُوا» → «شَغَّلُوا».
 - S2E5: «هَسْتَخَبّا» drops the ta → «هَسْتِخَبّا». «هَرْجَعْلَك» / «هَجِيلَك» fail → «هاجِي لَك» or «هَرْجَع لَك» (separated). «بَأِت» fails in a line (passed alone) → write «بقت» without diacritics. «الحاجَّة نَعْناعَة» fails with Tota's voice → «تِيتا نَعْناعَة».
 - S2E6: «إِنْتَ» with Zalata's voice read «إنتي» → drop it / rephrase. «بَأَيْت» → «بقيت», «لَأَيْت» → «لقيت» (no diacritics). «هَيِبْأَى» → «هيبقا». «يطلع الخزان» ambiguous → «يِطْلَع فُوء الخَزّان». A box that is not the robot → «عِلْبَه» (ha), never «علبة صفيح».
