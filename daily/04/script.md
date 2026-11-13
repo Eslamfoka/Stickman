@@ -10,3 +10,4 @@ Ending (user): close on Fahmy's speechless reaction + the class audience-laugh (
 
 Test (flow gtPbObIMXR3upRXYal6V): Fahmy node Hu1ecMRPpoxHsRVpcxWC (1–4) | Zalata node 2KkYBh3ZR3ljB35Z7kvI (5–7).
 Line 7: first takes were read «أصلاً» (wrong). Retest 3 spellings (أَصْلِ انا / أَصْل… أنا / أَصْلَنَا): node LJEvwetwblYIn6Qp9a2E.
+Line 7 APPROVED = option أ «أَصْلِ انا» → audio/Z03.mp3 (cut 0–3.68 s of node LJEvwetwblYIn6Qp9a2E).
