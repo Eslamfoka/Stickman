@@ -34,6 +34,17 @@ Viewers on TikTok/Reels/Shorts decide in the first second. Every video (H and V,
 - Start directly on action/hook (a face, a sound, movement) — NO black title card at 0s. The episode title card goes after the hook (≥ 3s) or is dropped in the vertical cut (the vertical band already shows the title).
 - OR open on a 0.5s "cover frame" = the episode's designed cover (publish/thumbs/<id>_cover.jpg style: big character + huge headline) that pops into the first shot — so the first frame doubles as the TikTok/Reels cover.
 
+## Hook rule — first 0.5 s (user, 2026-11-14 — from IG stats of «الأرض لسه مبلولة»)
+Data: 50 s reel, avg watch 9 s; retention 100% → ~20% by ~8 s, then FLAT to the end (whoever passes 8 s stays).
+Cause: first spoken word at 3.6 s (0.5 s static cover + silent mopping + Bandaq walking in), the scream (best beat) at ~15 s.
+Rules for EVERY new video (sketches first, then all series):
+1. **First word / sound+action inside the first 0.5 s.** No silent establishing shot, no slow walk-in before the first line. The establishing wide can come later.
+2. **On-screen hook text from frame 1** (top band in vertical, big & short, a curiosity gap — e.g. «البواب عمل أكبر غلطة في حياته 😱»). Store it per video in the script.md as `HOOK_TEXT`.
+3. **Prefer a cold open on the strongest beat** (scream / reveal / punch moment, ~1–1.5 s) → «قبلها بدقيقة...» → the story.
+4. **Sketch length 25–35 s** (cut setup lines that don't build the punchline).
+5. Measure on every reel at 48 h: avg watch time, skip rate, % left at 3 s and 8 s (IG Reel insights curve). Log them in `docs/stats.md`.
+- Pending test (needs user OK, do NOT apply yet): drop the 0.5 s cover frame on IG/TikTok (both allow uploading a separate cover); keep it on Shorts.
+
 ## Follow CTA (all videos, from 2026-11-12 — user request)
 - Right AFTER the audience puzzle (not at the start; the end card is visual only): 2–3 s, in character, with a gag, rotating characters each episode.
   e.g. Zalata «احْتِمال تِفَوِّت الحَلْقَة الجايَّة لَوْ ما عَمَلْتِش فُولُو: مِيَّة فِي المِيَّة.» / Tota «اسْمَعُوا كَلام تُوتَة... فُولُو ولايْك وشِير!» / Shatta «ثِقُوا فِيّا... اعْمِلُوا فُولُو!»
@@ -65,7 +76,7 @@ Go through each item before rendering stills, and again on the contact sheet. Th
 3. **Exits:** when someone leaves, the camera stays and we watch them walk away **with their back to camera** (`draw_back`), shrinking into depth / out a door. Screen direction kept into the next shot.
 4. **Camera coverage per scene** (dialogue = both speakers in frame, see «Dialogue framing»): establishing wide → two-shot → OTS → real close-ups (head & shoulders) → inserts → POV. Purposeful moves only (push-in on tension, crash zoom on scares, follow-pan on walks, low angle for villains/robot, high angle for scared kids, dutch for unease).
 5. **Acting & reactions:** every line has listener reactions (look at the speaker, blink, step back, flinch, lean in); anticipation before big moves, settle after; nobody frozen; expressions change inside a line where it fits.
-6. **Thrill + comedy:** hook ≤3 s, ≥2 tension peaks (one false scare, one real), a twist, puzzle, cliffhanger; 3–4 comedy beats placed right after tension.
+6. **Thrill + comedy:** hook = first word/action ≤0.5 s + on-screen HOOK_TEXT from frame 1 (see «Hook rule»), ≥2 tension peaks (one false scare, one real), a twist, puzzle, cliffhanger; 3–4 comedy beats placed right after tension.
 7. **Beat the previous episode** — write down (in the episode's script.md) at least 3 concrete things that are new/better than last time: a new set or camera move, a new effect, faster rhythm, a bigger scare, a better gag.
 8. **Locations:** every set comes from `docs/locations.md` (`loc(name, tod)`); the same place never changes look — only the light (day/night/lamps).
 8b. **Pronunciation:** numbered test → user OK per number → one take per line → review MP3 → fix flags. Apply every rule in production.md.

@@ -1,5 +1,9 @@
 # Status — last updated 2026-11-12 21:45 (S2 MOVIE delivered · new series «ميكروفون توتة» started)
 
+## Latest (2026-11-14) — stats review
+- User sent IG/FB/YT stats → `docs/stats.md`. NEW standing «Hook rule» in docs/directing.md (first word ≤0.5 s, on-screen HOOK_TEXT, cold open on the best beat, sketches 25–35 s, log stats at 48 h). Pending user OK: drop the cover-first frame on IG/TikTok.
+- S2E5–E10 already delivered (user asked again 14/11). Calendar is empty after 18/11 → next: new sketches with the Hook rule.
+
 ## Latest (2026-11-12 evening)
 - **S2 movie DELIVERED** «عمارة نعناعة م2 - سر البدروم (الفيلم كامل).mp4» (21:28, 280 MB). Pipeline `movie/s2/`:
   `bash movie/s2/render_all.sh` (horizontal-only render of every S2 ep → s2eN/movie_src.mp4, ~65 min on 2 CPUs) →
