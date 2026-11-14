@@ -33,7 +33,7 @@ LINEUP = t; shot("lobby", t, t + 1.3, (1130, 760, 1.4), (1130, 760, 1.48), tin="
 s = t; t = say(t + 0.05, "S1") + 0.1; shot("lobby", s, t - 1.4, (760, 740, 1.9), (760, 735, 2.1), tin="whipl")
 MUD = t - 1.4; shot("mud", MUD, t + 0.2, (700, 1010, 4.2), (700, 1015, 4.6), ease="crash"); t += 0.2   # insert: mud on his shoe
 s = t; t = say(t + 0.05, "Z1") + 0.1; LAMP = (s + 0.4, t + 0.1)
-shot("lobby", s, t, (1000, 700, 1.9), (1000, 700, 2.05), tin="whip")
+shot("lobby", s, t, (1060, 670, 1.85), (1060, 665, 1.95), tin="whip")
 s = t; t = say(t + 0.05, "Z2") + 0.15; shot("lobby", s, t, (1000, 640, 2.6), (1000, 640, 2.8))     # deadpan CU
 s = t; t = say(t + 0.05, "T1") + 0.1; shot("lobby", s, t, (1220, 720, 2.0), (1220, 720, 2.15), tin="whip")
 s = t; t = say(t + 0.05, "N3") + 0.2; SNORE = s; shot("lobby", s, t, (1360, 700, 1.6), (1360, 700, 1.7), tin="whip")
@@ -119,7 +119,7 @@ def lamp_bubble(fr, cam, tt):
     """thought bubble over Zalata: his desk with the lamp ON — the visual lie (the power was out!)"""
     k = ease(kk(tt, LAMP[0], LAMP[0] + 0.3)) * (1 - ease(kk(tt, LAMP[1] - 0.25, LAMP[1])))
     if k <= 0: return fr
-    z = cam[2]; hx, hy = W2S(cam, POS["zalata"][0], 600); cx, cy = W2S(cam, POS["zalata"][0] + 360, 590); R = 150 * z * k
+    z = cam[2]; hx, hy = W2S(cam, POS["zalata"][0], 600); cx, cy = W2S(cam, POS["zalata"][0] + 250, 545); R = 140 * z * k
     d = ImageDraw.Draw(fr, "RGBA")
     for f, r in ((0.3, 12), (0.6, 20)):
         q = (hx + (cx - hx) * f, hy + (cy - hy) * f); d.ellipse([q[0] - r * z * k, q[1] - r * z * k, q[0] + r * z * k, q[1] + r * z * k], fill=(250, 245, 230, 255), outline=(20, 20, 20, 255), width=4)
@@ -129,7 +129,8 @@ def lamp_bubble(fr, cam, tt):
         d.rectangle([cx - 140 * s, cy + 40 * s, cx + 140 * s, cy + 56 * s], fill=(150, 98, 52, 255))                 # desk
         d.polygon([(cx + 40 * s, cy - 70 * s), (cx + 110 * s, cy - 70 * s), (cx + 130 * s, cy - 20 * s), (cx + 20 * s, cy - 20 * s)], fill=(250, 210, 60, 255), outline=(20, 20, 20, 255))  # lamp shade
         d.line([(cx + 75 * s, cy - 20 * s), (cx + 75 * s, cy + 40 * s)], fill=(30, 30, 30, 255), width=int(6 * s))
-        d.polygon([(cx + 20 * s, cy - 20 * s), (cx + 130 * s, cy - 20 * s), (cx + 170 * s, cy + 40 * s), (cx - 20 * s, cy + 40 * s)], fill=(255, 240, 160, 110))   # light cone
+        d.polygon([(cx + 20 * s, cy - 20 * s), (cx + 130 * s, cy - 20 * s), (cx + 170 * s, cy + 40 * s), (cx - 20 * s, cy + 40 * s)], fill=(255, 235, 110, 190))   # light cone
+        d.ellipse([cx + 55 * s, cy - 32 * s, cx + 95 * s, cy - 8 * s], fill=(255, 255, 220, 255))          # the bulb is ON
         d.rectangle([cx - 110 * s, cy + 18 * s, cx - 20 * s, cy + 40 * s], fill=(245, 240, 220, 255), outline=(20, 20, 20, 255))   # open book
         lzt(fr, cx - 60 * s, cy - 40 * s, "2:00", int(54 * s), (120, 255, 140), (10, 30, 10), font=DJ)
     return fr

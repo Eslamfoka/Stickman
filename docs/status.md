@@ -1,6 +1,13 @@
 # Status — last updated 2026-11-12 21:45 (S2 MOVIE delivered · new series «ميكروفون توتة» started)
 
 ## Latest (2026-11-14) — stats review
+- **14/11 evening — first videos on the Hook rule (test vs the old sketches):**
+  - «يوميات» «متسجّلة باسم إيه؟» `daily/09` (Bandaq + Aziza, 41 s) DELIVERED 17:16 → post 14/11 19:00 FB+IG+Shorts. Item `daily_e07`.
+  - NEW SERIES «مين الكداب؟» `kaddab/NN/` (1-min standalone whodunit, 3 numbered suspects, answer opens the next case). Case 1 «الزرعة المكسورة» → post 14/11 22:00. Item `kaddab_e01` (badge «قضية جديدة», no episode number on covers). Answer of case 1 = زلطة (no power → no lamp); Shatta's mud = football (red herring).
+  - Engine: arm poses phone/salute/phonesal + smooth blended arms (arms=(from,to,u)); ep files use arms_at() schedules + idle weight shift. Motion-graphics (rubber-hose) A/B test still TODO.
+  - Rejected: «البسبوسة» (daily/07). Draft: «إيد الرسام» (daily/08). Ideas list in docs/ideas.md (stickman research) + couple ideas (عيد الجواز، الريجيم).
+  - S3 «ليلة التماثيل»: produce later, air AFTER S2 (from 4/12) — it depends on S2 (key, drawer, pharaoh shadow).
+  - Measure both at 48 h in docs/stats.md vs «الأرض لسه مبلولة» (skip rate, avg watch, % at 3 s / 8 s, comments).
 - User sent IG/FB/YT stats → `docs/stats.md`. NEW standing «Hook rule» in docs/directing.md (first word ≤0.5 s, on-screen HOOK_TEXT, cold open on the best beat, sketches 25–35 s, log stats at 48 h). Pending user OK: drop the cover-first frame on IG/TikTok.
 - S2E5–E10 already delivered (user asked again 14/11). Calendar is empty after 18/11 → next: new sketches with the Hook rule.
 

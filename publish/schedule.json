@@ -9,7 +9,7 @@
   },
   "timezone_note": "كل المواعيد بتوقيت القاهرة (UTC+2 في نوفمبر). 9 بالليل القاهرة = 10 بالليل الكويت.",
   "media_folder": "publish/media/ (مش على الريبو — حط فيه الفيديوهات بالأسماء المكتوبة في media، والأسامي الأصلية في source_file_names)",
-  "generated": "2026-11-14T14:08:12+00:00",
+  "generated": "2026-11-14T14:30:34+00:00",
   "posts": [
     {
       "id": "brand_intro",
@@ -2564,14 +2564,14 @@
       "episode_name": "متسجّلة باسم إيه؟",
       "publish_at_cairo": "2026-11-14T19:00:00+02:00",
       "publish_at_utc": "2026-11-14T17:00:00Z",
-      "status": "⏳ بيتعمل — أول فيديو بقاعدة الهوك الجديدة (نزول 14/11 الساعة 7)",
+      "status": "✅ جاهز (يوتيوب + طولي) — أول فيديو بقاعدة الهوك الجديدة، نزول 14/11 الساعة 7 فيس + انستا + شورتس",
       "media": {
         "horizontal": "media/daily_e07_h.mp4",
         "vertical": "media/daily_e07_v.mp4"
       },
       "source_file_names": {
-        "horizontal": "يوميات شطة وزلطة - متسجّلة باسم إيه؟.mp4",
-        "vertical": "يوميات شطة وزلطة - متسجّلة باسم إيه؟ (تيك توك وريلز وشورتس).mp4"
+        "horizontal": "يوميات شطة وزلطة - متسجلة باسم إيه.mp4",
+        "vertical": "يوميات شطة وزلطة - متسجلة باسم إيه (تيك توك وريلز وشورتس).mp4"
       },
       "thumbnails": {
         "youtube": "thumbs/daily_e07_yt.jpg",
@@ -2649,6 +2649,103 @@
           "caption": "موبايل البواب رن والاسم «الحكومة»… قام وقف انتباه! بس المكالمة كانت من مين؟ 😂📞 من «يوميات شطة وزلطة» 🎬\n💬 إنت مسجّل جوزك/مراتك باسم إيه؟ اكتبها بصراحة 😂 👇\n#يوميات_شطة_وزلطة #شطة_وزلطة #كرتون_مصري",
           "note": "مش محتاج رفع منفصل لو انستجرام بيعمل share لفيسبوك",
           "pinned_comment": "💬 إنت مسجّل جوزك/مراتك باسم إيه؟ اكتبها بصراحة 😂 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        }
+      }
+    },
+    {
+      "id": "kaddab_e01",
+      "series": "kaddab",
+      "series_name": "مين الكداب؟",
+      "kind": "episode",
+      "episode": 1,
+      "episode_name": "الزرعة المكسورة",
+      "publish_at_cairo": "2026-11-14T22:00:00+02:00",
+      "publish_at_utc": "2026-11-14T20:00:00Z",
+      "status": "✅ جاهز (يوتيوب + طولي) — مسلسل جديد، نزول 14/11 الساعة 10 فيس + انستا + شورتس",
+      "media": {
+        "horizontal": "media/kaddab_e01_h.mp4",
+        "vertical": "media/kaddab_e01_v.mp4"
+      },
+      "source_file_names": {
+        "horizontal": "مين الكداب - القضية 1 - الزرعة المكسورة.mp4",
+        "vertical": "مين الكداب - القضية 1 - الزرعة المكسورة (تيك توك وريلز وشورتس).mp4"
+      },
+      "thumbnails": {
+        "youtube": "thumbs/kaddab_e01_yt.jpg",
+        "vertical_cover": "thumbs/kaddab_e01_cover.jpg"
+      },
+      "platforms": {
+        "youtube": {
+          "video": "media/kaddab_e01_h.mp4",
+          "title": "واحد فيهم بيكدب… تعرف مين؟ 🕵️ (لغز) | مين الكداب؟ - قضية جديدة | شطة وزلطة",
+          "description": "زرعة نعناعة اتكسرت والنور كان قاطع… 3 مشتبه فيهم وواحد بس بيكدب! ركّز في كلامهم 🕵️\n\n«مين الكداب؟» 🕵️ — قضية جديدة في «عمارة نعناعة» كل حلقة: 3 مشتبه فيهم وواحد بس بيكدب… تقدر تعرفه؟ الحل في الحلقة الجاية!\n\nالحل + قضية جديدة في الحلقة الجاية… فعّلوا الجرس 🔔\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#مين_الكداب #شطة_وزلطة #لغز #كرتون_مصري #ألغاز #انيميشن #مصر",
+          "tags": [
+            "شطة وزلطة",
+            "مين الكداب",
+            "لغز",
+            "ألغاز",
+            "كرتون مصري",
+            "غموض",
+            "انيميشن مصري",
+            "ستيك مان"
+          ],
+          "thumbnail": "thumbs/kaddab_e01_yt.jpg",
+          "playlist": "مين الكداب؟ 🕵️",
+          "category_id": "24",
+          "default_language": "ar",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-14T20:00:00Z",
+          "pinned_comment": "💬 مين الكداب؟ اكتب الرقم 1 ولا 2 ولا 3 👇 (الحل في الحلقة الجاية)\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata"
+        },
+        "youtube_shorts": {
+          "video": "media/kaddab_e01_v.mp4",
+          "title": "واحد فيهم بيكدب… تعرف مين؟ 🕵️ (لغز) | مين الكداب؟ قضية جديدة #Shorts",
+          "description": "زرعة نعناعة اتكسرت والنور كان قاطع… 3 مشتبه فيهم وواحد بس بيكدب! ركّز في كلامهم 🕵️\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#مين_الكداب #شطة_وزلطة #لغز #كرتون_مصري #ألغاز #Shorts",
+          "tags": [
+            "شطة وزلطة",
+            "مين الكداب",
+            "لغز",
+            "ألغاز",
+            "كرتون مصري",
+            "غموض",
+            "انيميشن مصري",
+            "ستيك مان"
+          ],
+          "playlist": "مين الكداب؟ 🕵️",
+          "category_id": "24",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-14T21:00:00Z",
+          "pinned_comment": "💬 مين الكداب؟ اكتب الرقم 1 ولا 2 ولا 3 👇 (الحل في الحلقة الجاية)\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
+          "note": "يتنشر بعد الفيديو العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+        },
+        "tiktok": {
+          "video": "media/kaddab_e01_v.mp4",
+          "caption": "زرعة نعناعة اتكسرت والنور كان قاطع… 3 مشتبه فيهم وواحد بس بيكدب! ركّز في كلامهم 🕵️ قضية جديدة من «مين الكداب؟» 🎬\n💬 مين الكداب؟ اكتب الرقم 1 ولا 2 ولا 3 👇 (الحل في الحلقة الجاية)\n#مين_الكداب #لغز #شطة_وزلطة #كرتون_مصري #ألغاز #fyp",
+          "cover_image": "thumbs/kaddab_e01_cover.jpg",
+          "cover_timestamp_ms": 1000,
+          "privacy": "PUBLIC_TO_EVERYONE",
+          "allow_comments": true,
+          "allow_duet": true,
+          "allow_stitch": true,
+          "publish_at_utc": "2026-11-14T20:00:00Z",
+          "pinned_comment": "💬 مين الكداب؟ اكتب الرقم 1 ولا 2 ولا 3 👇 (الحل في الحلقة الجاية)\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗",
+          "note": "لو الأداة مش بتقبل صورة غلاف، استخدم cover_timestamp_ms أو اختار الغلاف يدوي من التطبيق"
+        },
+        "instagram_reel": {
+          "video": "media/kaddab_e01_v.mp4",
+          "caption": "زرعة نعناعة اتكسرت والنور كان قاطع… 3 مشتبه فيهم وواحد بس بيكدب! ركّز في كلامهم 🕵️ قضية جديدة من «مين الكداب؟» 🎬\n💬 مين الكداب؟ اكتب الرقم 1 ولا 2 ولا 3 👇 (الحل في الحلقة الجاية)\n#مين_الكداب #لغز #شطة_وزلطة #كرتون_مصري #ريلز",
+          "cover_image": "thumbs/kaddab_e01_cover.jpg",
+          "share_to_facebook": true,
+          "publish_at_utc": "2026-11-14T20:00:00Z",
+          "pinned_comment": "💬 مين الكداب؟ اكتب الرقم 1 ولا 2 ولا 3 👇 (الحل في الحلقة الجاية)\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        },
+        "facebook_reel": {
+          "via": "instagram_reel.share_to_facebook",
+          "caption": "زرعة نعناعة اتكسرت والنور كان قاطع… 3 مشتبه فيهم وواحد بس بيكدب! ركّز في كلامهم 🕵️ قضية جديدة من «مين الكداب؟» 🎬\n💬 مين الكداب؟ اكتب الرقم 1 ولا 2 ولا 3 👇 (الحل في الحلقة الجاية)\n#مين_الكداب #لغز #شطة_وزلطة",
+          "note": "مش محتاج رفع منفصل لو انستجرام بيعمل share لفيسبوك",
+          "pinned_comment": "💬 مين الكداب؟ اكتب الرقم 1 ولا 2 ولا 3 👇 (الحل في الحلقة الجاية)\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
         }
       }
     },
