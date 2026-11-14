@@ -1,3 +1,5 @@
+> REJECTED by user 2026-11-14 («مش أحسن حاجة») — not produced.
+
 # يوميات شطة وزلطة — البسبوسة (2026-11-14) — FIRST sketch built on the Hook rule (docs/directing.md)
 Research basis (14/11): couple comedy dominates Shorts; "clever family trick" format (parent/wife catches the culprit with a trick);
 our own best reel = Bandaq + Aziza («الأرض لسه مبلولة»). Target 22–26 s.
