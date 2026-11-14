@@ -30,3 +30,13 @@ YouTube "reused content" demonetization).
 7. يوميات — الغش: «ليه إجابتكم زي بعض؟» «عشان السؤال واحد يا أستاذ».
 8. يوميات — ستي نعناعة والتليفون: «إنت فين؟» «في البيت» «افتح الباب… أنا واقفة وراه من ساعة».
 9. ميكروفون توتة — السؤال لفهمي (laugh = توتة): «بتعمل إيه لما تزهق؟» «بشتغل» «وأما تشتغل؟» «بزهق».
+
+## Stickman research (2026-11-14) — formats from the biggest stick-figure channels, Arabized
+Biggest stick brands: Alan Becker (Animator vs Animation, 34.1M YT / 2.6M TikTok / 1.2M IG), Pencilmation (20.4M, 12.1B views, mostly NO dialogue,
+creator vs creation), Cyanide & Happiness (stick sketches 30–60 s, absurd premise taken to its logical extreme; hits «Junk Mail», «Confession»),
+Stickman dismount/falls compilations (Super Stick top video 10M). Insight: the two biggest share ONE premise = the drawn character vs the artist's hand.
+1. «إيد الرسام» (Pencilmation/Alan Becker): Shatta argues with the animator → the pencil/eraser answers (erases his legs, draws Nanaa behind him…). Near-silent, universal, cheap in our engine.
+2. «الرسالة» (C&H Junk Mail): Bandaq ignores «مبروك كسبت…» SMS → it's real; then «ابعتها لـ10 وإلا الشبشب هيجيلك» → he doesn't → Nanaa's slipper flies in.
+3. «7 أدوار من غير أسانسير» (dismount falls): fastest ways Shatta tries to get down the stairs, escalating fails, Zalata rates each (%).
+4. «نعناعة بتنضّف للعيد» (Pencilmiss cleaning): every fix by the kids makes a bigger mess.
+5. «البسبوسة» (couple + clever trick) — daily/07, voices in test.
