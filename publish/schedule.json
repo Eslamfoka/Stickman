@@ -9,7 +9,7 @@
   },
   "timezone_note": "كل المواعيد بتوقيت القاهرة (UTC+2 في نوفمبر). 9 بالليل القاهرة = 10 بالليل الكويت.",
   "media_folder": "publish/media/ (مش على الريبو — حط فيه الفيديوهات بالأسماء المكتوبة في media، والأسامي الأصلية في source_file_names)",
-  "generated": "2026-11-13T14:57:27+00:00",
+  "generated": "2026-11-14T14:08:12+00:00",
   "posts": [
     {
       "id": "brand_intro",
@@ -2552,6 +2552,103 @@
           "caption": "عم البواب قاعد زعلان عشان خالتي عزيزة مخاصماه أسبوعين… والسبب الحقيقي هيموتك ضحك 😂💔 من «يوميات شطة وزلطة» 🎬\n💬 لو مكان عم البواب كنت هتزعل ولا هتفرح؟ 😂 👇\n#يوميات_شطة_وزلطة #شطة_وزلطة #كرتون_مصري",
           "note": "مش محتاج رفع منفصل لو انستجرام بيعمل share لفيسبوك",
           "pinned_comment": "💬 لو مكان عم البواب كنت هتزعل ولا هتفرح؟ 😂 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        }
+      }
+    },
+    {
+      "id": "daily_e07",
+      "series": "daily",
+      "series_name": "يوميات شطة وزلطة",
+      "kind": "episode",
+      "episode": 7,
+      "episode_name": "متسجّلة باسم إيه؟",
+      "publish_at_cairo": "2026-11-14T19:00:00+02:00",
+      "publish_at_utc": "2026-11-14T17:00:00Z",
+      "status": "⏳ بيتعمل — أول فيديو بقاعدة الهوك الجديدة (نزول 14/11 الساعة 7)",
+      "media": {
+        "horizontal": "media/daily_e07_h.mp4",
+        "vertical": "media/daily_e07_v.mp4"
+      },
+      "source_file_names": {
+        "horizontal": "يوميات شطة وزلطة - متسجّلة باسم إيه؟.mp4",
+        "vertical": "يوميات شطة وزلطة - متسجّلة باسم إيه؟ (تيك توك وريلز وشورتس).mp4"
+      },
+      "thumbnails": {
+        "youtube": "thumbs/daily_e07_yt.jpg",
+        "vertical_cover": "thumbs/daily_e07_cover.jpg"
+      },
+      "platforms": {
+        "youtube": {
+          "video": "media/daily_e07_h.mp4",
+          "title": "البواب مسجّل مراته «الحكومة»… وهي مسجلاه إيه؟! 😂 | يوميات شطة وزلطة - متسجّلة باسم إيه؟ | شطة وزلطة",
+          "description": "موبايل البواب رن والاسم «الحكومة»… قام وقف انتباه! بس المكالمة كانت من مين؟ 😂📞\n\n«يوميات شطة وزلطة» 🌶️🥗 — مواقف يومية مصرية بتحصل لنا كلنا… بس مع شطة وزلطة بتبقى أضحك! سكتش كوميدي قصير\n\nيومية جديدة من «يوميات شطة وزلطة» قريب… فعّلوا الجرس 🔔\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#يوميات_شطة_وزلطة #شطة_وزلطة #كرتون_مصري #كوميدي #ضحك #انيميشن #مصر",
+          "tags": [
+            "شطة وزلطة",
+            "يوميات شطة وزلطة",
+            "كرتون مصري",
+            "كرتون كوميدي",
+            "نكت مصرية",
+            "انيميشن مصري",
+            "ستيك مان",
+            "كوميدي مصري"
+          ],
+          "thumbnail": "thumbs/daily_e07_yt.jpg",
+          "playlist": "يوميات شطة وزلطة 🌶️🥗",
+          "category_id": "24",
+          "default_language": "ar",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-14T17:00:00Z",
+          "pinned_comment": "💬 إنت مسجّل جوزك/مراتك باسم إيه؟ اكتبها بصراحة 😂 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata"
+        },
+        "youtube_shorts": {
+          "video": "media/daily_e07_v.mp4",
+          "title": "البواب مسجّل مراته «الحكومة»… وهي مسجلاه إيه؟! 😂 | يوميات شطة وزلطة متسجّلة باسم إيه؟ #Shorts",
+          "description": "موبايل البواب رن والاسم «الحكومة»… قام وقف انتباه! بس المكالمة كانت من مين؟ 😂📞\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#يوميات_شطة_وزلطة #شطة_وزلطة #كرتون_مصري #كوميدي #ضحك #Shorts",
+          "tags": [
+            "شطة وزلطة",
+            "يوميات شطة وزلطة",
+            "كرتون مصري",
+            "كرتون كوميدي",
+            "نكت مصرية",
+            "انيميشن مصري",
+            "ستيك مان",
+            "كوميدي مصري"
+          ],
+          "playlist": "يوميات شطة وزلطة 🌶️🥗",
+          "category_id": "24",
+          "made_for_kids": false,
+          "privacy": "public",
+          "publish_at_utc": "2026-11-14T18:00:00Z",
+          "pinned_comment": "💬 إنت مسجّل جوزك/مراتك باسم إيه؟ اكتبها بصراحة 😂 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
+          "note": "يتنشر بعد الفيديو العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
+        },
+        "tiktok": {
+          "video": "media/daily_e07_v.mp4",
+          "caption": "موبايل البواب رن والاسم «الحكومة»… قام وقف انتباه! بس المكالمة كانت من مين؟ 😂📞 من «يوميات شطة وزلطة» 🎬\n💬 إنت مسجّل جوزك/مراتك باسم إيه؟ اكتبها بصراحة 😂 👇\n#يوميات_شطة_وزلطة #شطة_وزلطة #كرتون_مصري #كوميدي #ضحك #fyp",
+          "cover_image": "thumbs/daily_e07_cover.jpg",
+          "cover_timestamp_ms": 1000,
+          "privacy": "PUBLIC_TO_EVERYONE",
+          "allow_comments": true,
+          "allow_duet": true,
+          "allow_stitch": true,
+          "publish_at_utc": "2026-11-14T17:00:00Z",
+          "pinned_comment": "💬 إنت مسجّل جوزك/مراتك باسم إيه؟ اكتبها بصراحة 😂 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗",
+          "note": "لو الأداة مش بتقبل صورة غلاف، استخدم cover_timestamp_ms أو اختار الغلاف يدوي من التطبيق"
+        },
+        "instagram_reel": {
+          "video": "media/daily_e07_v.mp4",
+          "caption": "موبايل البواب رن والاسم «الحكومة»… قام وقف انتباه! بس المكالمة كانت من مين؟ 😂📞 من «يوميات شطة وزلطة» 🎬\n💬 إنت مسجّل جوزك/مراتك باسم إيه؟ اكتبها بصراحة 😂 👇\n#يوميات_شطة_وزلطة #شطة_وزلطة #كرتون_مصري #كوميدي #ريلز",
+          "cover_image": "thumbs/daily_e07_cover.jpg",
+          "share_to_facebook": true,
+          "publish_at_utc": "2026-11-14T17:00:00Z",
+          "pinned_comment": "💬 إنت مسجّل جوزك/مراتك باسم إيه؟ اكتبها بصراحة 😂 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+        },
+        "facebook_reel": {
+          "via": "instagram_reel.share_to_facebook",
+          "caption": "موبايل البواب رن والاسم «الحكومة»… قام وقف انتباه! بس المكالمة كانت من مين؟ 😂📞 من «يوميات شطة وزلطة» 🎬\n💬 إنت مسجّل جوزك/مراتك باسم إيه؟ اكتبها بصراحة 😂 👇\n#يوميات_شطة_وزلطة #شطة_وزلطة #كرتون_مصري",
+          "note": "مش محتاج رفع منفصل لو انستجرام بيعمل share لفيسبوك",
+          "pinned_comment": "💬 إنت مسجّل جوزك/مراتك باسم إيه؟ اكتبها بصراحة 😂 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
         }
       }
     },

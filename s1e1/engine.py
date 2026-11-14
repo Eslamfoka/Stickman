@@ -104,8 +104,19 @@ def draw_char(p, who, x, y, s=1.0, expr="neutral", mouth=0.0, look=0, blink=Fals
         "raise": ((x - 34 * s, sh + 72 * s), (x + 66 * s, sh - 150 * s)),   # one hand up (asking a question)
         "clap": ((x - 8 * s, sh + 36 * s), (x + 8 * s, sh + 36 * s)),
         "clap2": ((x - 34 * s, sh + 30 * s), (x + 34 * s, sh + 30 * s)),
+        "phone": ((x - 34 * s, sh + 72 * s), (hx + 60 * s, hy + 18 * s)),          # right hand holds a phone to the ear
+        "salute": ((x - 34 * s, sh + 72 * s), (hx + 26 * s, hy - 30 * s)),         # right hand to the forehead
+        "phonesal": ((hx - 26 * s, hy - 30 * s), (hx + 60 * s, hy + 18 * s)),      # left salute + phone at the right ear
     }
-    la, ra = A.get(arms, A["down"])
+    # arms may be a blend ("from", "to", u) → smooth pose-to-pose motion with a small overshoot (2026-11-14)
+    if isinstance(arms, tuple):
+        a0, a1, u = arms; u = max(0.0, min(1.0, u))
+        e = u * u * (3 - 2 * u); e += math.sin(u * math.pi) * 0.12 * (1 - u)
+        P0, P1 = A.get(a0, A["down"]), A.get(a1, A["down"])
+        la = (P0[0][0] + (P1[0][0] - P0[0][0]) * e, P0[0][1] + (P1[0][1] - P0[0][1]) * e)
+        ra = (P0[1][0] + (P1[1][0] - P0[1][0]) * e, P0[1][1] + (P1[1][1] - P0[1][1]) * e)
+    else:
+        la, ra = A.get(arms, A["down"])
     chip_hand = None
     if eat is not None:
         bag = (x + 44 * s, sh + 46 * s); ra = bag
