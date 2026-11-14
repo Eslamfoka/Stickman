@@ -62,6 +62,7 @@ The connector account is a different workspace; voices were re-created with Inst
 - «وَسَّخ» (Sawsan) fails in every spelling → use «بَوَّظ». «مَقَبَضْتوش» fails → «ما قَبَضْتوش» (separated). «أصل أنا» read «أصلاً» → «أَصْلِ انا».
 - «عِفْرِيت» → write «عفريت» without diacritics. «يِعْرَف» bad → «عارِف». «عَم رُشْدِي» sometimes bad → «عم رشدي» without diacritics. «نَوَّرُوا» → «شَغَّلُوا».
 - S2E5: «هَسْتَخَبّا» drops the ta → «هَسْتِخَبّا». «هَرْجَعْلَك» / «هَجِيلَك» fail → «هاجِي لَك» or «هَرْجَع لَك» (separated). «بَأِت» fails in a line (passed alone) → write «بقت» without diacritics. «الحاجَّة نَعْناعَة» fails with Tota's voice → «تِيتا نَعْناعَة».
+- daily/09: «ماشْيَة البيت» → user wants «مِمَشِّيا» (write the final vowel as alif, not ة — ة/ه read wrong). «سيادتك» line replaced by «حُكومَة؟!... مِسَجِّلْنِي حُكومَة يا راجِل؟!».
 - S2E6: «إِنْتَ» with Zalata's voice read «إنتي» → drop it / rephrase. «بَأَيْت» → «بقيت», «لَأَيْت» → «لقيت» (no diacritics). «هَيِبْأَى» → «هيبقا». «يطلع الخزان» ambiguous → «يِطْلَع فُوء الخَزّان». A box that is not the robot → «عِلْبَه» (ha), never «علبة صفيح».
 - S2E7: «اتْسَجِّلِت» sounds like 1st person → «سَجِّلُوا الأُغْنِيَة». «يِهِدَّها» → «ويهدّها». «مِصَدَّأُه / تِصَدَّأُوا» too emphatic (ص) → «مصدقه» bare, or rephrase («شاكِّين فِيّا»، «صادِق وَلّا كَدّاب»). «عَمَلْتُه» alone came out wrong (ع not open) → «عَمَلْتُه فِينا» OK.
 - «الخَطَوات» → write «الخطوات» without diacritics. «ماسِك» is read «مَسَك» → use «في إيده».

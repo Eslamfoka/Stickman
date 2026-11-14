@@ -9,4 +9,4 @@ loop tag: ring again «الحكومة» → B2S (first 1.12 s of B2) «أيوه 
 Caption Q: «إنت مسجّل جوزك/مراتك باسم إيه؟ اكتبها بصراحة 😂». Flow dpGPzLETiM3si8ydUnyA, one take each.
 NEW engine (s1e1/engine.py): arm poses "phone", "salute", "phonesal" + arms=(from, to, u) smooth blend with overshoot; ep uses arms_at() schedules + idle weight shift.
 Delivered 17:16 (H 21.9 MB, vertical cover-first 41.7 s). Voices sent for review together with the video (user asked for speed).
-- 2026-11-14 17:47: user says some words in this sketch are wrong — waiting for his numbers (1–10 of the review MP3) to regenerate + re-render. Do NOT post before the fix.
+- 2026-11-14 18:04: FIXED per user — A1 «حكومة؟!... مسجّلني حكومة يا راجل؟!», B3 «ممشّيا» (alif, user pick 2 of 2). Re-rendered + re-delivered. Old takes in audio/old/
