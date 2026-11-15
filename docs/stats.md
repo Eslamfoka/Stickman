@@ -14,3 +14,14 @@
 Conclusions: standalone short sketches > serial parts; hook (first 8 s) is the main leak; follow conversion ~0.25%; comments ≈ 0;
 publish FB+IG together (FB-only posts die); delete 2 failed IG uploads + duplicates. Final judgement after ~30 posts / 3–4 weeks.
 Next comparison: «آخر يوم» (28 s, 18/11) vs «الأرض لسه مبلولة» (50 s).
+
+## Snapshot 2026-11-15 12:10 (≈14–17 h after posting — NOT the 48 h number yet)
+| Video | Length | IG views | Viewers | Likes | Comments | Shares | Saves | Avg watch | Follows |
+|---|---|---|---|---|---|---|---|---|---|
+| مين الكداب؟ ق1 «الزرعة المكسورة» | 39 s | 1,819 | 1,522 | 11 | **9** | 0 | 2 | 10 s (~25%) | **3** |
+| يوميات «متسجّلة باسم إيه؟» (FB crosspost) | 41 s | 1,775 | 1,277 | 10 | 1 | 1 | 2 | 12 s (~29%) | 1 |
+| يوميات «التلاجة / عمارة غلط» | | 1,722 | 1,444 | 12 | 0 | 0 | 1 | 12 s | 0 |
+
+Read: all three already beat «الأرض لسه مبلولة» (1,651 total) in under a day → the account baseline is rising.
+The audience puzzle (مين الكداب) = 9× the comments and 3× the follows of a plain sketch → keep the puzzle in every format.
+Still leaking: ~75% leave before the answer/punchline → shorter (20–25 s) + punchline earlier; «الخبر الوحش» (21 s) is the test.
