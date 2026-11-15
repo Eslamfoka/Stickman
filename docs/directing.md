@@ -85,3 +85,11 @@ Go through each item before rendering stills, and again on the contact sheet. Th
 8. **Locations:** every set comes from `docs/locations.md` (`loc(name, tod)`); the same place never changes look — only the light (day/night/lamps).
 8b. **Pronunciation:** numbered test → user OK per number → one take per line → review MP3 → fix flags. Apply every rule in production.md.
 9. **Delivery pack:** YouTube H + TikTok vertical (cover first frame, no title card) + Reels + Shorts (<3:00) + YT thumbnail + vertical cover + captions & pinned comments per platform as an HTML page with copy buttons (`python publish/captions_html.py <id>`, user request 2026-11-12 — not a .txt); small files via final_encode; update status.md + build.py STATUS; push after each step.
+
+## Egyptian audience rule (user 2026-11-16)
+IG was serving our reels mostly to non-Egyptian Arabs (account posts from Kuwait). Gulf viewers are fine (higher ad RPM) but we also want Egypt:
+- every caption carries EG_TAGS (#مصر #كوميديا_مصرية #القاهرة #ضحك_مصري) — automatic in publish/build.py `eg()`;
+- tell the user to add the location «القاهرة، مصر» on every Reel/TikTok;
+- default publish slot = 21:00–23:00 CAIRO (= 22:00–00:00 Kuwait). Times in publish/build.py are CAIRO time; the user schedules in KUWAIT time (+1 h);
+- account warm-up: 10 min/day of likes/comments on Egyptian comedy/cartoon pages from the brand account.
+

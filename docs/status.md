@@ -199,3 +199,4 @@ User approved the idea. Pin it first on every platform (YouTube channel trailer)
 - Engine: held="toothpaste".
 - 15/11 16:59: user SCHEDULED kaddab_e02 on all platforms for 15/11 19:00.
 - 15/11 17:20: daily/11 «فاكر يا بندق؟» DELIVERED (20 s). Aziza line changed to «طلبتني للجواز» («اتقدّمتلي» fails in every spelling). NEW location «أوضة بندق وعزيزة» (daily/bg/bandaq_room.png) + code sofa. Item daily_e09 (placeholder 16/11 19:00 — waiting for user's time). Bandaq line B1 sent with the review; user approved Aziza explicitly.
+- 16/11 00:35: EG_TAGS added to all captions (build.py eg()); default slot 21–23 Cairo (=22–00 Kuwait); kaddab_e02 corrected to 18:00 Cairo (user scheduled 19:00 Kuwait); daily_e09 placeholder 16/11 21:00 Cairo.
