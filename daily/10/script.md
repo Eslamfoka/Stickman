@@ -5,3 +5,4 @@ Z1 أنا آسف يا عم بندق... بس عندي خبر وحش. | B1 خير 
 Z2 مراتك عزيزة... مش هتقدر تتكلم تاني. (user removed «الأحبال الصوتية...») | quick yes-nod < 1 s (user removed «تمام»)
 B3 بس برضه ما قولتليش... إيه الخبر الوحش يا دكتور؟ → crash zoom: doctor «gasp» + pen drops + laugh. No Aziza board (user).
 Engine 2026-11-15: draw_char(sit=±1) seated pose, nod=, CH doctor, expr "gasp", coat=True for any clone.
+- 2026-11-15 03:12: DELIVERED (H 10.7 MB, vertical 21.4 s). «ههههه» text removed (standing rule). Thumbs use plain zalata (green) — engine CH has no coat clone for build.py.
