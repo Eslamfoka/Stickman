@@ -7,7 +7,7 @@ Standalone; previous answer at the END + CTA. Clue is VISUAL (audience must look
 4 Z1 zalata: أنا كنت نايم... والفرشة دي بنام بيها عشان ما أنساش أغسل سناني الصبح!   (toothbrush = red herring)
 5 AZ1 aziza: أنا نومي تقيل... لو العمارة وقعت مش هحس!
 6 T3 tota: مين فيهم الكداب؟ واحد... ولا اتنين... ولا تلاتة؟ بصّوا كويس... واكتبوا في الكومنتات!
-7 A1 nana: وحل القضية اللي فاتت: الكداب كان زلطة! الكهربا كانت قاطعة... يبقى الأباجورة نوّرت إزاي؟!
-8 Z0 zalata: أنا كنت بذاكر على نور القمر!   (laugh SOUND only)
-9 C1 nana: اعملوا فولو ولايك وشير... وحل القضية دي في الحلقة الجاية!
-ANSWER (end of case 3): شطة — his hair was wet: he was the one in the bathroom (showering at night so he can sleep late).
+7 A1 nana: وحل القضية اللي فاتت: الكداب كان زلطة! عشان النور كان قاطع... إزاي كان بيذاكر على الأباجورة؟!
+8 C1 nana: ولو ما شفتوش الحلقة اللي فاتت... شوفوها! وما تنسوش اللايك والفولو والشير!   (show case-1 COVER card on screen)
+(Z0 «نور القمر» dropped by user.) Fixes 12:51: T2 «صاحّيت» (open ص), Z1 «الفُورشة».
+ANSWER (end of case 3): شطة — his hair was wet: he was the one in the bathroom.

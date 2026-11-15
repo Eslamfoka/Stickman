@@ -255,6 +255,11 @@ def draw_char(p, who, x, y, s=1.0, expr="neutral", mouth=0.0, look=0, blink=Fals
         p.poly([(ra[0] - 16 * s, ra[1] - 34 * s), (ra[0] + 18 * s, ra[1] - 34 * s), (ra[0] + 14 * s, ra[1] + 8 * s),
                 (ra[0] - 12 * s, ra[1] + 8 * s)], (230, 50, 40, 255), INK, 2.5 * s)
         p.ell(ra[0] + 1 * s, ra[1] - 14 * s, 8 * s, 8 * s, (255, 210, 60, 255), INK, 2 * s)
+    elif held == "toothpaste":   # «مين الكداب؟» ق2: Zalata's toothpaste tube
+        p.poly([(ra[0] - 9 * s, ra[1] - 34 * s), (ra[0] + 9 * s, ra[1] - 34 * s), (ra[0] + 7 * s, ra[1] + 8 * s), (ra[0] - 7 * s, ra[1] + 8 * s)], (248, 248, 252, 255), INK, 2 * s)
+        p.rect(ra[0] - 8 * s, ra[1] - 22 * s, ra[0] + 8 * s, ra[1] - 12 * s, (40, 110, 220, 255), None)
+        p.line([(ra[0] - 8 * s, ra[1] - 6 * s), (ra[0] + 8 * s, ra[1] - 6 * s)], (220, 40, 40, 255), 3 * s)
+        p.rect(ra[0] - 5 * s, ra[1] + 8 * s, ra[0] + 5 * s, ra[1] + 16 * s, (240, 240, 245, 255), INK, 1.5 * s)
     elif held == "notebook":
         p.rect(ra[0] - 4 * s, ra[1] - 28 * s, ra[0] + 22 * s, ra[1] + 4 * s, (250, 248, 230, 255), INK, 2 * s)
     if eat is not None:

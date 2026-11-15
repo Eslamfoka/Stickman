@@ -188,3 +188,12 @@ User approved the idea. Pin it first on every platform (YouTube channel trailer)
 - Then START A NEW SERIES to run alongside «عمارة نعناعة» (decide which of docs/series.md with the user).
 - STANDING DELIVERY RULE for every new video: YouTube horizontal + TikTok/Reels vertical with the COVER as first frame (no title card) + YouTube Shorts (< 3:00, cover first) + thumbnails: `publish/thumbs/<id>_yt.jpg` (1280×720) and `<id>_cover.jpg` (1080×1920) via a new item in `publish/build.py` + captions/pinned comments for YT, Shorts, TikTok, IG, FB.
   Tools: `publish/final_encode.py` (small files), `publish/tiktok_cut.py` (cover-first cut, `--cut`, `--speed`), `python publish/build.py --only <id>` (thumbs).
+
+## 15/11 midday — «مين الكداب؟» القضية 2 «الساعة تلاتة الفجر» (kaddab/02)
+- FORMAT v2 (user, standing for the series): each case is STANDALONE (starts straight on the crime); the PREVIOUS case's answer + reason comes
+  at the END (fast), then «لو ما شفتوش الحلقة اللي فاتت شوفوها» with that case's COVER on screen + like/follow/share. Word = «الفزورة» not «القضية» in the answer line.
+- Clue must be VISUAL (Shatta's wet dripping hair + puddle) → «بصّوا كويس» → rewatches. Red herring insert (Zalata's toothpaste).
+- Kunafa draft scrapped (user: not creative). Next: idea 3 «مين صوّر عزيزة وهي نايمة؟» then idea 1 «محكمة الشبشب».
+- Pronunciation: «الفرشة» fails in every spelling (فُرشة/فُورشة/فُرشه/فرشة السنان) → avoid, used «المعجون». «صاحّيت» = open ص.
+- Answer of case 2 (say it at the END of case 3): شطة — wet hair = he was the one in the bathroom.
+- Engine: held="toothpaste".
