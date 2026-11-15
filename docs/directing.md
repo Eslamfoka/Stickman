@@ -34,6 +34,10 @@ Viewers on TikTok/Reels/Shorts decide in the first second. Every video (H and V,
 - Start directly on action/hook (a face, a sound, movement) — NO black title card at 0s. The episode title card goes after the hook (≥ 3s) or is dropped in the vertical cut (the vertical band already shows the title).
 - OR open on a 0.5s "cover frame" = the episode's designed cover (publish/thumbs/<id>_cover.jpg style: big character + huge headline) that pops into the first shot — so the first frame doubles as the TikTok/Reels cover.
 
+## NO «ههههه» TEXT ON SCREEN — standing rule (user, 2026-11-15)
+Never draw «ههههه» / «هههه» (or any laughing text) on the picture, in ANY video or series from now on.
+The laugh after the punchline/reaction is SOUND ONLY (audience laugh), with the picture staying on the reaction.
+
 ## Hook rule — first 0.5 s (user, 2026-11-14 — from IG stats of «الأرض لسه مبلولة»)
 Data: 50 s reel, avg watch 9 s; retention 100% → ~20% by ~8 s, then FLAT to the end (whoever passes 8 s stays).
 Cause: first spoken word at 3.6 s (0.5 s static cover + silent mopping + Bandaq walking in), the scream (best beat) at ~15 s.

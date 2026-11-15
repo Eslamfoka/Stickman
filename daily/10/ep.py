@@ -141,9 +141,7 @@ def frame(tt):
     if gasp and tt < GASP + 0.7:
         lzt(fr, W * 0.66, H * 0.22, "!!!", int(170 * popk(tt, GASP, 0.2)), (255, 80, 60))
     if tt >= LAUGH:
-        for k_, (dx, dy, sz) in enumerate(((-720, -400, 100), (720, -420, 96), (0, -470, 90))):
-            t0_ = LAUGH + 0.2 + k_ * 0.3
-            if tt >= t0_: lzt(fr, W / 2 + dx + math.sin(tt * 6 + k_) * 10, H / 2 + dy, "ههههه", int(sz * popk(tt, t0_)), (255, 214, 90))
+        # (user 2026-11-15: no «ههههه» text — the audience laugh is sound only)
         if tt >= FREEZE: fr = Image.blend(fr, Image.new("RGB", fr.size, (255, 255, 255)), 0.6 * (1 - kk(tt, FREEZE, FREEZE + 0.2)))
     if tt < 3.2:                                                                # hook banner (H)
         a = int(255 * min(1, (3.2 - tt) / 0.3)); d = ImageDraw.Draw(fr, "RGBA")
