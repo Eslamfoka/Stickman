@@ -25,3 +25,10 @@ Next comparison: «آخر يوم» (28 s, 18/11) vs «الأرض لسه مبلو
 Read: all three already beat «الأرض لسه مبلولة» (1,651 total) in under a day → the account baseline is rising.
 The audience puzzle (مين الكداب) = 9× the comments and 3× the follows of a plain sketch → keep the puzzle in every format.
 Still leaking: ~75% leave before the answer/punchline → shorter (20–25 s) + punchline earlier; «الخبر الوحش» (21 s) is the test.
+
+## Audience snapshot — kaddab_e02 «الساعة تلاتة الفجر» (IG, 16/11 00:36, ~5.5 h after posting)
+Likes 16 · comments 7 · reposts 3 · shares 1 · saves 3 · followers 0.5% / non-followers 99.5%.
+Countries: Syria 23.7 · Egypt 13.4 · Jordan 12.3 · Morocco 9.2 · Tunisia 7.5 (Levant + Maghreb, NOT Gulf).
+Age: 13–17 31.7 · 18–24 33.2 · 25–34 23.5 · 35+ 11.7 → 65% under 25. Gender: women 59 / men 41.
+Read: IG is testing us pan-Arab (not just near Kuwait). Puzzle format + reposts = best engagement so far. Young + female-leaning.
+Egypt push: EG_TAGS + location Cairo + Egypt prime time; Egyptians are strongest on FACEBOOK — compare FB insights.
