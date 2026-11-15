@@ -52,23 +52,32 @@ CH = {
     "abdo": dict(shirt=(120, 120, 130), hair=(30, 28, 26), scale=1.1),
     "aziza": dict(shirt=(196, 40, 96), hair=(232, 150, 40), scale=0.98),     # خالتي عزيزة: fuchsia galabeya, orange printed tarha
     "officer": dict(shirt=(26, 28, 38), hair=(26, 24, 22), scale=1.06),    # الظابط: black uniform + police cap
+    "doctor": dict(shirt=(240, 242, 246), hair=(150, 150, 156), scale=1.02),  # الدكتور: white coat, stethoscope, grey side hair (bald top)
 }
 WHITE = (255, 255, 255, 255)
 
 def C(c): return tuple(c) + (255,) if len(c) == 3 else c
 
 def draw_char(p, who, x, y, s=1.0, expr="neutral", mouth=0.0, look=0, blink=False,
-              arms="down", t=0.0, held=None, lean=0.0, walk=None, eat=None):
+              arms="down", t=0.0, held=None, lean=0.0, walk=None, eat=None, sit=0, nod=0.0):
+    """sit = 0 standing (x,y = feet) | +1 / -1 seated facing right / left (x,y = hip on the seat; feet land 64*s lower)."""
     c = CH[who]; s *= c["scale"]
     breath = math.sin(t * 2.2 + x) * 1.6 * s
+    if sit: y = y + 62 * s                     # keep every body formula below: hip = seat
     hip = y - 62 * s; sh = hip - 72 * s + breath * 0.4; hr = 46 * s
-    hy = sh - 10 * s - hr + breath
+    hy = sh - 10 * s - hr + breath + nod * s          # nod: head-only dip (in px at s=1), e.g. a quick yes-nod
     hx = x + lean * 18 * s
     lw = max(3, 5 * s)
     gal = who in ("nana", "bondo2", "youngnana", "sawsan", "aziza")
     shirt = C(c["shirt"]); hair = C(c["hair"])
     # legs
-    if walk is not None and gal:
+    if sit:   # seated: thighs forward (horizontal), knees, shins down to the floor, feet forward — two legs, the far one a bit behind
+        d_ = 1 if sit > 0 else -1; fy = hip + 64 * s; sw_ = math.sin(t * 3.0 + x) * 2 * s
+        for off, col in ((-7 * s, (60, 60, 60, 255)), (0, INK)):
+            kx = x + d_ * (52 * s) + off * d_; ky = hip + 2 * s
+            fx = kx + d_ * (4 * s) + sw_ * (1 if off == 0 else 0)
+            p.line([(x + off * d_, hip), (kx, ky), (fx, fy)], col, lw); p.line([(fx, fy), (fx + d_ * 13 * s, fy)], col, lw)
+    elif walk is not None and gal:
         a1 = math.sin(walk) * 16 * s; l1 = max(0, math.cos(walk)) * 8 * s; l2 = max(0, -math.cos(walk)) * 8 * s
         p.line([(x - 6 * s, y - 30 * s), (x + a1, y - l1)], INK, lw)
         p.line([(x + 6 * s, y - 30 * s), (x - a1, y - l2)], INK, lw)
@@ -135,7 +144,11 @@ def draw_char(p, who, x, y, s=1.0, expr="neutral", mouth=0.0, look=0, blink=Fals
         p.ell(hand[0], hand[1], 5 * s, 5 * s, INK, None)
     arm(lsh, la, -1); arm(rsh, ra, 1)
     # body
-    if gal and c.get("hem"):   # galabeya hem lifted and held in the teeth (Egyptian baladi/sa'idi look)
+    if sit and gal:   # galabeya: torso + cloth draped over the thighs, falling just past the knees
+        d_ = 1 if sit > 0 else -1
+        p.poly([(x - 24 * s, sh), (x + 24 * s, sh), (x + 32 * s, hip + 4 * s), (x - 32 * s, hip + 4 * s)], shirt, INK, 2.5 * s)
+        p.poly([(x - d_ * 30 * s, hip - 4 * s), (x + d_ * 58 * s, hip - 8 * s), (x + d_ * 62 * s, hip + 16 * s), (x + d_ * 54 * s, hip + 24 * s), (x - d_ * 28 * s, hip + 10 * s)], shirt, INK, 2.5 * s)
+    elif gal and c.get("hem"):   # galabeya hem lifted and held in the teeth (Egyptian baladi/sa'idi look)
         p.line([(x - 12 * s, y - 58 * s), (x - 14 * s, y)], INK, lw); p.line([(x + 12 * s, y - 58 * s), (x + 14 * s, y)], INK, lw)
         p.poly([(x - 24 * s, sh), (x + 24 * s, sh), (x + 38 * s, y - 52 * s), (x - 38 * s, y - 52 * s)], shirt, INK, 2.5 * s)
         dk = tuple(max(0, v - 35) for v in shirt[:3]) + (255,)
@@ -146,6 +159,16 @@ def draw_char(p, who, x, y, s=1.0, expr="neutral", mouth=0.0, look=0, blink=Fals
         p.poly([(x - 18 * s, sh), (x + 18 * s, sh), (x + 40 * s, hip + 12 * s), (x - 40 * s, hip + 12 * s)], shirt, INK, 2.5 * s)
     else:
         p.poly([(x - 26 * s, sh), (x + 26 * s, sh), (x + 30 * s, hip + 4 * s), (x - 30 * s, hip + 4 * s)], shirt, INK, 2.5 * s)
+        if sit:   # trousers on the thighs (thick dark band) so the seated pose reads clearly
+            d_ = 1 if sit > 0 else -1
+            p.poly([(x - d_ * 28 * s, hip - 4 * s), (x + d_ * 56 * s, hip - 6 * s), (x + d_ * 56 * s, hip + 10 * s), (x - d_ * 28 * s, hip + 8 * s)], (54, 60, 78, 255), INK, 2 * s)
+        if who == "doctor" or c.get("coat"):   # white coat lapels + blue shirt + stethoscope (any character with coat=True)
+            p.poly([(x - 9 * s, sh), (x, sh + 26 * s), (x + 9 * s, sh)], (120, 170, 220, 255), INK, 1.5 * s)
+            p.line([(x - 10 * s, sh), (x - 4 * s, sh + 40 * s)], INK, 2 * s); p.line([(x + 10 * s, sh), (x + 4 * s, sh + 40 * s)], INK, 2 * s)
+            p.line([(x - 14 * s, sh + 2 * s), (x - 18 * s, sh + 34 * s), (x - 8 * s, sh + 46 * s)], (70, 74, 84, 255), 3 * s)
+            p.line([(x + 14 * s, sh + 2 * s), (x + 18 * s, sh + 26 * s)], (70, 74, 84, 255), 3 * s)
+            p.ell(x - 7 * s, sh + 48 * s, 6 * s, 6 * s, (200, 205, 215, 255), INK, 1.5 * s)
+            p.rect(x + 12 * s, sh + 30 * s, x + 24 * s, sh + 34 * s, (90, 130, 200, 255), None)          # pen in the pocket
         if who == "zalata":
             p.poly([(x - 9 * s, sh), (x, sh + 12 * s), (x + 9 * s, sh)], WHITE, INK, 2 * s)
         if who == "shatta":
@@ -288,6 +311,10 @@ def draw_char(p, who, x, y, s=1.0, expr="neutral", mouth=0.0, look=0, blink=Fals
         p.d.chord([p.S(hx - hr - 4 * s), p.S(hy - hr - 6 * s), p.S(hx + hr + 4 * s), p.S(hy - 2 * s)], 180, 360, fill=hair, outline=INK, width=p.S(2.5 * s))
         for i_ in range(7):
             a_ = math.pi * (1.1 + i_ * 0.8 / 6); p.ell(hx + math.cos(a_) * (hr - 8 * s), hy - 14 * s + math.sin(a_) * (hr - 18 * s), 3.5 * s, 3.5 * s, (255, 236, 120, 255), None)
+    elif who == "doctor":    # bald top, grey tufts on both sides
+        for sx in (-1, 1):
+            p.poly([(hx + sx * (hr + 3 * s), hy + 8 * s), (hx + sx * (hr + 7 * s), hy - 14 * s), (hx + sx * (hr - 4 * s), hy - 34 * s),
+                    (hx + sx * (hr - 14 * s), hy - 30 * s), (hx + sx * (hr - 6 * s), hy - 6 * s)], hair, INK, 2 * s)
     elif who == "officer":   # Egyptian police cap: black crown, gold band, star badge, shiny visor
         p.poly([(hx - hr + 2 * s, hy - 16 * s), (hx - hr - 10 * s, hy - hr - 10 * s), (hx + hr + 10 * s, hy - hr - 10 * s), (hx + hr - 2 * s, hy - 16 * s)], (24, 26, 36, 255), INK, 2.5 * s)
         p.rect(hx - hr + 1 * s, hy - 26 * s, hx + hr - 1 * s, hy - 16 * s, (200, 160, 50, 255), INK, 2 * s, 1 * s)
@@ -295,8 +322,8 @@ def draw_char(p, who, x, y, s=1.0, expr="neutral", mouth=0.0, look=0, blink=Fals
         p.ell(hx, hy - hr + 2 * s, 7 * s, 7 * s, (230, 190, 60, 255), INK, 1.5 * s)
     # eyes
     ex = 15 * s; ey = hy + 2 * s; lx = look * 4 * s
-    big = expr in ("scared", "shock")
-    er = 12 * s if big else 9 * s
+    big = expr in ("scared", "shock", "gasp")
+    er = (15 * s if expr == "gasp" else 12 * s) if big else 9 * s
     if expr == "laugh":   # «ميكروفون توتة» trademark laugh: squeezed ^ ^ eyes + happy tears
         for sx in (-1, 1):
             p.arc(hx + sx * ex, ey + 4 * s, 9 * s, 8 * s, 190, 350, INK, 3.5 * s)
@@ -324,6 +351,9 @@ def draw_char(p, who, x, y, s=1.0, expr="neutral", mouth=0.0, look=0, blink=Fals
     if expr in ("angry", "shout"):
         p.line([(hx - ex - 11 * s, by - 5 * s), (hx - ex + 9 * s, by + 4 * s)], INK, 4 * s)
         p.line([(hx + ex + 11 * s, by - 5 * s), (hx + ex - 9 * s, by + 4 * s)], INK, 4 * s)
+    elif expr == "gasp":   # brows shot way up
+        p.arc(hx - ex, by - 6 * s, 11 * s, 7 * s, 200, 340, INK, 3.5 * s)
+        p.arc(hx + ex, by - 6 * s, 11 * s, 7 * s, 200, 340, INK, 3.5 * s)
     elif expr in ("scared", "shock", "sad"):
         p.line([(hx - ex - 10 * s, by + 2 * s), (hx - ex + 8 * s, by - 6 * s)], INK, 3.5 * s)
         p.line([(hx + ex + 10 * s, by + 2 * s), (hx + ex - 8 * s, by - 6 * s)], INK, 3.5 * s)
@@ -369,6 +399,10 @@ def draw_char(p, who, x, y, s=1.0, expr="neutral", mouth=0.0, look=0, blink=Fals
         p.poly([(hx - 7 * s, my), (hx + 7 * s, my), (x + 8 * s, sh + 10 * s), (x - 8 * s, sh + 10 * s)], dk, INK, 2 * s)
         p.ell(hx, my, 13 * s, 6 * s, shirt, INK, 2 * s)
         p.line([(hx - 9 * s, my - 1 * s), (hx + 9 * s, my + 1 * s)], dk, 1.5 * s)
+    elif expr == "gasp":   # jaw dropped: big open mouth with the tongue showing
+        o = 1.0 + 0.3 * min(1.0, mouth * 1.4)
+        p.ell(hx + look * 2 * s, my + 4 * s, 13 * s, 15 * s * o, (120, 20, 24, 255), INK, 2.5 * s)
+        p.ell(hx + look * 2 * s, my + (12 + 4 * o) * s, 8 * s, 5 * s, (225, 80, 80, 255), None)
     elif expr == "laugh":   # big open D mouth (always open, wider with the voice)
         o = 0.55 + 0.45 * min(1.0, mouth * 1.4)
         p.d.pieslice([p.S(hx - 18 * s), p.S(my - 12 * s), p.S(hx + 18 * s), p.S(my + (4 + 20 * o) * s)], 0, 180, fill=(130, 24, 24, 255), outline=INK, width=p.S(2.5 * s))
@@ -386,7 +420,7 @@ def draw_char(p, who, x, y, s=1.0, expr="neutral", mouth=0.0, look=0, blink=Fals
         p.arc(hx, my + 6 * s, 9 * s, 6 * s, 200, 340, INK, 3 * s)
     else:
         p.line([(hx - 8 * s, my), (hx + 8 * s, my)], INK, 3 * s)
-    if expr in ("scared", "shock"):
+    if expr in ("scared", "shock", "gasp"):
         p.ell(hx + hr * 0.8, hy - hr * 0.5, 4 * s, 7 * s, (150, 200, 255, 255), INK, 1.5 * s)
     if chip_hand:
         cx_, cy_ = chip_hand
