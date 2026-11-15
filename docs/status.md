@@ -197,3 +197,4 @@ User approved the idea. Pin it first on every platform (YouTube channel trailer)
 - Pronunciation: «الفرشة» fails in every spelling (فُرشة/فُورشة/فُرشه/فرشة السنان) → avoid, used «المعجون». «صاحّيت» = open ص.
 - Answer of case 2 (say it at the END of case 3): شطة — wet hair = he was the one in the bathroom.
 - Engine: held="toothpaste".
+- 15/11 16:59: user SCHEDULED kaddab_e02 on all platforms for 15/11 19:00.
