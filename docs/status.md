@@ -198,3 +198,4 @@ User approved the idea. Pin it first on every platform (YouTube channel trailer)
 - Answer of case 2 (say it at the END of case 3): شطة — wet hair = he was the one in the bathroom.
 - Engine: held="toothpaste".
 - 15/11 16:59: user SCHEDULED kaddab_e02 on all platforms for 15/11 19:00.
+- 15/11 17:20: daily/11 «فاكر يا بندق؟» DELIVERED (20 s). Aziza line changed to «طلبتني للجواز» («اتقدّمتلي» fails in every spelling). NEW location «أوضة بندق وعزيزة» (daily/bg/bandaq_room.png) + code sofa. Item daily_e09 (placeholder 16/11 19:00 — waiting for user's time). Bandaq line B1 sent with the review; user approved Aziza explicitly.
