@@ -208,3 +208,8 @@ User approved the idea. Pin it first on every platform (YouTube channel trailer)
 - Pronunciation: «بعتّها» fails (any spelling) → «نَزِّلْتَها» (user pick). Lines approved; C1 reused from kaddab/02. Gens in kaddab/03/gens.txt (flow 9Coajj0eRkTbNCGxjnuT).
 - Item `kaddab_e03` — user SCHEDULED it 16/11 20:00 Kuwait (19:00 Cairo) on YouTube + Shorts + FB + IG + TikTok, thumbs + captions HTML done. 47.5 s.
 - ANSWER (say it at the END of case 4): عم بندق — his pillow in the photo was empty. Next case per user order: idea 1 «محكمة الشبشب».
+
+## 16/11 evening — «يوميات» «لازم جوزك يفسّحك» (daily/13) DELIVERED (21.6 s)
+- User script (Bandaq on the sofa + Aziza back from the doctor). Same room + same code sofa as daily/11. Lines approved: B1 «قالْلِك» (kasra — he talks to a woman; «قالِّك/أَلِّك» read as masculine), A2 «بقى» without diacritics («بَأَه» rejected).
+- New: door-opening entrance with the prescription, sepia thought bubble = clinic + Dr. Zalata (callback to daily/10), prescription insert «عيادة د. زلطة — فُسحة / خروجة / أسبوع على الأقل!» + stamp, newspaper acting (down on B1, up after the punch), hearts popping, frozen face + cricket, audience laugh 3 s.
+- Item `daily_e10` (placeholder 17/11 21:00 Cairo — waiting for user's time), thumbs + captions done. daily/12 «الفطار» still not produced.
