@@ -219,4 +219,4 @@ User approved the idea. Pin it first on every platform (YouTube channel trailer)
 - Shatta = receptionist (`shattarec`: maroon vest + bow tie). Aziza: back view yanking the stuck window (draw_back arms up + rattle), front CU on «أنا هنطّ». Bandaq calm on the bed, rotary phone + curly cord; dial clicks → ringback J-cut → reception phone rings → pick-up.
 - Pronunciation: «بِتْحاوِل» (kasra, about a woman). AZ0 «سيبني... أنا هنطّ!» = Claude's added hook line (user kept it).
 - User 22:11: END ON SHATTA'S REACTION, then the audience laugh over it (done: crash-in on his shocked face + sweat, laugh 3 s, then endcard «منشن صاحبك اللي شغال خدمة عملاء!»).
-- Item `daily_e11` (placeholder 17/11 21:00 Cairo — waiting for user's time).
+- Item `daily_e11` — user SCHEDULED it 17/11 23:00 Kuwait (22:00 Cairo) on all platforms.
