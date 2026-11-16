@@ -1,0 +1,3 @@
+pron test: flow 9Coajj0eRkTbNCGxjnuT gen xHEHpLvBk6Sjf29SK1k6 (15 items, Shatta voice)
+retest #10 (Zalata): gen dsynFywzQcrIO0xi8azT — 1 بَعَتّاها 2 بعتها 3 نَزِّلْتَها 4 نزلتها
+lines (one take each, flow 9Coajj0eRkTbNCGxjnuT): AZ1 uHTzTPmJFdoJYPlv6RNq · T1 3NpHzKIeDRN2B3rVAgCn · S1 YxjTgCHY2hz2WnufGIZ3 · Z1 svXcZ0yNi5jbIMcfecBy («نَزِّلْتَها», user pick #3) · B1 BIZEkuLr3CIc0TA2fHOt · T2 Z8l12vk1glb2AxdAbyGe · A1 GXBk48ECI3kBtnoECIdy · C1 = copy of kaddab/02/audio/C1.mp3

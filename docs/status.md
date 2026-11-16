@@ -200,3 +200,11 @@ User approved the idea. Pin it first on every platform (YouTube channel trailer)
 - 15/11 16:59: user SCHEDULED kaddab_e02 on all platforms for 15/11 19:00.
 - 15/11 17:20: daily/11 «فاكر يا بندق؟» DELIVERED (20 s). Aziza line changed to «طلبتني للجواز» («اتقدّمتلي» fails in every spelling). NEW location «أوضة بندق وعزيزة» (daily/bg/bandaq_room.png) + code sofa. Item daily_e09 (placeholder 16/11 19:00 — waiting for user's time). Bandaq line B1 sent with the review; user approved Aziza explicitly.
 - 16/11 00:35: EG_TAGS added to all captions (build.py eg()); default slot 21–23 Cairo (=22–00 Kuwait); kaddab_e02 corrected to 18:00 Cairo (user scheduled 19:00 Kuwait); daily_e09 placeholder 16/11 21:00 Cairo.
+
+## 16/11 afternoon — «مين الكداب؟» القضية 3 «مين صوّر عزيزة؟» (kaddab/03) DELIVERED
+- Location = «أوضة بندق وعزيزة» (daily/bg/bandaq_room.png, 3 PM light). Cast: Aziza (accuser, phone + slipper), Tota (narrator + magnifier), suspects 1 شطة (football, sweaty, can't stop laughing = red herring), 2 زلطة (group admin, glasses glint = red herring), 3 عم بندق (LIAR).
+- Clue = the photo itself (code-drawn `make_photo()`): Aziza asleep mouth open + drool, the pillow next to her EMPTY and his side of the blanket thrown back → Bandaq wasn't asleep beside her. Never pointed at; the magnifier reprise sweeps the whole photo.
+- New vs case 2: generic group-chat phone insert (own design, seen counter 3→47, 😂 reactions, the time «3:00 م» circled), full-screen photo, magnifier reprise on «بصّوا على الصورة كويس», badges light up on «واحد/اتنين/تلاتة», slipper glare gag + short audience laugh, door opens for the suspects' entrance.
+- Pronunciation: «بعتّها» fails (any spelling) → «نَزِّلْتَها» (user pick). Lines approved; C1 reused from kaddab/02. Gens in kaddab/03/gens.txt (flow 9Coajj0eRkTbNCGxjnuT).
+- Item `kaddab_e03` (placeholder 17/11 21:00 Cairo — waiting for user's time), thumbs + captions HTML done. 47.5 s.
+- ANSWER (say it at the END of case 4): عم بندق — his pillow in the photo was empty. Next case per user order: idea 1 «محكمة الشبشب».
