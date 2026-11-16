@@ -213,3 +213,10 @@ User approved the idea. Pin it first on every platform (YouTube channel trailer)
 - User script (Bandaq on the sofa + Aziza back from the doctor). Same room + same code sofa as daily/11. Lines approved: B1 «قالْلِك» (kasra — he talks to a woman; «قالِّك/أَلِّك» read as masculine), A2 «بقى» without diacritics («بَأَه» rejected).
 - New: door-opening entrance with the prescription, sepia thought bubble = clinic + Dr. Zalata (callback to daily/10), prescription insert «عيادة د. زلطة — فُسحة / خروجة / أسبوع على الأقل!» + stamp, newspaper acting (down on B1, up after the punch), hearts popping, frozen face + cricket, audience laugh 3 s.
 - Item `daily_e10` — user SCHEDULED it 16/11 23:00 Kuwait (22:00 Cairo) on all platforms, thumbs + captions done. daily/12 «الفطار» still not produced.
+
+## 16/11 night — «يوميات» «خدمة الغرف» (daily/14) DELIVERED (28.9 s)
+- User script (ref stick ziko "hotel service"). NEW canonical locations: «أوضة الفندق» daily/bg/hotel_room.png + «ريسبشن الفندق» daily/bg/hotel_desk.png (desk/bell/red phone in code) — added to docs/locations.md.
+- Shatta = receptionist (`shattarec`: maroon vest + bow tie). Aziza: back view yanking the stuck window (draw_back arms up + rattle), front CU on «أنا هنطّ». Bandaq calm on the bed, rotary phone + curly cord; dial clicks → ringback J-cut → reception phone rings → pick-up.
+- Pronunciation: «بِتْحاوِل» (kasra, about a woman). AZ0 «سيبني... أنا هنطّ!» = Claude's added hook line (user kept it).
+- User 22:11: END ON SHATTA'S REACTION, then the audience laugh over it (done: crash-in on his shocked face + sweat, laugh 3 s, then endcard «منشن صاحبك اللي شغال خدمة عملاء!»).
+- Item `daily_e11` (placeholder 17/11 21:00 Cairo — waiting for user's time).
