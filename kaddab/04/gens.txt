@@ -1,0 +1,2 @@
+pron test flows: nana hEErgaC71vxaD0GcSPfX · tota uJqijtXk7m9of89nwfdb · shatta 5UNj0tUNG50mQW8pnJQf · zalata QDmhx0eQqKON6fc5q9CS · bandaq Anz15wYxpa9Ji3lLkJp5 (retest دهنت gen 8zw52lHQ61VnNjrOM9mL)
+lines (flow hEErgaC71vxaD0GcSPfX): N1 i61JtH3Itwreda0F6M66 (قَطَع) · T1 YCRZ4AfPqKweTeRWolUP · S1 xc9PMrm5pF6ajoazA0ay · Z1 gAEO2C7UTwGEYcSE8bFM · B1 y2FBtZj23z6sUfHW7AzX (دَهَنْتْ) · T2 UA5Vv7ctWd9wajja65Te · A1 dksoDHnR6O4v1lKJ68Sj · C1 = kaddab/02 C1

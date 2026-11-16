@@ -220,3 +220,9 @@ User approved the idea. Pin it first on every platform (YouTube channel trailer)
 - Pronunciation: «بِتْحاوِل» (kasra, about a woman). AZ0 «سيبني... أنا هنطّ!» = Claude's added hook line (user kept it).
 - User 22:11: END ON SHATTA'S REACTION, then the audience laugh over it (done: crash-in on his shocked face + sweat, laugh 3 s, then endcard «منشن صاحبك اللي شغال خدمة عملاء!»).
 - Item `daily_e11` — user SCHEDULED it 17/11 23:00 Kuwait (22:00 Cairo) on all platforms.
+
+## 16/11 late night — «مين الكداب؟» القضية 4 «مين قطع النور؟» (kaddab/04) DELIVERED (45.2 s)
+- User rejected «محكمة الشبشب» (2 versions) → picked «مين قطع النور؟» from Claude's list. Style: whole case in the DARK lobby (canonical morning.png graded), Tota's torch spot picks each speaker, lights flicker back on at the question card.
+- Clue (layered): meter box painted red this morning + sign «احترس... الدهان طري» + red fingerprint on the switch (insert). Bandaq has paint + brush but EXPLAINS it; Zalata "never came down" yet a red dot on his fingertip. ANSWER for the end of case 5: زلطة.
+- Pronunciation: «قَطَع» chosen (أَطَع also OK), «دَهَنْتْ» (open ه, he talks about himself — user). A1 = case-3 answer with the photo (kaddab/04/photo3.png) + empty pillow circled. C1 reused.
+- Item `kaddab_e04` (placeholder 18/11 19:00 Cairo — waiting for user's time).
