@@ -212,4 +212,4 @@ User approved the idea. Pin it first on every platform (YouTube channel trailer)
 ## 16/11 evening — «يوميات» «لازم جوزك يفسّحك» (daily/13) DELIVERED (21.6 s)
 - User script (Bandaq on the sofa + Aziza back from the doctor). Same room + same code sofa as daily/11. Lines approved: B1 «قالْلِك» (kasra — he talks to a woman; «قالِّك/أَلِّك» read as masculine), A2 «بقى» without diacritics («بَأَه» rejected).
 - New: door-opening entrance with the prescription, sepia thought bubble = clinic + Dr. Zalata (callback to daily/10), prescription insert «عيادة د. زلطة — فُسحة / خروجة / أسبوع على الأقل!» + stamp, newspaper acting (down on B1, up after the punch), hearts popping, frozen face + cricket, audience laugh 3 s.
-- Item `daily_e10` (placeholder 17/11 21:00 Cairo — waiting for user's time), thumbs + captions done. daily/12 «الفطار» still not produced.
+- Item `daily_e10` — user SCHEDULED it 16/11 23:00 Kuwait (22:00 Cairo) on all platforms, thumbs + captions done. daily/12 «الفطار» still not produced.
