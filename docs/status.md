@@ -225,4 +225,4 @@ User approved the idea. Pin it first on every platform (YouTube channel trailer)
 - User rejected «محكمة الشبشب» (2 versions) → picked «مين قطع النور؟» from Claude's list. Style: whole case in the DARK lobby (canonical morning.png graded), Tota's torch spot picks each speaker, lights flicker back on at the question card.
 - Clue (layered): meter box painted red this morning + sign «احترس... الدهان طري» + red fingerprint on the switch (insert). Bandaq has paint + brush but EXPLAINS it; Zalata "never came down" yet a red dot on his fingertip. ANSWER for the end of case 5: زلطة.
 - Pronunciation: «قَطَع» chosen (أَطَع also OK), «دَهَنْتْ» (open ه, he talks about himself — user). A1 = case-3 answer with the photo (kaddab/04/photo3.png) + empty pillow circled. C1 reused.
-- Item `kaddab_e04` (placeholder 18/11 19:00 Cairo — waiting for user's time).
+- Item `kaddab_e04` — user SCHEDULED it 17/11 at 11 Kuwait (recorded as 23:00 Kuwait / 22:00 Cairo — same slot as daily_e11, user to confirm) on all platforms.
