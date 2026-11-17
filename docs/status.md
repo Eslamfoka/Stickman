@@ -233,7 +233,7 @@ User approved the idea. Pin it first on every platform (YouTube channel trailer)
 - User script. Same «أوضة بندق وعزيزة» (morning) + code-drawn bed = the SAME bed as the case-3 photo (brown headboard, pink pillow, floral pink blanket), side view, headboard left.
 - Aziza lying = her standing figure rotated 90° around the hip on a padded 3x layer (else the head clips) → sits up in 0.28 s on «هتجوّز عليكي». Rendering is slow (~10 min for part 0) because of the padded rotation.
 - Beats: begging (clap), stomach growl insert, CU on her shut eyes + zzz, slow push «لو ما قمتيش…» + crash «هتجوّز عليكي!» + sting, eyes pop, she shoots up with hearts, his stunned face + cricket + audience laugh, endcard «منشن مراتك اللي هترد كده!».
-- Item `daily_e12` (placeholder 18/11 21:00 Cairo). User asked for TWO videos for 18/11 — second one still to choose (case 5 or a new يوميات).
+- Item `daily_e12` — user SCHEDULED it 18/11 23:00 Kuwait (22:00 Cairo) on all platforms. User asked for TWO videos for 18/11 — second one still to choose (case 5 or a new يوميات).
 
 ## «مين الكداب؟» ideas bank (user, 17/11)
 - ✅ NEXT = case 5 «مين بعت جواب غرامي لعم بندق؟» (user picked 17/11 14:59).
@@ -247,6 +247,6 @@ User approved the idea. Pin it first on every platform (YouTube channel trailer)
 - Pronunciation fixes (user): «بَحَبَّك» (to a man), «ما اعْرَفْش», «ماكَتَبْتِّش» (shadda), «الكِتابَة» instead of «الإملا».
 - A1 = case-4 answer (Zalata + red fingertip zoom bubble). C1 reused + case-4 cover.
 - ANSWER for the end of case 6: توتة. Liars so far: c2 شطة · c3 بندق · c4 زلطة · c5 توتة.
-- Item `kaddab_e05` (placeholder 18/11 19:00 Cairo).
+- Item `kaddab_e05` — user SCHEDULED it 18/11 20:00 Kuwait (19:00 Cairo) on all platforms.
 
 ## 💾 SAVED for later (user 17/11 21:52): «ترند الأسبوع» — «م.م» (job-interview reel adaptation) → trend/02/script.md (full Arabic script approved, pron test + office bg generated but not reviewed).
