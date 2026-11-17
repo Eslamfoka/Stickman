@@ -225,4 +225,6 @@ User approved the idea. Pin it first on every platform (YouTube channel trailer)
 - User rejected «محكمة الشبشب» (2 versions) → picked «مين قطع النور؟» from Claude's list. Style: whole case in the DARK lobby (canonical morning.png graded), Tota's torch spot picks each speaker, lights flicker back on at the question card.
 - Clue (layered): meter box painted red this morning + sign «احترس... الدهان طري» + red fingerprint on the switch (insert). Bandaq has paint + brush but EXPLAINS it; Zalata "never came down" yet a red dot on his fingertip. ANSWER for the end of case 5: زلطة.
 - Pronunciation: «قَطَع» chosen (أَطَع also OK), «دَهَنْتْ» (open ه, he talks about himself — user). A1 = case-3 answer with the photo (kaddab/04/photo3.png) + empty pillow circled. C1 reused.
-- Item `kaddab_e04` — user SCHEDULED it 17/11 20:00 Kuwait (19:00 Cairo) on all platforms (confirmed by FB screenshot 17/11). FB queue 17/11 (Kuwait): 20:00 kaddab_e04 · 22:00 «بابا في المستشفى» (daily_e03 — records said 15/11; asked user) · 22:00 nanaa_s1_e05 · 23:00 daily_e11.
+- Item `kaddab_e04` — user SCHEDULED it 17/11 20:00 Kuwait (19:00 Cairo) on all platforms (confirmed by FB screenshot 17/11). FB queue 17/11 (Kuwait): 20:00 kaddab_e04 · 21:00 «بابا في المستشفى» (daily_e03, user moved it from 22:00) · 22:00 nanaa_s1_e05 · 23:00 daily_e11.
+
+- 17/11 FB queue per user (Kuwait): 8 PM kaddab_e04 · 9 PM daily_e03 · 10 PM nanaa_s1_e05 · 11 PM daily_e11. daily_e05 «الأرض لسه مبلولة» is NOT in it → needs a new date.
