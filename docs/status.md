@@ -227,4 +227,4 @@ User approved the idea. Pin it first on every platform (YouTube channel trailer)
 - Pronunciation: «قَطَع» chosen (أَطَع also OK), «دَهَنْتْ» (open ه, he talks about himself — user). A1 = case-3 answer with the photo (kaddab/04/photo3.png) + empty pillow circled. C1 reused.
 - Item `kaddab_e04` — user SCHEDULED it 17/11 20:00 Kuwait (19:00 Cairo) on all platforms (confirmed by FB screenshot 17/11). FB queue 17/11 (Kuwait): 20:00 kaddab_e04 · 21:00 «بابا في المستشفى» (daily_e03, user moved it from 22:00) · 22:00 nanaa_s1_e05 · 23:00 daily_e11.
 
-- 17/11 FB queue per user (Kuwait): 8 PM kaddab_e04 · 9 PM daily_e03 · 10 PM nanaa_s1_e05 · 11 PM daily_e11. daily_e05 «الأرض لسه مبلولة» is NOT in it → needs a new date.
+- 17/11 FB queue per user (Kuwait): 8 PM kaddab_e04 · 9 PM daily_e03 · 10 PM nanaa_s1_e05 · 11 PM daily_e11. daily_e05 «الأرض لسه مبلولة» was already published 15/11 (user swapped it with daily_e03).
