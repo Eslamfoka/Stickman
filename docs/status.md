@@ -234,3 +234,9 @@ User approved the idea. Pin it first on every platform (YouTube channel trailer)
 - Aziza lying = her standing figure rotated 90° around the hip on a padded 3x layer (else the head clips) → sits up in 0.28 s on «هتجوّز عليكي». Rendering is slow (~10 min for part 0) because of the padded rotation.
 - Beats: begging (clap), stomach growl insert, CU on her shut eyes + zzz, slow push «لو ما قمتيش…» + crash «هتجوّز عليكي!» + sting, eyes pop, she shoots up with hearts, his stunned face + cricket + audience laugh, endcard «منشن مراتك اللي هترد كده!».
 - Item `daily_e12` (placeholder 18/11 21:00 Cairo). User asked for TWO videos for 18/11 — second one still to choose (case 5 or a new يوميات).
+
+## «مين الكداب؟» ideas bank (user, 17/11)
+- ✅ NEXT = case 5 «مين بعت جواب غرامي لعم بندق؟» (user picked 17/11 14:59).
+- 💾 SAVED for later (user liked it): «مين بعت الفويس على جروب العيلة؟» — a voice note mocking Nana on the building group; the clue is a SOUND in the voice note's background (cat meow / kettle whistle) that only one suspect was near. First audio-clue case → rewatch value. (User started adding a condition: «بس انا عايز…» — message cut, ask him.)
+- unused: «مين صرف الفلوس من الظرف؟» (chips + juice in the liar's hand), «مين أكل حلة المحشي؟» (rice grain on the mustache), «مين لبس جزمة نعناعة الجديدة؟» (mud prints). Rejected: «محكمة الشبشب» (2 versions), «مين كسر التليفزيون قبل الماتش؟».
+- Liars so far: c2 شطة · c3 بندق · c4 زلطة.
