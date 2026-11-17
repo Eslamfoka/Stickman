@@ -248,3 +248,5 @@ User approved the idea. Pin it first on every platform (YouTube channel trailer)
 - A1 = case-4 answer (Zalata + red fingertip zoom bubble). C1 reused + case-4 cover.
 - ANSWER for the end of case 6: توتة. Liars so far: c2 شطة · c3 بندق · c4 زلطة · c5 توتة.
 - Item `kaddab_e05` (placeholder 18/11 19:00 Cairo).
+
+## 💾 SAVED for later (user 17/11 21:52): «ترند الأسبوع» — «م.م» (job-interview reel adaptation) → trend/02/script.md (full Arabic script approved, pron test + office bg generated but not reviewed).
