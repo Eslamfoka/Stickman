@@ -250,3 +250,7 @@ User approved the idea. Pin it first on every platform (YouTube channel trailer)
 - Item `kaddab_e05` — user SCHEDULED it 18/11 20:00 Kuwait (19:00 Cairo) on all platforms.
 
 ## 💾 SAVED for later (user 17/11 21:52): «ترند الأسبوع» — «م.م» (job-interview reel adaptation) → trend/02/script.md (full Arabic script approved, pron test + office bg generated but not reviewed).
+
+## 17/11 night — «عزيزة في المطار» (trend/03, item daily_e13) DELIVERED (20 s)
+- Adaptation of the user's passport-makeup reel: NO voices, SFX only (user). Aziza in full glam (code makeup layer: glitter shadow, lashes, red lips, blush, mole, gold hoops) → passport photo = plain Aziza → canonical «الظابط» eye-darts photo/her → taps the photo → wipe-off montage (each item fades with tissue + sfx) → side-by-side match ✔ → STAMP «دخول مقبول» → brand end card (logo + @shattawzalata + like/follow/share) per user.
+- NEW location «جوازات المطار» added to docs/locations.md. Item `daily_e13` (placeholder 19/11 21:00 Cairo).
