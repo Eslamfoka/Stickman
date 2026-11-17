@@ -240,3 +240,11 @@ User approved the idea. Pin it first on every platform (YouTube channel trailer)
 - 💾 SAVED for later (user liked it): «مين بعت الفويس على جروب العيلة؟» — a voice note mocking Nana on the building group; the clue is a SOUND in the voice note's background (cat meow / kettle whistle) that only one suspect was near. First audio-clue case → rewatch value. (User started adding a condition: «بس انا عايز…» — message cut, ask him.)
 - unused: «مين صرف الفلوس من الظرف؟» (chips + juice in the liar's hand), «مين أكل حلة المحشي؟» (rice grain on the mustache), «مين لبس جزمة نعناعة الجديدة؟» (mud prints). Rejected: «محكمة الشبشب» (2 versions), «مين كسر التليفزيون قبل الماتش؟».
 - Liars so far: c2 شطة · c3 بندق · c4 زلطة.
+
+## 17/11 evening — «مين الكداب؟» القضية 5 «مين بعت جواب غرامي لعم بندق؟» (kaddab/05) DELIVERED (48.4 s) — for 18/11
+- Narrator = Nana (magnifier); suspects 1 شطة (pen behind ear) · 2 زلطة · 3 توتة (LIAR, first time). Aziza: pink letter + slipper; Bandaq hands up, terrified; slipper glare + short laugh.
+- Clue: letter «بحبك يا بندء» (pink pen, ء instead of ق); Tota holds her open notebook at her chest with «عم بندء» in the same pink pen (readable in her CU, tiny in the wide). Magnifier sweeps the letter on «بصّوا على الجواب كويس».
+- Pronunciation fixes (user): «بَحَبَّك» (to a man), «ما اعْرَفْش», «ماكَتَبْتِّش» (shadda), «الكِتابَة» instead of «الإملا».
+- A1 = case-4 answer (Zalata + red fingertip zoom bubble). C1 reused + case-4 cover.
+- ANSWER for the end of case 6: توتة. Liars so far: c2 شطة · c3 بندق · c4 زلطة · c5 توتة.
+- Item `kaddab_e05` (placeholder 18/11 19:00 Cairo).
