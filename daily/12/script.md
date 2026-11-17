@@ -1,4 +1,4 @@
-# يوميات شطة وزلطة — «الفطار» (USER SCRIPT, saved 2026-11-15 — DO NOT PRODUCE until the user says)
+# يوميات شطة وزلطة — «الفطار» (USER SCRIPT, saved 2026-11-15 — user GO 2026-11-17 for 18/11)
 Cast: عم بندق (standing by the bed, hand on chin) + خالتي عزيزة (lying in bed, lazy). User ref: «كوميديا توين تون» reel «اتجوز وخليها تعملنا سوا», bedroom, wife lying on the bed.
 B1 (بندق, begging/annoyed): «قومي اعمليلي فطار يا وليّة! حرام عليكي... هموت من الجوع!»
 A1 (عزيزة, lazy, not moving): «ما قولتلك مش قادرة!»
