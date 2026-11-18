@@ -32,3 +32,12 @@ Countries: Syria 23.7 · Egypt 13.4 · Jordan 12.3 · Morocco 9.2 · Tunisia 7.5
 Age: 13–17 31.7 · 18–24 33.2 · 25–34 23.5 · 35+ 11.7 → 65% under 25. Gender: women 59 / men 41.
 Read: IG is testing us pan-Arab (not just near Kuwait). Puzzle format + reposts = best engagement so far. Young + female-leaning.
 Egypt push: EG_TAGS + location Cairo + Egypt prime time; Egyptians are strongest on FACEBOOK — compare FB insights.
+
+## 18/11 05:49 — user screenshots (IG grid + IG insights 30 d + YT analytics) + IG export PDF (Oct 18 – Nov 17)
+- **IG 30 d:** 29K reel views · 21K viewers · 57 followers · 249 likes · 71 comments · 49 shares · 47 saves · 24 reels.
+- **IG top (views):** kaddab_e03 «مين صوّرني؟» 3.7K / 2.9K viewers / 37 likes / **80 comments** / 7 follows · «الأستاذ وقع!» 2.3K · «الأرض مبلولة» 1.9K · «لازم جوزك يفسّحك» 1.9K · «عمارة غلط/موبايل البواب» 1.9K · kaddab_e01 1.9K (10 comments) · «الفصل اتقلب» 1.8K · «فاكر يا بندق» 1.7K · «بابا في المستشفى» 1.7K (9 h) · kaddab_e04 1.6K (10 h, 10 comments) · nanaa S2 eps ~1.6K · «خدمة الغرف» 935 (7 h) · nanaa S2E5 302 (8 h) · trend01 (أزمة منتخب العمارة) 194–530.
+- **Comments are almost only on «مين الكداب؟»** (80 / 10 / 10 / 8); يوميات ≈ 0 comments → kaddab = the comment/reach engine (user: «ده أساسي كل يوم»).
+- **Follows:** the intro reel «مين شبهك؟ / تعرفوا علينا» = 22 follows (best by far), kaddab_e03 7, nanaa S2 4, others ≤4.
+- A 2nd «مين قطع النور» post shows 8 views (duplicate upload) — told user.
+- **YT all time:** 27 subs · 8.4K views · 89 likes · 12 comments · views come from Shorts (top «الأرض مبلولة» 1.2K); long horizontal episodes 16–62 views. YT audience 25–34 41 %, 35–44 26 %, 18–24 12 % (older than IG case-2 audience).
+- IG grid: the «سر الدور السابع» (nanaa S2) reels show a BLACK title card as cover → weak in the grid; all others use our bright covers.
