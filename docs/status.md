@@ -260,3 +260,8 @@ User approved the idea. Pin it first on every platform (YouTube channel trailer)
 - A1 = case-5 answer (Tota: «عم بندء» in her notebook = same mistake as the letter), papers side by side with the ء circled.
 - New tricks: harder puzzles = the liar is the "victim" + 2 visible red herrings + a logic clue (not a written one). User wants harder cases from now on; source ideas = classic detective-riddle tricks (Krumbo / viral riddles) re-written with our characters — take the trick only, never the script.
 - Item `kaddab_e06` — user SCHEDULED it 19/11 20:00 Kuwait on all platforms.
+
+## «م.م» (مقابلة الشغل) — DONE 19/11 → item `daily_e14` (placeholder 20/11 21:00 Cairo)
+- `trend/02/` ep.py, audio L01–L21 (trimmed; originals in pron/orig), gens.txt. User fixes: «منصور محمود» (not مرسي), «الوظيفة» (not الشغلانة), punchline «مجنون مية مية!» (not «مخ مضروب»).
+- NEW location «مكتب الشركة» trend/02/bg/office.png (docs/locations.md). Gags: «م.م» badge pops + ding on every م.م, interview form insert + «مرفوض» stamp on «هنبقى نكلمك», end on Shatta's frozen grin + audience laugh, endcard «منشن صاحبك اللي عنده م.م!».
+- Still saved: «مين بعت الفويس على جروب العيلة؟» (kaddab) + «أول مقابلة» (اسمي كريم) sketch idea (19/11).
