@@ -259,4 +259,4 @@ User approved the idea. Pin it first on every platform (YouTube channel trailer)
 - `kaddab/06/` (ep.py, script.md, gens.txt). Narrator Tota. Liar = **عزيزة (3)** — glass fell OUTSIDE (window CU outer ledge + street pavement insert `s2e3/bg/street_day.png`), red herrings: Shatta's football, Zalata's ladder. Answer goes at the end of case 7.
 - A1 = case-5 answer (Tota: «عم بندء» in her notebook = same mistake as the letter), papers side by side with the ء circled.
 - New tricks: harder puzzles = the liar is the "victim" + 2 visible red herrings + a logic clue (not a written one). User wants harder cases from now on; source ideas = classic detective-riddle tricks (Krumbo / viral riddles) re-written with our characters — take the trick only, never the script.
-- Item `kaddab_e06` (19/11 19:00 Cairo placeholder).
+- Item `kaddab_e06` — user SCHEDULED it 19/11 20:00 Kuwait on all platforms.
