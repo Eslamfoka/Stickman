@@ -254,3 +254,9 @@ User approved the idea. Pin it first on every platform (YouTube channel trailer)
 ## 17/11 night — «عزيزة في المطار» (trend/03, item daily_e13) DELIVERED (20 s)
 - Adaptation of the user's passport-makeup reel: NO voices, SFX only (user). Aziza in full glam (code makeup layer: glitter shadow, lashes, red lips, blush, mole, gold hoops) → passport photo = plain Aziza → canonical «الظابط» eye-darts photo/her → taps the photo → wipe-off montage (each item fades with tissue + sfx) → side-by-side match ✔ → STAMP «دخول مقبول» → brand end card (logo + @shattawzalata + like/follow/share) per user.
 - NEW location «جوازات المطار» added to docs/locations.md. Item `daily_e13` (placeholder 19/11 21:00 Cairo).
+
+## «مين الكداب؟» القضية 6 — «مين كسر شباك عزيزة؟» (19/11)
+- `kaddab/06/` (ep.py, script.md, gens.txt). Narrator Tota. Liar = **عزيزة (3)** — glass fell OUTSIDE (window CU outer ledge + street pavement insert `s2e3/bg/street_day.png`), red herrings: Shatta's football, Zalata's ladder. Answer goes at the end of case 7.
+- A1 = case-5 answer (Tota: «عم بندء» in her notebook = same mistake as the letter), papers side by side with the ء circled.
+- New tricks: harder puzzles = the liar is the "victim" + 2 visible red herrings + a logic clue (not a written one). User wants harder cases from now on; source ideas = classic detective-riddle tricks (Krumbo / viral riddles) re-written with our characters — take the trick only, never the script.
+- Item `kaddab_e06` (19/11 19:00 Cairo placeholder).
