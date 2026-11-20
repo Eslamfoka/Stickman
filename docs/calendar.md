@@ -1,5 +1,14 @@
 # Content buffer & daily publishing plan (user, 2026-11-10)
 
+## ★ CURRENT FIXED PLAN (user, 2026-11-20) — overrides the tables below until the user changes it
+Every day = **2 videos**:
+| Time (Kuwait) | What |
+|---|---|
+| **20:00** | «مين الكداب؟» — a new case (ends with the previous case's answer + C1) |
+| **23:00** | second video: an «عمارة نعناعة» series episode OR a comedy sketch (يوميات / موقف كوميدي) |
+Keep this every day until we find something better.
+
+
 Target before launch: **one full month ready** (30 days × at least 1 post/day, most days 2–3).
 
 ## FB + IG ACTUAL (user, 2026-11-13): 7 sketches went out EARLY on Facebook + Instagram only —
