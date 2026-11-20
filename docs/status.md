@@ -270,3 +270,4 @@ User approved the idea. Pin it first on every platform (YouTube channel trailer)
 - `kaddab/07/` — midnight thunderstorm in the canonical lobby (night grade + lightning `BOLTS`, rain in the street-door glass, thunder/rain/drip SFX, black silhouette running up the stairs as the hook). Liar = **نعناعة (3)** (first time). Answer goes at the end of case 8.
 - User 20/11: wants every case to be a stronger puzzle + more suspense/mystery + deeper animation/acting. «م.م» (daily_e14) published 19/11.
 - Liars so far: c2 شطة, c3 بندق, c4 زلطة, c5 توتة, c6 عزيزة, c7 نعناعة.
+- kaddab_e07 SCHEDULED by user 20/11 20:00 Kuwait, all platforms.
