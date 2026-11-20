@@ -275,3 +275,4 @@ User approved the idea. Pin it first on every platform (YouTube channel trailer)
 ## يوميات «الشامبو اللي مابيخلصش» (daily_e15, 20/11 23:00 Kuwait slot)
 - `daily/15/` — viral endless-shampoo prank adapted (idea only). NEW location bathroom `daily/bg/bathroom.png` (docs/locations.md).
 - User 20/11: daily plan = 3 videos (kaddab 20:00 + Nanaa episode AND sketch at 23:00 Kuwait). Rejected «أول مقابلة/كريم» script ("وحش") — wants sketches adapted from viral foreign/stickman comedy.
+- daily_e15 fix 20/11: Z2 audio was silent (ffmpeg -ss placed AFTER -i + afade st → whole cut faded out). Always put -ss BEFORE -i when cutting with afade.
