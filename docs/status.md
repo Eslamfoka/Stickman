@@ -265,3 +265,8 @@ User approved the idea. Pin it first on every platform (YouTube channel trailer)
 - `trend/02/` ep.py, audio L01–L21 (trimmed; originals in pron/orig), gens.txt. User fixes: «منصور محمود» (not مرسي), «الوظيفة» (not الشغلانة), punchline «مجنون مية مية!» (not «مخ مضروب»).
 - NEW location «مكتب الشركة» trend/02/bg/office.png (docs/locations.md). Gags: «م.م» badge pops + ding on every م.م, interview form insert + «مرفوض» stamp on «هنبقى نكلمك», end on Shatta's frozen grin + audience laugh, endcard «منشن صاحبك اللي عنده م.م!».
 - Still saved: «مين بعت الفويس على جروب العيلة؟» (kaddab) + «أول مقابلة» (اسمي كريم) sketch idea (19/11).
+
+## «مين الكداب؟» القضية 7 — «مين خد فلوس الجمعية؟» (20/11)
+- `kaddab/07/` — midnight thunderstorm in the canonical lobby (night grade + lightning `BOLTS`, rain in the street-door glass, thunder/rain/drip SFX, black silhouette running up the stairs as the hook). Liar = **نعناعة (3)** (first time). Answer goes at the end of case 8.
+- User 20/11: wants every case to be a stronger puzzle + more suspense/mystery + deeper animation/acting. «م.م» (daily_e14) published 19/11.
+- Liars so far: c2 شطة, c3 بندق, c4 زلطة, c5 توتة, c6 عزيزة, c7 نعناعة.
