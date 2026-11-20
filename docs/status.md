@@ -271,3 +271,7 @@ User approved the idea. Pin it first on every platform (YouTube channel trailer)
 - User 20/11: wants every case to be a stronger puzzle + more suspense/mystery + deeper animation/acting. «م.م» (daily_e14) published 19/11.
 - Liars so far: c2 شطة, c3 بندق, c4 زلطة, c5 توتة, c6 عزيزة, c7 نعناعة.
 - kaddab_e07 SCHEDULED by user 20/11 20:00 Kuwait, all platforms.
+
+## يوميات «الشامبو اللي مابيخلصش» (daily_e15, 20/11 23:00 Kuwait slot)
+- `daily/15/` — viral endless-shampoo prank adapted (idea only). NEW location bathroom `daily/bg/bathroom.png` (docs/locations.md).
+- User 20/11: daily plan = 3 videos (kaddab 20:00 + Nanaa episode AND sketch at 23:00 Kuwait). Rejected «أول مقابلة/كريم» script ("وحش") — wants sketches adapted from viral foreign/stickman comedy.
