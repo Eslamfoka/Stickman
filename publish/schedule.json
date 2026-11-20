@@ -9,7 +9,7 @@
   },
   "timezone_note": "كل المواعيد بتوقيت القاهرة (UTC+2 في نوفمبر). 9 بالليل القاهرة = 10 بالليل الكويت.",
   "media_folder": "publish/media/ (مش على الريبو — حط فيه الفيديوهات بالأسماء المكتوبة في media، والأسامي الأصلية في source_file_names)",
-  "generated": "2026-11-20T18:47:46+00:00",
+  "generated": "2026-11-20T18:50:25+00:00",
   "posts": [
     {
       "id": "brand_intro",
@@ -1525,7 +1525,7 @@
       "episode_name": "الدور السابع",
       "publish_at_cairo": "2026-11-20T21:00:00+02:00",
       "publish_at_utc": "2026-11-20T19:00:00Z",
-      "status": "يوتيوب ⏳ • شورتس ⏳ • تيك توك ✅ • فيس ✅ • انستا ✅",
+      "status": "يوتيوب ⏳ • شورتس ⏳ • تيك توك ✅ • فيس + انستا ريلز: 📅 متجدولة 20/11",
       "media": {
         "horizontal": "media/nanaa_s1_e08_h.mp4",
         "vertical": "media/nanaa_s1_e08_v.mp4"
@@ -1626,7 +1626,7 @@
       "episode_name": "اللي ورا الباب",
       "publish_at_cairo": "2026-11-21T21:00:00+02:00",
       "publish_at_utc": "2026-11-21T19:00:00Z",
-      "status": "يوتيوب ⏳ • شورتس ⏳ • تيك توك ✅ • فيس ✅ • انستا ✅",
+      "status": "يوتيوب ⏳ • شورتس ⏳ • تيك توك ✅ • فيس + انستا ريلز: 📅 متجدولة 21/11",
       "media": {
         "horizontal": "media/nanaa_s1_e09_h.mp4",
         "vertical": "media/nanaa_s1_e09_v.mp4"
@@ -1727,7 +1727,7 @@
       "episode_name": "الحقيقة",
       "publish_at_cairo": "2026-11-22T21:00:00+02:00",
       "publish_at_utc": "2026-11-22T19:00:00Z",
-      "status": "يوتيوب ⏳ • شورتس ⏳ • تيك توك ✅ • فيس ✅ • انستا ✅",
+      "status": "يوتيوب ⏳ • شورتس ⏳ • تيك توك ✅ • فيس + انستا ريلز: 📅 متجدولة 22/11",
       "media": {
         "horizontal": "media/nanaa_s1_e10_h.mp4",
         "vertical": "media/nanaa_s1_e10_v.mp4"

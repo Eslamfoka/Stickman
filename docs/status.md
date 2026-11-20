@@ -277,3 +277,5 @@ User approved the idea. Pin it first on every platform (YouTube channel trailer)
 - User 20/11: daily plan = 3 videos (kaddab 20:00 + Nanaa episode AND sketch at 23:00 Kuwait). Rejected «أول مقابلة/كريم» script ("وحش") — wants sketches adapted from viral foreign/stickman comedy.
 - daily_e15 fix 20/11: Z2 audio was silent (ffmpeg -ss placed AFTER -i + afade st → whole cut faded out). Always put -ss BEFORE -i when cutting with afade.
 - daily_e15 SCHEDULED by user 20/11 23:00 Kuwait, all platforms.
+- FB/IG reels schedule seen 20/11 (user screenshot): S1 «سر الدور السابع» E08 20/11 · E09 21/11 · E10 22/11 · 23/11: S2 trailer + S1 recap «ملخص الحكاية كلها» · shampoo 20/11.
+  → S2 «سر البدروم» E01 should start 24/11 at 23:00 Kuwait (new daily slot), one per day.
