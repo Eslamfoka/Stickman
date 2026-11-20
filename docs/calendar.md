@@ -1,11 +1,12 @@
 # Content buffer & daily publishing plan (user, 2026-11-10)
 
 ## ★ CURRENT FIXED PLAN (user, 2026-11-20) — overrides the tables below until the user changes it
-Every day = **2 videos**:
+Every day = **3 videos** (user corrected 20/11: not "or" — BOTH at 23:00):
 | Time (Kuwait) | What |
 |---|---|
 | **20:00** | «مين الكداب؟» — a new case (ends with the previous case's answer + C1) |
-| **23:00** | second video: an «عمارة نعناعة» series episode OR a comedy sketch (يوميات / موقف كوميدي) |
+| **23:00** | an «عمارة نعناعة» series episode |
+| **23:00** | + a comedy sketch (يوميات / موقف كوميدي) |
 Keep this every day until we find something better.
 
 
