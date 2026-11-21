@@ -288,3 +288,4 @@ User approved the idea. Pin it first on every platform (YouTube channel trailer)
 - Growth rules applied: native vertical cameras (`v=`), phrase subtitles + yellow key word + speaker name pill, hook 3 s then «قضية 8» tag, end «الحل بكره… تابع», own cover/thumb (`python ep.py cover`), build.py item growth=True.
 - Tota's case-7 answer re-generated: «والحَلّ بِتاع الفَزُّورَة» (she read «وحِلّ» with a kasra before).
 - Liars so far: c2 شطة, c3 بندق, c4 زلطة, c5 توتة, c6 عزيزة, c7 نعناعة, c8 بندق.
+- kaddab_e08 SCHEDULED by user 21/11 20:00 Kuwait, all platforms.
