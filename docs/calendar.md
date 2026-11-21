@@ -9,6 +9,8 @@ Every day = **3 videos** (user corrected 20/11: not "or" — BOTH at 23:00):
 | **23:00** | + a comedy sketch (يوميات / موقف كوميدي) |
 Keep this every day until we find something better.
 
+**TRIAL (user 21/11 «ضيفها ونجربها»): new mini-series «لغز زلطة»** — 10–15 s number/logic puzzle presented by Zalata (board, countdown ticking, Shatta confused counting on his fingers for the laugh), ends «اكتب حلك 👇 والحل بكره»; the answer opens the next puzzle. Inspired by viral «pick 3 numbers = 24» images (multi-answer → lots of comments) but with OUR characters. Trial = 1 week, daily at **16:00 Kuwait** (4th slot), then compare.
+
 
 Target before launch: **one full month ready** (30 days × at least 1 post/day, most days 2–3).
 
