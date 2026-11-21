@@ -13,7 +13,7 @@ day / night / dusk, lamps on/off, torch light. Never generate a new picture of a
 |---|---|---|---|---|
 | مدخل العمارة (lobby: bench, mailboxes, street door, stairs, basement door) | `s1e10/bg/morning.png` | graded in code (night tint) | S1E10, S2E1–E6 | S1E1–E9 used `s1e1/bg/lobby_1080.png` (older look) — from S2 on ONLY morning.png |
 | السلم (stairwell) | `s1e1/bg/stairs_1080.png` | graded (warm day / blue night) | S1, S2E3–E6 | |
-| الصالة (Nana's living room, 2nd floor) | `s1e1/bg/living_1080.png` | graded | S1 | |
+| الصالة (Nana's living room, 2nd floor) | `s1e1/bg/living_1080.png` | graded (lit = ×1.55 warm, dark = ×0.55 blue) | S1, قضية 8 «خزنة نعناعة» | safe on the LEFT cabinet + cake/card/flowers on the coffee table are drawn in code (kaddab/08/ep.py) |
 | أوضة العيال | `s1e1/bg/bedroom_clean.png` | graded | S1 | S2E2 bedroom `s2e2/bg_bedroom.png` = same room (posters painted over) → use bg_bedroom.png from S2 on |
 | باب شقة 7 | `s1e2/bg/door7.png` | — | S1E2 | |
 | شقة فهمي | `s1e5/bg/fahmy_raw.png` | — | S1E5 | |
