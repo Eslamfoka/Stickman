@@ -37,3 +37,9 @@ silent cover in the first 0.5 s + tiny picture in the vertical) and almost no sh
 24. Thumbnail ≠ title: the title tells the story, the thumbnail tells the emotion.
 25. Long videos: use YouTube's thumbnail test (2–3 designs per season movie).
 26. Shorts: design one "cover-worthy" frame inside every episode (big face + hook text) for the user to pick as the Shorts thumbnail.
+
+## How it's implemented (first: daily/16 «راجل البيت», 21/11)
+- Item flag `growth=True` in publish/build.py → 3-line caption (`hook` ≤80 / `cta` / ≤5 tags), no links, pinned = `bait`; build.py does NOT draw thumbs for it.
+- Episode makes its own cover + YT thumbnail: `python ep.py cover` (big faces composition + story object + 2-word question + badge).
+- Native vertical: `vertical()` re-draws the scene with its own camera (`v=(c0,c1)` per shot, `vcam`), phrase subtitles `CHUNKS` with a yellow key word (`sub_chunk`), hook 3 s only. See daily/16/ep.py as the template.
+- publish/tiktok_cut.py no longer prepends the cover (only with `--cover-first`).

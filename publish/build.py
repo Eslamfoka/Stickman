@@ -120,6 +120,7 @@ STATUS = {
     "kaddab_e04": "📅 متجدولة 17/11 الساعة 8 مساءً بتوقيت الكويت (7 مصر) على كل المنصات (المستخدم جدولها؛ مأكدة من سكرين فيس) — القضية 4 «مين قطع النور؟»",
     "kaddab_e03": "📅 متجدولة 16/11 الساعة 8 مساءً بتوقيت الكويت (7 مصر) يوتيوب + شورتس + فيس + انستا + تيك توك (المستخدم جدولها) — القضية 3 «مين صوّر عزيزة؟»",
     "daily_e08": "✅ جاهز (يوتيوب + طولي) — د. زلطة + عم بندق في العيادة، مستني ميعاد نشر من المستخدم",
+    "daily_e16": "✅ جاهز — «راجل البيت» (أول فيديو بقواعد growth_rules: طولي حقيقي، من غير غلاف ثابت، ترجمة قصيرة)",
     "daily_e15": "📅 متجدولة 20/11 الساعة 11 مساءً بتوقيت الكويت على كل المنصات (المستخدم جدولها) — «الشامبو اللي مابيخلصش»",
     "daily_e14": "✅ نزلت 19/11 على كل المنصات (المستخدم جدولها) — «م.م»",
     "daily_e13": "✅ جاهز (يوتيوب + طولي) — «عزيزة في المطار» (ترند صورة الباسبور، من غير كلام — مؤثرات بس)، مستني ميعاد نشر من المستخدم",
@@ -333,6 +334,12 @@ ITEMS = [
       yt_title="مقلب الشامبو اللي مابيخلصش 😂🧴 زلطة بقاله ساعتين بيشطف!", hook="زلطة بيستحمى ومبسوط وبيغني… بس كل ما يشطف الرغوة بترجع تاني 😂 استنى لحد ما تعرف مين ورا الموضوع!",
       question="💬 منشن أخوك اللي يعمل فيك كده 😂👇", headline=["مقلب", "الشامبو!"], bg=f"{REPO}/daily/bg/bathroom.png",
       figs=[("zalata", 3.4, "shock", 0.0, 1, "up", None, None, None, 1280), ("shatta", 3.2, "smug", 0.0, -1, "shush", None, None, None, 1720)]),
+ dict(id="daily_e16", series="daily", kind="episode", ep=16, name="راجل البيت", date="2026-11-21", time="22:00",
+      src_h="يوميات شطة وزلطة - راجل البيت.mp4", src_v="يوميات شطة وزلطة - راجل البيت (تيك توك وريلز وشورتس).mp4",
+      yt_title="لما مراتك تقولك انزل… وانت راجل البيت 😂", hook="لما مراتك تقولك انزل… وانت «راجل البيت» 😂", growth=True,
+      cta="منشن جوزك اللي بيعمل كده 😂👇", bait="بندق نزل ولا لسه متشعلق لحد دلوقتي؟ 😂 قولوا انتو",
+      question="منشن جوزك اللي بيعمل كده 😂👇", headline=["راجل", "البيت؟!"], bg=f"{REPO}/daily/bg/bandaq_room.png",
+      figs=[("bondo2", 4.4, "scared", 0.0, 1, "up", None, None, None, 1250), ("aziza", 4.2, "angry", 0.0, -1, "up", None, None, None, 1760)]),
  dict(id="nanaa_s2_movie", series="nanaa_s2", kind="movie", ep=None, name="الموسم التاني كامل", date="2026-12-05", time="18:00",
       src_h="عمارة نعناعة م2 - سر البدروم (الفيلم كامل).mp4", src_v=None, chapters=f"{REPO}/movie/s2/chapters.txt",
       yt_title="عمارة نعناعة: سر البدروم - الموسم التاني كامل 🎬", hook="الموسم التاني كله في فيلم واحد: من باب البدروم المقفول… لحد أغنية العمارة! 🔦🤖",
@@ -494,11 +501,15 @@ def yt_description(it):
 EG_TAGS = ["#مصر", "#كوميديا_مصرية", "#القاهرة", "#ضحك_مصري"]   # user 2026-11-16: pull Egyptian viewers (IG served mostly Gulf)
 def eg(tags): return list(dict.fromkeys(list(tags) + EG_TAGS))
 def short_caption(it, tags):
+    if it.get("growth"):                              # docs/growth_rules.md 15-16: 3 lines, one ask, 4-5 tags, no links
+        return f"{it['hook'][:80]}\n{it.get('cta', it['question'])}\n{' '.join(eg(tags)[:5])}"
     tags = eg(tags); q = it["question"]
     return f"{it['hook']} {'' if it['series'] in SKETCH else badge_text(it) + ' '}من «{SERIES[it['series']]['name'].split(' - ')[0].split(':')[0]}» 🎬\n{q}\n{' '.join(tags)}"
 
 def pinned(it, platform):
     q = it["question"]
+    if it.get("growth") and platform != "youtube":    # rule 17: discussion bait, not a copy of the caption
+        return it.get("bait", q)
     if platform == "youtube":
         return f"{q}\n\n{LINKS_BLOCK}"
     return f"{q}\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @{HANDLE} 🌶️🥗"
@@ -578,4 +589,5 @@ if not NO_THUMBS:
     only = sys.argv[sys.argv.index("--only") + 1] if "--only" in sys.argv else None
     for it in ITEMS:
         if only and it["id"] != only: continue
+        if it.get("growth"): continue          # growth_rules 11-14/22-26: cover + thumbnail are made by the episode itself (`python ep.py cover`)
         ("--covers" in sys.argv or thumb_yt(it)); thumb_cover(it); print("thumbs", it["id"], flush=True)
