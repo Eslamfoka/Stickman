@@ -284,7 +284,7 @@ User approved the idea. Pin it first on every platform (YouTube channel trailer)
 
 ## «مين الكداب؟» القضية 8 — «خزنة نعناعة» (21/11, 20:00 Kuwait slot) — FIRST case under growth_rules
 - `kaddab/08/` — canonical الصالة (dark hook → lamp on). Small safe on the left cabinet swings open EMPTY, red LED. Keypad insert: dust on every key except 1 9 5 8.
-- Clue (2 steps): cake with candles «68» (2026−68 = 1958 = Nana's birth year = the code) + birthday card «كل سنة وإنتي طيبة يا طنط نعناعة» signed with a HAZELNUT drawing (= بندق) → Bandaq was here today but says «ما شفتش طنط نعناعة النهارده» → liar = **بندق (3)**. Tell the answer at the end of case 9.
+- Clue (2 steps): cake with candles «68» (2026−68 = 1958 = Nana's birth year = the code) + birthday card «كل سنة وإنتي طيبة يا طنط نعناعة» signed «بندق» (handwritten signature, user 21/11) + hazelnut doodle → Bandaq was here today but says «ما شفتش طنط نعناعة النهارده» → liar = **بندق (3)**. Tell the answer at the end of case 9.
 - Growth rules applied: native vertical cameras (`v=`), phrase subtitles + yellow key word + speaker name pill, hook 3 s then «قضية 8» tag, end «الحل بكره… تابع», own cover/thumb (`python ep.py cover`), build.py item growth=True.
 - Tota's case-7 answer re-generated: «والحَلّ بِتاع الفَزُّورَة» (she read «وحِلّ» with a kasra before).
 - Liars so far: c2 شطة, c3 بندق, c4 زلطة, c5 توتة, c6 عزيزة, c7 نعناعة, c8 بندق.

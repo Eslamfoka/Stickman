@@ -2,7 +2,7 @@
 # Canonical Nana living room (s1e1/bg/living_1080.png = loc("living")), lights off in the hook, then the lamp comes on.
 # HOOK: dark room, a small safe on the left cabinet swings open by itself — EMPTY — red LED blinking.
 # Clue (2 steps): code = 1 9 5 8 (dust on every key except these). On the coffee table: a birthday cake with candles «68»
-#   (2026 − 68 = 1958 → the code is Nana's birth year) + a birthday card signed with a little HAZELNUT drawing (= بندق).
+#   (2026 − 68 = 1958 → the code is Nana's birth year) + a birthday card signed «بندق» (small handwritten signature + a hazelnut doodle).
 #   Bandaq says «ما شفتش طنط نعناعة النهارده خالص» — but his birthday card is on her table today → he LIES.
 #   Red herrings: Shatta «مش بعرف في الأرقام», Aziza's market basket.
 # ANSWER (say it at the END of case 9): بندق (3).   Case-7 answer told here (A1, Tota): نعناعة — dry umbrella.
@@ -11,7 +11,7 @@ exec(open(ROOT + "/trend/01/kit.py", encoding="utf-8").read())
 from PIL import ImageFont, ImageChops
 os.chdir(ROOT + "/kaddab/08")
 SERIES = "مين الكداب؟"; EPT = "خزنة نعناعة"
-LZ = ROOT + "/brand/fonts/Lalezar-Regular.ttf"; DJ = ROOT + "/brand/fonts/DejaVuSans-Bold.ttf"
+LZ = ROOT + "/brand/fonts/Lalezar-Regular.ttf"; RUQ = ROOT + "/brand/fonts/Cairo.ttf"; DJ = ROOT + "/brand/fonts/DejaVuSans-Bold.ttf"
 SFXF = {n: load_audio(ROOT + f"/trend/01/sfx/{n}.mp3") for n in ("whoosh", "stinger", "gasp", "switch")}
 
 SUB = {"N1": "فلوسي اختفت… والرقم محدش يعرفه غيري!", "Z1": "الخزنة ما اتكسرتش… يبقى الحرامي كان عارف الرقم.",
@@ -172,7 +172,12 @@ def draw_table(img, d, Q, zz, tt):
         f = ImageFont.truetype(LZ, max(6, int(10.5 * zz)))
         d.text(Q(cx, cy - 25), "كل سنة وإنتي طيبة", font=f, fill=(170, 40, 60), anchor="mm", direction="rtl", language="ar")
         d.text(Q(cx, cy - 9), "يا طنط نعناعة", font=f, fill=(170, 40, 60), anchor="mm", direction="rtl", language="ar")
-        h = Q(cx - 32, cy + 9); hazelnut(d, h[0], h[1], 6.5 * zz)
+        h = Q(cx - 38, cy + 9); hazelnut(d, h[0], h[1], 5.5 * zz)
+        sg = Q(cx - 2, cy + 8); fs = ImageFont.truetype(RUQ, max(6, int(17 * zz)))      # handwritten signature «بندق» (user 21/11)
+        sl = Image.new("RGBA", (int(60 * zz), int(30 * zz)), (0, 0, 0, 0)); sd = ImageDraw.Draw(sl)
+        sd.text((sl.size[0] / 2, sl.size[1] * 0.45), "بندق", font=fs, fill=(30, 40, 120, 255), anchor="mm", direction="rtl", language="ar")
+        sd.line([(sl.size[0] * 0.12, sl.size[1] * 0.85), (sl.size[0] * 0.88, sl.size[1] * 0.72)], fill=(30, 40, 120, 255), width=max(1, int(1.2 * zz)))
+        sl = sl.transform(sl.size, Image.AFFINE, (1, 0.35, -0.35 * sl.size[1] * 0.5, 0, 1, 0), resample=Image.BICUBIC).rotate(7, resample=Image.BICUBIC); img.paste(sl, (int(sg[0] - sl.size[0] / 2), int(sg[1] - sl.size[1] / 2)), sl)
         hh = Q(cx + 28, cy + 9); r = 4 * zz
         d.ellipse([hh[0] - r * 2, hh[1] - r, hh[0], hh[1] + r * 0.8], fill=(230, 60, 80)); d.ellipse([hh[0], hh[1] - r, hh[0] + r * 2, hh[1] + r * 0.8], fill=(230, 60, 80))
         d.polygon([(hh[0] - r * 2, hh[1]), (hh[0] + r * 2, hh[1]), (hh[0], hh[1] + r * 2)], fill=(230, 60, 80))
