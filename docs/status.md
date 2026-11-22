@@ -302,3 +302,4 @@ User approved the idea. Pin it first on every platform (YouTube channel trailer)
 - Flashback shot on «ركزوا في أول الحلقة»; case-8 answer = table insert (cake 68 → 1958 = code, Bandaq's card).
 - Pron: «البغبغان» read «البغبان» → write «البَغْ بَغان»; user wanted «ما بيتفتحش» (it worked).
 - Liars so far: c2 شطة, c3 بندق, c4 زلطة, c5 توتة, c6 عزيزة, c7 نعناعة, c8 بندق, c9 شطة.
+- 22/11: kaddab_e09 PUBLISHED 20:00 Kuwait; daily_e17 «قوله يا بندق!» SCHEDULED 23:00 Kuwait (user).
