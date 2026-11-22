@@ -37,30 +37,27 @@ SOFA = (560, 1370, 800)
 
 # ---------------- timeline ----------------
 lines.clear(); shots.clear(); sfx.clear(); shakes.clear()
-CU_B_H, CU_B_V = (1150, 640, 2.3), (1140, 640, 2.6)
-CU_A_H, CU_A_V = (780, 640, 2.3), (790, 640, 2.6)
-TWO_H, TWO_V = (965, 690, 1.7), (965, 640, 1.8)
-t = say(0.1, "B1"); shakes.append((0.15, 12)); b1 = T("B1")
-shot("room", 0.0, b1 + 3.2, (1150, 640, 2.8), CU_B_H, ease="crash", v=((1140, 640, 3.0), CU_B_V))          # frame 1: crash-in on him, on the phone
-shot("room", b1 + 3.2, t + 0.1, TWO_H, (965, 680, 1.8), tin="whip", v=(CU_A_V, (790, 630, 2.75)))         # «طبيخ ومواعين ومسح» — she glows
+# user 22/11: BOTH always in one frame (two-shot), Aziza reacts while he talks — the camera only breathes (slow push/pull)
+TW_H = lambda z, cy=650: (965, cy, z)
+TW_V = lambda z, cy=640: (965, cy, z)
+t = say(0.1, "B1"); shakes.append((0.15, 10)); b1 = T("B1")
+shot("room", 0.0, t + 0.1, TW_H(2.35), TW_H(2.05), ease="crash", v=(TW_V(2.0), TW_V(1.86)))                  # frame 1: push-out from the two of them
 s = t + 0.1; t = say(s + 0.1, "AZ1") + 0.1
-shot("room", s, t, CU_A_H, (800, 630, 2.55), tin="whipl", v=(CU_A_V, (800, 630, 2.85)))                      # she whispers, leaning to him
+shot("room", s, t, TW_H(2.05), TW_H(2.2, 640), v=(TW_V(1.86), TW_V(1.92)))                                      # she whispers (slow push)
 s = t; t = say(s + 0.05, "B2") + 0.05; b2 = T("B2")
-shot("room", s, b2 + 2.6, (1150, 690, 2.0), (1150, 680, 2.15), tin="whip", v=((1140, 680, 2.2), (1140, 670, 2.35)))  # repeating it loud
-shot("room", b2 + 2.6, t, (1150, 610, 2.4), (1150, 600, 2.75), tin="whipl", v=((1140, 610, 2.7), (1140, 600, 3.0)))  # hero push-in «مراتي ملكة»
+shot("room", s, b2 + 2.6, TW_H(2.2, 640), TW_H(2.05), v=(TW_V(1.92), TW_V(1.86)))
+shot("room", b2 + 2.6, t, TW_H(2.05), TW_H(2.3, 630), ease="crash", v=(TW_V(1.86), TW_V(1.96)))               # «مراتي ملكة» — little punch-in
 s = t; t = say(s + 0.05, "B4") + 0.15; HANG = T("B4") + DUR["B4"] - 0.2
-shot("room", s, t, TWO_H, (965, 690, 1.78), tin="whip", v=(TWO_V, (965, 640, 1.85)))                        # hangs up
+shot("room", s, t, TW_H(2.3, 630), TW_H(2.1), v=(TW_V(1.96), TW_V(1.88)))
 s = t; t = say(s + 0.1, "AZ2") + 0.1; a2 = T("AZ2")
-shot("room", s, a2 + 4.3, (790, 640, 2.4), (790, 630, 2.7), tin="whipl", v=((790, 640, 2.7), (790, 630, 3.0)))    # melting, hearts
-shot("room", a2 + 4.3, t, TWO_H, (965, 685, 1.78), tin="whip", v=(TWO_V, (965, 640, 1.85)))                    # «كنت بتكلم مامتك؟»
+shot("room", s, t, TW_H(2.1), TW_H(2.3, 635), v=(TW_V(1.88), TW_V(1.95)))
 s = t; t = say(s + 0.05, "B3") + 0.05; REVEAL = T("B3") + 1.0
-shot("room", s, REVEAL, CU_B_H, (1150, 630, 2.45), tin="whip", v=(CU_B_V, (1140, 630, 2.8)))                  # «لأ…»
-shot("room", REVEAL, t, CU_B_H, (1150, 625, 2.6), v=(CU_B_V, (1140, 625, 2.9)))                               # «مامتِك إنتي!»
+shot("room", s, t, TW_H(2.3, 635), TW_H(2.4, 630), v=(TW_V(1.95), TW_V(1.98)))
 SHOCK = t; shakes.append((SHOCK + 0.05, 18))
 t = say(SHOCK + 0.15, "AZ3")
-shot("room", SHOCK, t + 0.25, (790, 600, 3.3), (790, 595, 3.55), tin="whipl", ease="crash", v=((790, 600, 3.4), (790, 595, 3.7)))  # crash zoom on her shock
+shot("room", SHOCK, t + 0.25, TW_H(2.6, 615), TW_H(2.75, 610), ease="crash", v=(TW_V(2.1, 620), TW_V(2.2, 615)))  # crash push — still both in frame
 LAUGH = t - 0.35; say(LAUGH, "GROUP"); LU = min(2.6, DUR["GROUP"])
-shot("room", t + 0.25, LAUGH + LU, TWO_H, (965, 700, 1.7), tin="whip", v=((965, 640, 1.8), (1000, 640, 1.85)))   # she turns on him, he grins
+shot("room", t + 0.25, LAUGH + LU, TW_H(2.2), TW_H(2.0), v=(TW_V(1.9), TW_V(1.84)))
 t = LAUGH + LU
 shot("end", t, t + 2.4, None, v=None); t += 2.4
 TOTAL = t
@@ -146,21 +143,30 @@ def scene(tt, cam, size):
     sofa_back(p, cam)
     k, lt = line_at(tt)
     # ---- Aziza (left, faces him): glows → whispers (leans in, hand at mouth) → melts → SHOCK → turns on him
-    aex = "happy"
+    # ---- Aziza reacts to every line of his (user 22/11)
+    aex, anod = "happy", 0.0
+    if k == "B1":
+        aex = "neutral" if lt < 1.0 else ("happy" if lt < 4.4 else "laugh")         # surprised → touched → giggling «ومسح!»
+        if lt >= 4.4: anod = math.sin((lt - 4.4) * 10) * 6
+    elif k == "B2": aex = "laugh" if lt < 2.6 else "happy"
+    elif k == "B4" or (HANG <= tt < a2): aex = "sleepy"                                     # dreamy
+    elif k == "B3": aex = "happy" if lt < 0.9 else "neutral"
     if tt >= SHOCK: aex = "shock" if tt < SHOCK + 1.6 else "angry"
-    aarms = arms_at([(0, "down"), (b1 + 3.0, "clap"), (T("AZ1") - 0.1, "shush"), (T("AZ1") + DUR["AZ1"], "clap"), (a2 + 4.3, "down"),
-                     (SHOCK, "up"), (SHOCK + 1.6, "hips")], tt, 0.18)
-    alean = 0.0
-    if T("AZ1") - 0.2 <= tt < T("AZ1") + DUR["AZ1"] + 0.2: alean = 0.28                 # whispering into his free ear
-    elif a2 <= tt < SHOCK: alean = 0.12
-    if SHOCK <= tt < SHOCK + 0.5: alean = -0.2 * (1 - kk(tt, SHOCK, SHOCK + 0.5))       # recoils
+    aarms = arms_at([(0, "down"), (b1 + 1.1, "clap"), (b1 + 4.4, "clap2"), (T("AZ1") - 0.1, "shush"), (T("AZ1") + DUR["AZ1"], "clap2"),
+                     (b2 + 2.6, "clap"), (T("AZ2") + 2.3, "down"), (SHOCK, "up"), (SHOCK + 1.6, "hips")], tt, 0.18)
+    if k == "B2" and lt < 2.6: aarms = "clap" if int(lt * 6) % 2 else "clap2"               # applauding him
+    alean = 0.08 if tt < SHOCK else 0.0
+    if T("AZ1") - 0.2 <= tt < T("AZ1") + DUR["AZ1"] + 0.2: alean = 0.28
+    elif k == "B2" and lt >= 2.6: alean = 0.18
+    if SHOCK <= tt < SHOCK + 0.5: alean = -0.2 * (1 - kk(tt, SHOCK, SHOCK + 0.5))
     elif tt >= SHOCK + 1.6: alean = 0.2 * kk(tt, SHOCK + 1.6, SHOCK + 2.1)
     alook = 1 if not (SHOCK <= tt < SHOCK + 1.4) else 0
-    person(lay, cam, "aziza", *AZ, tt, aex, alook, aarms, alean, None, sit=1)
+    person(lay, cam, "aziza", *AZ, tt, aex, alook, aarms, alean, None, sit=1, nod=anod)
     # ---- Bandaq (right, faces her): phone at the ear until he hangs up
     on_phone = tt < HANG
     bex = "angry" if tt < T("AZ1") else ("flat" if tt < T("B2") else "smug")
     if tt >= HANG: bex = "happy"
+    if k == "AZ2": bex = "smug" if lt < 4.3 else "neutral"                                  # proud while she melts
     if tt >= SHOCK + 1.2: bex = "scared"
     if on_phone: barms = "phone"
     else: barms = arms_at([(HANG, "phone"), (HANG + 0.01, "down"), (T("B3") + 0.9, "talk"), (SHOCK + 1.2, "scared")], tt)
