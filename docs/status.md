@@ -295,3 +295,10 @@ User approved the idea. Pin it first on every platform (YouTube channel trailer)
 - `daily/17/` — red sofa in «أوضة بندق وعزيزة» (sofa code from daily/11). Bandaq defends Aziza on the phone «لا يا ماما!», she whispers «قول لها…», hearts grow; «كنت بتكلم مامتَك؟» — «لأ… مامتِك إنتي!» → hearts pop, crash zoom «أمي أنا؟!» + laugh → end card «ابعتها لجوزك».
 - 7 acted takes (flow kDKugIh2K7rlyLbgKQhT, see gens.txt). Pron lessons: write «قول لها» (not قولها); «ضهرها» → read ظهرها; «أمِّك» read with damma ×3 → use «مامتك»; to a woman spell «مامْتِيكْ» to force the kasra.
 - Growth rules applied (native vertical, phrase subs + name pill, hook 3 s, own cover, build.py growth=True).
+
+## «مين الكداب؟» القضية 9 — «مين طيّر البغبغان؟» (22/11, 20:00 Kuwait)
+- `kaddab/09/` — canonical الصالة (lit); parrot cage (code) hangs by the balcony door, door latch OUTSIDE. Hook: parrot on the rail squawks «يا نهار أبيض!» (Shatta's voice pitched ×1.45) and flies off.
+- AUDIO clue: each suspect opens with a different exclamation (عزيزة «يا لهوي» · توتة «يا خبر» · شطة «يا نهار أبيض»), Nana says «يا مصيبتي». A parrot only repeats what it hears often → Shatta visits a lot but says «عمري ما دخلت شقة طنط نعناعة» → liar = **شطة (3)**. Tell it at the end of case 10.
+- Flashback shot on «ركزوا في أول الحلقة»; case-8 answer = table insert (cake 68 → 1958 = code, Bandaq's card).
+- Pron: «البغبغان» read «البغبان» → write «البَغْ بَغان»; user wanted «ما بيتفتحش» (it worked).
+- Liars so far: c2 شطة, c3 بندق, c4 زلطة, c5 توتة, c6 عزيزة, c7 نعناعة, c8 بندق, c9 شطة.

@@ -1,0 +1,11 @@
+flow bDyTuNDRmmajJji1vnLI — القضية 9 «مين طيّر البغبغان؟»
+PAR BU9WdbFV8SnF9h0UPhcF  (Shatta voice, pitched ×1.45 = parrot) يا نهار أبيض! يا نهار أبيض!
+N1  Poqooc6BVxgvyWVwADyc  نعناعة: يا مصيبتي! البغبغان بتاعي طار! حد فتح القفص وأنا نايمة!
+Z1  qb154W3n8YOU4R5ptuNz  زلطة: القفص ده ما بيتفتحش غير من بره... يبقى حد دخل الشقة!  (v1 «بيتفتح» — user wants بيتفتحش)
+AZ1 RsNKvDdhgLhPcpsSCMCX  عزيزة: يا لهوي! أنا من الصبح بنشر الغسيل فوق السطح!
+T1  l9XtgjY7i9YrG4KuWVYh  توتة: يا خبر! أنا لسه راجعة من المدرسة!
+S1  nkzto6FXND38C5CiZVir  شطة: يا نهار أبيض! أنا عمري ما دخلت شقة طنط نعناعة... ولا أعرف شكل البغبغان ده أصلًا!
+Z2  kx1euoU5AV9sVJBfchau  زلطة: البغبغان ما بيقولش غير... (written «البَغْ بَغان»: v1 read «البغبان»; more feeling)
+A1  qqE1bKGuzd3V81o96a6W  توتة: حل القضية 8 (بندق — 68 → 1958 + الكارت)
+C1  reuse kaddab/08/audio/C1.mp3
+v2 (user 22/11 «عايز الاحساس في كل الكلام»): N1 5WjFS3DLrl8iSGgIKbxM · AZ1 ll5EbR90YW15JhVZlxMw · T1 vW4ULSOr0mN2RFY0JriN · S1 vJTgbGxooHX6ZHty2QKl · A1 hswns6RhaZPrOgc96QPP · PAR zQYtdG68lb0snH46AIig  (البغبغان written «البَغْ بَغان»)
