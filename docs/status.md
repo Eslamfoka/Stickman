@@ -289,3 +289,8 @@ User approved the idea. Pin it first on every platform (YouTube channel trailer)
 - Tota's case-7 answer re-generated: «والحَلّ بِتاع الفَزُّورَة» (she read «وحِلّ» with a kasra before).
 - Liars so far: c2 شطة, c3 بندق, c4 زلطة, c5 توتة, c6 عزيزة, c7 نعناعة, c8 بندق.
 - kaddab_e08 SCHEDULED by user 21/11 20:00 Kuwait, all platforms.
+
+## يوميات e17 — «قوله يا بندق!» (22/11, 23:00 Kuwait) — user idea (viral «كل مرة تشغلوها خدامة»), our version
+- `daily/17/` — red sofa in «أوضة بندق وعزيزة» (sofa code from daily/11). Bandaq defends Aziza on the phone «لا يا ماما!», she whispers «قول لها…», hearts grow; «كنت بتكلم مامتَك؟» — «لأ… مامتِك إنتي!» → hearts pop, crash zoom «أمي أنا؟!» + laugh → end card «ابعتها لجوزك».
+- 7 acted takes (flow kDKugIh2K7rlyLbgKQhT, see gens.txt). Pron lessons: write «قول لها» (not قولها); «ضهرها» → read ظهرها; «أمِّك» read with damma ×3 → use «مامتك»; to a woman spell «مامْتِيكْ» to force the kasra.
+- Growth rules applied (native vertical, phrase subs + name pill, hook 3 s, own cover, build.py growth=True).

@@ -1,0 +1,8 @@
+flow kDKugIh2K7rlyLbgKQhT  (order: B1 AZ1 B2 B4 AZ2 B3 AZ3) — v3 = acted takes (user 22/11: «عايز تمثيل احترافية»)
+B1  nUAOjKYZIWfTaJZibJLT  لا يا ماما! عزيزة مش خدامة! كل ما تيجي عندكم... طبيخ... ومواعين... ومسح!
+AZ1 nav4wG4081EFrmLLOPEN  قول لها يا بندق... قول لها إن ضهري واجعني... ومش قادرة!   (v2 «قولّها» rejected: لام مش مشددة)
+B2  t0Ty2qzxzxxRESPuA7la  وكمان هي تعبانة ومش قادرة! مراتي ملكة... والملكة مش بتاعة مواعين!
+B4  7UZqaunzlqESxxQi7IJh  ماشي يا ماما... مع السلامة!
+AZ2 ZUaveOylvxmsORO7WGEQ  يا حبيبي يا بندق! ربنا يخليك ليا... هو انت كنت بتكلم مامتك؟
+B3  dzDUoLFbJdjkS1A3FJ6n  لأ... مامتِك إنتي!   (written «مامْتِيكْ» — kasra for a woman; v5 «مامْتِك» read with fatha)
+AZ3 hkdgqYOGOi1WcxUluI7j  أمي أنا؟!
