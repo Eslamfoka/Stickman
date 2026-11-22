@@ -33,7 +33,7 @@ CHUNKS = {"PAR": [(0.0, "يا نهار أبيض!", None), (2.1, "يا نهار �
 WHO = {"PAR": "parrot", "N1": "nana", "Z1": "zalata", "AZ1": "aziza", "T1": "tota", "S1": "shatta", "Z2": "zalata", "A1": "tota", "C1": "nana"}
 NAME = {"parrot": ("البغبغان", (90, 200, 90)), "nana": ("نعناعة", (150, 140, 255)), "zalata": ("زلطة", (140, 210, 80)), "shatta": ("شطة", (255, 140, 80)),
         "aziza": ("عزيزة", (255, 110, 170)), "tota": ("توتة", (255, 130, 190)), "bondo2": ("بندق", (230, 170, 110))}
-EXPR = {"PAR": "flat", "N1": [(0, "shout"), (0.45, "scared")], "Z1": "flat", "AZ1": "angry", "T1": "scared", "S1": [(0, "scared"), (0.25, "smug")],
+EXPR = {"PAR": "flat", "N1": [(0, "shout"), (0.45, "scared")], "Z1": "flat", "AZ1": "angry", "T1": "scared", "S1": "flat",
         "Z2": "smug", "A1": "happy", "C1": "happy"}
 load_lines(list(SUB))
 LIVING = _ld(ROOT + "/s1e1/bg/living_1080.png")                                 # canonical «الصالة» (docs/locations.md)
@@ -266,25 +266,23 @@ def scene(tt, cam, size, flash=False):
             person(lay, cam, "aziza", *POS["aziza"], tt, "angry", -1, "talk" if k == "AZ1" else "hips", held=None)
             person(lay, cam, "tota", *POS["tota"], tt, "scared", -1, "talk" if k == "T1" else "down")
             sx = POS["shatta"]; sarms = "talk" if k == "S1" else "hold"
-            person(lay, cam, "shatta", *sx, tt, "scared" if (ASK <= tt) else "flat", -1, sarms)
+            person(lay, cam, "shatta", *sx, tt, "flat", -1, sarms)
     lay = tint_layer(lay, (255, 238, 214)); img.paste(lay, (0, 0), lay)
     fr = img.resize((Wd, Hd), Image.LANCZOS)
     d = ImageDraw.Draw(fr, "RGBA")
     feathers(d, cam, tt)
-    if not flash and ASK <= tt < Q:
-        S_b, _, (bhx, bhy) = body("shatta", *POS["shatta"]); sweat(d, cam, bhx, bhy, S_b, tt, 2)
     if flash:                                                                          # flashback look
         fr = ImageEnhance.Color(fr).enhance(0.25); fr = ImageChops.multiply(fr, Image.new("RGB", fr.size, (255, 230, 190)))
         d = ImageDraw.Draw(fr, "RGBA")
         for i in range(0, Hd, 6): d.line([(0, i), (Wd, i)], fill=(0, 0, 0, 22))
         px, py, _ = parrot_at(P0 + 0.2); q = W2S(cam, px, py - 110)
         k2 = popk(tt, FLASH + 0.3, 0.3)
-        if k2 > 0:
+        if False:
             bw, bh = 300 * k2 * (1.4 if Hd > Wd else 1), 90 * k2 * (1.4 if Hd > Wd else 1)
             bx = min(max(q[0], bw / 2 + 20), Wd - bw / 2 - 20); by = max(q[1], bh / 2 + 260 if Hd > Wd else bh / 2 + 20)
             d.rounded_rectangle([bx - bw / 2, by - bh / 2, bx + bw / 2, by + bh / 2], int(40 * k2), fill=(255, 255, 255, 240), outline=(20, 20, 20, 255), width=5)
             lzt(fr, bx, by, "يا نهار أبيض!", int(52 * k2 * (1.4 if Hd > Wd else 1)), (20, 20, 20), stroke=False)
-        lzt(fr, Wd / 2, Hd * (0.12 if Hd > Wd else 0.1), "فلاش باك", 64, (255, 214, 90))
+        lzt(fr, Wd / 2, Hd * (0.2 if Hd > Wd else 0.1), "فلاش باك", 64, (255, 214, 90))
     return fr
 
 def zal_pos(tt):
@@ -503,14 +501,12 @@ def make_covers():
             draw_char(p, "nana", Wd * 0.33, Hd * 0.80, 4.6, "shock", 0.6, 1, False, "up", 0.0, None, 0.0, None)
             parrot(p, Wd * 0.77, Hd * 0.25, 4.2, 0, 0.6, 1.0)
             for i, (who, col) in enumerate(NUMS):
-                draw_char(p, who, Wd * (0.2 + 0.3 * i), Hd * 1.08, 2.3, "scared" if who == "shatta" else "flat", 0.0, -1, False, "down", 0.0, None, 0.0, None)
+                draw_char(p, who, Wd * (0.2 + 0.3 * i), Hd * 1.08, 2.3, "flat", 0.0, -1, False, "down", 0.0, None, 0.0, None)
         else:
             draw_char(p, "nana", Wd * 0.3, Hd * 1.28, 5.4, "shock", 0.6, 1, False, "up", 0.0, None, 0.0, None)
             parrot(p, Wd * 0.75, Hd * 0.3, 5.0, 0, 0.6, 1.0)
         img.paste(lay, (0, 0), lay); fr = img.resize((Wd, Hd), Image.LANCZOS); d = ImageDraw.Draw(fr, "RGBA")
         if vert:
-            qx, qy = Wd * 0.77, Hd * 0.12; d.rounded_rectangle([qx - 230, qy - 60, qx + 230, qy + 60], 40, fill=(255, 255, 255, 240), outline=(20, 20, 20, 255), width=5)
-            lzt(fr, qx, qy, "يا نهار أبيض!", 58, (20, 20, 20), stroke=False)
             d.rectangle([0, Hd * 0.535, Wd, Hd * 0.725], fill=(10, 6, 4, 150))
             lzt(fr, Wd / 2, Hd * 0.575, "مين طيّر", 150, (255, 255, 255)); lzt(fr, Wd / 2, Hd * 0.67, "البغبغان؟", 170, (255, 214, 60))
             for i, (who, col) in enumerate(NUMS): badge(fr, Wd * (0.2 + 0.3 * i), Hd * 0.765, str(i + 1), 1.2, col)
