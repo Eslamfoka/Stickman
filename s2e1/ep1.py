@@ -110,8 +110,9 @@ shot("door", s, t, (700, 640, 1.25), (760, 620, 1.4), live=True)
 s = t; t = say(t, "B02") + 0.15
 shot("door", s, t, CU("sawsan", MOR["sawsan"], 1.9), CU("sawsan", MOR["sawsan"], 2.3), live=True)
 LIVE1 = t
-cut(t, 0.4); s = t; A02_T = t + 0.1; t = say(A02_T, "A02") + 0.1
-shot("door", s, t, CU("tota", MOR["tota"], 1.55), CU("tota", MOR["tota"], 1.75))
+# REV 23/11 (fix 1): yesterday's answer (A02) moved OUT of the live scene into its own opening section «حل القضية السابقة» (pre.py)
+A02_T = -100.0
+cut(t, 0.4)
 s = t; t = say(t, "A03") + 0.1
 shot("door", s, t, CU("zalata", MOR["zalata"], 1.9), CU("zalata", MOR["zalata"], 2.2))
 s = t; t = say(t, "A04") + 0.05
@@ -155,8 +156,8 @@ s = t; t = say(t + 0.1, "B09") + 0.05
 shot("door", s, t, CU("tota", MOR["tota"], 1.55), CU("tota", MOR["tota"], 1.7))
 s = t; t = say(t, "B10") + 0.3
 shot("door", s, t, (1500, 760, 1.6), (1480, 760, 1.8))
-PUZ = t; s = t; t = say(t, "A11") + 0.8; PUZ_END = t
-shot("door", s, t, CU("tota", MOR["tota"], 1.6), CU("tota", MOR["tota"], 1.9))
+# REV 23/11 (fix 2): the mid-episode call to comment (A11 + «لغز النهارده» box) is removed — ONE ask = the end card
+PUZ = PUZ_END = 1e9
 # ===== 4. roof at sunset: the plan =====
 cut(t, 0.5); shot("caption", t, t + 1.3, None, text="بعد الضهر..."); t += 1.3
 fx(t, "wind", 0.7); s = t; t = say(t + 0.5, "B11") + 0.2

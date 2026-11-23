@@ -411,7 +411,9 @@ ITEMS = [
 # growth rules 29–31 applied to S2 E01 (native vertical, one ask at the end) — 23/11
 for _it in ITEMS:
     if _it["id"] == "nanaa_s2_e01":
-        _it.update(growth=True, cta="مين اللي ماشي في البدروم؟ اكتب توقعك 👇",
+        _it.update(growth=True, cta="مين اللي ماشي في البدروم؟ اكتب توقعك 👇", question="💬 مين اللي ماشي في البدروم؟ اكتب توقعك 👇",
+                   src_v="عمارة نعناعة م2 - الحلقة 01 - باب البدروم (تيك توك) - نسخة معدلة.mp4",
+                   src_h="عمارة نعناعة م2 - الحلقة 01 - باب البدروم - نسخة معدلة.mp4",
                    bait="القفل الجديد اللامع على باب مقفول من سنين… مين اللي غيّره؟ 🔒👇")
 
 def kit_col(k):
@@ -501,7 +503,7 @@ def next_line(it):
     if it["series"] == "daily": return "يومية جديدة من «يوميات شطة وزلطة» قريب… فعّلوا الجرس 🔔"
     if it["series"] == "kaddab": return "الحل + قضية جديدة في الحلقة الجاية… فعّلوا الجرس 🔔"
     if it["series"] == "mic": return "سؤال جديد من «ميكروفون توتة» قريب… فعّلوا الجرس 🔔"
-    return "الحلقة الجاية بكرة الساعة 9 بالليل بتوقيت مصر ⏰"
+    return "الحلقة الجاية بكرة ⏰"   # REV 23/11: no clock time until it is confirmed
 
 def yt_title(it, shorts=False):
     s = SERIES[it["series"]]["name"].split(":")[0].split(" - ")[0]
