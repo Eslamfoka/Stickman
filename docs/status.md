@@ -309,3 +309,8 @@ User approved the idea. Pin it first on every platform (YouTube channel trailer)
 - `s2e1/ep1.py` patched: frame() keeps the SS composite in `VSTATE`, endcard = ONE ask («مين اللي ماشي في البدروم؟ اكتبوا توقعكم», subscribe line removed). build.py: nanaa_s2_e01 growth=True + cta/bait.
 - NEXT: same patch for s2e2..s2e10 before each airs (E02 airs 25/11).
 - REV 23/11 (user's 4 fixes): «حل القضية السابقة» = separate 6.4 s opening (`s2e1/pre.py`, Tota's A02 moved there, Fahmy ✓); live-scene green bar removed; A11 + «لغز النهارده» box removed (ONE ask = end card «مين اللي ماشي في البدروم؟»); build.py next_line() has NO clock time; delivered as «… - نسخة معدلة.mp4» (148.7 s, 1080×1920), originals kept.
+
+## «مين الكداب؟» القضية 10 — «مين سرق كاس زلطة؟» (23/11, 20:00 Kuwait)
+- `kaddab/10/` (script.md, gens.txt, ep.py). Separate opening «حل القضية السابقة» (parrot → Shatta), silent clue hook, badges ① بندق ② شطة ③ عزيزة, ONE ask. Answer = **عزيزة (3)** (TV dark 9:00–9:30 + her earring). Tell it at the START of case 11 (separate opening, per rules 28/31 as now practised).
+- engine: Aziza's hoops now have a red bead; `AZIZA_EARS` global lets an episode drop one ear.
+- Liars: c2 شطة, c3 بندق, c4 زلطة, c5 توتة, c6 عزيزة, c7 نعناعة, c8 بندق, c9 شطة, c10 عزيزة.

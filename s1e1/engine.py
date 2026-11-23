@@ -4,6 +4,7 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageChops
 
 W, H, FPS, SR = 1920, 1080, 24, 44100
+AZIZA_EARS = [-1, 1]      # which ears wear a hoop (kaddab/10 sets [1] after the theft)
 SS = 1.5
 FONT = paths.ROOT + "/brand/fonts/DejaVuSans-Bold.ttf"  # bundled copy of the Linux DejaVu font (same look everywhere)
 INK = (22, 22, 22, 255)
@@ -385,8 +386,10 @@ def draw_char(p, who, x, y, s=1.0, expr="neutral", mouth=0.0, look=0, blink=Fals
             p.ell(hx + sx * 16 * s - 4 * s, hy - hr + 3 * s, 4 * s, 2.5 * s, (200, 220, 255, 200), None)
             p.ell(hx + sx * (hr + 1 * s), hy + 26 * s, 6 * s, 6 * s, None, (230, 190, 60, 255), 2.5 * s)
         p.line([(hx - 4 * s, hy - hr + 5 * s), (hx + 4 * s, hy - hr + 5 * s)], INK, 2 * s)
-    if who == "aziza":
-        for sx in (-1, 1): p.ell(hx + sx * (hr + 2 * s), hy + 24 * s, 7 * s, 7 * s, None, (230, 190, 60, 255), 3 * s)
+    if who == "aziza":   # gold hoop earrings with a small red bead (kaddab 10 clue); AZIZA_EARS can drop one
+        for sx in AZIZA_EARS:
+            p.ell(hx + sx * (hr + 3 * s), hy + 26 * s, 9 * s, 9 * s, None, (230, 190, 60, 255), 3.4 * s)
+            p.ell(hx + sx * (hr + 3 * s), hy + 35 * s, 3.4 * s, 3.4 * s, (210, 30, 40, 255), INK, 0.9 * s)
     if who == "officer":
         p.poly([(hx - 16 * s, hy + 18 * s), (hx, hy + 15 * s), (hx + 16 * s, hy + 18 * s), (hx + 8 * s, hy + 22 * s), (hx, hy + 19 * s), (hx - 8 * s, hy + 22 * s)], INK, INK, 1.5 * s)
     if who == "bondo2":
