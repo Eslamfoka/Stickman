@@ -408,6 +408,12 @@ ITEMS = [
  ]],
 ]
 
+# growth rules 29–31 applied to S2 E01 (native vertical, one ask at the end) — 23/11
+for _it in ITEMS:
+    if _it["id"] == "nanaa_s2_e01":
+        _it.update(growth=True, cta="مين اللي ماشي في البدروم؟ اكتب توقعك 👇",
+                   bait="القفل الجديد اللامع على باب مقفول من سنين… مين اللي غيّره؟ 🔒👇")
+
 def kit_col(k):
     return {"RED": (205, 35, 45), "BLUE": (40, 95, 205)}.get(k, k)
 

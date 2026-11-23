@@ -3,6 +3,7 @@ sys.path.insert(0, next(str(p / "s1e1") for p in __import__("pathlib").Path(__fi
 import numpy as np
 from PIL import Image, ImageDraw, ImageEnhance, ImageChops, ImageFilter, ImageFont
 from engine import *
+sys.path.insert(0, ROOT + "/s2"); from vnative import *; set_font(ROOT + "/brand/fonts/Lalezar-Regular.ttf")
 
 os.chdir(ROOT + "/s2e1")
 SSW, SSH = int(W * SS), int(H * SS)
@@ -520,22 +521,22 @@ def card(name, tt, sh):
         text(fr, W / 2, H / 2, sh["text"], 92, g((255, 225, 150)), (40, 20, 5), 5)
     elif name == "endcard":
         text(fr, W / 2, H / 2 - 130, "الحلقة 2 بكرة", 110, g((255, 214, 90)), (40, 10, 10), 6)
-        text(fr, W / 2, H / 2 + 10, "مين اللي ماشي في البدروم؟ اكتبوا توقعكم", 58, g((235, 235, 235)))
-        text(fr, W / 2, H / 2 + 110, "اعمل اشتراك عشان ما يفوتكش", 46, g((200, 200, 200)))
+        text(fr, W / 2, H / 2 + 20, "مين اللي ماشي في البدروم؟ اكتبوا توقعكم 👇".replace(" 👇", ""), 62, g((235, 235, 235)))
     elif name == "clock": return clock_card(tt, sh)
     return fr
 
 HEARTS = rng.uniform(0, 1, (18, 3))
 def live_overlay(fr, tt):
+    W, H = fr.size; vert = H > W; top = 150 if vert else 0
     d = ImageDraw.Draw(fr, "RGBA")
     k = kk(tt, LIVE0, LIVE1); views = int(12000 + (k ** 1.8) * 250000)
-    d.rounded_rectangle([40, 40, 200, 100], 14, fill=(220, 30, 40, 235))
-    ltr(fr, 120, 70, "● LIVE", 34, (255, 255, 255), sw=0)
-    d.rounded_rectangle([215, 40, 470, 100], 14, fill=(0, 0, 0, 160))
-    ltr(fr, 342, 70, f"{views:,}", 34, (255, 255, 255), sw=0)
+    d.rounded_rectangle([40, 40 + top, 200, 100 + top], 14, fill=(220, 30, 40, 235))
+    ltr(fr, 120, 70 + top, "● LIVE", 34, (255, 255, 255), sw=0)
+    d.rounded_rectangle([215, 40 + top, 470, 100 + top], 14, fill=(0, 0, 0, 160))
+    ltr(fr, 342, 70 + top, f"{views:,}", 34, (255, 255, 255), sw=0)
     for i, (a, b, c) in enumerate(HEARTS):
         u = (tt * (0.35 + 0.3 * c) + a) % 1
-        x = W - 140 + math.sin(u * 8 + i) * 40 + b * 60; y = H - 80 - u * 620
+        x = W - 140 + math.sin(u * 8 + i) * 40 + b * 60; y = (H - 560 if vert else H - 80) - u * 620
         r_ = 16 + 10 * c; al = int(255 * (1 - u))
         col = (255, 60, 90, al) if i % 3 else (255, 200, 60, al)
         d.ellipse([x - r_, y - r_, x, y], fill=col); d.ellipse([x, y - r_, x + r_, y], fill=col)
@@ -543,7 +544,7 @@ def live_overlay(fr, tt):
     comments = ["العمارة رجعت!", "إيه اللي في البدروم؟", "طنط سوسن ترند", "مستنيين الموسم التاني", "أنا خايف بجد"]
     n = int((tt - LIVE0) / 1.2) + 1
     for j in range(min(3, n)):
-        cmt = comments[(n - 1 - j) % len(comments)]; y = H - 300 - j * 70
+        cmt = comments[(n - 1 - j) % len(comments)]; y = (1150 if vert else H - 300) - j * 70
         d.rounded_rectangle([40, y - 28, 520, y + 28], 18, fill=(0, 0, 0, 150 - j * 30))
         text(fr, 280, y, cmt, 30, (255, 255, 255), sw=0)
 
@@ -571,28 +572,42 @@ def wrap(s, n=24):
         else: out[-1] = (out[-1] + " " + w_).strip()
     return out
 
+CHUNKS = {k: chunk_times(v, ENV[k], FPS) for k, v in SUB.items()}
+def v_card(set_, tt, sh):
+    k = (tt - sh["start"]) / max(0.01, sh["end"] - sh["start"]); a = int(255 * min(1, k * 4))
+    fr = Image.new("RGB", (VW, VH), (30, 22, 10) if set_ == "caption" else (8, 8, 12))
+    if set_ == "title":
+        big_text(fr, 540, 760, "عمارة نعناعة", 140, (255, 214, 90), (40, 10, 10), a)
+        big_text(fr, 540, 930, "الموسم التاني", 90, (255, 120, 90), (30, 5, 5), a)
+        big_text(fr, 540, 1060, SEASON, 110, (255, 120, 90), (30, 5, 5), a)
+        big_text(fr, 540, 1210, EPT, 64, (225, 225, 225), alpha=a)
+    elif set_ == "caption": big_text(fr, 540, 960, sh["text"], 130, (255, 225, 150), (40, 20, 5), a)
+    elif set_ == "endcard":
+        big_text(fr, 540, 820, "الحلقة 2 بكرة", 130, (255, 214, 90), (40, 10, 10), a)
+        big_text(fr, 540, 990, "مين اللي ماشي في البدروم؟", 84, (235, 235, 235), alpha=a)
+        big_text(fr, 540, 1100, "اكتبوا توقعكم", 84, (255, 214, 90), alpha=a)
+    elif set_ == "clock":
+        c = clock_card(tt, sh); sq = c.crop((W / 2 - 540, 0, W / 2 + 540, H)); fr.paste(sq, (0, (VH - H) // 2))
+    return fr
+
 def vertical(fr, tt):
-    small = fr.resize((96, 54), Image.BILINEAR).filter(ImageFilter.GaussianBlur(2))
-    bgv = ImageEnhance.Brightness(small.crop((30, 0, 66, 54)).resize((1080, 1920), Image.BILINEAR)).enhance(0.35)
-    bgv.paste(fr.resize((1080, 608), Image.LANCZOS), (0, 560))
-    d = ImageDraw.Draw(bgv)
-    d.rectangle([0, 556, 1080, 559], fill=(255, 214, 90)); d.rectangle([0, 1168, 1080, 1171], fill=(255, 214, 90))
-    text(bgv, 540, 300, SEASON, 96, (255, 120, 90), (40, 10, 10), 6)
-    text(bgv, 540, 425, EPT, 52, (235, 235, 235))
-    k, _ = line_at(tt)
-    if k:
-        ls_ = wrap(SUB[k])
-        if len(ls_) <= 4:
-            for i, l in enumerate(ls_): text(bgv, 540, 1290 + i * 80, l, 60, sw=6)
-        else:
-            ls_ = wrap(SUB[k], 30)
-            for i, l in enumerate(ls_[:6]): text(bgv, 540, 1270 + i * 64, l, 50, sw=5)
-    hud(bgv, tt, True)
+    sh = shot_at(tt); set_ = VSTATE.get("set", sh["set"])
+    if set_ in ("title", "endcard", "caption", "clock"): return v_card(set_, tt, sh)
+    if set_ == "black" or "img" not in VSTATE: return Image.new("RGB", (VW, VH), (0, 0, 0))
+    zoom = 1.0
+    v = vig(crop_vertical(VSTATE["img"], VSTATE["cx"], zoom), VSTATE["dark"])
+    if tt < HOOK[1] and tt < 3.0:                                         # hook title: first 3 s only
+        al = int(255 * min(1, (3.0 - tt) / 0.3)); d = ImageDraw.Draw(v, "RGBA")
+        d.rounded_rectangle([90, 240, 990, 470], 40, fill=(10, 6, 4, int(al * 0.7)))
+        big_text(v, 540, 305, "مين اللي ماشي", 92, (255, 255, 255), alpha=al); big_text(v, 540, 410, "في البدروم؟!", 96, (255, 214, 90), alpha=al)
+    if VSTATE.get("live"): live_overlay(v, tt)
+    hud(v, tt, True)
     if PUZ <= tt < PUZ_END:
-        d.rounded_rectangle([40, 1640, 1040, 1800], 26, fill=(20, 20, 30), outline=(255, 214, 90), width=5)
-        text(bgv, 540, 1695, "لغز النهارده: مين غيّر القفل؟", 50, (255, 214, 90))
-        text(bgv, 540, 1758, "اكتب في الكومنتات", 42)
-    return bgv
+        d = ImageDraw.Draw(v, "RGBA"); d.rounded_rectangle([40, 1600, 1040, 1760], 26, fill=(20, 20, 30, 230), outline=(255, 214, 90, 255), width=5)
+        big_text(v, 540, 1650, "لغز النهارده: مين غيّر القفل؟", 54, (255, 214, 90)); big_text(v, 540, 1715, "اكتب في الكومنتات", 44)
+    k, lt = line_at(tt)
+    if k: sub_v(v, k, lt, CHUNKS, WHO.get(k), cy=1430 if not (PUZ <= tt < PUZ_END) else 1460)
+    return v
 
 def finish(fr, tt, dark=False):
     fr = ImageChops.multiply(fr, VIG_DARK if dark else VIG)
@@ -601,12 +616,17 @@ def finish(fr, tt, dark=False):
     g = np.repeat(np.repeat(g, 2, 0), 2, 1)[..., None]
     return Image.fromarray(np.clip(a + g, 0, 255).astype(np.uint8))
 
+VSTATE = {}
+FOLLOW = Follow()
 def frame(tt):
-    sh = shot_at(tt); set_ = sh["set"]
+    sh = shot_at(tt); set_ = sh["set"]; VSTATE.clear(); VSTATE["set"] = set_
     if set_ in ("title", "endcard", "caption", "clock"): return finish(card(set_, tt, sh), tt)
     if set_ == "black": return Image.new("RGB", (W, H), (0, 0, 0))
-    cam = cam_at(sh, tt)
+    cam = cam_at(sh, tt); x0, y0, z = cam
     img = bg_frame(set_, cam)
+    acts = actors(set_, tt, sh)
+    if set_ in LIT:                                   # growth rule 32: lift the bg around the characters
+        img = spotlight(img, [((a["x"] - x0) * z * SS, (a["y"] - 150 * a["s"] - y0) * z * SS, 230 * a["s"] * z * SS) for a in acts])
     props(img, set_, tt, cam, sh)
     layer, lights = draw_scene_chars(set_, tt, cam, sh)
     layer = tint_layer(layer, TINT[set_], 0.97)
@@ -616,8 +636,17 @@ def frame(tt):
     if dark:
         lm = light_map(set_, sh, tt, cam, lights)
         fr = ImageChops.multiply(fr, lm); fr = ImageEnhance.Brightness(fr).enhance(1.7)
-    if set_ == "door" and FLASH <= tt < FLASH + 0.12: fr = ImageChops.multiply(fr, Image.new("RGB", fr.size, (255, 120, 110)))
-    if set_ == "night" and any(0 <= tt - k_ < 0.1 for k_ in KN): fr = ImageEnhance.Brightness(fr).enhance(1.35)
+        img = ImageEnhance.Brightness(ImageChops.multiply(img, lm.resize(img.size, Image.BILINEAR))).enhance(1.7)
+    if set_ == "door" and FLASH <= tt < FLASH + 0.12:
+        fr = ImageChops.multiply(fr, Image.new("RGB", fr.size, (255, 120, 110))); img = ImageChops.multiply(img, Image.new("RGB", img.size, (255, 120, 110)))
+    if set_ == "night" and any(0 <= tt - k_ < 0.1 for k_ in KN): fr = ImageEnhance.Brightness(fr).enhance(1.35); img = ImageEnhance.Brightness(img).enhance(1.35)
+    # where the vertical window looks: the speaker if he is in shot, else the middle of the people, else the camera centre
+    k, _ = line_at(tt); xs = [a["x"] for a in acts]; tgt = None
+    for a in acts:
+        if k is not None and WHO.get(k) == a["who"]: tgt = a["x"]
+    if tgt is None and xs and not (sh.get("lockcu") or sh.get("footcu")): tgt = sum(xs) / len(xs)
+    cx_ss = (tgt - x0) * z * SS if tgt is not None else img.size[0] / 2
+    VSTATE.update(img=img, cx=FOLLOW.step(tt, id(sh), cx_ss), dark=dark, live=bool(sh.get("live") and tt >= LIVE0))
     if sh.get("live") and tt >= LIVE0: live_overlay(fr, tt)
     return finish(fr, tt, dark)
 

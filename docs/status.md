@@ -303,3 +303,8 @@ User approved the idea. Pin it first on every platform (YouTube channel trailer)
 - Pron: «البغبغان» read «البغبان» → write «البَغْ بَغان»; user wanted «ما بيتفتحش» (it worked).
 - Liars so far: c2 شطة, c3 بندق, c4 زلطة, c5 توتة, c6 عزيزة, c7 نعناعة, c8 بندق, c9 شطة.
 - 22/11: kaddab_e09 PUBLISHED 20:00 Kuwait; daily_e17 «قوله يا بندق!» SCHEDULED 23:00 Kuwait (user).
+
+## 23/11 — S2 E01 re-cut under growth rules 29–32 (user: «طبق باقي اللي اتطلب» — NO splitting into parts)
+- `s2/vnative.py` (new, reusable for E02–E10): native vertical = 9:16 window cut from the SUPERSAMPLED scene around the speaker (`Follow` smoothing), phrase subtitles auto-chunked (`chunk_times`) + speaker pill, hook title 3 s only, `spotlight()` lifts the bg around the characters on lit sets (rule 32), vertical cards (`v_card` in ep1.py).
+- `s2e1/ep1.py` patched: frame() keeps the SS composite in `VSTATE`, endcard = ONE ask («مين اللي ماشي في البدروم؟ اكتبوا توقعكم», subscribe line removed). build.py: nanaa_s2_e01 growth=True + cta/bait.
+- NEXT: same patch for s2e2..s2e10 before each airs (E02 airs 25/11).
