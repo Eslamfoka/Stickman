@@ -43,3 +43,17 @@ silent cover in the first 0.5 s + tiny picture in the vertical) and almost no sh
 - Episode makes its own cover + YT thumbnail: `python ep.py cover` (big faces composition + story object + 2-word question + badge).
 - Native vertical: `vertical()` re-draws the scene with its own camera (`v=(c0,c1)` per shot, `vcam`), phrase subtitles `CHUNKS` with a yellow key word (`sub_chunk`), hook 3 s only. See daily/16/ep.py as the template.
 - publish/tiktok_cut.py no longer prepends the cover (only with `--cover-first`).
+
+---
+## قواعد 23/11 (بعد مراجعة الإنستجرام — المستخدم طلب تثبيتها)
+27. **الأماكن ثابتة** (القاعدة 8 في CLAUDE.md): نفس الشكل في كل الحلقات، اللي يتغير الإضاءة بس.
+28. حلقات «عمارة نعناعة» تبدأ بحل لغز الحلقة اللي فاتت. في «مين الكداب؟» الحل بيتحط في **آخر** الفيديو عشان الناس تكمل.
+29. **الطولي بتاع عمارة نعناعة يتعمل طولي من الأول** (مش شريط أفقي جوه فيديو طولي)، والعنوان في أول 3 ثواني بس.
+30. **كل ريل ينتهي بطلب واحد بس:** القضية ← «اكتب رقم الكداب» · اليوميات ← «تابع بندق وعزيزة» (أو الشخصيات اللي في الاسكتش). مفيش لايك+فولو+شير+حلقة سابقة مع بعض.
+31. حل القضية السابقة = **فقرة مفصولة بعنوان «حل القضية السابقة»**، ومن غير «شوفوا الحلقة اللي فاتت».
+32. **فتّح الخلفية حوالين الشخصيات** (إضاءة/تخفيف تفاصيل) من غير ما تغير المكان.
+
+### تجارب (اختبار بالأرقام، مش قواعد نهائية)
+- القضية 45–55 ثانية.
+- حلقة المسلسل تتقسم أجزاء ≤ 60 ثانية بقفلة على الريلز/تيك توك، والكاملة على يوتيوب.
+- **تغيير واحد بس في المرة**، وتسجيل الأرقام بعد 48 ساعة من نزول كل ريل في `publish/metrics/instagram.csv`.
