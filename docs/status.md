@@ -316,3 +316,9 @@ User approved the idea. Pin it first on every platform (YouTube channel trailer)
 - Liars: c2 شطة, c3 بندق, c4 زلطة, c5 توتة, c6 عزيزة, c7 نعناعة, c8 بندق, c9 شطة, c10 عزيزة.
 - `daily/18/` «فاكر النهارده إيه؟» (23/11, 34.7 s) — red sofa two-shot. Aziza «فاكر النهارده إيه؟» → 3 wrong guesses (thought bubbles: cake / rings / market; red ✗ + buzzer, louder each time), slipper comes out, «آخر يوم ماما قاعدة عندنا» → he bounces with confetti «أحلى يوم في السنة!» → «بنـدق!!» crash zoom + laugh SOUND → ONE-ask end card «تابع بندق وعزيزة… الحلقة الجاية فيها الحماة». AZ2 take said «لأ!» twice → trimmed to the first (raw takes in audio/raw/). Delivered yt + tt + cover + yt thumb + captions; for 23/11 23:00 Kuwait (user schedules). Promise: next daily has the mother-in-law.
 - 23/11: kaddab_e10 SCHEDULED 20:00 Kuwait + daily_e18 SCHEDULED 23:00 Kuwait (user). Next: S2E01 «نسخة معدلة» 24/11 23:00 (user to schedule); next daily must feature the mother-in-law (promised on e18 end card).
+
+## «مين الكداب؟» القضية 11 — «كشكول رشدي» (24/11, 20:00 Kuwait)
+- User rejected «مين أكل الكنافة» («عايز حاجة فيها فكرة وذكاء وقصة»). New: Roshdy's letter (story, lore) + canonical 7th-floor flat (apt7) theft + Tota's MIRROR-SELFIE alibi (photo insert: sun in the window + mirrored clock = 3:15, not 8:45) + green face-mask handprint. Suspects ① شطة ② توتة ③ بندق. 55.6 s.
+- Nanaa cross-promo WITHOUT a 2nd ask: «من أسرار «عمارة نعناعة»» tag on the letter + caption line (S2 premiere tonight 23:00). End card = ONE ask.
+- Pronunciation: «حَلّ» read حِل → voice says «إجابة القضية اللي فاتت» (title card keeps «حل القضية السابقة»); «طِلِع» read طلّع → «مين اللي كان فوق في الدور السابع». Engine: new held "sandwich".
+- ANSWER (start of case 12): **توتة (2)** — selfie taken in daylight + reversed clock (lie); green clay handprint (theft). Motive: wanted to solve the building's secret first.
