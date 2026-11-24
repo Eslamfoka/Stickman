@@ -326,3 +326,4 @@ User approved the idea. Pin it first on every platform (YouTube channel trailer)
 - 24/11: kaddab_e11 («نسخة معدلة») SCHEDULED 20:00 Kuwait by the user.
 - 24/11: S2 trailer RE-CUT under growth rules (`promo/promo_v2.py`, wraps promo.py): native 9:16 per-segment crop (letter = blurred fill), title first 3 s only, phrase subs + speaker pill (Roshdy pill added), vertical-native news strip / CCTV HUD / «الإرسال اتقطع» / title card; end card ONE ask «الحلقة الأولى الليلة! • تابعنا عشان ما تفوتكش» (no «قريباً»). Delivered «… - نسخة جديدة.mp4» (yt + tt). Suggested slot 24/11 21:30 Kuwait (before S2E01 23:00). S2E01 SCHEDULED 23:00 by the user.
 - 24/11: S2 trailer (نسخة جديدة) SCHEDULED 22:00 Kuwait by the user.
+- 24/11: user postponed the mother-in-law sketch («الحماة رجعت!») to 25/11 23:00 (script drafted in chat, needs new character + designed voice, user picks 1 of 3).
