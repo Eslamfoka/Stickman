@@ -5,8 +5,8 @@
 #   beam finds Roshdy's notebook beside the old radio, a hand takes it, and a GREEN handprint stays on the white dust sheet
 #   (the beam lingers on it). Lineup in Nana's الصالة (canonical living_1080, lit): Nana N1 → ① شطة (kitchen, sandwich)
 #   ② توتة (shows her «mirror selfie» proof — PHOTO insert) ③ بندق (from the front door) → N2 ask → Q card.
-# ANSWER (start of case 12 ONLY): توتة ②. Lie: the selfie was taken in the DAY (sun + blue sky in the bathroom window) and the
-#   clock in the mirror is reversed — its numbers are backwards, it really says 3:15. Theft: green face-mask clay handprint.
+# ANSWER (start of case 12 ONLY): توتة ②. Lie: the mirror-selfie clock does say 8:45 (seen reversed in the mirror) — but the
+#   sun is shining in the window: 8:45 in the MORNING, not at night. Theft: green face-mask clay handprint.
 import sys; sys.path.insert(0, next(str(p / "s1e1") for p in __import__("pathlib").Path(__file__).resolve().parents if (p / "s1e1" / "paths.py").is_file())); from paths import ROOT, DELIVERY
 exec(open(ROOT + "/trend/01/kit.py", encoding="utf-8").read())
 from PIL import ImageFont, ImageChops, ImageOps
@@ -69,7 +69,7 @@ s = t; t = say(t + 0.1, "T1") + 0.2; x_ = POS["tota"][0]
 PH0 = T("T1") + 3.5; PH1 = T("T1") + DUR["T1"] + 1.4; t = max(t, PH1)
 shot("living", s, t, (x_, 700, 2.6), (x_, 690, 2.85), tin="whip", v=((x_, 700, 2.85), (x_, 690, 3.05)))
 s = t; t = say(t + 0.1, "B1") + 0.2; x_ = POS["bondo2"][0]
-shot("living", s, t, (x_, 700, 2.6), (x_, 690, 2.85), tin="whip", v=((x_, 700, 2.85), (x_, 690, 3.05)))
+shot("living", s, t, (x_, 700, 2.6), (x_, 690, 2.85), v=((x_, 700, 2.85), (x_, 690, 3.05)))
 s = t; t = say(t + 0.1, "N2") + 0.2; ASK = s
 shot("living", s, t, (560, 680, 2.0), (900, 660, 1.35), v=((480, 690, 2.6), (900, 640, 1.85)))        # pulls out over all of them
 Q = t; shot("q", t, t + 2.0, None, v=None); t += 2.0
@@ -164,13 +164,13 @@ def beam_target(tt):
     if tt < PRINTT + 1.6: u = ease(kk(tt, TAKE + 0.2, PRINTT)); return lerp(BOOK[0], PRINT[0], u), lerp(BOOK[1], PRINT[1], u)
     u = kk(tt, PRINTT + 1.6, BEAM_OFF + 0.4); return lerp(PRINT[0], DOORL[0], u), lerp(PRINT[1], DOORL[1], u)
 def darkness(fr, cam, tt):
-    m = Image.new("L", fr.size, 40)
+    m = Image.new("L", fr.size, 70)
     if THEFT <= tt < BEAM_OFF + 0.4:
         X, Y = W2S(cam, *beam_target(tt)); R = 110 * cam[2]
         ImageDraw.Draw(m).ellipse([X - R, Y - R * 0.8, X + R, Y + R * 0.8], fill=240)
         m = m.filter(ImageFilter.GaussianBlur(R * 0.25))
-    dark = ImageEnhance.Brightness(ImageChops.multiply(fr, Image.new("RGB", fr.size, (110, 120, 170)))).enhance(0.45)
-    lit = ImageChops.multiply(ImageEnhance.Brightness(fr).enhance(2.1), Image.new("RGB", fr.size, (255, 246, 220)))
+    dark = ImageEnhance.Brightness(ImageChops.multiply(fr, Image.new("RGB", fr.size, (150, 165, 220)))).enhance(1.05)   # moonlit, readable on a phone
+    lit = ImageChops.multiply(ImageEnhance.Brightness(fr).enhance(2.3), Image.new("RGB", fr.size, (255, 246, 220)))
     return Image.composite(lit, dark, m)
 def hand(p, cam, tt):
     if not (TAKE - 0.7 <= tt < PRINTT + 0.6): return
@@ -179,7 +179,7 @@ def hand(p, cam, tt):
     elif tt < PRINTT: u = 1; tx, ty = lerp(BOOK[0], PRINT[0], kk(tt, TAKE, PRINTT)), lerp(BOOK[1], PRINT[1] + 8, kk(tt, TAKE, PRINTT))
     else: u = 1 - kk(tt, PRINTT + 0.1, PRINTT + 0.6); tx, ty = PRINT[0], PRINT[1] + 8
     sx, sy = W2S(cam, 200, 820); ex, ey = W2S(cam, tx, ty); hx, hy = lerp(sx, ex, u), lerp(sy, ey, u)
-    p.line([(sx - 260 * z, sy + 160 * z), (hx, hy)], (46, 40, 56, 255), 24 * z)
+    p.line([(sx - 260 * z, sy + 160 * z), (hx, hy)], (92, 84, 120, 255), 24 * z)                    # sleeve readable in the dark
     p.ell(hx, hy, 15 * z, 12 * z, (235, 200, 170, 255), INK, 2 * z)
     if tt >= TAKE: p.rect(hx - 20 * z, hy - 30 * z, hx + 22 * z, hy - 6 * z, (120, 70, 36, 255), INK, 2 * z)     # notebook in hand
 
@@ -215,7 +215,8 @@ def letter_card(tt, Wd, Hd):
 
 # ---------------- Tota's «proof» photo (the key clue) ----------------
 def _clock_patch(sz):
-    """wall clock at 3:15 with normal numbers — mirrored afterwards, so it reads like «8:45» with BACKWARDS numbers"""
+    """a normal 8:45 clock, then the WHOLE clock (numbers + hands) mirrored as seen in the bathroom mirror.
+    Mirrored result: minute hand points RIGHT (to the mirrored 9), hour hand just above it. Flip back = normal 8:45."""
     im = Image.new("RGBA", (sz, sz), (0, 0, 0, 0)); d = ImageDraw.Draw(im); c = sz / 2; R = sz * 0.46
     d.ellipse([c - R - 8, c - R - 8, c + R + 8, c + R + 8], fill=(150, 100, 50, 255))
     d.ellipse([c - R, c - R, c + R, c + R], fill=(250, 246, 232, 255), outline=(40, 30, 20, 255), width=4)
@@ -225,9 +226,9 @@ def _clock_patch(sz):
         d.text((x, y), str(n), font=f, fill=(30, 30, 30, 255), anchor="mm")
     for i in range(12):
         if i % 3: a = i * math.pi / 6; d.line([(c + math.sin(a) * R * 0.8, c - math.cos(a) * R * 0.8), (c + math.sin(a) * R * 0.92, c - math.cos(a) * R * 0.92)], fill=(30, 30, 30, 255), width=4)
-    m = 15; am = m / 60 * 2 * math.pi; ah = (3 + m / 60) / 12 * 2 * math.pi
-    d.line([(c, c), (c + math.sin(ah) * R * 0.5, c - math.cos(ah) * R * 0.5)], fill=(20, 20, 20, 255), width=int(sz * 0.05))
-    d.line([(c, c), (c + math.sin(am) * R * 0.8, c - math.cos(am) * R * 0.8)], fill=(20, 20, 20, 255), width=int(sz * 0.03))
+    m = 45; am = m / 60 * 2 * math.pi; ah = (8 + m / 60) / 12 * 2 * math.pi
+    d.line([(c, c), (c + math.sin(ah) * R * 0.48, c - math.cos(ah) * R * 0.48)], fill=(20, 20, 20, 255), width=int(sz * 0.07))   # hour: short + thick
+    d.line([(c, c), (c + math.sin(am) * R * 0.86, c - math.cos(am) * R * 0.86)], fill=(190, 30, 30, 255), width=int(sz * 0.032))  # minute: long + red
     d.ellipse([c - 7, c - 7, c + 7, c + 7], fill=(160, 30, 30, 255))
     return ImageOps.mirror(im)
 def make_photo(PW=760, PH=1080):
@@ -242,7 +243,7 @@ def make_photo(PW=760, PH=1080):
     d.rectangle([wx0, wy0, wx1, wy1], outline=(250, 250, 250), width=14); d.line([((wx0 + wx1) / 2, wy0), ((wx0 + wx1) / 2, wy1)], fill=(250, 250, 250), width=10)
     d.line([(wx0, (wy0 + wy1) / 2), (wx1, (wy0 + wy1) / 2)], fill=(250, 250, 250), width=10)
     im.paste(ImageEnhance.Brightness(im.crop((0, 0, PW, PH))).enhance(1.0))
-    ck = _clock_patch(230); im.paste(ck, (470, 90), ck)                                                       # the clock (reflected)
+    ck = _clock_patch(270); im.paste(ck, (450, 70), ck)                                                       # the clock (reflected)
     lay = Image.new("RGBA", (int(PW * SS), int(PH * SS)), (0, 0, 0, 0)); p = P(lay)
     tx, ty = PW * 0.52, PH * 1.04
     draw_char(p, "tota", tx, ty, 3.4, "happy", 0.25, 1, False, "phone", 0.0, "phone", 0.0, None)
@@ -257,7 +258,7 @@ def make_photo(PW=760, PH=1080):
 PHOTO = make_photo()
 def photo_overlay(fr, tt, Wd, Hd):
     if not (PH0 <= tt < PH1): return fr
-    k = ease(kk(tt, PH0, PH0 + 0.35)) * (1 - ease(kk(tt, PH1 - 0.25, PH1)))
+    k = ease(kk(tt, PH0, PH0 + 0.25))                                                    # pops in, CLEAN cut out at PH1
     fr = ImageEnhance.Brightness(fr).enhance(1 - 0.6 * k).filter(ImageFilter.GaussianBlur(5 * k))
     vert = Hd > Wd; ph = (Hd * 0.62 if vert else Hd * 0.82) * (0.7 + 0.3 * k); pw = ph * 760 / 1080
     zoom = 1.0 + 0.08 * kk(tt, PH0 + 0.4, PH1)
@@ -266,7 +267,7 @@ def photo_overlay(fr, tt, Wd, Hd):
     d = ImageDraw.Draw(fr, "RGBA"); bz = 26
     d.rounded_rectangle([cx - pw / 2 - bz, cy - ph / 2 - bz * 2.2, cx + pw / 2 + bz, cy + ph / 2 + bz * 2.2], int(bz * 2), fill=(20, 20, 26, int(255 * k)))
     if k > 0.05:
-        mask = Image.new("L", ph_img.size, int(255 * k)); fr.paste(ph_img, (int(cx - pw / 2), int(cy - ph / 2)), mask)
+        fr.paste(ph_img, (int(cx - pw / 2), int(cy - ph / 2)))                       # always opaque: no double image
         lzt(fr, cx, cy - ph / 2 - bz * 3.4, "دليل توتة", int(58 * k), (255, 214, 90))
     return fr
 
@@ -308,7 +309,7 @@ def scene(tt, sh, cam, size):
     zz = z * SS; QW = lambda x, y: ((x - x0) * zz, (y - y0) * zz); d = ImageDraw.Draw(img, "RGBA")
     lay = Image.new("RGBA", img.size, (0, 0, 0, 0)); p = P(lay)
     if set_ == "apt":
-        if tt < TAKE: b = QW(*BOOK); notebook(d, b[0], b[1], zz)
+        if tt < TAKE: b = QW(*BOOK); notebook(d, b[0], b[1], zz * 1.3)
         if tt >= PRINTT: q = QW(*PRINT); handprint(d, q[0], q[1], zz, int(255 * min(1, kk(tt, PRINTT, PRINTT + 0.15))))
         hand(p, cam, tt)
     else:
@@ -317,7 +318,7 @@ def scene(tt, sh, cam, size):
     fr = img.resize((Wd, Hd), Image.LANCZOS)
     if set_ == "apt":
         if tt >= THEFT: fr = darkness(fr, cam, tt)
-        else: fr = ImageEnhance.Brightness(fr).enhance(1.25)
+        else: fr = ImageEnhance.Brightness(fr).enhance(1.6)
         if H2 <= tt < THEFT:
             lzt(fr, Wd / 2, Hd * (0.78 if Hd > Wd else 0.84), "الدور السابع • ٨:٤٠ بالليل", int(64 * popk(tt, H2 + 0.15, 0.3)), (230, 230, 255))
         if PRINTT + 0.3 <= tt < BEAM_OFF:                                                   # a small ring pulse on the print (fair clue, no text)
