@@ -1,5 +1,10 @@
 # Content buffer & daily publishing plan (user, 2026-11-10)
 
+## ★ DISCOVERY FOCUS (user, 2026-11-25) — growth rules 33–37; the 3-a-day plan below stays as is
+- **Main discovery formats for now: «مين الكداب؟» (20:00 Kuwait, 45–55 s) + يوميات (23:00).** No extra posts, no quality cuts to post more.
+- **«عمارة نعناعة» keeps running daily (23:00)** with full continuity; full episode on YouTube. IG/TikTok version: decided per episode — only parts that stand alone as strong shorts; any change to the release plan is proposed to the user first.
+- **One test at a time:** the first 2–3 s of the case (A baseline vs B), alternating over several cases; read every reel at 48 h into `publish/metrics/measurements.csv`.
+
 ## ★ CURRENT FIXED PLAN (user, 2026-11-20) — overrides the tables below until the user changes it
 Every day = **3 videos** (user corrected 20/11: not "or" — BOTH at 23:00):
 | Time (Kuwait) | What |
