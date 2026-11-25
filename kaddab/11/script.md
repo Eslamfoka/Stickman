@@ -1,3 +1,8 @@
+> ⚠ CORRECTION (verified 25/11 against the FINAL video «… - نسخة معدلة.mp4»): this note is stale in two places.
+> 1) The green handprint is on the WHITE DUST SHEET over the armchair (15.4–18.1 s), NOT on the door handle.
+> 2) The photo clock genuinely reads 8:45 (shown reversed in the mirror); it is the SUN in the window that shows the selfie was taken in the morning — 8:45 alone proves nothing.
+> The full spoken lines are in `ep.py` (SUB) and `gens.txt`.
+
 # «مين الكداب؟» القضية 11 — «كشكول رشدي» (24/11, 20:00 Kuwait) — DRAFT v2 (user rejected v1 «كنافة»: wants idea + intelligence + story)
 Place: canonical شقة الدور السابع (رشدي) `s1e8/bg/apt7_raw.png`, night + Nana's الصالة for the lineup.
 Opening (separate, ~6 s): «حل القضية السابقة» — case 10 → عزيزة ✓.
