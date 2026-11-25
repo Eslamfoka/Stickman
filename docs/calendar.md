@@ -1,15 +1,16 @@
 # Content buffer & daily publishing plan (user, 2026-11-10)
 
-## ★ DISCOVERY FOCUS (user, 2026-11-25) — growth rules 33–37; the 3-a-day plan below stays as is
+## ★ DISCOVERY FOCUS (user, 2026-11-25) — growth rules 33–38; the 3-a-day plan below stays as is
 - **Main discovery formats for now: «مين الكداب؟» (20:00 Kuwait, 45–55 s) + يوميات (23:00).** No extra posts, no quality cuts to post more.
-- **«عمارة نعناعة» keeps running daily (23:00)** with full continuity; full episode on YouTube. IG/TikTok version: decided per episode — only parts that stand alone as strong shorts; any change to the release plan is proposed to the user first.
-- **One test at a time:** the first 2–3 s of the case (A baseline vs B), alternating over several cases; read every reel at 48 h into `publish/metrics/measurements.csv`.
+- **Case structure from case 12:** NEW case's hook first (2–3 s) → case → «حل القضية السابقة» as a separate titled segment at the END → ONE ask «اكتب رقم الكداب». Cases 10–11 stay as published.
+- **«عمارة نعناعة» keeps running daily (23:00), release plan unchanged**; full episode on YouTube. IG/TikTok episode format = open question (user decides).
+- Case 12 = first example of the new structure (not a hook test). Hook-only comparisons start after it, over later comparable cases; read every reel at 48 h into `publish/metrics/measurements.csv`.
 
 ## ★ CURRENT FIXED PLAN (user, 2026-11-20) — overrides the tables below until the user changes it
 Every day = **3 videos** (user corrected 20/11: not "or" — BOTH at 23:00):
 | Time (Kuwait) | What |
 |---|---|
-| **20:00** | «مين الكداب؟» — a new case (ends with the previous case's answer + C1) |
+| **20:00** | «مين الكداب؟» — a new case (new hook first → case → «حل القضية السابقة» at the end → ONE ask «اكتب رقم الكداب»; from case 12) |
 | **23:00** | an «عمارة نعناعة» series episode |
 | **23:00** | + a comedy sketch (يوميات / موقف كوميدي) |
 Keep this every day until we find something better.

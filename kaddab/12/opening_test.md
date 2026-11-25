@@ -1,23 +1,18 @@
-# Case 12 — opening test (growth rule 35). TEMPLATE: the case-12 script does not exist yet → plot slots are [placeholders], no facts invented.
-Only variable: what the viewer sees/hears in the first 2–3 s. Everything else identical in A and B: 45–55 s, 20:00 Kuwait, same cover style,
-3-line caption, ONE ask «اكتب رقم الكداب», the separate «حل القضية السابقة» section, fair clues, same voices/lines.
+# Case 12 — NEW STRUCTURE (user decision 25/11, growth rules 35–37). TEMPLATE: no case-12 script yet → [placeholders]; no plot facts invented.
+Case 12 = first example of the new structure (hook first + answer at the end). It is NOT a hook-only test; its numbers are not attributed to the hook alone.
 
-## A — BASELINE (what cases 10–11 did)
-0.0–~7 s  «حل القضية السابقة» section: green title bar + sting, [speaker TBD] line «إجابة القضية اللي فاتت: الكدابة كانت توتة!…»
-          (case-11 answer: selfie shows 8:45 but the SUN is out = morning; green face-mask handprint).
-~7 s →    case-12 hook (letter/insert/theft) → lineup → ask → Q card.
+## Structure
+1. **0.0–~2.5 s — NEW case hook** (rule 1: motion + sound on frame 1, no static card):
+   [strongest moving image of case 12's incident — TBD] + one short on-screen question «[مين … ؟]» + small tag «قضية 12».
+2. **Case body** — [story/insert/incident — TBD] → lineup, suspects ① [TBD] ② [TBD] ③ [TBD] → each alibi → fair visual clues [TBD].
+3. **Ask line in the story** (as cases 10–11): [speaker TBD] «… مين الكداب؟ اكتبوا رقمه في الكومنتات!» — this is the ONE ask.
+4. **«حل القضية السابقة» — separate titled segment at the END** (~6–8 s): case 11 answer = **توتة ②**, using what the final
+   revised case-11 video shows: her mirror selfie's clock reads 8:45 but the sun is shining in the bathroom window (morning, not night);
+   the green handprint at the theft scene ↔ her green face mask. Exact narration wording + speaker = [TBD, pronunciation test first].
+5. **Last frame:** Q card «مين الكداب؟» ① ② ③ + «اكتب رقم الكداب» (same single ask, no follow/share/previous-episode asks).
+   [Decision for review: Q card after the answer segment (video ends on the ask — proposed) vs. Q card before it.]
 
-## B — COLD OPEN (test)  ⚠ changes the agreed opening order → needs the user's OK
-0.0–2.5 s case-12's strongest moving image + sound, no talking: [the object/crime moment of case 12], one 3-word on-screen question
-          «[مين … ؟]» + «قضية 12». Motion on frame 1 (rule 1), no static card.
-2.5–~9.5 s the SAME «حل القضية السابقة» section as A (unchanged, still a separate titled section, just 2.5 s later).
-~9.5 s →  identical to A.
-Cost: +2.5 s → script the case so B still lands ≤ 55 s (or ~57 s max).
-
-## B′ — fallback if the opening order must stay (no conflict, weaker for new viewers)
-0.0–2.5 s the solution section opens directly on its strongest frame (the reveal «الكدابة كانت… توتة!» + the sunny selfie zoom)
-          instead of the title bar first; then the section continues as in A.
-
-## Run
-Alternate A / B over at least 4–6 comparable cases (e.g. 12 B, 13 A, 14 B, 15 A …). Read each at 48 h into
-publish/metrics/measurements.csv (opening_variant column). Judge with follows + views + avg play (+ non-follower share). Expect "inconclusive" as a valid outcome.
+## Held constant for later comparisons
+45–55 s · 20:00 Kuwait · cover style (big face + object + «قضية N» + 3 badges) · 3-line caption · ONE ask · fair clues · established voices.
+## Later hook comparisons (rule 37, from case 13+)
+Only the first 2–3 s change between comparable cases (H-A / H-B, alternating over several cases). Read at 48 h → measurements.csv. Inconclusive is acceptable.
