@@ -1,18 +1,23 @@
 # Case 12 — NEW STRUCTURE (user decision 25/11, growth rules 35–37). TEMPLATE: no case-12 script yet → [placeholders]; no plot facts invented.
-Case 12 = first example of the new structure (hook first + answer at the end). It is NOT a hook-only test; its numbers are not attributed to the hook alone.
+Case 12 = first example of the new structure (new hook first + previous answer at the end). NOT a hook-only test.
 
-## Structure
-1. **0.0–~2.5 s — NEW case hook** (rule 1: motion + sound on frame 1, no static card):
-   [strongest moving image of case 12's incident — TBD] + one short on-screen question «[مين … ؟]» + small tag «قضية 12».
-2. **Case body** — [story/insert/incident — TBD] → lineup, suspects ① [TBD] ② [TBD] ③ [TBD] → each alibi → fair visual clues [TBD].
-3. **Ask line in the story** (as cases 10–11): [speaker TBD] «… مين الكداب؟ اكتبوا رقمه في الكومنتات!» — this is the ONE ask.
-4. **«حل القضية السابقة» — separate titled segment at the END** (~6–8 s): case 11 answer = **توتة ②**, using what the final
-   revised case-11 video shows: her mirror selfie's clock reads 8:45 but the sun is shining in the bathroom window (morning, not night);
-   the green handprint at the theft scene ↔ her green face mask. Exact narration wording + speaker = [TBD, pronunciation test first].
-5. **Last frame:** Q card «مين الكداب؟» ① ② ③ + «اكتب رقم الكداب» (same single ask, no follow/share/previous-episode asks).
-   [Decision for review: Q card after the answer segment (video ends on the ask — proposed) vs. Q card before it.]
+## Structure (storyboard — to be approved before rendering)
+1. **0.0–~2.5 s — NEW case hook** (motion + sound on frame 1, no static card): [strongest moving image of case 12 — TBD] + short question «[مين … ؟]» + tag «قضية 12».
+2. **Case body** — [incident — TBD] → suspects ① [TBD] ② [TBD] ③ [TBD] → alibis → fair visible clue(s) [TBD].
+   **No request to comment inside the story** (the old «اكتبوا رقمه في الكومنتات» line is dropped).
+3. **«حل القضية 11» — separately titled segment** (title bar reads «حل القضية 11»; different colour/background from case 12; only case-11 visuals,
+   no case-12 suspects on screen, so the previous liar is never confused with case 12's suspects). ~6–8 s.
+   Content = ONLY what the final case-11 video shows (verified 25/11 on «… - نسخة معدلة.mp4»):
+   - Tota's «proof» selfie: wall clock seen in the mirror (backwards numbers) reading 8:45, and a bright SUN + blue sky in the bathroom window
+     → the photo was taken in daylight, so it is not from the night of the theft (the flat scene was labelled «٨:٤٠ بالليل»).
+     The 8:45 alone proves nothing; the daylight does.
+   - Green handprint on the white dust sheet in the 7th-floor flat (15.4–18.1 s) ↔ in the same selfie Tota's face is covered in a green mask (she said «بعمل ماسك»).
+   ⚠ Flag: the hand seen taking the notebook is drawn skin-coloured (not green), and nothing on screen states the print is mask clay — the link
+     is visual inference only. Narration must say «أخضر زي الماسك» (comparison), not claim a proven fact. Wording + speaker = [TBD, pronunciation test first].
+4. **Final card (last ~2 s): «قضية 12 — مين الكداب؟»** with case 12's three suspects + names + badges ① ② ③ and **«اكتب رقم الكداب»**.
+   If voiced, the CTA line plays ON this card only (synced), never earlier. This is the ONE ask.
 
 ## Held constant for later comparisons
-45–55 s · 20:00 Kuwait · cover style (big face + object + «قضية N» + 3 badges) · 3-line caption · ONE ask · fair clues · established voices.
-## Later hook comparisons (rule 37, from case 13+)
+45–55 s · 20:00 Kuwait · cover style · 3-line caption · ONE ask · fair clues · established voices.
+## Later hook comparisons (rule 37, case 13+)
 Only the first 2–3 s change between comparable cases (H-A / H-B, alternating over several cases). Read at 48 h → measurements.csv. Inconclusive is acceptable.
