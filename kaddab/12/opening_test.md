@@ -3,7 +3,7 @@ Only variable: what the viewer sees/hears in the first 2–3 s. Everything else 
 3-line caption, ONE ask «اكتب رقم الكداب», the separate «حل القضية السابقة» section, fair clues, same voices/lines.
 
 ## A — BASELINE (what cases 10–11 did)
-0.0–~7 s  «حل القضية السابقة» section: green title bar + sting, Tota-less narrator line «إجابة القضية اللي فاتت: الكدابة كانت توتة!…»
+0.0–~7 s  «حل القضية السابقة» section: green title bar + sting, [speaker TBD] line «إجابة القضية اللي فاتت: الكدابة كانت توتة!…»
           (case-11 answer: selfie shows 8:45 but the SUN is out = morning; green face-mask handprint).
 ~7 s →    case-12 hook (letter/insert/theft) → lineup → ask → Q card.
 
