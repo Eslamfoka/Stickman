@@ -1,0 +1,20 @@
+case13-voices-v2-raw.mp3 per-line map (seconds in the full file; speech start/end from silence boundaries at -40 dB, 0.12s tail kept in each clip). No generation.
+line | start | end | spoken | voice (per Studio mapping; line 12 and 7 etc. unchanged)
+01 | 0.00 | 2.34 | 2.34 | عزيزة
+02 | 3.06 | 4.45 | 1.39 | توتة
+03 | 5.44 | 10.21 | 4.77 | عزيزة
+04 | 11.33 | 15.37 | 4.04 | عزيزة
+05 | 16.16 | 17.27 | 1.11 | عم بندق
+06 | 18.19 | 21.08 | 2.89 | عزيزة
+07 | 22.06 | 25.35 | 3.29 | الحاجة نعناعة
+08 | 26.47 | 34.52 | 8.05 | طنط سوسن
+09 | 35.50 | 41.27 | 5.77 | عم بندق
+10 | 42.34 | 48.37 | 6.03 | توتة
+11 | 48.92 | 50.84 | 1.92 | عزيزة
+12 | 51.87 | 55.40 | 3.53 | شطة
+13 | 56.42 | 58.89 | 2.47 | الحاجة نعناعة
+14 | 59.91 | 68.18 | 8.27 | توتة
+15 | 69.19 | 71.02 | 1.83 | توتة
+TOTAL spoken (sum of lines incl. inner pauses) 57.7s; full file 71.71s
+Changed vs v1: lines 1, 4, 14 regenerated; other 12 same takes.
+Note: lines 10 and 11 are separate Studio blocks; the split at 48.4-48.9 matches the block boundary heard as a pause.

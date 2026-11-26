@@ -231,6 +231,9 @@ def draw_char(p, who, x, y, s=1.0, expr="neutral", mouth=0.0, look=0, blink=Fals
         p.ell(ra[0], ra[1] - 4 * s, 34 * s, 8 * s, (200, 205, 215, 255), INK, 2.5 * s)
         for i in range(5):
             p.ell(ra[0] - 20 * s + i * 10 * s, ra[1] - 12 * s - (i % 2) * 4 * s, 7 * s, 5 * s, (226, 160, 70, 255), (150, 90, 30, 255), 1.5 * s)
+    elif held == "ring":       # a small gold ring between the fingers (kaddab 13)
+        p.ell(ra[0], ra[1] - 6 * s, 6 * s, 6 * s, (0, 0, 0, 0), (225, 180, 40, 255), 2.6 * s)
+        p.ell(ra[0], ra[1] - 12 * s, 2.4 * s, 2.4 * s, (200, 240, 255, 255), (120, 160, 200, 255), 0.8 * s)
     elif held == "sandwich":   # half a loaf of baladi bread with lettuce (kaddab 11)
         p.ell(ra[0], ra[1] - 8 * s, 16 * s, 9 * s, (222, 178, 112, 255), (140, 90, 40, 255), 2 * s)
         p.line([(ra[0] - 14 * s, ra[1] - 8 * s), (ra[0] + 14 * s, ra[1] - 8 * s)], (90, 170, 60, 255), 3 * s)

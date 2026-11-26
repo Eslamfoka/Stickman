@@ -1,0 +1,17 @@
+Continue the "شطة وزلطة" project in the Stickman repo, using our established method: the repo's Python 2D engine (trend/01/kit.py, kaddab/12/ep.py, s2e3/ep3.py), Arabic subtitles with speaker name tags, and the approved ElevenLabs audio reused as-is.
+
+Problem: the last case 13 cut had no animated action continuity. Characters stood still while the background jumped. "التسلسل" here means visible physical action that matches the words, not a change of line order.
+
+Fix case 13 «مين الكداب؟ - علبة عزيزة» so the action follows the words:
+1. Aziza takes the ring off her finger and puts it in the small wooden box, then closes the lid (taken from the script, not separately confirmed by the user). Tota stands next to her.
+2. When they say "نازلين", show them walking down the stairs until they reach Bondoq the doorman, who sits on the bench. No jumping straight between backgrounds.
+3. Then show the empty box discovery, the investigation with the 4 suspects, the «حل القضية ١٢» segment, and the end card «مين الكداب؟ اكتب رقمه!» with badges 1 Sawsan, 2 Bondoq, 3 Tota, 4 Shatta.
+The opening seconds must look strong, because the user stopped watching the last version after the first seconds.
+
+Canon: Aziza owns the ring and the place. Tota is with her and is suspect 3. Nana is the investigator. Never say or emphasize «خاتم» in the empty-box line. Keep the original story and line order.
+
+Audio: use the approved v2 voices (case13-voices-v2-raw.mp3, 71.71 s, per-line timings in manifest.txt). Do not cut, speed up or regenerate lines. The user also asked to "replace the audio file", but which file and with what is unclear. Ask before changing any audio.
+
+Bundle (case13_handoff_bundle.zip): ep13.py (latest case 13 script on the kit; characters only stand at fixed spots, so it needs walking, stairs and hand actions), room.jpg and close.jpg (free generated room and empty-box backgrounds, the box geometry does not match between them), c12a.png and c12b.png (case 12 stills for the solution segment), the approved v2 audio, manifest.txt and script.md.
+
+Deliver horizontal and vertical 9:16 versions (vertical composed, with the camera following the speaker and subtitles clear of the characters), plus a contact sheet showing the speaker tags match the speakers.
