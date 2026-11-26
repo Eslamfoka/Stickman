@@ -32,7 +32,7 @@ Claude does everything: story, fully diacritized scripts, voices (ElevenLabs MCP
 - `movie/` — tools that join a season into one long video (hook + character intro + episodes).
 - `promo/` — season-2 trailer work in progress.
 - `voices/` — voice guide + clean samples for cloning.
-- `docs/` — brand canon, production pipeline, status, season bibles.
+- `docs/` — brand canon, production pipeline, status, season bibles. Future new character look + «فلتر سوسن» transition: `docs/new_look_plan.md`.
 
 ## Quick setup (any location — Linux cloud session or the user's Windows PC)
 Scripts are path-independent: each finds the repo root via `s1e1/paths.py` (exports `ROOT`, `DELIVERY`). No symlinks.
