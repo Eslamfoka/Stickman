@@ -3,6 +3,7 @@ sys.path.insert(0, next(str(p / "s1e1") for p in __import__("pathlib").Path(__fi
 import numpy as np
 from PIL import Image, ImageDraw, ImageEnhance, ImageChops, ImageFilter, ImageFont
 from engine import *
+sys.path.insert(0, ROOT + "/s2"); from vnative import *; set_font(ROOT + "/brand/fonts/Lalezar-Regular.ttf")
 
 os.chdir(ROOT + "/s2e4")
 SSW, SSH = int(W * SS), int(H * SS)
@@ -66,7 +67,7 @@ def fx(t, n, g=1.0): sfx.append((t, n, g))
 def jump(w, t): jumps.setdefault(w, []).append(t)
 def shot(set_, s, e, c0, c1=None, **kw): shots.append(dict(set=set_, start=s, end=e, c0=c0, c1=c1 or c0, **kw))
 def cut(t, g=0.4): fx(t - 0.12, "whoosh", g)
-def T(k): return [st for st, kk_ in lines if kk_ == k][0]
+def T(k): return next((st for st, kk_ in lines if kk_ == k), 1e9)
 KIDS = ("shatta", "zalata", "tota")
 
 # ---------------- world ----------------
@@ -196,8 +197,7 @@ shot("studio", s, t, CU("zalata", ST["zalata"], 1.8), CU("zalata", ST["zalata"],
 s = t; t = say(t + 0.2, "F23") + 0.2
 shot("studio", s, s + 0.9, CU("shatta", ST["shatta"], 1.7), CU("shatta", ST["shatta"], 1.8))
 shot("studio", s + 0.9, t + 0.6, (CLOCK[0], CLOCK[1] + 30, 3.6), (CLOCK[0], CLOCK[1] + 20, 4.4), clockins=True); t += 0.6
-PUZ = t; s = t; t = say(t + 0.1, "F24") + 0.8; PUZ_END = t
-shot("studio", s, t, CU("tota", (300, 1000, 1.95), 1.5), CU("tota", (300, 1000, 1.95), 1.7))
+PUZ = PUZ_END = 1e9                                     # REV 27/11: F24 mid-video puzzle removed (growth rule 30 — one ask, on the endcard)
 # ===== 5. CLIFF =====
 TAPE = t + 0.3; fx(TAPE, "tape", 1.1); shakes.append((TAPE, 5))
 shot("studio", t, t + 1.4, (610, 400, 3.0), (610, 400, 3.3)); t += 1.4
@@ -682,9 +682,8 @@ def card(name, tt, sh):
         text(fr, W / 2, H / 2 + 20, "الموسم التاني: " + SEASON, 70, g((255, 120, 90)), (30, 5, 5), 5)
         text(fr, W / 2, H / 2 + 125, EPT, 52, g((225, 225, 225)))
     elif name == "endcard":
-        text(fr, W / 2, H / 2 - 130, "الحلقة 5 بكرة: صفيح", 100, g((255, 214, 90)), (40, 10, 10), 6)
-        text(fr, W / 2, H / 2 + 10, "مين اللي تحت الملاية؟ اكتبوا توقعكم", 58, g((235, 235, 235)))
-        text(fr, W / 2, H / 2 + 110, "اعمل اشتراك عشان ما يفوتكش", 46, g((200, 200, 200)))
+        text(fr, W / 2, H / 2 - 110, "الحلقة 5 بكرة", 110, g((255, 214, 90)), (40, 10, 10), 6)
+        text(fr, W / 2, H / 2 + 40, "الساعة واقفة على كام… وليه؟ اكتبوا توقعكم", 62, g((235, 235, 235)))
     return fr
 
 def hud(fr, tt, v=False):
@@ -717,27 +716,34 @@ def wrap(s, n=24):
         else: out[-1] = (out[-1] + " " + w_).strip()
     return out
 
+CHUNKS = {k: chunk_times(v, ENV[k], FPS) for k, v in SUB.items()}
+def v_card(set_, tt, sh):
+    k = (tt - sh["start"]) / max(0.01, sh["end"] - sh["start"]); a = int(255 * min(1, k * 4))
+    fr = Image.new("RGB", (VW, VH), (8, 8, 12))
+    if set_ == "title":
+        big_text(fr, 540, 760, "عمارة نعناعة", 140, (255, 214, 90), (40, 10, 10), a)
+        big_text(fr, 540, 930, "الموسم التاني", 90, (255, 120, 90), (30, 5, 5), a)
+        big_text(fr, 540, 1060, SEASON, 110, (255, 120, 90), (30, 5, 5), a)
+        big_text(fr, 540, 1210, EPT, 60, (225, 225, 225), alpha=a)
+    elif set_ == "endcard":                                                  # growth rule 30: ONE ask
+        big_text(fr, 540, 820, "الحلقة 5 بكرة", 130, (255, 214, 90), (40, 10, 10), a)
+        big_text(fr, 540, 990, "الساعة واقفة على كام… وليه؟", 84, (235, 235, 235), alpha=a)
+        big_text(fr, 540, 1100, "اكتبوا توقعكم", 84, (255, 214, 90), alpha=a)
+    return fr
+
 def vertical(fr, tt):
-    small = fr.resize((96, 54), Image.BILINEAR).filter(ImageFilter.GaussianBlur(2))
-    bgv = ImageEnhance.Brightness(small.crop((30, 0, 66, 54)).resize((1080, 1920), Image.BILINEAR)).enhance(0.35)
-    bgv.paste(fr.resize((1080, 608), Image.LANCZOS), (0, 560))
-    d = ImageDraw.Draw(bgv)
-    d.rectangle([0, 556, 1080, 559], fill=(255, 214, 90)); d.rectangle([0, 1168, 1080, 1171], fill=(255, 214, 90))
-    text(bgv, 540, 300, SEASON, 96, (255, 120, 90), (40, 10, 10), 6)
-    text(bgv, 540, 425, EPT, 52, (235, 235, 235))
-    k, _ = line_at(tt)
-    if k:
-        ls_ = wrap(SUB[k])
-        if len(ls_) <= 4:
-            for i, l in enumerate(ls_): text(bgv, 540, 1290 + i * 80, l, 60, sw=6)
-        else:
-            for i, l in enumerate(wrap(SUB[k], 30)[:6]): text(bgv, 540, 1270 + i * 64, l, 50, sw=5)
-    hud(bgv, tt, True)
-    if PUZ <= tt < PUZ_END:
-        d.rounded_rectangle([40, 1640, 1040, 1800], 26, fill=(20, 20, 30), outline=(255, 214, 90), width=5)
-        text(bgv, 540, 1695, "لغز النهارده: الساعة واقفة على كام... وليه؟", 44, (255, 214, 90))
-        text(bgv, 540, 1758, "اكتب في الكومنتات", 42)
-    return bgv
+    sh = shot_at(tt); set_ = VSTATE.get("set", sh["set"])
+    if set_ in ("title", "endcard"): return v_card(set_, tt, sh)
+    if set_ == "black" or "img" not in VSTATE: return Image.new("RGB", (VW, VH), (0, 0, 0))
+    v = vig(crop_vertical(VSTATE["img"], VSTATE["cx"], 1.0), VSTATE["dark"])
+    if tt < 3.0:                                                              # rule 29: series title in the first 3 s only
+        al = int(255 * min(1, (3.0 - tt) / 0.3)); d = ImageDraw.Draw(v, "RGBA")
+        d.rounded_rectangle([90, 240, 990, 450], 40, fill=(10, 6, 4, int(al * 0.7)))
+        big_text(v, 540, 300, "عمارة نعناعة • الحلقة 4", 70, (255, 214, 90), alpha=al); big_text(v, 540, 395, "النزول", 76, (255, 255, 255), alpha=al)
+    hud(v, tt, True)
+    k, lt = line_at(tt)
+    if k: sub_v(v, k, lt, CHUNKS, WHO.get(k), cy=1430)
+    return v
 
 def finish(fr, tt, dark=False):
     fr = ImageChops.multiply(fr, VIG_DARK if dark else VIG)
@@ -748,7 +754,7 @@ def finish(fr, tt, dark=False):
 
 TINT = {"carin": (150, 160, 200), "corridor": (120, 135, 175), "stairs": (255, 240, 215)}
 def frame(tt):
-    sh = shot_at(tt); set_ = sh["set"]
+    sh = shot_at(tt); set_ = sh["set"]; VSTATE.clear(); VSTATE["set"] = set_
     if set_ in ("title", "endcard"): return finish(card(set_, tt, sh), tt)
     if set_ == "black": return Image.new("RGB", (W, H), (0, 0, 0))
     cam = cam_at(sh, tt)
@@ -775,27 +781,41 @@ def frame(tt):
             xs = lerp(-0.3, 1.3, u) * SSW
             od.polygon([(xs, 0), (xs + 300 * SS, 0), (xs + 100 * SS, SSH), (xs - 200 * SS, SSH)], fill=(255, 170, 80, 50))
             img.paste(ov, (0, 0), ov)
-    fr = img.resize((W, H), Image.LANCZOS)
+    fr, dark = grade(img.resize((W, H), Image.LANCZOS), set_, sh, tt, cam, lights, d)
+    # vertical: the same graded picture at SS resolution, cropped around the speaker
+    imv, dv = grade(img, set_, sh, tt, cam, lights, d)
+    x0, y0, z = cam; k_, _ = line_at(tt); acts = actors(set_, tt, sh); xs = [a_["x"] for a_ in acts]; tgt = None
+    for a_ in acts:
+        if k_ is not None and WHO.get(k_) == a_["who"]: tgt = a_["x"]
+    if tgt is None and xs: tgt = sum(xs) / len(xs)
+    if sh.get("dutch"): tgt = None
+    cx_ss = (tgt - x0) * z * SS if tgt is not None else imv.size[0] / 2
+    VSTATE.update(img=imv, cx=FOLLOW.step(tt, id(sh), cx_ss), dark=dv)
+    return finish(fr, tt, dark)
+
+def grade(fr, set_, sh, tt, cam, lights, d):
+    Wd, Hd = fr.size; sx, sy = Wd / W, Hd / H
     if sh.get("dutch"):
-        fr = fr.rotate(7, resample=Image.BICUBIC).crop((80, 45, W - 80, H - 45)).resize((W, H), Image.LANCZOS)
+        fr = fr.rotate(7, resample=Image.BICUBIC).crop((int(80 * sx), int(45 * sy), Wd - int(80 * sx), Hd - int(45 * sy))).resize((Wd, Hd), Image.LANCZOS)
     if set_ == "studio" and studio_light(tt) < 1:
         m = np.zeros((LH, LW), np.float32)
         for X, Y, R, inten, col in lights: m += inten * 0.6 * glow(X, Y, R)
         if sh.get("scan"):
             u = kk(tt, sh["start"], sh["end"]); m += 1.0 * glow(W / 2 + math.sin(u * 3) * 260, H / 2 + 40, 420)
-        mask = Image.fromarray((np.clip(m, 0, 1) * 255).astype(np.uint8), "L").resize((W, H), Image.BILINEAR)
-        L = studio_light(tt)
+        mask = Image.fromarray((np.clip(m, 0, 1) * 255).astype(np.uint8), "L").resize((Wd, Hd), Image.BILINEAR)
         fr = Image.composite(ImageEnhance.Brightness(fr).enhance(3.0), fr, mask)
-        if L > 0: fr = ImageEnhance.Brightness(fr).enhance(1 + 0.0 * L)
-        return finish(fr, tt, True)
+        return fr, True
     lm = light_map(set_, sh, tt, cam, lights, d)
     dark = False
     if lm is not None:
-        fr = ImageChops.multiply(fr, lm)
+        fr = ImageChops.multiply(fr, lm if lm.size == (Wd, Hd) else lm.resize((Wd, Hd), Image.BILINEAR))
         if set_ == "lobby": fr = ImageEnhance.Brightness(fr).enhance(lerp(1.7, 1.0, d)); dark = d < 0.5
         else: fr = ImageEnhance.Brightness(fr).enhance(1.6); dark = True
     if set_ == "carin": dark = True
-    return finish(fr, tt, dark)
+    return fr, dark
+
+VSTATE = {}
+FOLLOW = Follow()
 
 def build_audio(path="mix.wav"):
     buf = np.zeros(int(TOTAL * SR) + SR * 3, dtype=np.float32)

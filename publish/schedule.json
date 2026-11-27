@@ -9,7 +9,7 @@
   },
   "timezone_note": "كل المواعيد بتوقيت القاهرة (UTC+2 في نوفمبر). 9 بالليل القاهرة = 10 بالليل الكويت.",
   "media_folder": "publish/media/ (مش على الريبو — حط فيه الفيديوهات بالأسماء المكتوبة في media، والأسامي الأصلية في source_file_names)",
-  "generated": "2026-11-27T17:04:00+00:00",
+  "generated": "2026-11-27T17:52:49+00:00",
   "posts": [
     {
       "id": "brand_intro",
@@ -5644,7 +5644,7 @@
       "episode_name": "النزول",
       "publish_at_cairo": "2026-11-27T21:00:00+02:00",
       "publish_at_utc": "2026-11-27T19:00:00Z",
-      "status": "pending",
+      "status": "✅ جاهز 27/11 (نسخة الاستراتيجية الجديدة: طولي حقيقي + طلب واحد) — مستني جدولة المستخدم",
       "media": {
         "horizontal": "media/nanaa_s2_e04_h.mp4",
         "vertical": "media/nanaa_s2_e04_v.mp4"
@@ -5661,7 +5661,7 @@
         "youtube": {
           "video": "media/nanaa_s2_e04_h.mp4",
           "title": "نزلنا البدروم… ولاقينا استوديو سري! 🔦 | عمارة نعناعة - الحلقة 4 | شطة وزلطة",
-          "description": "بالنهار زي ما رشدي قال: نزلوا البدروم، ولاقوا باب حديد بعجلة… ووراه استوديو سري! 🔦\n\n«عمارة نعناعة» — الموسم التاني: سر البدروم 🔦 كرتون مصري غموض وضحك للعيلة كلها\n\n🧩 لغز الحلقة: الساعة الواقفة في الاستوديو على كام… وليه؟ اكتبوا حلكم في الكومنتات 👇\n\nالحلقة الجاية بكرة ⏰\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#عمارة_نعناعة #سر_البدروم #شطة_وزلطة #كرتون_مصري #غموض #لغز #انيميشن #مصر #كوميديا_مصرية #القاهرة #ضحك_مصري",
+          "description": "بالنهار زي ما رشدي قال: نزلوا البدروم، ولاقوا باب حديد بعجلة… ووراه استوديو سري! 🔦\n\n«عمارة نعناعة» — الموسم التاني: سر البدروم 🔦 كرتون مصري غموض وضحك للعيلة كلها\n\nالحلقة الجاية بكرة ⏰\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata\n\n#عمارة_نعناعة #سر_البدروم #شطة_وزلطة #كرتون_مصري #غموض #لغز #انيميشن #مصر #كوميديا_مصرية #القاهرة #ضحك_مصري",
           "tags": [
             "شطة وزلطة",
             "عمارة نعناعة",
@@ -5681,7 +5681,7 @@
           "made_for_kids": false,
           "privacy": "public",
           "publish_at_utc": "2026-11-27T19:00:00Z",
-          "pinned_comment": "🧩 لغز الحلقة: الساعة الواقفة في الاستوديو على كام… وليه؟ 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata"
+          "pinned_comment": "💬 الساعة الواقفة في الاستوديو على كام… وليه؟ اكتب توقعك 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata"
         },
         "youtube_shorts": {
           "video": "media/nanaa_s2_e04_v.mp4",
@@ -5704,12 +5704,12 @@
           "made_for_kids": false,
           "privacy": "public",
           "publish_at_utc": "2026-11-27T20:00:00Z",
-          "pinned_comment": "🧩 لغز الحلقة: الساعة الواقفة في الاستوديو على كام… وليه؟ 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
+          "pinned_comment": "💬 الساعة الواقفة في الاستوديو على كام… وليه؟ اكتب توقعك 👇\n\nتابعونا في كل مكان 👇\n▶️ يوتيوب: https://www.youtube.com/@shattawzalata\n🎵 تيك توك: https://www.tiktok.com/@shattawzalata\n📸 انستجرام: https://www.instagram.com/shattawzalata\n👍 فيسبوك: https://www.facebook.com/shattawzalata",
           "note": "يتنشر بعد الفيديو العرض بساعة (لو المدة أكتر من 3 دقايق يوتيوب مش هيعتبره Short)"
         },
         "tiktok": {
           "video": "media/nanaa_s2_e04_v.mp4",
-          "caption": "بالنهار زي ما رشدي قال: نزلوا البدروم، ولاقوا باب حديد بعجلة… ووراه استوديو سري! 🔦 الحلقة 4 من «عمارة نعناعة» 🎬\n🧩 لغز الحلقة: الساعة الواقفة في الاستوديو على كام… وليه؟ 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #لغز #غموض #fyp #مصر #كوميديا_مصرية #القاهرة #ضحك_مصري",
+          "caption": "بالنهار زي ما رشدي قال: نزلوا البدروم، ولاقوا باب حديد بعجلة… ووراه استوديو سري!\nالساعة واقفة على كام… وليه؟ اكتب توقعك 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #لغز #غموض",
           "cover_image": "thumbs/nanaa_s2_e04_cover.jpg",
           "cover_timestamp_ms": 1000,
           "privacy": "PUBLIC_TO_EVERYONE",
@@ -5717,22 +5717,22 @@
           "allow_duet": true,
           "allow_stitch": true,
           "publish_at_utc": "2026-11-27T19:00:00Z",
-          "pinned_comment": "🧩 لغز الحلقة: الساعة الواقفة في الاستوديو على كام… وليه؟ 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗",
+          "pinned_comment": "ركّز في ساعة الاستوديو… واقفة على كام؟ 🕛👇",
           "note": "لو الأداة مش بتقبل صورة غلاف، استخدم cover_timestamp_ms أو اختار الغلاف يدوي من التطبيق"
         },
         "instagram_reel": {
           "video": "media/nanaa_s2_e04_v.mp4",
-          "caption": "بالنهار زي ما رشدي قال: نزلوا البدروم، ولاقوا باب حديد بعجلة… ووراه استوديو سري! 🔦 الحلقة 4 من «عمارة نعناعة» 🎬\n🧩 لغز الحلقة: الساعة الواقفة في الاستوديو على كام… وليه؟ 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #لغز #ريلز #مصر #كوميديا_مصرية #القاهرة #ضحك_مصري",
+          "caption": "بالنهار زي ما رشدي قال: نزلوا البدروم، ولاقوا باب حديد بعجلة… ووراه استوديو سري!\nالساعة واقفة على كام… وليه؟ اكتب توقعك 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #لغز #ريلز",
           "cover_image": "thumbs/nanaa_s2_e04_cover.jpg",
           "share_to_facebook": true,
           "publish_at_utc": "2026-11-27T19:00:00Z",
-          "pinned_comment": "🧩 لغز الحلقة: الساعة الواقفة في الاستوديو على كام… وليه؟ 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+          "pinned_comment": "ركّز في ساعة الاستوديو… واقفة على كام؟ 🕛👇"
         },
         "facebook_reel": {
           "via": "instagram_reel.share_to_facebook",
-          "caption": "بالنهار زي ما رشدي قال: نزلوا البدروم، ولاقوا باب حديد بعجلة… ووراه استوديو سري! 🔦 الحلقة 4 من «عمارة نعناعة» 🎬\n🧩 لغز الحلقة: الساعة الواقفة في الاستوديو على كام… وليه؟ 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #مصر #كوميديا_مصرية #القاهرة #ضحك_مصري",
+          "caption": "بالنهار زي ما رشدي قال: نزلوا البدروم، ولاقوا باب حديد بعجلة… ووراه استوديو سري!\nالساعة واقفة على كام… وليه؟ اكتب توقعك 👇\n#عمارة_نعناعة #شطة_وزلطة #كرتون_مصري #مصر #كوميديا_مصرية",
           "note": "مش محتاج رفع منفصل لو انستجرام بيعمل share لفيسبوك",
-          "pinned_comment": "🧩 لغز الحلقة: الساعة الواقفة في الاستوديو على كام… وليه؟ 👇\nتابعونا على يوتيوب وانستجرام وفيسبوك وتيك توك: @shattawzalata 🌶️🥗"
+          "pinned_comment": "ركّز في ساعة الاستوديو… واقفة على كام؟ 🕛👇"
         }
       }
     },
