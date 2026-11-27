@@ -16,7 +16,7 @@ TXT = {"T0": "واحد فيهم بيكدب.", "N1": "طردي راح! الشبش
        "S1": "نزلت أجيب عيش ستة وعشرة… شفت الطرد على الدكة من على السلم، وما لمستوش! ثقوا فيا المرة دي!",
        "W1": "أنا نزلت ستة وحداشر دقيقة. بصيت من على السلم لقيت الدكة فاضية، فرجعت فوق. كنت لايف!",
        "B1": "كنت عند الكشك. رجعت ستة وربع لقيتها فاضية. أنا صاحي أهو!",
-       "T2": "إجابة القضية اللي فاتت: الكداب كان شطة! قال «خاتم»… وعزيزة ما قالتش «خاتم» غير في المدخل، وهو فوق على السطوح… وحبات السمسم على غطا العلبة من ساندوتشه!",
+       "T2": "إجابة القضية اللي فاتت: الكداب كان شطة! قال «خاتم»… وعزيزة ما قالتش «خاتم»… وهو فوق على السطوح… وحبات السمسم على غطا العلبة من ساندوتشه!",
        "T3": "اكتب رقم الكداب!"}
 KEYS = list(TXT)
 WHO = {"T0": "tota", "N1": "nana", "Z1": "zalata", "T1": "tota", "S1": "shatta", "W1": "sawsan", "B1": "bondo2", "T2": "tota", "T3": "tota"}
@@ -27,6 +27,10 @@ EXPR = {"T0": "scared", "N1": [(0, "shock"), (0.35, "angry")], "Z1": [(0, "neutr
         "T2": "smug", "T3": "smug"}
 load_lines(KEYS)
 CHV = {k: VN.chunk_times(TXT[k], ENV[k], FPS) for k in KEYS}
+# T2 = the approved take with «غير في المدخل،» cut out (5.965–6.62 s of the original; original kept as audio/T2_orig_take.mp3):
+#   Aziza said «خاتمي» in the room AND in the lobby — both while Shatta was on the roof — so «only in the lobby» was not accurate.
+CHV["T2"] = [(0.0, "إجابة القضية اللي فاتت:"), (1.62, "الكداب كان شطة!"), (3.3, "قال «خاتم»…"), (4.6, "وعزيزة ما قالتش «خاتم»…"),
+             (6.2, "وهو فوق على السطوح…"), (7.8, "وحبات السمسم على غطا"), (8.75, "العلبة من ساندوتشه!")]
 VN.set_font(LZ)
 
 def tinted(img, lvl, tint): return ImageChops.multiply(ImageEnhance.Brightness(img).enhance(lvl), Image.new("RGB", img.size, tint))
@@ -51,7 +55,7 @@ shot("cctv", 0.0, HOOK_END, None, v=None, cc="hook"); say(0.5, "T0")
 A0 = HOOK_END; NANA_IN = (A0 + 0.15, A0 + 1.55)                         # Nana comes down the stairs to the empty bench
 shot("lob", A0, NANA_IN[1] + 0.1, (1100, 620, 1.12), (760, 640, 1.3), v=((1250, 650, 1.8), (700, 650, 1.85)), title="٦:١٥", follow=("nana",))
 s = NANA_IN[1] + 0.1; t = say(s + 0.05, "N1") + 0.1; shakes.append((T("N1") + 0.9, 12))
-shot("lob", s, t, (560, 620, 2.2), (560, 610, 2.55), v=((560, 640, 2.5), (560, 630, 2.75)), tin="zoom")
+shot("lob", s, t, (560, 690, 2.2), (560, 720, 2.55), v=((560, 640, 2.5), (560, 630, 2.75)), tin="zoom")
 Z_IN = (t - 0.6, t + 1.3)                                               # her shout brings Zalata + Tota down the stairs
 shot("lob", t, Z_IN[1] + 0.05, (1100, 620, 1.2), (900, 630, 1.3), v=((1200, 650, 1.85), (900, 650, 1.85)), follow=("zalata", "tota"), tin="whip")
 s = Z_IN[1] + 0.05; t = say(s + 0.05, "Z1") + 0.15
@@ -269,13 +273,13 @@ def add_badges(fr, tt, sh, cam):
 def seg13(tt, Wd, Hd):
     vert = Hd > Wd; o = "v" if vert else "h"; lt = tt - T("T2"); ch = CHV["T2"]
     idx = max([i for i, (off, _) in enumerate(ch) if lt >= off] or [0])
-    key = {0: "roof", 1: "roof", 2: "lob", 3: "lob", 4: "lob", 5: "roof", 6: "seeds", 7: "sesame"}[idx]
+    key = {0: "roof", 1: "roof", 2: "roof", 3: "lob", 4: "roof", 5: "seeds", 6: "sesame"}[idx]
     if lt < 0: key = "roof"
     fr = CC[(key, o)].copy(); u = lt - (ch[idx][0] if lt >= 0 else 0)
     sc = 1 + 0.06 * min(1, max(0, u) / 2.5)                                   # slow push on each still
     fr = fr.resize((int(Wd * sc), int(Hd * sc)), Image.BICUBIC).crop((int(Wd * (sc - 1) / 2), int(Hd * (sc - 1) / 2), int(Wd * (sc - 1) / 2) + Wd, int(Hd * (sc - 1) / 2) + Hd))
     fr = ImageEnhance.Brightness(fr).enhance(0.88); d = ImageDraw.Draw(fr, "RGBA")
-    if key == "roof" and idx in (1, 5) and lt > 0:                            # circle Shatta (the case-13 liar)
+    if key == "roof" and idx in (1, 2, 4) and lt > 0:                            # circle Shatta (the case-13 liar)
         cx, cy = (Wd * 0.5, Hd * 0.55) if vert else (1060, 470)
         r = (260 if vert else 170) * popk(u, 0.15)
         d.ellipse([cx - r, cy - r, cx + r, cy + r], outline=(110, 220, 255), width=10)
