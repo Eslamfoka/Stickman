@@ -37,6 +37,14 @@ Every day = 1 «عمارة نعناعة» episode (21:00) + 1 sketch (يوميا
 | 30/11 | يوميات — آخر يوم ✅ | S2E7 |
 | 1/12 → 3/12 | **3 sketches still needed** | S2E8–E10 |
 
+### Status reconciliation, 2026-11-27 10:20 (live queue read by the community owner, relayed through main)
+The ✅ and 15:00 / 21:00 rows above are the planned intent and history, NOT live scheduled jobs. Actual queue on 27/11:
+- Meta (FB + IG): exactly one scheduled, the lamp, 27/11 23:00, public.
+- YouTube: exactly one long lamp scheduled 23:00 (GMT+3) and exactly one Shorts lamp 23:00.
+- No 15:00 "بابا في المستشفى" job and no 21:00 S2E4 job exist on those surfaces. The old Ep3 "abandoned" item is processing/draft, not scheduled.
+- TikTok: current read pending; the earlier 23:00 confirmation stands as older evidence.
+Rows are kept as plans, not deleted.
+
 ## Weekly publishing rhythm (older plan, 2026-11-10)
 | Day | Long (YouTube 16:9 + FB) | Short (TikTok / Reels / Shorts 9:16) |
 |---|---|---|
