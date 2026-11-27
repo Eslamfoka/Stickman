@@ -340,6 +340,7 @@ User approved the idea. Pin it first on every platform (YouTube channel trailer)
 - Script = Instinct draft + Eslam's edits (17:29); voices approved 17:41 (flow ZJ3ksFXWGYOixzy3hgSd, one take each — `kaddab/14/gens.txt`).
 - `kaddab/14/ep.py` (57.2 s): CCTV hook (parcel on the bench 06:09→06:12, glitch → 06:15 empty) → Nana down the stairs → Zalata + Tota → Tota replays «كاميرا المدخل» → suspects arrive (stairs / street door) → each statement as a sepia flashback «حسب كلامه» (stairs shots keep the bench off frame) → «حل القضية ١٣» from clean case-13 frames (`grab13.py` → `c13/`) → final card ① شطة ② سوسن ③ البواب.
 - Delivered: `delivery/yt|tt/مين الكداب - القضية 14 - الطرد على الدكة*.mp4`, `publish/thumbs/kaddab_e14_cover.jpg|_yt.jpg`, `publish/captions/kaddab_e14.html`.
+- FINAL = «نسخة ب» (54.8 s): T2 without the Aziza sentence («قال خاتم… وهو فوق على السطوح…») — Eslam 19:45 «معتمد الصوت كمل».
 - ANSWER (opens case 15): ② سوسن — camera shows the parcel until 06:12; she said empty at 06:11.
 
 ## «مين الكداب؟» القضية 13 — «علبة عزيزة» — action-continuity cut (26/11)

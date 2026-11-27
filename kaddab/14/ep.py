@@ -27,7 +27,7 @@ EXPR = {"T0": "scared", "N1": [(0, "shock"), (0.35, "angry")], "Z1": [(0, "neutr
         "T2": "smug", "T3": "smug"}
 load_lines(KEYS)
 CHV = {k: VN.chunk_times(TXT[k], ENV[k], FPS) for k in KEYS}
-# T2 = option B (candidate, pending the owner's OK): the approved take with the whole Aziza sentence cut out (original 4.42–6.74 s);
+# T2 = option B (APPROVED by Eslam 27/11 19:45 «معتمد الصوت كمل»): the approved take with the whole Aziza sentence cut out (original 4.42–6.74 s);
 #   original = audio/T2_orig_take.mp3, the withdrawn 18:19 cut = audio/T2_cut1819.mp3.
 CHV["T2"] = [(0.0, "إجابة القضية اللي فاتت:"), (1.62, "الكداب كان شطة!"), (3.3, "قال «خاتم»…"), (4.5, "وهو فوق على السطوح…"),
              (6.1, "وحبات السمسم على غطا"), (7.45, "العلبة من ساندوتشه!")]
