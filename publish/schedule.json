@@ -9,7 +9,7 @@
   },
   "timezone_note": "كل المواعيد بتوقيت القاهرة (UTC+2 في نوفمبر). 9 بالليل القاهرة = 10 بالليل الكويت.",
   "media_folder": "publish/media/ (مش على الريبو — حط فيه الفيديوهات بالأسماء المكتوبة في media، والأسامي الأصلية في source_file_names)",
-  "generated": "2026-11-26T22:04:55+00:00",
+  "generated": "2026-11-27T05:33:57+00:00",
   "posts": [
     {
       "id": "brand_intro",
@@ -4989,7 +4989,7 @@
       "episode_name": "اللمبة",
       "publish_at_cairo": "2026-11-27T23:00:00+02:00",
       "publish_at_utc": "2026-11-27T21:00:00Z",
-      "status": "✅ جاهز (يوتيوب + طولي) — «اللمبة»، مستني جدولة المستخدم",
+      "status": "📅 مجدولة على كل المنصات 27/11 23:00 — «اللمبة»",
       "media": {
         "horizontal": "media/daily_e19_h.mp4",
         "vertical": "media/daily_e19_v.mp4"
