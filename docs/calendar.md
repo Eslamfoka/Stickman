@@ -42,7 +42,7 @@ The ✅ and 15:00 / 21:00 rows above are the planned intent and history, NOT liv
 - Meta (FB + IG): exactly one scheduled, the lamp, 27/11 23:00, public.
 - YouTube: exactly one long lamp scheduled 23:00 (GMT+3) and exactly one Shorts lamp 23:00.
 - No 15:00 "بابا في المستشفى" job and no 21:00 S2E4 job exist on those surfaces. The old Ep3 "abandoned" item is processing/draft, not scheduled.
-- TikTok: current read pending; the earlier 23:00 confirmation stands as older evidence.
+- TikTok (@shattawzalata Studio Content, owner live page-text read 10:21-10:22 via main): exactly one scheduled, the lamp, 39s, 27/11 23:00 GMT+3, visibility Everyone; Drafts 0. Top ~7 rows read, older published posts not fully scrolled; no screenshot, so this is a text read, not visual proof. No 15:00 or 21:00 job or draft.
 Rows are kept as plans, not deleted.
 
 ## Weekly publishing rhythm (older plan, 2026-11-10)
