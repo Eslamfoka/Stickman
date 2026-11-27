@@ -89,3 +89,7 @@ W=1920 H=1080 FPS=24 SR=44100 SS=1.5. `draw_char(p, who, x, y, s, expr, mouth, l
 - After cutting, measure every line (`volumedetect` mean ≈ -16…-26 dB; -91 dB = silent) BEFORE sending the review MP3.
 - Lip-sync (ENV) is computed from the line audio at render time → any audio change = re-render the PICTURE too, not only remux mix.wav.
 - Group laugh (sketches): ≤ 5 s, audience SFX on top, mixed at dialogue RMS +2 dB (see build_audio in daily/03-04).
+
+## خطة الصوت (مسجلة 27 نوفمبر، مصادرها رسائل المستخدم)
+- أصوات الشخصيات الحالية: ElevenLabs — الحساب المدفوع وفره المستخدم 21 نوفمبر، ومفتاح API للإنتاج حفظه في الفولت 26 نوفمبر.
+- صوت المستخدم المستنسخ: 26 نوفمبر سجل عينات، راجع نسختين وطلب أعلى وأوضح، وبعد النسخة المعدلة قال «حلو اعتمد» (15:18). الاستنساخ معتمد كده؛ أول استخدام فعلي في محتوى يتراجع معاه قبل النشر زي أي أصل جديد.
