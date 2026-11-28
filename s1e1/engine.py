@@ -231,6 +231,16 @@ def draw_char(p, who, x, y, s=1.0, expr="neutral", mouth=0.0, look=0, blink=Fals
         p.ell(ra[0], ra[1] - 4 * s, 34 * s, 8 * s, (200, 205, 215, 255), INK, 2.5 * s)
         for i in range(5):
             p.ell(ra[0] - 20 * s + i * 10 * s, ra[1] - 12 * s - (i % 2) * 4 * s, 7 * s, 5 * s, (226, 160, 70, 255), (150, 90, 30, 255), 1.5 * s)
+    elif held == "fanous":     # Bandaq's brass fanous: pointed dome + top ring (kaddab 15)
+        x0, y0 = ra[0], ra[1] + 18 * s
+        p.ell(x0, y0 - 30 * s, 6 * s, 6 * s, None, (150, 105, 40, 255), 2.5 * s)
+        p.poly([(x0 - 15 * s, y0 - 4 * s), (x0 + 15 * s, y0 - 4 * s), (x0, y0 - 24 * s)], (200, 152, 70, 255), INK, 2 * s)
+        p.rect(x0 - 11 * s, y0 - 4 * s, x0 + 11 * s, y0 + 24 * s, (255, 214, 120, 255), INK, 2.5 * s)
+        p.ell(x0, y0 + 10 * s, 4 * s, 7 * s, (255, 250, 220, 255), None)
+        p.rect(x0 - 13 * s, y0 + 23 * s, x0 + 13 * s, y0 + 28 * s, (150, 105, 40, 255), INK, 1.5 * s)
+    elif held == "ladle":      # Aziza's ladle (kaddab 15)
+        p.line([(ra[0], ra[1] + 6 * s), (ra[0] + 4 * s, ra[1] - 40 * s)], (170, 175, 185, 255), 3.5 * s)
+        p.ell(ra[0] + 6 * s, ra[1] - 48 * s, 11 * s, 9 * s, (190, 195, 205, 255), INK, 2 * s)
     elif held == "ring":       # a small gold ring between the fingers (kaddab 13)
         p.ell(ra[0], ra[1] - 6 * s, 6 * s, 6 * s, (0, 0, 0, 0), (225, 180, 40, 255), 2.6 * s)
         p.ell(ra[0], ra[1] - 12 * s, 2.4 * s, 2.4 * s, (200, 240, 255, 255), (120, 160, 200, 255), 0.8 * s)
